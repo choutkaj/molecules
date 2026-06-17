@@ -1,0 +1,20 @@
+id = "enamine-diversity-set-50-plated"
+title = "Enamine Discovery Diversity Set 50 plated"
+local_path = "validation/data/Enamine_Discovery_Diversity_Set_50_plated"
+source_kind = "user-provided-local-corpus"
+primary_formats = ["sdf-v2000", "smiles", "csv"]
+scope = ["io.sdf.v2000.parse", "algo.rings.fast", "algo.aromaticity.rdkit-like-basic"]
+ci_tier = "optional-local-corpus"
+
+expected_files = [
+  "Enamine_Discovery_Diversity_Set_50_plated_50240cmpds_20260524.sdf",
+  "Enamine_Discovery_Diversity_Set_50_plated_50240cmpds_20260524.smiles",
+  "Enamine_Discovery_Diversity_Set_50_plated_50240cmpds_20260524.csv",
+  "README.txt",
+]
+
+notes = [
+  "Good broad small-molecule corpus for parser robustness and later RDKit-derived graph/ring/aromaticity comparisons.",
+  "Use a deterministic sampled subset for routine local smoke checks; keep the full 50k-compound sweep for long-running regression.",
+  "Do not commit the raw corpus files to git.",
+]

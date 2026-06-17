@@ -1,0 +1,18 @@
+id = "public-mmcif-seed"
+title = "Public PDBx/mmCIF seed set"
+source_kind = "planned-public-downloads"
+primary_formats = ["mmcif"]
+scope = ["io.mmcif.parse", "bio.hierarchy.smcra"]
+ci_tier = "optional-local-corpus"
+
+planned_entries = [
+  "1CRN",
+  "4HHB",
+  "1BNA",
+]
+
+notes = [
+  "Use public PDBx/mmCIF downloads to complement the synthetic checked-in hierarchy fixtures.",
+  "Pin downloaded files by checksum before using them as committed or golden-generating inputs.",
+  "Prefer small, structurally diverse entries: simple protein, multichain protein with heterogens, and nucleic acid.",
+]
