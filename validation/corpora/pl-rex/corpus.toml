@@ -1,0 +1,7 @@
+id = "pl-rex"
+title = "PL-REX 1.0.1 ligand corpus"
+kind = "small-molecule"
+ready = false
+expected_count = 0
+formats = ["sdf-v2000", "pdb"]
+build_command = "cargo xtask corpus check --corpus pl-rex --require-data"

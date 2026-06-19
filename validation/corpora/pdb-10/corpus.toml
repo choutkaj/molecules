@@ -1,0 +1,16 @@
+id = "pdb-10"
+title = "PDB deterministic 10-entry corpus"
+kind = "macromolecule"
+ready = true
+expected_count = 10
+parent = "pdb-100"
+seed = "molecules-pdb-v1"
+formats = ["mmcif"]
+build_command = "micromamba run -n molecules-biopython-reference python validation/reference/biopython/build_corpus.py"
+
+[categories]
+multi-model = 2
+protein-nucleic-complex = 2
+nucleic-only = 2
+protein-heterogen = 2
+remaining-protein = 2

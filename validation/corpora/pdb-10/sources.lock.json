@@ -1,0 +1,129 @@
+{
+  "corpus_id": "pdb-10",
+  "entries": [
+    {
+      "category": "multi-model",
+      "files": [
+        {
+          "path": "data/1HPJ.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "c08030fb78d1c39e46f1784771162700c8b00ef8ce3263a68504edfa2e825ec8",
+          "url": "https://files.rcsb.org/download/1HPJ.cif"
+        }
+      ],
+      "id": "1HPJ"
+    },
+    {
+      "category": "protein-nucleic-complex",
+      "files": [
+        {
+          "path": "data/2WWY.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "dbe4f4c605c4b10d02fd4277cf90d82850c399a0fc35ab2302260289e591c9b9",
+          "url": "https://files.rcsb.org/download/2WWY.cif"
+        }
+      ],
+      "id": "2WWY"
+    },
+    {
+      "category": "nucleic-only",
+      "files": [
+        {
+          "path": "data/4JAH.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "f395620673c4551cb77cf2c4c748bd821f86f54026d90409f15be19ab6ba0533",
+          "url": "https://files.rcsb.org/download/4JAH.cif"
+        }
+      ],
+      "id": "4JAH"
+    },
+    {
+      "category": "protein-heterogen",
+      "files": [
+        {
+          "path": "data/6DQ8.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "4d74e74b62cdd0fb923f096e75bbeca09981e718a52fa561f5f4870e4cd1a44d",
+          "url": "https://files.rcsb.org/download/6DQ8.cif"
+        }
+      ],
+      "id": "6DQ8"
+    },
+    {
+      "category": "remaining-protein",
+      "files": [
+        {
+          "path": "data/9RHB.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "43df97f2f4522d5ff208b9d86a01b550d6fad4a95f8936b10abd78a3f786f2a6",
+          "url": "https://files.rcsb.org/download/9RHB.cif"
+        }
+      ],
+      "id": "9RHB"
+    },
+    {
+      "category": "multi-model",
+      "files": [
+        {
+          "path": "data/5MWQ.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "843776130f943ca3defa59617df2740f2bb4848ebf5db93a425f2f7b47f2008a",
+          "url": "https://files.rcsb.org/download/5MWQ.cif"
+        }
+      ],
+      "id": "5MWQ"
+    },
+    {
+      "category": "protein-nucleic-complex",
+      "files": [
+        {
+          "path": "data/4F3T.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "741c39d4185231fc5c7464fcf74e6718e841d8f505f10a11413ff4f31310f710",
+          "url": "https://files.rcsb.org/download/4F3T.cif"
+        }
+      ],
+      "id": "4F3T"
+    },
+    {
+      "category": "nucleic-only",
+      "files": [
+        {
+          "path": "data/8ZA4.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "29c239e2b4d52f0546c2dc71494318c7f604d8a719b27bd526dde92f92443b90",
+          "url": "https://files.rcsb.org/download/8ZA4.cif"
+        }
+      ],
+      "id": "8ZA4"
+    },
+    {
+      "category": "protein-heterogen",
+      "files": [
+        {
+          "path": "data/1DY5.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "cd356539ac8512220e570e5fa3ae88bcfc6244256b408edd29ccb3763b8f3b95",
+          "url": "https://files.rcsb.org/download/1DY5.cif"
+        }
+      ],
+      "id": "1DY5"
+    },
+    {
+      "category": "remaining-protein",
+      "files": [
+        {
+          "path": "data/4NOJ.cif",
+          "record_type": "pdbx-mmcif",
+          "sha256": "b6e35bf454b6334de7c7e842cce6aa08ee0eb286aadad97f0e86a6a78fe491ea",
+          "url": "https://files.rcsb.org/download/4NOJ.cif"
+        }
+      ],
+      "id": "4NOJ"
+    }
+  ],
+  "packs": [],
+  "schema_version": 1,
+  "selection_seed": "molecules-pdb-v1",
+  "source": "RCSB PDB holdings sha256:7b23804d1fdd04ca002c87b8023f2d62ebde0a7be3717a8ede2d893e8eb52cd3"
+}
