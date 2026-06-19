@@ -1,0 +1,18 @@
+feature_id = "io.mmcif.parse"
+corpus_id = "pdb-10"
+reference_tool = "biopython"
+reference_version = "Biopython 1.87"
+comparison_mode = "implementation-golden"
+
+fixtures = [
+  "data/1HPJ.cif",
+  "data/2WWY.cif",
+  "data/4JAH.cif",
+  "data/6DQ8.cif",
+  "data/9RHB.cif",
+  "data/5MWQ.cif",
+  "data/4F3T.cif",
+  "data/8ZA4.cif",
+  "data/1DY5.cif",
+  "data/4NOJ.cif",
+]

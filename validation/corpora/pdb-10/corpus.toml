@@ -1,7 +1,7 @@
 id = "pdb-10"
 title = "PDB deterministic 10-entry corpus"
 kind = "macromolecule"
-ready = false
+ready = true
 expected_count = 10
 parent = "pdb-100"
 seed = "molecules-pdb-v1"

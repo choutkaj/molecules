@@ -1,7 +1,7 @@
 id = "pdb-100"
 title = "PDB deterministic 100-entry corpus"
 kind = "macromolecule"
-ready = false
+ready = true
 expected_count = 100
 seed = "molecules-pdb-v1"
 formats = ["mmcif"]
