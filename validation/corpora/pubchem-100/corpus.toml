@@ -1,0 +1,16 @@
+id = "pubchem-100"
+title = "PubChem deterministic 100-compound corpus"
+kind = "small-molecule"
+ready = false
+expected_count = 100
+parent = "pubchem-1000"
+seed = "molecules-pubchem-v1"
+formats = ["sdf-v2000", "smiles"]
+build_command = "micromamba run -n molecules-rdkit-reference python validation/reference/rdkit/build_corpus.py"
+
+[categories]
+disconnected = 20
+charged = 20
+multi-ring = 20
+heteroatom-rich = 20
+remaining = 20

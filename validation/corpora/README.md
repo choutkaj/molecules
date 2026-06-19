@@ -1,11 +1,16 @@
-# External Validation Corpora
+# Validation Corpora
 
-This directory records optional large datasets used for local and long-running validation.
+Each directory is self-contained:
 
-The actual large-corpus data belongs under `validation/data/`, which is ignored by git. Corpus
-descriptors here define the canonical IDs used by feature metadata, validation manifests, status,
-and dashboard columns.
+```text
+<corpus-id>/
+  corpus.toml
+  sources.lock.json
+  data/
+  features/
+  golden/
+  status.toml
+```
 
-Reference outputs are not generated in this step. RDKit and Biopython remain reference tools only and
-must not become Rust runtime dependencies. `tiny` uses committed external records; all other corpora
-must remain provenance-pinned even when their raw files are local.
+`data/` is ignored except for `tiny`. Source locks and deterministic gzip goldens are committed.
+`pubchem-100` is an exact prefix of `pubchem-1000`; `pdb-10` is an exact prefix of `pdb-100`.

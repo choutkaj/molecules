@@ -1,0 +1,7 @@
+id = "enamine-diversity"
+title = "Enamine Discovery Diversity Set 50"
+kind = "small-molecule"
+ready = false
+expected_count = 0
+formats = ["sdf-v2000", "smiles", "csv"]
+build_command = "cargo xtask corpus check --corpus enamine-diversity --require-data"
