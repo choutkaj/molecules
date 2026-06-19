@@ -3,7 +3,7 @@ title = "Enamine Discovery Diversity Set 50 plated"
 local_path = "validation/data/Enamine_Discovery_Diversity_Set_50_plated"
 source_kind = "user-provided-local-corpus"
 primary_formats = ["sdf-v2000", "smiles", "csv"]
-scope = ["io.sdf.v2000.parse", "algo.rings.fast", "algo.aromaticity.rdkit-like-basic"]
+scope = ["io.sdf.v2000.parse", "algo.rings.fast", "algo.aromaticity.rdkit-like"]
 ci_tier = "optional-local-corpus"
 
 expected_files = [
