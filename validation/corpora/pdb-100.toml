@@ -1,0 +1,11 @@
+id = "pdb-100"
+title = "PDB deterministic 100-entry corpus"
+source_kind = "planned-public-downloads"
+local_path = "validation/data/pdb-100"
+primary_formats = ["mmcif"]
+ci_tier = "long-running"
+
+notes = [
+  "Use a deterministic, provenance-pinned set of 100 public PDBx/mmCIF entries.",
+  "Generate hierarchy goldens with the declared Biopython environment.",
+]

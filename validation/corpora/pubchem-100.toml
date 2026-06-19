@@ -1,0 +1,11 @@
+id = "pubchem-100"
+title = "PubChem deterministic 100-compound corpus"
+source_kind = "planned-public-downloads"
+local_path = "validation/data/pubchem-100"
+primary_formats = ["sdf-v2000", "smiles"]
+ci_tier = "extended"
+
+notes = [
+  "Use a deterministic, provenance-pinned set of 100 PubChem compounds.",
+  "Generate all chemistry goldens with the declared RDKit environment.",
+]

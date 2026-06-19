@@ -1,0 +1,10 @@
+id = "tiny"
+title = "Checked-in external tiny corpus"
+source_kind = "committed-provenance-pinned-fixtures"
+local_path = "validation/external_sources"
+ci_tier = "normal"
+
+notes = [
+  "Small externally supplied PubChem and RCSB records used for fast validation.",
+  "This corpus is a wiring and regression check, not sufficient evidence for broad feature validation.",
+]
