@@ -3,7 +3,7 @@ title = "PL-REX 1.0.1 protein-ligand complexes"
 local_path = "validation/data/PL-REX-1.0.1"
 source_kind = "user-provided-local-corpus"
 primary_formats = ["sdf-v2000", "pdb"]
-scope = ["io.sdf.v2000.parse", "algo.rings.fast", "algo.aromaticity.rdkit-like-basic"]
+scope = ["io.sdf.v2000.parse", "algo.rings.fast", "algo.aromaticity.rdkit-like"]
 future_scope = ["io.pdb.parse", "bio.hierarchy.smcra"]
 ci_tier = "optional-local-corpus"
 
