@@ -8,6 +8,7 @@ compared_count = 10
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "409beaf3d3e41e4334b31f01bdf27e6370d9e667d889de30cf807d8e1f6817a7"
+evidence_inputs = []
 validated_at_unix = 1781895431
 
 [features."io.mol.v2000.parse"]
@@ -17,7 +18,284 @@ compared_count = 10
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "4bcdd785332b93f894e57448f55a9708f2dc0630f12da2fe1bdc4e7b46d841b9"
-validated_at_unix = 1781895422
+evidence_schema_version = 2
+evidence_hash = "5454d0962969f3b1e9ea45efa25db156c0436e42efab8991a897da1a3e2850ce"
+validated_at_unix = 1781968766
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "c4e1c9bfe61dd113719c5ad427626dc506e350709230e83af58fa3eee69deb65"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "37822623c65cabaef73a78b06127a09bdee0fb83456268188049200caca0346a"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "features/io.mol.v2000.parse/feature.md"
+sha256 = "49a499380b2fdd3359430be47a7d252f2b40f8736fcb9bfb07d899fa07175497"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "features/io.mol.v2000.parse/feature.toml"
+sha256 = "d9c6e5dad3d3c7d324933f1c29e8968ff247bff3b2632523734add3ec4822663"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/corpus.toml"
+sha256 = "c33d3dcd4611c8624811f6edfc10893e874e4f4a38e1ce120b9dec0992960638"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_01.sdf"
+sha256 = "23a330eec85fbeb29e40c2d7e60119f2db36a03f8b30c696e5a7b62c8937e115"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_02.sdf"
+sha256 = "ab9449677e9b468563872e2fc06e8a8ed480c50aeec0dd081d483adb216a58b3"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_03.sdf"
+sha256 = "72dc2efdb8292b5f6fee6fbb79ca1a851d79f1875cd29dbd6df9a76a9c0ce364"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_04.sdf"
+sha256 = "87bde5462be173c01b5722b33aef4175c16919be4303aaa0350348f667a7102f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_05.sdf"
+sha256 = "e32766a62ef1c39d0a44747c24c8ca3eb6a668781c4efb3eddfc18256165dbe8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_06.sdf"
+sha256 = "4b24637d019f2fc34395d86463ba9f753321c233dc9c6621e0233f975ae30be0"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_07.sdf"
+sha256 = "fc6150fb7283840c7f9aa5e18c5dfcb4684855d3d0bfa78f9c8508a1e4eb0ccf"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_08.sdf"
+sha256 = "ab83c4524c0a93de173e3e786c1cb4da8131c2359f703bbf8fd6dc26ae4520c5"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_09.sdf"
+sha256 = "305aef9cfa51474bb3145b6eb592b53adaea399dd1ebb3484082d7995d422165"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_10.sdf"
+sha256 = "29287c2d47a6327ca1bce0bb7336c379b26d5fdad4bda08d96d60a29357c4864"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/features/io.mol.v2000.parse.toml"
+sha256 = "01b647db1af2a605509f5eca5fdf0c53efc6bca1dfd4f59cc6d86a1cae865205"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_01.sdf.json.gz"
+sha256 = "cf9e7f180e3cbd96ca1de539db716b12c82f8cc35d77fa40739c10f4b82d8907"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_02.sdf.json.gz"
+sha256 = "00d7fb6f8a0e53d59bc91552bbee42a77412d8abf78d8be686423f2cd5d5c836"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_03.sdf.json.gz"
+sha256 = "981f6e2c0a8b396d0c32d15bad0d0d8e323070d9cd29de96bf6b570b9c72f12c"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_04.sdf.json.gz"
+sha256 = "60ec1a9e1286d2899efe1f5d58d6e157798901a808cbd7ad99e040cf3e03724f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_05.sdf.json.gz"
+sha256 = "251de23f4858ab0b45a68142e98dcc0fe451e044201ad9f3ff0c26a0f6a73449"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_06.sdf.json.gz"
+sha256 = "5e8927a866a7f3e4722b31f4d8c6cc044031e5178c5beac0321d8ed77f718a90"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_07.sdf.json.gz"
+sha256 = "81f29336525688db18f72b5b9e1b4087e0fc961d19c45f3c723fcca1da79d648"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_08.sdf.json.gz"
+sha256 = "b61d22c90c44de3c25701e51a170f6b88c3e7ba396069ab7d2eab08ac43cebd6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_09.sdf.json.gz"
+sha256 = "d4828d42d8108659fcdd94b3bd0759ffaa650ae7b89044d1a3723cd0ba6e96c5"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.parse/data_packs_pack_10.sdf.json.gz"
+sha256 = "a2db67766c399c6b2c0a0785871101f5482dc1005e17ce315d16fc241de28502"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/sources.lock.json"
+sha256 = "369a27a141a8a73bc032b14b1bf72d8e72b52bb0153cc36d1de463a6448466e1"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "48992412b8eb971c415b9167dd5edfc6bf29cfd1cfb1a8c6f341f9832671a337"
+
+[features."io.mol.v2000.write"]
+passed = true
+fixture_count = 10
+compared_count = 10
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "092f7934def910c82e1cec94de61d6641251906134b13346ef53af644666d171"
+evidence_schema_version = 2
+evidence_hash = "1ce0142a33f7001eae0e39a3ceabfb0748ccbe2d388f0598dd6acc411acfb3b7"
+validated_at_unix = 1781968773
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "c4e1c9bfe61dd113719c5ad427626dc506e350709230e83af58fa3eee69deb65"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "37822623c65cabaef73a78b06127a09bdee0fb83456268188049200caca0346a"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "features/io.mol.v2000.write/feature.md"
+sha256 = "bee63ebab53f4a1891265f3320f5b15819efa51f31d05f2f49fe038577f3da1f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "features/io.mol.v2000.write/feature.toml"
+sha256 = "c33a769fb12de524902c8caa9e9468acb0734cc8f42a4fb8952010c07d1188e7"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/corpus.toml"
+sha256 = "c33d3dcd4611c8624811f6edfc10893e874e4f4a38e1ce120b9dec0992960638"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_01.sdf"
+sha256 = "23a330eec85fbeb29e40c2d7e60119f2db36a03f8b30c696e5a7b62c8937e115"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_02.sdf"
+sha256 = "ab9449677e9b468563872e2fc06e8a8ed480c50aeec0dd081d483adb216a58b3"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_03.sdf"
+sha256 = "72dc2efdb8292b5f6fee6fbb79ca1a851d79f1875cd29dbd6df9a76a9c0ce364"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_04.sdf"
+sha256 = "87bde5462be173c01b5722b33aef4175c16919be4303aaa0350348f667a7102f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_05.sdf"
+sha256 = "e32766a62ef1c39d0a44747c24c8ca3eb6a668781c4efb3eddfc18256165dbe8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_06.sdf"
+sha256 = "4b24637d019f2fc34395d86463ba9f753321c233dc9c6621e0233f975ae30be0"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_07.sdf"
+sha256 = "fc6150fb7283840c7f9aa5e18c5dfcb4684855d3d0bfa78f9c8508a1e4eb0ccf"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_08.sdf"
+sha256 = "ab83c4524c0a93de173e3e786c1cb4da8131c2359f703bbf8fd6dc26ae4520c5"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_09.sdf"
+sha256 = "305aef9cfa51474bb3145b6eb592b53adaea399dd1ebb3484082d7995d422165"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_10.sdf"
+sha256 = "29287c2d47a6327ca1bce0bb7336c379b26d5fdad4bda08d96d60a29357c4864"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/features/io.mol.v2000.write.toml"
+sha256 = "af43a821dc6a52dc0140f89e4e0389f16b1c1fa7fdc4211da773bdb29f8a1a65"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_01.sdf.json.gz"
+sha256 = "53d0869bb6b7275a589dcf077b0be77320cc44ac6ba949c97efe402f35a1d429"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_02.sdf.json.gz"
+sha256 = "a3941313aa76fd7d0792cc32cb4c06f57dfd4cf2198c3bcd1dae9a3ada5fb946"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_03.sdf.json.gz"
+sha256 = "c62f042c74087a0931d094a473d6085e483e5d78f3b92404174abe3734367def"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_04.sdf.json.gz"
+sha256 = "c5fdfcff3cff491d0df63bce6fe7c1b96096d2935b2135151a7a6bc6ce057fb8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_05.sdf.json.gz"
+sha256 = "9e340f270b9c27a5d0fa5d8cd3c802f9566b412ad67e1ad9afaf3e3593610f98"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_06.sdf.json.gz"
+sha256 = "2e5167c548feca1504c2008d8c3fb73a1aef823db21493dc6922ca1b8dc10e6f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_07.sdf.json.gz"
+sha256 = "05f0169c7877ad9b97c2f71810c1b7a5c0d37b31b224708fe4ad248213ca36ef"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_08.sdf.json.gz"
+sha256 = "6b97a7ecd1cbfc24e834410c0feb45fd9fe6d68ca7fd6cb064a54cd75a39841d"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_09.sdf.json.gz"
+sha256 = "948330fbbf44de9cc79400ec66753241d73faebedb0b99bd7f49af535b0f3689"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.mol.v2000.write/data_packs_pack_10.sdf.json.gz"
+sha256 = "bc229a69e006fd4cf13c493012bb9329548ff1c93add11ecedecead30bc1dd2b"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/sources.lock.json"
+sha256 = "369a27a141a8a73bc032b14b1bf72d8e72b52bb0153cc36d1de463a6448466e1"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "48992412b8eb971c415b9167dd5edfc6bf29cfd1cfb1a8c6f341f9832671a337"
 
 [features."io.sdf.v2000.parse"]
 passed = true
@@ -26,4 +304,281 @@ compared_count = 10
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "be016f3b3a4d0484efe4773fc991ef7515cb26bd74993b1834950ca6200f85d5"
-validated_at_unix = 1781895429
+evidence_schema_version = 2
+evidence_hash = "1307e8820a66ee9ce3bb8c291da004621aa4b1ad34f25fc1d6a228eca4e0aca8"
+validated_at_unix = 1781968780
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "c4e1c9bfe61dd113719c5ad427626dc506e350709230e83af58fa3eee69deb65"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "37822623c65cabaef73a78b06127a09bdee0fb83456268188049200caca0346a"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "features/io.sdf.v2000.parse/feature.md"
+sha256 = "08b8b1cb1fa3661489b021e9b319f9c609f2fafa1d6520af67844adb22b27444"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "features/io.sdf.v2000.parse/feature.toml"
+sha256 = "d9f4aabd84f4300fa6616b742c6195de2970fefed240eceff390d3325394004e"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/corpus.toml"
+sha256 = "c33d3dcd4611c8624811f6edfc10893e874e4f4a38e1ce120b9dec0992960638"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_01.sdf"
+sha256 = "23a330eec85fbeb29e40c2d7e60119f2db36a03f8b30c696e5a7b62c8937e115"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_02.sdf"
+sha256 = "ab9449677e9b468563872e2fc06e8a8ed480c50aeec0dd081d483adb216a58b3"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_03.sdf"
+sha256 = "72dc2efdb8292b5f6fee6fbb79ca1a851d79f1875cd29dbd6df9a76a9c0ce364"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_04.sdf"
+sha256 = "87bde5462be173c01b5722b33aef4175c16919be4303aaa0350348f667a7102f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_05.sdf"
+sha256 = "e32766a62ef1c39d0a44747c24c8ca3eb6a668781c4efb3eddfc18256165dbe8"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_06.sdf"
+sha256 = "4b24637d019f2fc34395d86463ba9f753321c233dc9c6621e0233f975ae30be0"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_07.sdf"
+sha256 = "fc6150fb7283840c7f9aa5e18c5dfcb4684855d3d0bfa78f9c8508a1e4eb0ccf"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_08.sdf"
+sha256 = "ab83c4524c0a93de173e3e786c1cb4da8131c2359f703bbf8fd6dc26ae4520c5"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_09.sdf"
+sha256 = "305aef9cfa51474bb3145b6eb592b53adaea399dd1ebb3484082d7995d422165"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_10.sdf"
+sha256 = "29287c2d47a6327ca1bce0bb7336c379b26d5fdad4bda08d96d60a29357c4864"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/features/io.sdf.v2000.parse.toml"
+sha256 = "d9ae764e41e7f15f0e5cda3d4f6cebfeb31c1a7a296f3b12a7716723bef686a2"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_01.sdf.json.gz"
+sha256 = "04e7b5a366bee5ab58870bfb7fd62c8af8deadf7d83355764b6c899d4ee16598"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_02.sdf.json.gz"
+sha256 = "ac1c13b30dd050320625ed427bea08829fb8b86d614d056ee4ba5c7608a66391"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_03.sdf.json.gz"
+sha256 = "743a8cb3ba442e084d70c2ed570331d620fd154a8fc5b4b907ac2b84ff2d4681"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_04.sdf.json.gz"
+sha256 = "cf41610b5729a7bae6f3dafa2a2a734f8220e58a722b830efae897c2ef26bbf6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_05.sdf.json.gz"
+sha256 = "33bf0a4b3c8a78de7be61b6789ff3cb004be39856b287af3baf18b0248350ab0"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_06.sdf.json.gz"
+sha256 = "746e4b8e041c4141f58170db5b37615863db36421244848834edf50821866e7a"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_07.sdf.json.gz"
+sha256 = "155b8710bc3dfe74746f7d2f5e4e2e02d0d5a5743969371692dfcd386f3bb8b4"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_08.sdf.json.gz"
+sha256 = "6d2457e3ff635bfd790864e651849180519c09e9ec182f077d69219e759b9642"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_09.sdf.json.gz"
+sha256 = "0a4526b89e80626aa242e4103e2b68db12d13ef09fbb358d3a76a005b159f47f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.parse/data_packs_pack_10.sdf.json.gz"
+sha256 = "49d07b94448878eb0800da54445b4b8394eb2a0649a59459f382a7551c726a37"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/sources.lock.json"
+sha256 = "369a27a141a8a73bc032b14b1bf72d8e72b52bb0153cc36d1de463a6448466e1"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "48992412b8eb971c415b9167dd5edfc6bf29cfd1cfb1a8c6f341f9832671a337"
+
+[features."io.sdf.v2000.write"]
+passed = true
+fixture_count = 10
+compared_count = 10
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "63954c9f122ec5f98a2d0c23a182703505aab258ebbde42bf54bf2e7cce4a6db"
+evidence_schema_version = 2
+evidence_hash = "98b4c21a9a901c8ff5dcd2112827d380c6cc1a34d6e74e809818334ff402b113"
+validated_at_unix = 1781968788
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "c4e1c9bfe61dd113719c5ad427626dc506e350709230e83af58fa3eee69deb65"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "37822623c65cabaef73a78b06127a09bdee0fb83456268188049200caca0346a"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "features/io.sdf.v2000.write/feature.md"
+sha256 = "69c4816e78b6be1ec7b651d4992b74db73b9ba09035ab34a934fd4e1884db5a6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "features/io.sdf.v2000.write/feature.toml"
+sha256 = "a8aaad6c25d0fd107500e84c83f71bdc39302f7bb1c8fd8174318ddbd7cf7165"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/corpus.toml"
+sha256 = "c33d3dcd4611c8624811f6edfc10893e874e4f4a38e1ce120b9dec0992960638"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_01.sdf"
+sha256 = "23a330eec85fbeb29e40c2d7e60119f2db36a03f8b30c696e5a7b62c8937e115"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_02.sdf"
+sha256 = "ab9449677e9b468563872e2fc06e8a8ed480c50aeec0dd081d483adb216a58b3"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_03.sdf"
+sha256 = "72dc2efdb8292b5f6fee6fbb79ca1a851d79f1875cd29dbd6df9a76a9c0ce364"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_04.sdf"
+sha256 = "87bde5462be173c01b5722b33aef4175c16919be4303aaa0350348f667a7102f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_05.sdf"
+sha256 = "e32766a62ef1c39d0a44747c24c8ca3eb6a668781c4efb3eddfc18256165dbe8"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_06.sdf"
+sha256 = "4b24637d019f2fc34395d86463ba9f753321c233dc9c6621e0233f975ae30be0"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_07.sdf"
+sha256 = "fc6150fb7283840c7f9aa5e18c5dfcb4684855d3d0bfa78f9c8508a1e4eb0ccf"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_08.sdf"
+sha256 = "ab83c4524c0a93de173e3e786c1cb4da8131c2359f703bbf8fd6dc26ae4520c5"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_09.sdf"
+sha256 = "305aef9cfa51474bb3145b6eb592b53adaea399dd1ebb3484082d7995d422165"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/data/packs/pack_10.sdf"
+sha256 = "29287c2d47a6327ca1bce0bb7336c379b26d5fdad4bda08d96d60a29357c4864"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/features/io.sdf.v2000.write.toml"
+sha256 = "84245ff610a950f524b9f61d72a2864a501b905a52a6a3e33255832df09d45e2"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_01.sdf.json.gz"
+sha256 = "824eeeccc343fa8ce2e68670dfcdeab47a15429f357e100ee966161251be2d99"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_02.sdf.json.gz"
+sha256 = "571a2d8bea9d49fbcd20612816040e2cd10eb7989ad3b6fe86a5e7455fb799bd"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_03.sdf.json.gz"
+sha256 = "8d4872d0d14f77157e021d5395a4baf8b30ac519eb165a2f0619248168992de7"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_04.sdf.json.gz"
+sha256 = "e7b0d57912765a5cd8db5e5ee5d131309099c3522f1b48aa71fda4f6b57bfb46"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_05.sdf.json.gz"
+sha256 = "3bf49e03b597a9cd12011653af032fb227c21a3dfdaf7448eefd16edd2c070ac"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_06.sdf.json.gz"
+sha256 = "09b73860b45b2cee7ace70013ce589b922f039b9343dab4097103c01fda6a07e"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_07.sdf.json.gz"
+sha256 = "904b49b05727209f588faf19a96eaf0531f2fa5c1161f476d96b69d0f422cdef"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_08.sdf.json.gz"
+sha256 = "a9074f1f10af10afdb3083c107416987a5b913bbc8a5cd2abff3e180ecf3dd19"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_09.sdf.json.gz"
+sha256 = "ae02d3e083065e402daa93e886235b6906a484a13f5f9282b5e44ae92fcd0b6f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/golden/io.sdf.v2000.write/data_packs_pack_10.sdf.json.gz"
+sha256 = "af761acdab2030e66c30663e42be3ac2b1307edc07bdf18c193dc1b9a9b6cf6f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pubchem-1000/sources.lock.json"
+sha256 = "369a27a141a8a73bc032b14b1bf72d8e72b52bb0153cc36d1de463a6448466e1"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "48992412b8eb971c415b9167dd5edfc6bf29cfd1cfb1a8c6f341f9832671a337"
