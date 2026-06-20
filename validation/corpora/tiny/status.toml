@@ -9,8 +9,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "9356f7829e9b7b107ecfdd81bc47fed482c71ec7852387a24994d38b579be3fa"
 evidence_schema_version = 2
-evidence_hash = "4f5abcac55bff1e44fac72df43ac4fb88da83c9edafa49d0af942fcdeaa7cd54"
-validated_at_unix = 1781989970
+evidence_hash = "d951e40e12197729d2ed46ee0cf0d818f2dfd7a4c5eb3d8e352e598f8814d7f8"
+validated_at_unix = 1781991127
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -26,7 +26,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -34,15 +34,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.md"
-sha256 = "7a3a3e1e41b1ee5f1ec29fbfd66c14ff0abc9193321620f04115892cd67c403d"
+sha256 = "1e6f25eba490cb797c7c730743e7f796c7b62dbc5164352f2f59c8b43c9de10e"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.toml"
-sha256 = "f22255c31361d89cd595fc365803f854943a1b4bd55a75400d2d57ca45c858f2"
+sha256 = "8055da42dd3cb6a98bb07799f8ba3e7d87e7e94a84a95a40baa42be9d51dbb62"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
@@ -104,8 +104,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "5c25aa29e09d5c9a2a2ac074575e9e612a84ae03e064b29f51b96d0edc20c858"
 evidence_schema_version = 2
-evidence_hash = "c7989bfb40ad1efffb36acf69eb9f46a85510c8ae7f38a930add5537e0b1a42e"
-validated_at_unix = 1781989970
+evidence_hash = "cf21a3b7ff780af8de83769e1abb185a740859b63ab05ec987fc301000ff0711"
+validated_at_unix = 1781991127
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "Cargo.lock"
@@ -121,7 +121,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -129,15 +129,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "features/algo.rings.fast/feature.md"
-sha256 = "060a5df2994ecf4c3137b367de10d551262ce9a2c9fafd078f39ff0c41e85ffb"
+sha256 = "faf60613cfcf30587751b9f6cb04f03a7b40b92ffcfbcc4e8b3c75b6641be95a"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "features/algo.rings.fast/feature.toml"
-sha256 = "550ada3b5de5e402bc272bf7334d16bb17c7021df37e9bdded237502ad284eaa"
+sha256 = "840e723c0acb850cb2c1615b61a51a52f16ba567b74b30142088cdbc97462577"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
@@ -199,8 +199,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "d56e9ecee690f61d347c53bb22e6ae38ca65fe31460606b248c3599be7b76791"
 evidence_schema_version = 2
-evidence_hash = "8e42bd7ffa8edb77e8581fd19302dd46043a1bf5b9f21db9ae6eef601d43f0d6"
-validated_at_unix = 1781989970
+evidence_hash = "bb05b33798d2fd3db84081385013d4ae4b68c0560c92639f800ca5140b097930"
+validated_at_unix = 1781991127
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "Cargo.lock"
@@ -216,7 +216,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -224,15 +224,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "features/algo.rings.sssr/feature.md"
-sha256 = "645fcfdba7bef4cbc6fd60ce171f099c30569b023c83bac61220dd9b20788272"
+sha256 = "52b91ed116e912c0de9e0522f1f335d9c1e533841107945d665c72ef6b21cfdd"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "features/algo.rings.sssr/feature.toml"
-sha256 = "ca342abc86ce38cf68980be020f9ff5d59df32b319ef8a67e32f64792f21057d"
+sha256 = "faa7863e9478eb6bbb042ae508bc8c57df21a46a39827599611ea94743e9b389"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
@@ -286,8 +286,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "860837f31cfcc0e1e8581899ba2c5a7f9401e757df6cd90091bd3a35aa560db7"
 evidence_schema_version = 2
-evidence_hash = "78ac89a59e05883a6e96b7af6855d43df633848cc641ec8234b2ca2930385d38"
-validated_at_unix = 1781989970
+evidence_hash = "c99de8b614ae06482f82f850c13b65a5de5c33bfac959f6da80bfd3cf88b3964"
+validated_at_unix = 1781991127
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -303,7 +303,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -311,7 +311,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "features/algo.valence.rdkit-like/feature.md"
@@ -373,8 +373,8 @@ reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "78b1aa7a89bb8b6734b649ad0542102c104806a3480a1e4d3819db2509c5d871"
 evidence_schema_version = 2
-evidence_hash = "4b5c6dde1d077d3c9d774f7def241a204af4f3cf333c800dce631730fc3b16a9"
-validated_at_unix = 1781989970
+evidence_hash = "d58848a5c8a0a6a4ea904fcb5d78867c5f1032f639b00e571e73bc981c04328c"
+validated_at_unix = 1781991127
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
@@ -390,7 +390,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -398,7 +398,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "features/bio.hierarchy.smcra/feature.md"
@@ -444,8 +444,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "3830efab9b951af58d86ccbde9c65adc6b5470b0d1e8492307b3729d78929725"
 evidence_schema_version = 2
-evidence_hash = "b414ee48e28146da17bf144ff9cbd73024961c5acf0531dcafe6c34043e79dd4"
-validated_at_unix = 1781989970
+evidence_hash = "cdd9412376399f42182d1c8864d3e12d780b67b4d10ac430efa599133bd15909"
+validated_at_unix = 1781991127
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -461,7 +461,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -469,15 +469,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "features/chem.sanitize.rdkit-like/feature.md"
-sha256 = "33ce4b211bb3b2ad2ad8c3f04853039c36bf6ef4d52c72509533b29ab8317c3d"
+sha256 = "afd5766a8dc857ccce8e76f70c6775c0b4ed49f64193ca9ef79a41a04fa43183"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "features/chem.sanitize.rdkit-like/feature.toml"
-sha256 = "7f791b6b81df4734018e85333c4784ef9dad1b3e3c91b019f9916cf13581c510"
+sha256 = "b7b56ad2085abe32547fefbc31bf111099c21d3e794450c2f98c4931c8031869"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
@@ -539,8 +539,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "2d12be70a39e8f202a0d0bae82e5aa141f0b022b90d2fbf70c982065eea02636"
 evidence_schema_version = 2
-evidence_hash = "1fd2f7b133f5f28d3bd725658099bade399266ca20aade8ad8f23979dd36a6f2"
-validated_at_unix = 1781989970
+evidence_hash = "41fd7e12540332ef4a00179b938893748657c026a748757b68f6c18e94725993"
+validated_at_unix = 1781991127
 
 [[features."core.conformers".evidence_inputs]]
 path = "Cargo.lock"
@@ -556,7 +556,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -564,7 +564,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."core.conformers".evidence_inputs]]
 path = "features/core.conformers/feature.md"
@@ -618,8 +618,8 @@ reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "1fed85d55b5b2ed72d12cae0fc57b41f17995f73d317971ec180ee14014dad28"
 evidence_schema_version = 2
-evidence_hash = "92c758d44de029222c1443a92d33af8f9ea91e30a10cc68a95484497af86fdc4"
-validated_at_unix = 1781989970
+evidence_hash = "c387e38258472e9bebc1d997dd527a2e0f1a1ce7eb2a0bb83dc428450c1b4d46"
+validated_at_unix = 1781991127
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -635,7 +635,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -643,7 +643,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "features/io.mmcif.parse/feature.md"
@@ -689,8 +689,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "ec669b092bba99d137cf676a6a65f22462b3151faf9719da7bea23a968ab1082"
 evidence_schema_version = 2
-evidence_hash = "5f625df211a33335617990b1f30e9a049c750813838715c2683a970bc0629923"
-validated_at_unix = 1781989970
+evidence_hash = "c4d79597b923fdac45ced19f207f5b209085acc6ed2e05d1bb6de7ae06218ef7"
+validated_at_unix = 1781991127
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -706,7 +706,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -714,7 +714,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "features/io.mol.v2000.parse/feature.md"
@@ -768,8 +768,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "9a3af6d7dc4a3f4df1bcf066d39641920a8981603a45044c64161307446e8e31"
 evidence_schema_version = 2
-evidence_hash = "926cd6e07bca66ef9fff7f7c599901f292bc1c7844c930675fc61b1b141d237e"
-validated_at_unix = 1781989970
+evidence_hash = "8bee2c16ed1bc579c61fe06249578f527b3601bf7dabf39c9140a6cec042ec95"
+validated_at_unix = 1781991127
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -785,7 +785,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -793,7 +793,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "features/io.mol.v2000.write/feature.md"
@@ -847,8 +847,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "ce60e45d0f71abc088a9f88905d096ccff3f00db09581a2165e356cb6b07c1b6"
 evidence_schema_version = 2
-evidence_hash = "3ff82883d7b5cd1849d25bd42e0f3e9bff352cce9931e0cc71118dcb1a7e3cc1"
-validated_at_unix = 1781989970
+evidence_hash = "68e58a571b6c1208fd87b3148390717e5bd8886a7578477e4d659cceabcf9a9d"
+validated_at_unix = 1781991127
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -864,7 +864,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -872,7 +872,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "features/io.sdf.v2000.parse/feature.md"
@@ -942,8 +942,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "1cda6940ba41edd4f8042f0e6e221a5dd07135a887358fa49d6681678f27ef77"
 evidence_schema_version = 2
-evidence_hash = "2741dfbcde708fefc0a750f68284c3f4055c3f0c0cbb413dd37a1803bd4b34d9"
-validated_at_unix = 1781989970
+evidence_hash = "6e99877cd69b4d622fc13960b8d3d57e5aeacc3ca74cdc22c73138bcb45e2283"
+validated_at_unix = 1781991127
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -959,7 +959,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -967,7 +967,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "features/io.sdf.v2000.write/feature.md"
@@ -1029,8 +1029,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "9a14d165b29c84f05bd065689d8e6decc863913dd766e7e60d1afe45a5f8db56"
 evidence_schema_version = 2
-evidence_hash = "36b988ec41be41b30dbd733d42e898903bd474328093bdf0797a594af7ef04cb"
-validated_at_unix = 1781989971
+evidence_hash = "798652e12e1139df34218814d332e104d3e9ac5a7df4257ec6de47e9472b10c1"
+validated_at_unix = 1781991127
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -1046,7 +1046,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -1054,7 +1054,7 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "features/io.smiles.parse/feature.md"
@@ -1140,8 +1140,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "dd907748d433c8e021d05a082f0ede997e7f5b7303afac679dc6d6d58bba718c"
 evidence_schema_version = 2
-evidence_hash = "ec7f442eec1667bd869ff10236e8d0d4d15b4b802cfb57dcc68f6914fea40536"
-validated_at_unix = 1781989971
+evidence_hash = "042715a280cce4ce2d46a58810dd0d6ce465d68762da3191d78aa571e3b59911"
+validated_at_unix = 1781991127
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -1157,7 +1157,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
+sha256 = "b07ef357d459fec1bf42f5bb9737658e45bf3eafc02ccb7e91e2597a4f43aa19"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -1165,15 +1165,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
+sha256 = "a10b4b1492f459d33af4fd6e3b2609e03ae426cfdc53be98b37dbf0a28de6210"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "features/io.smiles.write/feature.md"
-sha256 = "1d9dae87042e747a49f70aaac17f0b54ab6f5ea51be91bfd5777b030b72fa8f3"
+sha256 = "274b94951c21e3362361ec0fa139d27b8f6cfe87ab4ea11d15c1af5347343b0a"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "features/io.smiles.write/feature.toml"
-sha256 = "ff2a1a92420ccca0e35127efefcb3b68913caf285e7b3fe061e5cd7e8b9c821c"
+sha256 = "e01dc108c9fb870a72de5cc6e4d768343ef40ad0c782768c372100b9de38dbda"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
