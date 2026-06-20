@@ -8,37 +8,37 @@ compared_count = 100
 reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "919fd8e4fd7ff33744fee1a74a1fd4afbbc52b4c5aa6afdadd519cee2302e109"
-evidence_schema_version = 1
-evidence_hash = "16889ebc22bc8db0afffef97632c01710c7310f05e7ed32dc0c67d6c63b978e5"
-validated_at_unix = 1781955810
+evidence_schema_version = 2
+evidence_hash = "fa5edbd8c5312c6bb97288b4e7e95207c51bc0362bfbb2d3762c34f126b7d430"
+validated_at_unix = 1781989104
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
-sha256 = "35e463860497f5488d4e90ad6dd51e366053d53237507e4b07e2d8fe0f632f9e"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.toml"
-sha256 = "6cb9bd7ec1af643e8aec1e30c227a211e7942105c46eb61f00bcd6a6e5a6928a"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/Cargo.toml"
-sha256 = "218ee5bb74938cb461ff6e4bf2abe5ab67a4bc373728b3da8c0893fb6ec5aab5"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "ea8d7bc3c874240678ebb82c12fbce65ac289897176c8c10e6e99bd2ecf7ff00"
+sha256 = "58693618b058ce93987965dd728ce6ce97f22ba1d62ef6143952c89f5c1caaf4"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
-sha256 = "7b771e2cdc7cb7db72f7bb7480f495049e4edcb0bf999dfc3e7a334d6305f461"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "b747e0039f762fa820fe82153aa3ced283144e17aff8c156a0210b7b02c91d32"
+sha256 = "3834a70288c8bb97cff2fae7d4a1e90e7b8126851167fc3d6fa1d9acb91ee3e3"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "features/bio.hierarchy.smcra/feature.md"
-sha256 = "ad216b897692a980e55469a14e7a79236779a2966d491e13b80489a5b02ab97c"
+sha256 = "2ef37f04d5af8524b72671aedbee4f237da93a628596fa9cf5abad824183082c"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "features/bio.hierarchy.smcra/feature.toml"
@@ -46,7 +46,7 @@ sha256 = "995b69ba955c2fe95c88d86efaa5497044f1623a507fb74806b6d07fdf3f3f89"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-100/corpus.toml"
-sha256 = "67da71b7505b04bb102c8f51c66b6fcd7d2101c954e7cccb1a9369c96559cb66"
+sha256 = "b8960a03f0f33e3a8c9ff2b2a2b3f86d4508cd4920365f70d960de62481344b2"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-100/data/100D.cif"
@@ -450,7 +450,7 @@ sha256 = "f3c05c36aff82a20c591f9dd95df89f450a665bcaafeabc8229173d7336282d1"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-100/features/bio.hierarchy.smcra.toml"
-sha256 = "919fd8e4fd7ff33744fee1a74a1fd4afbbc52b4c5aa6afdadd519cee2302e109"
+sha256 = "0d1fd048f93b1f5ecc2610c9b545d89b4916025828f913e0060bee2827bf91d1"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-100/golden/bio.hierarchy.smcra/data_100D.cif.json.gz"
@@ -854,15 +854,15 @@ sha256 = "5883813b1321db3feb94f4b9ed3035c7a9964386268d387cddebd0d68568d484"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-100/sources.lock.json"
-sha256 = "404e6a519c837dc17759b696958f81641be00d802dd58dcfd93a59c3cbade6e9"
+sha256 = "5613c3707dfa3f6f2e991eb967304dcba9fe4b3e1319685ca75204d0ef65b042"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/reference/biopython/environment.yml"
-sha256 = "bf204ef4834c2471218b9c6f9f984c7d272b70f86a0798a057c63afacaaafae0"
+sha256 = "e59a4fda9af9ec8d3c2a893e90f4f396da07345b8307f95134b10784fb19acdf"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/reference/biopython/run_feature.py"
-sha256 = "a092f720a26e79e73ef89638677cfabf2c001697549395f633c8cc305b9ffd3d"
+sha256 = "b6f3621f32dd47a71e8ff88372598971947edd7ce4e06dac1966edca2730cb7a"
 
 [features."io.mmcif.parse"]
 passed = true
@@ -871,45 +871,45 @@ compared_count = 100
 reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "e99bcaaad23d1b963194792d6ea8a67d11c1f694e850cb9a8f9d6a2c728d54b7"
-evidence_schema_version = 1
-evidence_hash = "53f3d9742b6ae067e28d44d32090b1c180ccfe633cc211d280541f53dccbcec4"
-validated_at_unix = 1781955617
+evidence_schema_version = 2
+evidence_hash = "4d587fc896c001285a088fac74d7ab0746a554a6fb8f929d854705ee40a28d29"
+validated_at_unix = 1781989253
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
-sha256 = "35e463860497f5488d4e90ad6dd51e366053d53237507e4b07e2d8fe0f632f9e"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.toml"
-sha256 = "6cb9bd7ec1af643e8aec1e30c227a211e7942105c46eb61f00bcd6a6e5a6928a"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/Cargo.toml"
-sha256 = "218ee5bb74938cb461ff6e4bf2abe5ab67a4bc373728b3da8c0893fb6ec5aab5"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "ea8d7bc3c874240678ebb82c12fbce65ac289897176c8c10e6e99bd2ecf7ff00"
+sha256 = "58693618b058ce93987965dd728ce6ce97f22ba1d62ef6143952c89f5c1caaf4"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
-sha256 = "7b771e2cdc7cb7db72f7bb7480f495049e4edcb0bf999dfc3e7a334d6305f461"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "b747e0039f762fa820fe82153aa3ced283144e17aff8c156a0210b7b02c91d32"
+sha256 = "3834a70288c8bb97cff2fae7d4a1e90e7b8126851167fc3d6fa1d9acb91ee3e3"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "features/io.mmcif.parse/feature.md"
-sha256 = "f0ed1d2722a98f7ebfd97b22f03a2501382c8497b157414ddc0fbce535cfb632"
+sha256 = "fb61b3fb3748637c1c8db7d9e6eb93ccfa1a917b2dd678d1c57402e7e4a66b80"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "features/io.mmcif.parse/feature.toml"
-sha256 = "e4e1893d1d32cf4b2306581b9655856fae02b5b65fa898837c942b979e898ff6"
+sha256 = "c536b74e3294d9678690fb02923f65b9f3860db3582cda3ea5b5b59831cfae70"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-100/corpus.toml"
-sha256 = "67da71b7505b04bb102c8f51c66b6fcd7d2101c954e7cccb1a9369c96559cb66"
+sha256 = "b8960a03f0f33e3a8c9ff2b2a2b3f86d4508cd4920365f70d960de62481344b2"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-100/data/100D.cif"
@@ -1313,7 +1313,7 @@ sha256 = "f3c05c36aff82a20c591f9dd95df89f450a665bcaafeabc8229173d7336282d1"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-100/features/io.mmcif.parse.toml"
-sha256 = "e99bcaaad23d1b963194792d6ea8a67d11c1f694e850cb9a8f9d6a2c728d54b7"
+sha256 = "9f9d4742d2f977d345ee07375d3802b9b637ac4d18161895d1ea7769137ba7de"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-100/golden/io.mmcif.parse/data_100D.cif.json.gz"
@@ -1717,12 +1717,12 @@ sha256 = "d69b273da4987c7054d4dff1f8e19111f390c7f442dec9965817dafdd21a7904"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-100/sources.lock.json"
-sha256 = "404e6a519c837dc17759b696958f81641be00d802dd58dcfd93a59c3cbade6e9"
+sha256 = "5613c3707dfa3f6f2e991eb967304dcba9fe4b3e1319685ca75204d0ef65b042"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/reference/biopython/environment.yml"
-sha256 = "bf204ef4834c2471218b9c6f9f984c7d272b70f86a0798a057c63afacaaafae0"
+sha256 = "e59a4fda9af9ec8d3c2a893e90f4f396da07345b8307f95134b10784fb19acdf"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/reference/biopython/run_feature.py"
-sha256 = "a092f720a26e79e73ef89638677cfabf2c001697549395f633c8cc305b9ffd3d"
+sha256 = "b6f3621f32dd47a71e8ff88372598971947edd7ce4e06dac1966edca2730cb7a"
