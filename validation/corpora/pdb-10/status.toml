@@ -9,8 +9,8 @@ reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "ff06f35d3e71e499a505874d81769c2b515943996de06795ab04f0d67d0016d5"
 evidence_schema_version = 2
-evidence_hash = "5dff606c67130689b836702cf3097bb4e2a6e77bb44f34f2066d5fcdc66c5e93"
-validated_at_unix = 1781988936
+evidence_hash = "99db486485e8ed349027373ef0b3737aad18332d66ee0755201cce53810cdea4"
+validated_at_unix = 1781990073
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
@@ -26,7 +26,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "58693618b058ce93987965dd728ce6ce97f22ba1d62ef6143952c89f5c1caaf4"
+sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -34,15 +34,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "3834a70288c8bb97cff2fae7d4a1e90e7b8126851167fc3d6fa1d9acb91ee3e3"
+sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "features/bio.hierarchy.smcra/feature.md"
-sha256 = "2ef37f04d5af8524b72671aedbee4f237da93a628596fa9cf5abad824183082c"
+sha256 = "8d7415c40d09608b53555e936550102f28c26001b13c51d85305638966ac3fca"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "features/bio.hierarchy.smcra/feature.toml"
-sha256 = "995b69ba955c2fe95c88d86efaa5497044f1623a507fb74806b6d07fdf3f3f89"
+sha256 = "9dad269dd35701d298a609a5c1e92377631dfc2006dcf46e87223a243e88030a"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "validation/corpora/pdb-10/corpus.toml"
@@ -152,8 +152,8 @@ reference_tool = "biopython"
 reference_version = "Biopython 1.87"
 manifest_hash = "f56e4b3e5da6d8c729c77392bb4894d4f7e80ed6bb59519cfb9acf5aa1ce3dbb"
 evidence_schema_version = 2
-evidence_hash = "84d464c07370b6863fe78d1983489e17a7483ce4756eb8c158b7d7c2296234c5"
-validated_at_unix = 1781988950
+evidence_hash = "f7c0b9940df17e5577ebe7c656a387e560a11259398dee0d9cbbf1866b12e222"
+validated_at_unix = 1781990086
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -169,7 +169,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "58693618b058ce93987965dd728ce6ce97f22ba1d62ef6143952c89f5c1caaf4"
+sha256 = "2ef5700ce24d5c1a347a277afa50cf678e3f867aed6a00e6d079394e935d292f"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -177,15 +177,15 @@ sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "3834a70288c8bb97cff2fae7d4a1e90e7b8126851167fc3d6fa1d9acb91ee3e3"
+sha256 = "671fef51418f7665d572b3aca211f749bec8007c83d7ef103a100bb26c08c28e"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "features/io.mmcif.parse/feature.md"
-sha256 = "fb61b3fb3748637c1c8db7d9e6eb93ccfa1a917b2dd678d1c57402e7e4a66b80"
+sha256 = "57c2aa4a562b492a2d52ef944dc54d3c19e50bbb9b3bf4338d40f6acc34ff7a5"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "features/io.mmcif.parse/feature.toml"
-sha256 = "c536b74e3294d9678690fb02923f65b9f3860db3582cda3ea5b5b59831cfae70"
+sha256 = "d5519795dc1ddb31a0e448eb865e7b44af18e889d328f2cff52979b68b761ce4"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "validation/corpora/pdb-10/corpus.toml"
