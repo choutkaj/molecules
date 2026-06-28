@@ -1,11 +1,15 @@
 corpus_id = "tiny"
 feature_id = "io.mol.v3000.write"
-reference_tool = "planned-rdkit"
-reference_version = "2026-06-19-no-fixtures-yet"
-comparison_mode = "planned"
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+comparison_mode = "implementation-golden"
 
-fixtures = []
+fixtures = [
+  "data/pubchem/cid_702.sdf",
+  "data/pubchem/cid_2244.sdf",
+]
 
 notes = [
-  "Feature contract reserved; fixtures will be added as validation scenarios are specified.",
+  "Reference RDKit goldens compare Molfile-preservable content after V3000 write/read.",
+  "All molecule fixtures are externally supplied PubChem records.",
 ]
