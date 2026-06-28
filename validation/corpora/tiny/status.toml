@@ -3497,10 +3497,10 @@ fixture_count = 2
 compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
-manifest_hash = "8f90080f4175a1aad57231ca650bfd183f30c0d08413e63a7934dd60e10aca02"
+manifest_hash = "fc93b7661337518860e5a3055cd1abbf42e24ec1a2c28062eb1178b1181ddc1f"
 evidence_schema_version = 2
-evidence_hash = "766d7ce14846974c0394c17ef79146b9326eb9d26a11201f8d063b6327ec7aa6"
-validated_at_unix = 1782638573
+evidence_hash = "3391aaba10673a75c8951c75a76188dd7a78c32cd0f771000ab85442e9bcc5c2"
+validated_at_unix = 1782639665
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "Cargo.lock"
@@ -3588,7 +3588,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "2c5e1e37fca709830cb3bc5abd64e2f28baf799318e66fabe3278041fedf3dc4"
+sha256 = "793f7962b186142277ef8cb410856821cea06390f41ff376f4cf6308d82aa4ad"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -3636,7 +3636,7 @@ sha256 = "999e0e6d856442c45c8397696e2cdd4e8c7b4048cf86ddd66d6fb9ba498e2051"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "cbf2e772482830be3ae8b28a6d1ab55179c5894f64a1ef1c7ed13bd9d8bf6b8e"
+sha256 = "f019ad73b08cc7ac31faf0aad5ad74e0ee660a9f1ffd1a615fd2463f7c7259ab"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -3728,7 +3728,7 @@ sha256 = "5c9aa2a3024d56c903d547798cbd04ff743433ba0950dbfd8e19238e40651172"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "validation/corpora/tiny/features/io.smiles.canonical.toml"
-sha256 = "8f90080f4175a1aad57231ca650bfd183f30c0d08413e63a7934dd60e10aca02"
+sha256 = "fc93b7661337518860e5a3055cd1abbf42e24ec1a2c28062eb1178b1181ddc1f"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "validation/corpora/tiny/golden/io.smiles.canonical/data_pubchem_smiles_cid_241.txt.json.gz"
