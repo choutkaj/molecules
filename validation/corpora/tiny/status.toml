@@ -3499,8 +3499,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "fc93b7661337518860e5a3055cd1abbf42e24ec1a2c28062eb1178b1181ddc1f"
 evidence_schema_version = 2
-evidence_hash = "3391aaba10673a75c8951c75a76188dd7a78c32cd0f771000ab85442e9bcc5c2"
-validated_at_unix = 1782639665
+evidence_hash = "d6f4f4e678819f11c94a2a9ad6945cffae7d5fad41d5c9cdf3c0af2650bad02d"
+validated_at_unix = 1782659442
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "Cargo.lock"
@@ -3688,11 +3688,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "2613fff682aabdec77af99e622ae803fc74d0f1b55e6d432a2a13a8faed74ddc"
+sha256 = "f9a61e59b353629c50e76164c41da0edd9f4bcdfa76545e4e898121e13d4aaa5"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "0296c83c41bf687837bda589daf42389e23084fb61e8d7b883d662dacf3ba5ef"
+sha256 = "b2017e758225918d0b68a23fd82caf2b57bbe94c2976fec9ae22f0c989255dab"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -3708,11 +3708,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "features/io.smiles.canonical/feature.md"
-sha256 = "43a5277c7013a9a9f63bb526c9dab5e29465dab13bec212d2f19f198b10c9e21"
+sha256 = "4446d9a10c16d7b816bf41b41882e16f7286317bb489f95da51899dccb34b571"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "features/io.smiles.canonical/feature.toml"
-sha256 = "8b7ae8f06c113ffde859658a35a596cce80765a3fd957f32d4bfbb2de6869649"
+sha256 = "2ba6d77fb9009aa08a85b3e397b1a54c64ae6ebbd727e8d9b2388779f31697f5"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "validation/corpora/tiny/corpus.toml"
@@ -3748,7 +3748,7 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
-sha256 = "a2d856502abd4c8eb7fe71eba1f31b691f498df7bc56e214806582c4b1f6db18"
+sha256 = "2064c14908e49351e796ad5ca87561daa441aaf7febe3dffe4edd7db0c8810a6"
 
 [features."io.smiles.parse"]
 passed = true

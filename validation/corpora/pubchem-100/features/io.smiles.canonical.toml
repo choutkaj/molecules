@@ -1,0 +1,15 @@
+feature_id = "io.smiles.canonical"
+corpus_id = "pubchem-100"
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+comparison_mode = "implementation-golden"
+
+fixtures = [
+  "data/packs/pack_01.smi",
+]
+
+notes = [
+  "Reference RDKit goldens compare sanitized reparse semantics for canonical output across the broad current writer subset.",
+  "Salts, bracket-atom records, and aromatic heterocycles are marked unsupported pending fuller canonical policy.",
+  "Exact canonical SMILES string parity remains validated only for the tiny non-fused-ring subset.",
+]
