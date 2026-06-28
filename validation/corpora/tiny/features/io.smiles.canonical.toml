@@ -7,5 +7,5 @@ comparison_mode = "planned"
 fixtures = []
 
 notes = [
-  "Feature contract reserved; fixtures will be added as validation scenarios are specified.",
+  "First implementation is covered by focused unit regressions; external RDKit canonical SMILES fixtures will be added once the supported non-stereo comparison contract is declared.",
 ]
