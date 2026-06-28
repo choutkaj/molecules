@@ -18,7 +18,7 @@ fixtures = [
 ]
 
 notes = [
-  "Reference RDKit goldens compare sanitized reparse semantics for canonical output across the broad current writer subset.",
-  "Salts, bracket-atom records, and aromatic heterocycles are marked unsupported pending fuller canonical policy.",
+  "Reference RDKit goldens compare sanitized reparse semantics for canonical output across all declared records.",
+  "Canonical validation applies no feature-specific unsupported-chemistry filter; parser or writer gaps surface as validation failures.",
   "Exact canonical SMILES string parity remains validated only for the tiny non-fused-ring subset.",
 ]
