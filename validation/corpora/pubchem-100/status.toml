@@ -9,8 +9,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "b85354654b9411a0386afca3f887184cc1cdbb3a211ba7f5c2a7071b3d1b5337"
 evidence_schema_version = 2
-evidence_hash = "00f4da0ab305651608b47beb1250fbe0b05b3d95e78b7329e48aba203d5aa781"
-validated_at_unix = 1782806916
+evidence_hash = "30a7d3e10d09effa624deb7b389ef0f545c11313aba2afa854c8c99c44687a46"
+validated_at_unix = 1782808671
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -26,7 +26,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9cc58d2b2afe7cebaa0cf53163ec964f146c3f0204a6e537615da42ac1808bcc"
+sha256 = "c71847c6461247a1bb141894f904ed860c9539031601a06311da69968cc96111"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -218,11 +218,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.md"
-sha256 = "db05076590ca27d5e25377d8d0fd9ba064502c31b6611a7a4146e382b89842dd"
+sha256 = "98a338c3d22531c6f114e4d492aa0dfadb04f636ebfd090860f614cf697f7135"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.toml"
-sha256 = "dd0b90f63c5881c146f99a872a69b00b3b694790ec97a2a8fbced79a5230fb40"
+sha256 = "a1cb4042347b3d63772ca6308d0cedfeb6aeb5970ca4f64adfc09c772e3aea96"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "validation/corpora/pubchem-100/corpus.toml"
