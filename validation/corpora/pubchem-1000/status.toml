@@ -9,8 +9,8 @@ reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "099c2e1f3d96661f27efdd025eae5280c8a2d1a67353a3bd2a75365ff5d77190"
 evidence_schema_version = 2
-evidence_hash = "aab785a548ea18f783cce5d5b968228d1ad7917931f770ead5153a102de9ddbd"
-validated_at_unix = 1782802718
+evidence_hash = "27ef081bafb23f74022b9aa435d0d23878771f039963c47944b820110818828c"
+validated_at_unix = 1782803130
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -26,7 +26,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "609d064463fced49a2c4df7f530984938dd1da21ae93a84d3b11ccd1f07c6610"
+sha256 = "abe5ddf82653c4ab5642472c06b89852dceb55553060a99605a22401358e7213"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
