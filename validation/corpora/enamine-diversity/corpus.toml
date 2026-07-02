@@ -1,7 +1,15 @@
 id = "enamine-diversity"
 title = "Enamine Discovery Diversity Set 50"
 kind = "small-molecule"
-ready = false
-expected_count = 0
+ready = true
+expected_count = 50240
+seed = "enamine-diversity-20260524"
 formats = ["sdf-v2000", "smiles", "csv"]
-build_command = "cargo xtask corpus check --corpus enamine-diversity --require-data"
+build_command = "micromamba run -n molecules-rdkit-reference python validation/reference/rdkit/build_large_corpora.py --corpus enamine-diversity"
+notes = [
+  "Pins all 50240 plated compounds from the 20260524 SDF, SMILES, and CSV files.",
+  "SMILES validation packs cover all 50240 records; SDF V2000 validation packs cover the 47359 source records that are V2000.",
+]
+
+[categories]
+diversity = 50240
