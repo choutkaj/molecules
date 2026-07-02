@@ -1,0 +1,11 @@
+corpus_id = "smoke"
+feature_id = "algo.canonical-ranking"
+reference_tool = "planned-rdkit"
+reference_version = "2026-06-19-no-fixtures-yet"
+comparison_mode = "planned"
+
+fixtures = []
+
+notes = [
+  "First implementation is covered by focused unit regressions; external RDKit ranking fixtures will be added once the supported non-stereo comparison contract is declared.",
+]

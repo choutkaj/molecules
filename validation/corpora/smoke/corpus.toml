@@ -1,0 +1,12 @@
+id = "smoke"
+title = "Checked-in external smoke corpus"
+kind = "mixed"
+ready = true
+expected_count = 7
+seed = "existing-external-fixtures-v1"
+formats = ["sdf-v2000", "smiles", "mmcif"]
+build_command = "cargo xtask corpus check --corpus smoke --require-data"
+
+[categories]
+pubchem = 6
+pdb = 1
