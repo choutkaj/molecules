@@ -10,8 +10,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "622de6663f4aee8d01a600e62d92e5c947fb9949013571e4ee224948baa64293"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "42acdbd97b55cbda52f166ac3168d4e4c5c0446dc9c9965bdc3e0449690b5b32"
-validated_at_unix = 1783272097
+evidence_hash = "80b0c9888afc86ff9f071ff3e969529550dc6d284fbbb1d5bd0d617156598364"
+validated_at_unix = 1783275181
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -27,7 +27,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "bacd63f4ca6e2b4c103eb9d33e3384e67589ba27d13706d6e8c6fc79c89289d3"
+sha256 = "4a18595fa27061140928ae636193fa665427dfae0ae198976299c7d99ce4a60a"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -155,7 +155,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "c621ec42907a830ad0754bf411dcbd0dc28f80eb9ccd5032568ff44efef79c75"
+sha256 = "34b388f8eb99efd68430192d58e8eee4b8fc85432fb594a752cc2c71ff1c0ac5"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -231,11 +231,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.md"
-sha256 = "26ccbc7f9361870825acb83b92c6f10d9eeedf3c93a9f673cc2982ce8b48d0a3"
+sha256 = "bb441593dbdb85d87654f59319f93076dedcd357be3b63adbdcf033df6bcde7b"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.toml"
-sha256 = "3d77814f941150da8d4ee5d20db7631b785e0ed29e485a4c105d308836dbea78"
+sha256 = "f5a7b4dbb7b5d15f1c1650794c2e7b709e360a733ca7ec48ef99eb3b6f91051a"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"

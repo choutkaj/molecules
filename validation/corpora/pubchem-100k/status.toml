@@ -4,14 +4,14 @@ corpus_id = "pubchem-100k"
 [features."algo.aromaticity.rdkit-like"]
 passed = false
 fixture_count = 100
-compared_count = 1
+compared_count = 9
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "68e14d73e14b5b1943a32317e262edd7782b101e8864dc56c9b4db7eba12aa6f"
-failed_count = 99
-first_failure = 'validation\corpora\pubchem-100k\golden\algo.aromaticity.rdkit-like\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[450].atom_aromatic[12] differs: expected true, actual false'
+failed_count = 91
+first_failure = 'validation\corpora\pubchem-100k\golden\algo.aromaticity.rdkit-like\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[770].atom_aromatic[6] differs: expected true, actual false'
 evidence_inputs = []
-validated_at_unix = 1783065731
+validated_at_unix = 1783275350
 
 [features."algo.rings.fast"]
 passed = true
