@@ -2,644 +2,16 @@
 corpus_id = "enamine-diversity"
 
 [features."algo.aromaticity.rdkit-like"]
-passed = true
+passed = false
 fixture_count = 48
-compared_count = 48
+compared_count = 6
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "ddfc7a5812a1952277c8a9874151fe28351aa50243134f922f8fb8b66a433a81"
-failed_count = 0
-evidence_schema_version = 2
-evidence_hash = "450f92e874fa0ee9eed8a114d09471cbef44665d103adda8cc9829c53007cbde"
-validated_at_unix = 1783279292
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "Cargo.lock"
-sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "Cargo.toml"
-sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/Cargo.toml"
-sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/canonical.rs"
-sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/membership.rs"
-sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/mod.rs"
-sha256 = "7bfc7dde0335a5bcae1e8966125082fd20741ba116604a5ef3ee93ed7f2ebb8e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/bio/hierarchy.rs"
-sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/bio/mod.rs"
-sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/chemistry/mod.rs"
-sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/atom_bond.rs"
-sha256 = "c01677c97ea130cf6e1ce763bc976f161a15e4e4153c3777a782def062e5a2af"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/conformer.rs"
-sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/element.rs"
-sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/ids.rs"
-sha256 = "aeede33954f673a26f05a1fa78e5df3cffcab0624070f28fdf8a806b60cdf7ef"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/mod.rs"
-sha256 = "f58d405afc94bf0a22e9525bbdff5745300e44747ee3535cbee5996a191c9222"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/core/molecule.rs"
-sha256 = "c5d18c30eb5e5d21f7dbac763e7f05104f350af29e25735d33d0497d51ed3877"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/io/mmcif.rs"
-sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/io/mod.rs"
-sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/io/smiles.rs"
-sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/io/v2000.rs"
-sha256 = "2ce7023d4c0610dd51ad3b32d32fd45fc10b11842780b05e4d14537c802d87c4"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/io/v3000.rs"
-sha256 = "27b5fc37d2be7214e5d57e8e26428c4a533df7fbb00a27bd0d58da2187f5a632"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/lib.rs"
-sha256 = "6ed17336233cdfc0ff40cdefcce6ab1f2a4ffb6a3fc2d5e60704068205779c01"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/small.rs"
-sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/bio.rs"
-sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/canonical.rs"
-sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/core_payload.rs"
-sha256 = "ec12e5bf76ae79b62c39f32e183121b95b943e0890d4010d7563bdf99d45cade"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/graph.rs"
-sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/mod.rs"
-sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/perception.rs"
-sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/public_api.rs"
-sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/ring_limits.rs"
-sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4e05b5763f266c6cd74a4cbf7c4b82351233b11a047bcb6cb191f625fbe1185a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/v2000.rs"
-sha256 = "b41f6f54bf2af3c0a44f93e858ee38b33a663b997ed4df0dc020f6c72908c4a6"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/molecules/src/tests/v3000.rs"
-sha256 = "8446f1cbf33c3371ba3d7120966a8c25d0767163f613ae94befb75852fb03e1b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/Cargo.toml"
-sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/cli.rs"
-sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/corpus.rs"
-sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/dashboard.rs"
-sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/features.rs"
-sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/main.rs"
-sha256 = "e1d4af724e89184bec732df864397a89c396a1f5fba452efb407d54de61e6196"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/skills.rs"
-sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/support.rs"
-sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/tests.rs"
-sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/compare.rs"
-sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "e92893ec072a6e09cd3c83f662a642b4f8f86980c951b4eaae7811cc5122845b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "7a1cfd4081c35d08e41a759b3b5306e8900ae00025badd9feeeb171a65208fec"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/manifest.rs"
-sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/mod.rs"
-sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/progress.rs"
-sha256 = "f6ad1f3759a8a16d02e71035501160ad32e91127e9d76cf803bc651bb384d6c3"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "crates/xtask/src/validation/status.rs"
-sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "features/algo.aromaticity.rdkit-like/feature.md"
-sha256 = "e4a7fb66a6f6b36afb346914f3b8bcb484bc5b7dd42d8b795871434b8013ef8e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "features/algo.aromaticity.rdkit-like/feature.toml"
-sha256 = "e9e33e681d48e75e0b54d16b7012c885d2f8f3ca8da21a8e4b3042dbedd7f92d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/corpus.toml"
-sha256 = "b1e86f4bd513fe6c142e710b51a417436118da28bf050d8f3ec28545e99f7c15"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_001.sdf"
-sha256 = "c929db375ae35d29329a87cc4e1cc356db19f2ec0338ee6637442f9eb652d8da"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_002.sdf"
-sha256 = "40ca51ba11838389f2685372c21c7a801419cb2766e44f766396fb32c71e54a1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_003.sdf"
-sha256 = "ad14ddfacbbacb9b3e49045537e02b2fe5b5b2c413119d88000ebdd5b058ba17"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_004.sdf"
-sha256 = "bb7b25b2ca0d543221f3b432f9b7953cbcd84160e981b0b3dd7bccb802524fd1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_005.sdf"
-sha256 = "d10b070ee1443e6c907e430f1265fc6c50d96a20f5fe9768bd10d6a12e087e15"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_006.sdf"
-sha256 = "c2aa5f7583b438bc2537a6a92e5d3ad1fd75b566f9b5452243c5b711a96a7dda"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_007.sdf"
-sha256 = "152c0d0ec4bede67f1af51e175327fedf9465be123a9ca089d583966d084256a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_008.sdf"
-sha256 = "44bf6af34ba73834f57447b54c31cd938cc8b1d114dbffa3bb9070df54b2c2cd"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_009.sdf"
-sha256 = "a0dc844e9be7519eb309bce417168071935abbd5f34e844572a8aae0f3c19ba0"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_010.sdf"
-sha256 = "30647be6fc22fb7b47faca0c1af1cc8923b7141277b58324657201afee5c85dd"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_011.sdf"
-sha256 = "0a18ab4d316bed01ed9bf66a3819f55d41eca5269ca4d56c8ef817c365ac1326"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_012.sdf"
-sha256 = "2212dfdf1399cfdec1126708fdcdcc1c5a083ddc52835c956f4dab5e204acb27"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_013.sdf"
-sha256 = "f2059cc664d136d9d68c448a44733ad384ad62dbc633999d0f210534416685c5"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_014.sdf"
-sha256 = "2c956f9aba36f734489ad914285c00ff4cdaab2edb6e9a9e54b319ba6bcf469d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_015.sdf"
-sha256 = "7ff61fbd7303d9a67b9f071064433334be6488219ede6f6533ae6ae62447c08e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_016.sdf"
-sha256 = "f20e0f75c5966668cc2a9ea00e54bbec2d4b521a1b99373b5d150068c412bf50"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_017.sdf"
-sha256 = "4e3b5ff8ae36fcb903639c67451ee46776bc0d5cb93daf539e989a984c02bb44"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_018.sdf"
-sha256 = "3d8796fdc77749cdc7aec6c2ea64e20d5e4c722f8d4a5aeb2679ba49d8cd229f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_019.sdf"
-sha256 = "1333bcde122c2f5b4e50277f9373f6ce6e3389ee1fb4b9156460945c98eb874d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_020.sdf"
-sha256 = "290a47b8f7175429aab1c0992e63c5e8eb750434a73a19832092cd346f56c7fb"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_021.sdf"
-sha256 = "aadbe9e4be6dce3b6e5164278079487cd2fbf6cd35dff803c3fae11ac5e1205a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_022.sdf"
-sha256 = "f583810c2aa938f5ec7c1a7f4eb73a9e02ce3b7a3efcb32983da4223ae919f3f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_023.sdf"
-sha256 = "d9fe2ff08491680e5ea42255078dca1623e6154f91ffec8cf82210938bb30c91"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_024.sdf"
-sha256 = "14684d3ce677da97827dc3eef9c3f38e207169393f633bfff5e362ddca697f2f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_025.sdf"
-sha256 = "5bd903cfe4ebbbbda3ddd73b442426b8bce9a0b3fe271c8ff30b36ef153d8c5b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_026.sdf"
-sha256 = "fc1453c793733b0782ecc73e170bba3ecc17fd0da5a8b70f2146604b1041c0e3"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_027.sdf"
-sha256 = "f39f2c9af70279783f72690af523d318752292b51d1ebbbe125f4399198d06f1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_028.sdf"
-sha256 = "a5cbc57822b881c2360e9391721f2b4b71250bb4b9fda24eb64c9a56c3c0883a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_029.sdf"
-sha256 = "f4111448e9fd4746712dec7fc33cf4b599ea3f537e5f126c2e6db7ce1acd15fc"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_030.sdf"
-sha256 = "0b577c7dea85e2c76122510c418d7713d6bcf1f2844154da310395a5ee49a8a3"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_031.sdf"
-sha256 = "9e979dab9b807e44a83e2769a28342dfc47fc57c03cb55e68158eeba64b1acc6"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_032.sdf"
-sha256 = "a00e15c758f1e305b48feb61e9d8ee01b1ed31109e7b3252acd5140a772139a1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_033.sdf"
-sha256 = "5a4175f0c6b5300bf3c3265d9c508557232e7658b9a521baead94f601efc881f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_034.sdf"
-sha256 = "ee0f8df2cb7aa5aa7cf79592f33e502a22ca08afe9b887214299d5195304771b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_035.sdf"
-sha256 = "6e337b6c2819deec68db95b7331eb53a28009006ae95fe5e1edba8e0b70589cd"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_036.sdf"
-sha256 = "507b893ff3614a17f52068445d3748787af692f7169290bdcff9f540b58c4e6b"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_037.sdf"
-sha256 = "41fc30f15d36023176f53a8e1e5d4c916bdc7ee8548ecd1e981454531c288b5c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_038.sdf"
-sha256 = "24a127a0fca097d21a8c0637822654b48bd953396cbf60dab724c496396235d8"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_039.sdf"
-sha256 = "a703929d113230645fec34fc7781ef250f8198c8c8078327cd49e83f0b50911d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_040.sdf"
-sha256 = "dda6e73d54debf258a05ff8ce6d02474827d1c883e7b99f1622abb31adb3b0dd"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_041.sdf"
-sha256 = "6bef0d15d42693a090d161b047bb86896b671925d2e71a3e8d138b1094538417"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_042.sdf"
-sha256 = "83ea5cd1a6ead582dd3106b359be65d2a0055321d7139a7275d5a6c471d79be2"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_043.sdf"
-sha256 = "d97dd2133ead8bde21c9118561a70d052d7a6cab6c6cb54894ca7a63e87b9513"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_044.sdf"
-sha256 = "a109ee5b971a29cc12e8b03f704a46b45c0f10153180e0e0d2b4b7776dea440c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_045.sdf"
-sha256 = "0fdb0f7207fc42cb3675f65b616bad16af0d831d4ecd4ee690c6b2170817811e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_046.sdf"
-sha256 = "4289232418f74d6c6fd69a65e28e11233b5ab0c80f70497db3160ed49cbd3e58"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_047.sdf"
-sha256 = "3f32dd0986d8ef8a67e1f0c0ffcd6125fe640b574607a55d54d0b223f42863ad"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/data/packs/pack_048.sdf"
-sha256 = "c2419582a94fd4c0d1eab5ebe767104b0d257ee2bfa8b3bd1c3bdf34143182d1"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/features/algo.aromaticity.rdkit-like.toml"
-sha256 = "8ab843368b40a36aede4e9aa89f3b1ddbc7e459177ae1d4c8e9378622529f265"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_001.sdf.json.gz"
-sha256 = "5a5da46af6fc86731970c7b312c170c91170cd91821a673670961f36cfed74e2"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_002.sdf.json.gz"
-sha256 = "c1fbc485f5e8a8c4814626cc1c5866d580ad920c23a3fd9b644dbc4b0ae30242"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_003.sdf.json.gz"
-sha256 = "7042b6db7198243f684ef108216af94d642c396746b63bc8513957f1b1eda02a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_004.sdf.json.gz"
-sha256 = "563e5540d58852916c58e302075c3ebefaa626dd72d3b7e97343ff67c1d95130"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_005.sdf.json.gz"
-sha256 = "ff9670e696d74438518a79ccb0870c94dd152d534475b4e82eab158f106cb70c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_006.sdf.json.gz"
-sha256 = "277a1b025ea1d4a42948945fe6a9e03aa9bf1f7a9e0687ccac3a3ccc1e53b64c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_007.sdf.json.gz"
-sha256 = "32c141b5541c5637becbf401aac1df590b8161c6d78ff1b2de467ad08cfdb184"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_008.sdf.json.gz"
-sha256 = "17d154b29649d67d8f4fc7a1b9fb231a9a79d6de4362bae11f5e4cde2c2b16ab"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_009.sdf.json.gz"
-sha256 = "d83946d36d4d22564b17eca45d7a999fa8293dc640ec4ce5501cf7abf90eb839"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_010.sdf.json.gz"
-sha256 = "957158e36341db5550beeb91915532126ec738996565cbe727ac00b7213b62ba"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_011.sdf.json.gz"
-sha256 = "eb3c952b4d1f628c1d4eda6e950cc0eef2f02dc8fdafdc49c52bfe61d4f38b2e"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_012.sdf.json.gz"
-sha256 = "16b59916786db811ac9bd9105b421e9f9e6143f0fbea87ace477c50241161dc3"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_013.sdf.json.gz"
-sha256 = "94ffb0a798115f5a66e1fb8987872dc1e314ff9ae6f927ef9bc69f2a9a99433a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_014.sdf.json.gz"
-sha256 = "f5fa10cb2d607440b5f64125bfa2da4d43b4ff847976f6d589856f268976d8ae"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_015.sdf.json.gz"
-sha256 = "63fe88df1de0bb61880746542d05236753ed2714ca919246d31ee08ffada0d2a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_016.sdf.json.gz"
-sha256 = "bbf1d516a1ec83fe3e942fa678f6f7f59875297dbe54383fd03ce5d5b73a7136"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_017.sdf.json.gz"
-sha256 = "3d7a7c3e13ca8a52161aeaec8441a338ba3dcf0a719fe4c614404f18709540d9"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_018.sdf.json.gz"
-sha256 = "19fb54139cfdecd5cc8a460c65b43929cd6b331f04172413bd376ca5fcf75d1d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_019.sdf.json.gz"
-sha256 = "cf1d0a0731e8a785622af3c205fb9ce7346ddccfaa88367be9e1e37b6c4cc895"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_020.sdf.json.gz"
-sha256 = "42bb462dea804711d260bb2325c254e117e13ee4ef7c51f2a71bad0bbf892bb7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_021.sdf.json.gz"
-sha256 = "78746e3015a33c6ead055a89315e9fe07bab6ec83cf9765c2f7a9b54173fbd75"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_022.sdf.json.gz"
-sha256 = "df405b8bf3ea4d103928c7ce8cdfec4208abb193c42c0a693d06fa92d5a91e1c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_023.sdf.json.gz"
-sha256 = "1b6f0a6898c29e1abf0b37f177d5d5cad7805ded5bcc2c76f9b89c1951f6a515"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_024.sdf.json.gz"
-sha256 = "e89f6d7d52f649c0de35d27f461a8ed766afc4674e85c1310084fd5dffad67fc"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_025.sdf.json.gz"
-sha256 = "b0e6ed2f3c42136bbfbf5cbdef4b56a5f7479fafde72191c357174471ac710f0"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_026.sdf.json.gz"
-sha256 = "ac19b3cc9e9d5ccdb472841a1ebd8dacd733bbba95b08362b5cbcc9c3347113f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_027.sdf.json.gz"
-sha256 = "18e71323cc11ec7bf3ca13db254899b2fbf19e9b16b4e2f466b576ce9ef643dc"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_028.sdf.json.gz"
-sha256 = "3739827491e63ea4f6693736f7200d93f9a65ca5eddcda48873927eec6dd8920"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_029.sdf.json.gz"
-sha256 = "14cfbcb463284a2fcef7d836fdb20d1f75562ecca2e5a3b6e4e311991948469d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_030.sdf.json.gz"
-sha256 = "876453fcb6154d9cd03c8a4d12d69f5e96daea404022b71838b9d386d6593c0d"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_031.sdf.json.gz"
-sha256 = "4f771f82e55fa4c346e5ce943b9e6c3e95e9dbab9ef190ef736d1cfa5961c817"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_032.sdf.json.gz"
-sha256 = "74f66343c5a3f5e3b3fdc67b385697b6ee04811ffaba94f0848596239fac9251"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_033.sdf.json.gz"
-sha256 = "57cd2fa2d91fb818cc30025b4931b94e47669cc4c7f3b680289d2a39bd5a7d3c"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_034.sdf.json.gz"
-sha256 = "a020deda6db953069ca734b274405340c7a98a6b3ccf2f67225afefe2d8a26c2"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_035.sdf.json.gz"
-sha256 = "e1a7c86d3a2311f30f57f501737f19652ad17248cef09fe35dea6d8b7c0f81bd"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_036.sdf.json.gz"
-sha256 = "dd543aa93753efd496135dbb1d4acfb7aec6cb08c46f5a507eda19ca25de735f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_037.sdf.json.gz"
-sha256 = "4d8808d5a44069ada0a5d2fcf2e403ba2fb3d492e771c3241206d29e6b87bdf7"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_038.sdf.json.gz"
-sha256 = "4fa7713db37cb01c5ada80f201407df7e85018c74358e3a195e2f17825069225"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_039.sdf.json.gz"
-sha256 = "94532bd2db34f4c39fba508a13fabe9a5d20c9a84a1186826db755195d4689db"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_040.sdf.json.gz"
-sha256 = "a9ff7b54c97abf6eb0b1eb3bca63a8330ad91dafe3e6c73ccd87eead17ef3efc"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_041.sdf.json.gz"
-sha256 = "9fe0f333b64e26c11aaec520520be4e375cd4865964e7e0bcc96d70e777e8026"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_042.sdf.json.gz"
-sha256 = "2ead55385d657987cca274344d4b386fc14bc271d73c48bb5ae415be304ff7c5"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_043.sdf.json.gz"
-sha256 = "0de04b30b0412aefa22b368a31988d78f264ff8226b0429e90c0c9669d81394f"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_044.sdf.json.gz"
-sha256 = "3ab4f6ab86e447a32f8f2103dc2a64b5102ae309bcb129c87f5b229ce04364ff"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_045.sdf.json.gz"
-sha256 = "ab133439904a15d71179d769d90b0a8bd5d4897d6f3296644d15549992ec01ad"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_046.sdf.json.gz"
-sha256 = "f6666690c396b6daf74ca9daa537ef1b57e2f7e290678eb75c89cec35bd69f94"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_047.sdf.json.gz"
-sha256 = "3b1f5f64e6065916cebf8a2e7b3bb82b1f3d897384340571f24286d3e64a1e60"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/golden/algo.aromaticity.rdkit-like/data_packs_pack_048.sdf.json.gz"
-sha256 = "e9a7ed6dea9f80ef7afd57637ba446cc745dbcbb053bc7b6022665852de31b53"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/corpora/enamine-diversity/sources.lock.json"
-sha256 = "8546d4a529f92387f56eff1a2c4d566ea68f571361cc19802ab838970b82b23a"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/reference/rdkit/environment.yml"
-sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
-
-[[features."algo.aromaticity.rdkit-like".evidence_inputs]]
-path = "validation/reference/rdkit/run_feature.py"
-sha256 = "6b3e539ed3f6dd64fafdbf683edf4e94b4128840760b42c76f949863e0f270cc"
+failed_count = 42
+first_failure = 'validation\corpora\enamine-diversity\golden\algo.aromaticity.rdkit-like\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[655].bond_aromatic[30] differs: expected true, actual false'
+evidence_inputs = []
+validated_at_unix = 1783280429
 
 [features."algo.rings.fast"]
 passed = true
@@ -650,8 +22,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "7263dba98eadbf2dcfd8527413647dd324bdce269a5f4517b2f289979b2ab715"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "15c430ea3c61c79aa62c7f02b789df776cb05c9aa24c57e0dc40aa3e8cf3ff2a"
-validated_at_unix = 1783065779
+evidence_hash = "d804c7d769256ab10b1415adf6c7fb7bfc685042bfbd03ec49502f8d735ce6a3"
+validated_at_unix = 1783280471
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "Cargo.lock"
@@ -667,7 +39,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -687,7 +59,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -703,7 +75,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -739,7 +111,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -767,7 +139,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -779,11 +151,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -795,7 +167,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -839,7 +211,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -1291,7 +663,7 @@ manifest_hash = "624ee87444e3732f2678c389b0f7bcd51951978ce89db1d17068cbe5ac33dc2
 failed_count = 4
 first_failure = 'validation\corpora\enamine-diversity\golden\algo.rings.sssr\data_packs_pack_004.sdf.json.gz differs from implementation output for fixture `data/packs/pack_004.sdf`: $.records[607].rings length differs: expected 4, actual 5'
 evidence_inputs = []
-validated_at_unix = 1783065804
+validated_at_unix = 1783280502
 
 [features."algo.valence.rdkit-like"]
 passed = false
@@ -1303,7 +675,7 @@ manifest_hash = "928357abd1401c6787d8bf394eb0b0673128984d777d68153c5e6d025359f42
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\algo.valence.rdkit-like\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783065855
+validated_at_unix = 1783280561
 
 [features."chem.sanitize.rdkit-like"]
 passed = false
@@ -1315,7 +687,7 @@ manifest_hash = "d6a82aa511e79a9db34dd2dffdf20327d69901f48fd7347181777b34ea61cbe
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\chem.sanitize.rdkit-like\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783065958
+validated_at_unix = 1783280690
 
 [features."core.conformers"]
 passed = false
@@ -1327,7 +699,7 @@ manifest_hash = "400c658a622dc00b49519388f8a4b93a9f4da4ef02f4133b192681dd7a6b556
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\core.conformers\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066068
+validated_at_unix = 1783280805
 
 [features."io.mol.v2000.parse"]
 passed = false
@@ -1339,7 +711,7 @@ manifest_hash = "5cdc416e2dc6a84ebc655a99cfe6394826339c4903bfc4f3006de2e22a616fa
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.mol.v2000.parse\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066205
+validated_at_unix = 1783280970
 
 [features."io.mol.v2000.write"]
 passed = false
@@ -1351,7 +723,7 @@ manifest_hash = "01cd7f1199019ad26c4b708f5243c6e654df20dcf0c073672d4d85bf1cea976
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.mol.v2000.write\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066359
+validated_at_unix = 1783281148
 
 [features."io.mol.v3000.parse"]
 passed = false
@@ -1363,7 +735,7 @@ manifest_hash = "6dbe5b2d73480a1545c9c57566c3ac0880883126fee4fbb0ef0a25f7c213381
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.mol.v3000.parse\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066483
+validated_at_unix = 1783281300
 
 [features."io.mol.v3000.write"]
 passed = false
@@ -1375,7 +747,7 @@ manifest_hash = "da3d155f5acbb5dcafc7c70f3c2752f80b7086f7ca99a52b386ff658a24923c
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.mol.v3000.write\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066653
+validated_at_unix = 1783281510
 
 [features."io.sdf.v2000.parse"]
 passed = false
@@ -1387,7 +759,7 @@ manifest_hash = "1c8f04d9f0f9396dc068c72717200bf1c0aee0c33a7c74a797f97bcc289d0d5
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.sdf.v2000.parse\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783066832
+validated_at_unix = 1783281729
 
 [features."io.sdf.v2000.write"]
 passed = false
@@ -1399,28 +771,28 @@ manifest_hash = "06fe3d481c6905afcb75c794f9f7878b654894ce7fdf6ee03f4ed66b33d6337
 failed_count = 48
 first_failure = 'validation\corpora\enamine-diversity\golden\io.sdf.v2000.write\data_packs_pack_001.sdf.json.gz differs from implementation output for fixture `data/packs/pack_001.sdf`: $.records[3].atoms[4].explicit_hydrogens differs: expected 1, actual 0'
 evidence_inputs = []
-validated_at_unix = 1783067015
+validated_at_unix = 1783281985
 
 [features."io.smiles.parse"]
 passed = false
 fixture_count = 51
-compared_count = 0
+compared_count = 24
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "3428ee712413757e7051f1cbcf9c854a7aba0a5700fdef6190241a5ef08102c5"
-failed_count = 51
-first_failure = 'validation\corpora\enamine-diversity\golden\io.smiles.parse\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[6].sanitized.atoms[12].neighbors[1].atom differs: expected "007|N|0|0|1|0|false|3|0|true", actual "007|N|0|0|1|0|false|4|0|true"'
+failed_count = 27
+first_failure = 'validation\corpora\enamine-diversity\golden\io.smiles.parse\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[697].sanitized.atoms[0].aromatic differs: expected false, actual true'
 evidence_inputs = []
-validated_at_unix = 1783068117
+validated_at_unix = 1783283430
 
 [features."io.smiles.write"]
 passed = false
 fixture_count = 51
-compared_count = 0
+compared_count = 24
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "37bb0e7a9636e87696cbb0a0bc2fdd5f511febdab0859a4d5f275fdb8b8aeaec"
-failed_count = 51
-first_failure = 'validation\corpora\enamine-diversity\golden\io.smiles.write\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[6].sanitized.atoms[12].neighbors[1].atom differs: expected "007|N|0|0|1|0|false|3|0|true", actual "007|N|0|0|1|0|false|4|0|true"'
+failed_count = 27
+first_failure = 'validation\corpora\enamine-diversity\golden\io.smiles.write\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[697].sanitized.atoms[0].aromatic differs: expected false, actual true'
 evidence_inputs = []
-validated_at_unix = 1783068329
+validated_at_unix = 1783283657

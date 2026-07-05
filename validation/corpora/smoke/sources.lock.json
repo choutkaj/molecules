@@ -98,6 +98,28 @@
       "id": "CID:8029"
     },
     {
+      "category": "pubchem",
+      "files": [
+        {
+          "path": "data/pubchem_smiles/cid_5950.txt",
+          "sha256": "42f7943b651863323d016c70571e9d66e928ae96533e4e0710d4151aa4d044b7",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5950/property/IsomericSMILES/TXT"
+        }
+      ],
+      "id": "CID:5950"
+    },
+    {
+      "category": "pubchem",
+      "files": [
+        {
+          "path": "data/pubchem_smiles/cid_5462921.txt",
+          "sha256": "042ba0c10bd409ba50050f7649bb2dc254af5533d25b7f9d751fe69191c2a72c",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5462921/property/IsomericSMILES/TXT"
+        }
+      ],
+      "id": "CID:5462921"
+    },
+    {
       "category": "pdb",
       "files": [
         {
