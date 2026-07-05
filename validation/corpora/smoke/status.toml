@@ -10,8 +10,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "622de6663f4aee8d01a600e62d92e5c947fb9949013571e4ee224948baa64293"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "11001260cc448cb33b1f0319a30d474b1628a570b379722c0248bc3f3f2b37b3"
-validated_at_unix = 1783279252
+evidence_hash = "caccd438fc4848fb9b65fd1ac9398221fb7e11d63489548c7fecd95c75a98b51"
+validated_at_unix = 1783280375
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -27,7 +27,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -155,7 +155,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4e05b5763f266c6cd74a4cbf7c4b82351233b11a047bcb6cb191f625fbe1185a"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -231,11 +231,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.md"
-sha256 = "e4a7fb66a6f6b36afb346914f3b8bcb484bc5b7dd42d8b795871434b8013ef8e"
+sha256 = "d634e117fd527076ca8a6a859e17abc7968eb6ef509e370c7811b8116c383a8b"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "features/algo.aromaticity.rdkit-like/feature.toml"
-sha256 = "e9e33e681d48e75e0b54d16b7012c885d2f8f3ca8da21a8e4b3042dbedd7f92d"
+sha256 = "e1b52840c2117d5016420ad10e2e0c201097630cdbd36064a0201010596cc693"
 
 [[features."algo.aromaticity.rdkit-like".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
@@ -298,8 +298,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "acf2991cb9d4046f491dc0a67d2d012e5c2dd4b6c41e89c360e4a2a71f1794e3"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "f09bd4d6178426d8eb4c3a210ed27ac7cbb5dd2ef7f0bbbf825633f4d63d89fa"
-validated_at_unix = 1783065743
+evidence_hash = "e47c966428f0814cdfe8527948615fc3b7c3a64bad6f118cae7f3579941255e6"
+validated_at_unix = 1783280429
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "Cargo.lock"
@@ -315,7 +315,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -335,7 +335,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -351,7 +351,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -387,7 +387,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -415,7 +415,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -427,11 +427,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -443,7 +443,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -487,7 +487,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -586,8 +586,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "515f19ce1773c24bf29935831abf8319d47a8e562c5eebaa963d3a9a1664ce07"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "388d70a96ca01a0135e3bcf7833189f30f871b225db61ce30d902c285647ec67"
-validated_at_unix = 1783065779
+evidence_hash = "9f75225a0740c59ac3eb44126ab9f9147cfba07ef7127440ded4519380ee7313"
+validated_at_unix = 1783280471
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "Cargo.lock"
@@ -603,7 +603,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -623,7 +623,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -639,7 +639,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -675,7 +675,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -703,7 +703,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -715,11 +715,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -731,7 +731,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -775,7 +775,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."algo.rings.sssr".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -866,8 +866,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "04dc04043c9010535cb899beae535bff6a8aba790d27de045cb3c8ad87e953e3"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "0ab104342a31991947795d791ec2bf233ae6d29d389c760714250d3d387a107a"
-validated_at_unix = 1783256987
+evidence_hash = "20e307d2e601b730ce19f2dd89b85754e5018121d89e52ed46bf92a609bad91b"
+validated_at_unix = 1783280502
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -919,7 +919,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -955,7 +955,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -983,7 +983,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "d71f5ee66f17525edb6e8df9c27b95dddbb2858fedcda3c0df29bb2e14d3d68d"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1011,7 +1011,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -1055,7 +1055,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."algo.valence.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -1146,8 +1146,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "d4a2d8baec824b0e2ad11239c7f144486424b05e509aa18da25b196798720bc2"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "5633d255e49f125a77ac416d3ea5c65eec5f21fd0fbbb0d276be85be4da068e0"
-validated_at_unix = 1783065856
+evidence_hash = "99610791323c2f42a4715482680f67dffdc06159783c2a933753d9a7139a64b6"
+validated_at_unix = 1783280561
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
@@ -1163,7 +1163,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -1183,7 +1183,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -1199,7 +1199,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -1235,7 +1235,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -1263,7 +1263,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1275,11 +1275,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1291,7 +1291,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -1335,7 +1335,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -1410,8 +1410,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "04822f255783cbdfb3fe904ac582e39e1a7f94f8809f8306f938b35a21f3a0c2"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "18e76f8c59eca6a6dc05d4d91af6f127d94a3af92a337973c83afecb5b72debb"
-validated_at_unix = 1783065887
+evidence_hash = "ef8285c7afe5bfbf7eeb104736a0a4dc8eec2ff167d5b7dbd07cd00a86815bc1"
+validated_at_unix = 1783280604
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "Cargo.lock"
@@ -1427,7 +1427,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -1447,7 +1447,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -1463,7 +1463,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -1499,7 +1499,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -1527,7 +1527,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1539,11 +1539,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1555,7 +1555,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -1599,7 +1599,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -1631,11 +1631,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "features/chem.sanitize.rdkit-like/feature.md"
-sha256 = "27c2635efbc75fb205d1672f6e0d77871ef0dc341c7e6be82ab31dfbe2827425"
+sha256 = "17a02ccbd1416d8c0fa7aaa4bd49372c70f39513d52c27061cbaceb465f71193"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "features/chem.sanitize.rdkit-like/feature.toml"
-sha256 = "dcadfc84a52507f935c0332ad836967d406d65140255e7d96c77d84c6eeda1b1"
+sha256 = "e4cce859470854baf9de8fe8ef3f9cd4f002d7ebe10012805f33db952450f97b"
 
 [[features."chem.sanitize.rdkit-like".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
@@ -1698,8 +1698,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "797f58335056acacbf58affbb1c2bfe854cfca65cee8646d5dabee29ed9d20f2"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "0449e8ddb8d8e0cc9230152a25e481fa0bd7de4e832a618e13ecb6f02ae070e7"
-validated_at_unix = 1783065958
+evidence_hash = "665328bb812f11852015e570260ae65784a45422b3870b6fae0b9cda88b5011e"
+validated_at_unix = 1783280690
 
 [[features."core.conformers".evidence_inputs]]
 path = "Cargo.lock"
@@ -1715,7 +1715,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -1735,7 +1735,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -1751,7 +1751,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -1787,7 +1787,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -1815,7 +1815,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1827,11 +1827,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1843,7 +1843,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -1887,7 +1887,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."core.conformers".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -1970,8 +1970,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "20c019b3459f23984e5eaba4c419d64f14ac8423248b6235c0b69055cc38bdce"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "b387fc66d921da6ff2ccc60684de55bc6178bece1e924b411b18ad857c4be255"
-validated_at_unix = 1783066068
+evidence_hash = "42e411304b1d5571e81ddc4e0c0bccd6bbae1a07ffc3eb2ca3be60827fbef331"
+validated_at_unix = 1783280805
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -1987,7 +1987,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -2007,7 +2007,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -2023,7 +2023,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -2059,7 +2059,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -2087,7 +2087,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -2099,11 +2099,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -2115,7 +2115,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -2159,7 +2159,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -2234,8 +2234,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "4771d4e793478ed1b0e4295a6b76dd8525d46fb2c183687cf0d703e0f89654e6"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "70f44ced976fdf0bf6f0f91e590388683b71f964d827cc612c8d939f4c7bad09"
-validated_at_unix = 1783066100
+evidence_hash = "0b813b672e90c5344b1924948c30dbe0523e7238849774467981a43881fb9247"
+validated_at_unix = 1783280842
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -2251,7 +2251,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -2271,7 +2271,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -2287,7 +2287,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -2323,7 +2323,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -2351,7 +2351,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -2363,11 +2363,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -2379,7 +2379,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -2423,7 +2423,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.mol.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -2506,8 +2506,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "887d188bc44b22c27e82c7e0b3adcd3ccf8abcfca221ac5a9b3daa8fd25de245"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "a5e5f9780d886cb520fcb497afc956e0a1254b0ebef2c1d8db08c6b0ba05bae2"
-validated_at_unix = 1783066205
+evidence_hash = "bb4fdad1af75554335b4726afc9c034872118db4d8eeec40fb1fda686f830ed1"
+validated_at_unix = 1783280970
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -2523,7 +2523,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -2543,7 +2543,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -2559,7 +2559,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -2595,7 +2595,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -2623,7 +2623,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -2635,11 +2635,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -2651,7 +2651,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -2695,7 +2695,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.mol.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -2778,8 +2778,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "7c790741fcf3d9cc009b10482a69db8ec63387cdd06d3565ec00402ad0694c83"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "3efb3efb719da5a83f93877eeabd79d6325dc2767bd25b3fe7e27eff01e3a5ad"
-validated_at_unix = 1783066359
+evidence_hash = "76f9e58891383caeb15e12f5ba73130204658910523064b776210dcafd3f017e"
+validated_at_unix = 1783281148
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -2795,7 +2795,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -2815,7 +2815,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -2831,7 +2831,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -2867,7 +2867,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -2895,7 +2895,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -2907,11 +2907,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -2923,7 +2923,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -2967,7 +2967,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.mol.v3000.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -3050,8 +3050,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "50b6b54a02a8f52fe71ac45d9661db6b3bb9249918a8fd60d8aa52dd8bd0a177"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "b0e13c082040ef41f2d9dc63924806077ae582ba673f8bd6bd75d0512b428d0c"
-validated_at_unix = 1783066483
+evidence_hash = "a847e56f53f41638358e2b89f3fb68ad6d685cbab49e4c76718d41077243e815"
+validated_at_unix = 1783281301
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -3067,7 +3067,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -3087,7 +3087,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -3103,7 +3103,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -3139,7 +3139,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -3167,7 +3167,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -3179,11 +3179,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -3195,7 +3195,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -3239,7 +3239,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.mol.v3000.write".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -3322,8 +3322,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "f0e764738b018d3ef6bb1c63ee0f4b5ed9e3f3fccc4551c868c94f05522161c3"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "78fd2a9f86d520d107cfb4c4271537e1dad32bc13bca4e8fbe5d343ef7b2c91d"
-validated_at_unix = 1783066653
+evidence_hash = "d1dd6090dfb5a87a8df6161595698c9141fa6fe4cff1ebfd6154aa1e8b77fc1b"
+validated_at_unix = 1783281510
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -3339,7 +3339,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -3359,7 +3359,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -3375,7 +3375,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -3411,7 +3411,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -3439,7 +3439,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -3451,11 +3451,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -3467,7 +3467,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -3511,7 +3511,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.sdf.v2000.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -3610,8 +3610,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "ca9828d09c26c021d576e81b64dfff40e190aab32971ffd73b85a56edeedebc4"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "b9d324038a8edf99cf426437e506e6739a9e64e951dd26de9cecd1123bf44c16"
-validated_at_unix = 1783066832
+evidence_hash = "04842dc8e4816e43ed006c386be30ba994d5012325601138a38c8667b9c52f9b"
+validated_at_unix = 1783281729
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -3627,7 +3627,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -3647,7 +3647,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -3663,7 +3663,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -3699,7 +3699,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -3727,7 +3727,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -3739,11 +3739,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -3755,7 +3755,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -3799,7 +3799,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.sdf.v2000.write".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -3890,8 +3890,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "ae24c68d132efac1d5866290931db8a1dea1fd77a81f10df4cf41141774caef9"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "fa6c05a83d9c009d644f6aef7377d32577ae45c3af511c333217225f0140df95"
-validated_at_unix = 1783067015
+evidence_hash = "79074670005a5e5c57ca389abce5066ea966d1e8309a578bb7f7ea6e37c9bd9c"
+validated_at_unix = 1783281985
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "Cargo.lock"
@@ -3907,7 +3907,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -3927,7 +3927,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -3943,7 +3943,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -3979,7 +3979,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -4007,7 +4007,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4019,11 +4019,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -4035,7 +4035,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4e05b5763f266c6cd74a4cbf7c4b82351233b11a047bcb6cb191f625fbe1185a"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -4079,7 +4079,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -4103,7 +4103,7 @@ sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/progress.rs"
-sha256 = "f6ad1f3759a8a16d02e71035501160ad32e91127e9d76cf803bc651bb384d6c3"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
 
 [[features."io.smiles.canonical".evidence_inputs]]
 path = "crates/xtask/src/validation/status.rs"
@@ -4162,8 +4162,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "70ef344719f0d5d58d800c9f61b0ad5c0d1bebc217deba836ba3d16083bd38fc"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "eb8a376168642e9b10b71147fe3cabe015a587a4e532b0316d61b04b1e54e8e5"
-validated_at_unix = 1783067578
+evidence_hash = "5ce7275d7f750e58e82f9fdf762de5419b5d38fd6b6430d205603a71520b1099"
+validated_at_unix = 1783282716
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -4179,7 +4179,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -4199,7 +4199,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -4215,7 +4215,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -4251,7 +4251,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -4279,7 +4279,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4291,11 +4291,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -4307,7 +4307,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4e05b5763f266c6cd74a4cbf7c4b82351233b11a047bcb6cb191f625fbe1185a"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -4351,7 +4351,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -4375,7 +4375,7 @@ sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/progress.rs"
-sha256 = "f6ad1f3759a8a16d02e71035501160ad32e91127e9d76cf803bc651bb384d6c3"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "crates/xtask/src/validation/status.rs"
@@ -4383,11 +4383,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "features/io.smiles.parse/feature.md"
-sha256 = "f92609e1ec4b70d2e4edbb0199b1b790d94cf51fb2aea5e84f7da4784a41d4ff"
+sha256 = "51075d6e6542b76da9b45a1f73c09bdeb3224a3d43c6231b89969effc3f574bf"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "features/io.smiles.parse/feature.toml"
-sha256 = "13e6c9985f1ae29b82f6177ff98090bf3a6172ec61326cb23de3204b3187d754"
+sha256 = "cf5d532ee844b9f51f3b51a9a089a8595126572ceea5c8421e6b6ac9f10444a9"
 
 [[features."io.smiles.parse".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
@@ -4466,8 +4466,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "0e1562d8fa6fbd605bb44621eeba87248321a7a5147c4c0dcab494d2f885ea20"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "fba2d0078a52814b5b7b10a98554b27217b8372b820982b63831932b2e67d0ce"
-validated_at_unix = 1783068117
+evidence_hash = "f8341f4acea6b9a2b0b298e5617696814a7c7bec3c090f6e277b059549cf2ec8"
+validated_at_unix = 1783283430
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "Cargo.lock"
@@ -4483,7 +4483,7 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "9c579653a445546d0076762d785262f04868b6e4608b9739c8c8c4fc4d582543"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -4503,7 +4503,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "43352c81567c4b3d5ee7340f0a82a530a65bc39e3d8860e6bec4e868376ccf0f"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -4519,7 +4519,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "e1d2c2c5d232684e5f9ff55bd4c08362f1ea148213a306955367eada5a1e70c6"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -4555,7 +4555,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "0fe405b0db98c2dc67d4713577804e56ca40e46913f18870814d8dc2f9408d97"
+sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -4583,7 +4583,7 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "2687251fd4113dad0ec000786b4060c4cb0279b27c2e1d85727ad1e42f296c06"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4595,11 +4595,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "17c5bf7e974391d4b63f2a84bef98c125ceeadc0e9012557b8d33ddd6b037842"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "9eea8d8be2376b876f925d048bcf46c2a0740aa34ebd9d22c7e814087c0fa2ff"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -4611,7 +4611,7 @@ sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4b4c9057b8d0cc361472f4694ba0ed44f49dadc886b7c19a3532a3d99a9ef1da"
+sha256 = "4e05b5763f266c6cd74a4cbf7c4b82351233b11a047bcb6cb191f625fbe1185a"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -4655,7 +4655,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "f167435872eefa1bbc531361930abb9b5c0bf3c773eb318e722bb9760c6d6392"
+sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -4679,7 +4679,7 @@ sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/src/validation/progress.rs"
-sha256 = "f6ad1f3759a8a16d02e71035501160ad32e91127e9d76cf803bc651bb384d6c3"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
 
 [[features."io.smiles.write".evidence_inputs]]
 path = "crates/xtask/src/validation/status.rs"
@@ -4744,3 +4744,271 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 [[features."io.smiles.write".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
 sha256 = "6b3e539ed3f6dd64fafdbf683edf4e94b4128840760b42c76f949863e0f270cc"
+
+[features."stereo.representation"]
+passed = true
+fixture_count = 2
+compared_count = 2
+reference_tool = "pubchem-manual-semantic"
+reference_version = "PubChem PUG REST 2026-07-05"
+manifest_hash = "01f30a37f7fa913a85fd3bdfbcc051d292a6fc4a84bed433d3b491cea8bd6604"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "e1adc662f15935eff4cbc2453fd96e6863cdb0f819de597cb09dccf58c5e7460"
+validated_at_unix = 1783285116
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "7bfc7dde0335a5bcae1e8966125082fd20741ba116604a5ef3ee93ed7f2ebb8e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "b6903623f368bd187aa4f878295d00665032da1597f67a86a9c487cc8c59e157"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "7c53aff0342faeb3610791a676ba802785ea2dc23c775cdcae96f10d8188e833"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "6771b22955e53e3d10bce3f29fc99801cee75beccb8118eef4965bf7cfad0f43"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "571480fdb7390539f3cd03fe19fc1311b72bb8134f9c2b29030c2ff25a615a46"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "6ed17336233cdfc0ff40cdefcce6ab1f2a4ffb6a3fc2d5e60704068205779c01"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "6eba8c6fcd0496fb99aa1cf990b8b9e878dca95dd47d6ce9e8ae89ad3cbf2e5a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "9cc0447402c93f3502fbd47249630b9891c0ee8b5615b089f552f699300655ee"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a3a8b5370bfea884363b623f2f8bd39d42b685ac8cccbd4b7c8a2fece4b166e7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b6803b4436df459b5d0f62c57c06d47dca84cc68e4329b5a71efa2dc4683b5e5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "c449207998f299e668d9332376dc8776783d5e7c19c627f5aeba31a6dfe07dbe"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "34a73995b7fcaccc5b32fd676320017272b274dcb3f74ee81be6f92a062be0e1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.md"
+sha256 = "2c8168d6d294fe54a25cc873ddc4f4a19acbec5c7403d990d68ab80a032eea1c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.toml"
+sha256 = "0004b672a7b2ea07d3f9d970705c1616b553a6daf33e5e38c5eb160e3d3af2bf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/corpus.toml"
+sha256 = "2ef17cb72b36f6d3fd655d18a2001ee008c8bf3c40c3c0d9afbcfefca3e07601"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/data/pubchem_smiles/cid_5462921.txt"
+sha256 = "042ba0c10bd409ba50050f7649bb2dc254af5533d25b7f9d751fe69191c2a72c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/data/pubchem_smiles/cid_5950.txt"
+sha256 = "42f7943b651863323d016c70571e9d66e928ae96533e4e0710d4151aa4d044b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/features/stereo.representation.toml"
+sha256 = "25b3f7462a8cde6bfd56f5b22d846560e347794bf3042ce5cf713d950029b2a4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/golden/stereo.representation/data_pubchem_smiles_cid_5462921.txt.json.gz"
+sha256 = "f350c4f19ad956d4c26ce8908f9db2ad32073b1c210558ca900bfb4e8513eb46"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/golden/stereo.representation/data_pubchem_smiles_cid_5950.txt.json.gz"
+sha256 = "9b7624d0e69d0b09e9362c6617dc219d7a62e8c3c71bba65fe605d1f602e1ce1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/smoke/sources.lock.json"
+sha256 = "783cbf4d96aa1e1c9e5df5e3e8325d0774be566e0ee9371415a9aa3e2cef0d76"
