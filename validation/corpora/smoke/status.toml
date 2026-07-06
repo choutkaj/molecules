@@ -4762,8 +4762,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "9149172bcce462eeb4748bbafbafbe9f50a8453556083213d9614d5f0ea2dda3"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "73b0065cc97ee1804eb382c3a499fa70c04f41ecdd7af4923af43c3eeb225456"
-validated_at_unix = 1783334640
+evidence_hash = "5e39110d29c52dc2a60799a17babb37b1c60f86490ebe5b8699b04bccd65fded"
+validated_at_unix = 1783342518
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -4787,7 +4787,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "279ab67f1b4a451b873544c78d4f56106d2933ec4f299b8c50bcd083a00c7d85"
+sha256 = "a63be4d5b4ce18928fdec352b8a235f12514d5841deb53e47dd160236b053f7e"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -4895,7 +4895,7 @@ sha256 = "47484806277a3adeb250f3b72f89288ceb8e20c7a99821c7f186109b0213b69b"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "fd5446a8e6f2dbb5164184b53767135a772b2a2b442db40cc70b8a47da254496"
+sha256 = "888c652a69680621ef7e2f02c84ba8693da5dc0833e74161575ec33ccc3d7cc4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4999,11 +4999,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "dca2660be7839ba3f229edce882858186c50862dffc6786616f6519b20241f58"
+sha256 = "1ae85dd03857da5c9562076833e2e1b24843e967536348d36d5850a207792874"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "1fc54c6b97a2a5b87b7a8bcd6dcb5a06488ee2ca33994299a18ebf857fdaa9e4"
+sha256 = "b75c2296ecd1d38c333c7c35755046fd5c682fb39935ebd8b2c427b7e674b8da"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
