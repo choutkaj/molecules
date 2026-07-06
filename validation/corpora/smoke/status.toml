@@ -4754,8 +4754,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "5717aec3b89d558cc9e7cade974000cf8281d4c2649109ae4856426a804cc728"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "5f67f12df1b05112860f60c0284f403af1d19ef9ae19da22fc3aeb8830b1bdbb"
-validated_at_unix = 1783286288
+evidence_hash = "39926f931ea3f86968c8f55d400553ef50f63bec6a0f583f5cc64d6f7bee8ac8"
+validated_at_unix = 1783329589
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -4791,7 +4791,7 @@ sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
-sha256 = "a05d8b527f7309efdd11223a1bee0c635c8616c33754a7d618626b5e9eff30b1"
+sha256 = "27ce3d03722ed5ad786718e19405c0e7ae72b95af7c7c9094c01dc927d3ede79"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
@@ -4895,7 +4895,7 @@ sha256 = "acec72538bafcc4b1e1c24b0d1ba4cbcf49e1fdd5de28e24e15879cf15981cf0"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "2e01a6eeff9b481e1dfb3b611d6204e8bc79b20d809a6866da5d666a0d72aefd"
+sha256 = "69764c924b69cca5021bcf1ee0af6e277d4835d3f83877d08740cde93e361aa2"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -4939,7 +4939,7 @@ sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "65108b4bd592334e2ab4817ad6e03378dc7af3f7d77dd6345854528144b56c6c"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/skills.rs"
@@ -4963,7 +4963,7 @@ sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "363a291f7b5153f16493195b8a07de3af06b3c0ba8a6a9cf0fc412b067bdf703"
+sha256 = "5b5076c5685df98d658effd07de67fc3ac8ff24087f660b16fec1f452d0f4d19"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -4983,11 +4983,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.md"
-sha256 = "0907e7403c81f583835548b5ae0cccf6a20aeabdeeb8fc2d128ae268ec4b7003"
+sha256 = "51062829acbc1c573f1c988f2080173ee550c51349e9d20371ffe0d78df6373c"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.toml"
-sha256 = "bada67c3ad91647892cabf7c5f46024f422e54cced55ff8de9ef2908d5c71af6"
+sha256 = "0410e1728d4887f28a432954fc3fc12c33b8aeb4d76e80e7bb1b68c56203179c"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
