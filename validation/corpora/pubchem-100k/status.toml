@@ -8532,3 +8532,15 @@ failed_count = 94
 first_failure = 'validation\corpora\pubchem-100k\golden\io.smiles.write\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[450].sanitized.atoms[0].neighbors[0].atom differs: expected "006|C|0|0|0|0|false|4|0|true", actual "006|C|0|0|0|0|false|4|0|false"'
 evidence_inputs = []
 validated_at_unix = 1783283563
+
+[features."stereo.cip"]
+passed = false
+fixture_count = 100
+compared_count = 77
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "4843530cc3f87576d6342e2e3fac9d8f6dff8587ddcffe08cd99d104e705fc65"
+failed_count = 23
+first_failure = 'validation\corpora\pubchem-100k\golden\stereo.cip\data_packs_pack_015.smi.json.gz differs from implementation output for fixture `data/packs/pack_015.smi`: $.records[159].atom_descriptors[8].descriptor differs: expected "S", actual "R"'
+evidence_inputs = []
+validated_at_unix = 1783505634

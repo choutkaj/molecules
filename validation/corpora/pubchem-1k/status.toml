@@ -5050,8 +5050,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "3bd518734674d9e5a220b12f79689fe5f4b0034ee45c4329bce228062e59b665"
-validated_at_unix = 1783504157
+evidence_hash = "7508c08f29161dd91e617a7f1c81216c1920326a510bede6d68e9d1071ce4736"
+validated_at_unix = 1783505468
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -5255,7 +5255,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "c449207998f299e668d9332376dc8776783d5e7c19c627f5aeba31a6dfe07dbe"
+sha256 = "174e834d893137eb742e9f058c0c02ee02249b3b019a5052fb04994250da90b9"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -5267,7 +5267,7 @@ sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "7eafea6efb2c7c3829a2d808ff6f649b7ce20865c8711aacbf72af64e3d66f1a"
+sha256 = "f198542b570697983823cd3391a7f755a91cbdc14449469c2fb46df653001c87"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -5287,11 +5287,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "e98ef09f47a0d4c657571a5606b74d6596b951b556a890ff39f64bb9687066e2"
+sha256 = "cbce1d406dc68f86a710849a4da230b72007e6de3851a0b756168d36c64c8003"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "2b95b4db9a66cb2d321a2ce6acf43d0f8430be68785e088c1e1e6bb8e6405897"
+sha256 = "35c3614980070bb3f7c9315ddc57309f035e6f4c434ff0a6e9248ee2c5950dad"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
@@ -5343,43 +5343,43 @@ sha256 = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_01.smi.json.gz"
-sha256 = "d4854acc8ba216ab2c5392d696e7a261cb66c7f578c9b10e4ee80e586287bd25"
+sha256 = "b37b85857eaea7bc5a1760521ffe89f564b24bcb13383a7ab060bfe01d3c6801"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_02.smi.json.gz"
-sha256 = "9d5a8549c054bf41ae3317fbd8ca28d182dde0645dbc1b0235bdfa164ce2feb9"
+sha256 = "d1b40a26493c4b76cfb67efd4096d81a95300d12aa8d86ff554873c011e090d1"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_03.smi.json.gz"
-sha256 = "fbe52a237428a60a100843ac4336f29136e338c6c5d62e83ba9124c6ee11c0c4"
+sha256 = "783ff14857936518dbd60a886cabf97f8c4ef03d8a3c3ad1c77f1af3ef0d6b5f"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_04.smi.json.gz"
-sha256 = "df60ca2b2e7e1265a6da13c77ffeffeb0d65c6ce810b512ce366abd3a840e4c2"
+sha256 = "84555d6308844383a349d118b2e4d99749b74ce135b16592ae2902c3d0781b4d"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_05.smi.json.gz"
-sha256 = "007840a9a4cfd26da4e4c7c5e076ec0ee8c5312d6b3abc109bdf7765ed8de554"
+sha256 = "a0b6f3fba29c10a1fcac22d7dac121539802778b433efbfb04bd1f32314e4c80"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_06.smi.json.gz"
-sha256 = "7bc2623a6d895d924d1e5cf5500bb384f537b75e8adb52d87e718212b65c3e1c"
+sha256 = "37d1c0c29d79b4f7161c8e871262e92139c6fa6e10e903648597942c5fa65704"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_07.smi.json.gz"
-sha256 = "11608e0feb8cf0f15726e35dd87c8615b91d406bee1e6795ad4ea5f09bbba0f8"
+sha256 = "7f846fa7e908864e30257a8036f49bf97c58b33783cb8663f5a25aeefae68b2a"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_08.smi.json.gz"
-sha256 = "650322ec78b02b42ce2c363322b3fb417432069c6178c2aee2c483104e9bacfd"
+sha256 = "e875bb929cdebf33c9618f202941f23d2e370937ac3cd1bd2eb68676d5db63ec"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_09.smi.json.gz"
-sha256 = "a6c7b1f24c02bcf36134daf203870312577ac6fec89ab2bb840ce05f4a342491"
+sha256 = "8d32666c6354c281f8887a8a9a52f1256a8363777c84e889936725b03a9b04b7"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/golden/stereo.cip/data_packs_pack_10.smi.json.gz"
-sha256 = "94ee2a96264762ed02817b2dfd73f923e27bb9e18978ac7a8ab44159037f64ef"
+sha256 = "441dc3164838350b7f5330156354e80d4c55eddb71e30bca82384082bb663b2d"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/sources.lock.json"
@@ -5391,4 +5391,4 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
-sha256 = "1802f804ed4313012d0e8550977fceb3a6d4e451277a63d6b0360d6e5af45090"
+sha256 = "c5f9816754753c830a451e70d347f701a0b4fbaf6fc280b4bc9e953c2f8c3fc6"
