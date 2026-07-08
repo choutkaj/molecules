@@ -5392,3 +5392,691 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
 sha256 = "c5f9816754753c830a451e70d347f701a0b4fbaf6fc280b4bc9e953c2f8c3fc6"
+
+[features."stereo.perception"]
+passed = true
+fixture_count = 10
+compared_count = 10
+reference_tool = "pubchem-manual-semantic"
+reference_version = "PubChem PUG REST 2026-07-05"
+manifest_hash = "5820cbef749f35f9aa7f128d73bf264828ecd1d12b7285f34f3488c1c75a0bdf"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "8a734a8e1b5608234d1ddbeff4e5d1ec9f9ecc63253985fdfa3521e5b751848a"
+validated_at_unix = 1783536698
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "8099cb5be5e7321512d4cfcaf91160ca6eab6f8a4eb802a7b39665a130c38334"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "e78833ed1622285564e1838b9fc97ab6539e20f5ea16425c0db39153ae9fff8f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "61cedd064682b73b435b8d9333cdadd7e9398146b85b134a7c8fedcbbc9b6837"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.md"
+sha256 = "0a3a3ebbd777f3520123cf5867f49c693190fa5d25e4abb04dd3b7a4e1359a15"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.toml"
+sha256 = "663467f9ea15d083230c578e0a7d14e45a39da55b90d488b523626bddb2696be"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/corpus.toml"
+sha256 = "ea2915c3f5cde40233cde77105f8a89d6f45b9b96855acb363f07247da89ffae"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_01.smi"
+sha256 = "0f4e5fab4bc387dc4670474a78429026df3d8b8d7fa2ca8d55995addf4a1f68e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_02.smi"
+sha256 = "891eef99d7f139f6bb1ed12cc90e18ebf99fb1697fa962432166d4ae3cb7a862"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_03.smi"
+sha256 = "47935b57e770fef91999295bcc2cd4ff06a7f3e5e33993eb01f6131343862ec7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_04.smi"
+sha256 = "751b94566cd7d233f7ac996076f755c49a36258f938b288c5d55209b7c6e041d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_05.smi"
+sha256 = "a62ac895f819e4c8f8e4136ec74a76184c43825781413f9750b58d14b75fa8dc"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_06.smi"
+sha256 = "b1e0140e4df1edac8c2cc561158ac57d63a84a357eea6957fb67e13f439dd388"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_07.smi"
+sha256 = "320a9a9eb3f8cf446108ad7aa24a63aac0b78219488b8bd7883916b3de4ca90c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_08.smi"
+sha256 = "e4c52a91c8c33653adb8a209542774d30a05f855f6a7f804e16775a0c64b758c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_09.smi"
+sha256 = "045ba0c0526fa20d1eaf5a727e6a384429f6cccc441ac48c67cbff045cfdbace"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_10.smi"
+sha256 = "9cac28d9b113285b59fabc95dcc0c17ec9e560a6c7842a0dccb0ce96b8ffcb44"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/features/stereo.perception.toml"
+sha256 = "5820cbef749f35f9aa7f128d73bf264828ecd1d12b7285f34f3488c1c75a0bdf"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_01.smi.json.gz"
+sha256 = "e46532d4be814b52e7df473e4e8388a68da1dac760c87ca9fdc068d70705e234"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_02.smi.json.gz"
+sha256 = "760672edb130468738e3236cbce0ab7b1b6827a5cddaa4807d8041529835b542"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_03.smi.json.gz"
+sha256 = "e064102eb9334a4209a3b16cfbaf106de1efc82a987df3ba2d1cc01e1622581f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_04.smi.json.gz"
+sha256 = "b884e8d9961076fabc1be2b21bcd443f4baa8bd901c3282e2b0c006737d0da33"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_05.smi.json.gz"
+sha256 = "2e7c3077fe9a9a956f1513cd237b7b63a27777a797ba187b94a11831c26dee4b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_06.smi.json.gz"
+sha256 = "f4aa2e6ec62ec17076eca9848ab0082d9c11703960798d2c37817c76e729c97f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_07.smi.json.gz"
+sha256 = "21bc3c7483b09765143227c39eb7cf0b5e3bd130008b9a4613662025b6455e3e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_08.smi.json.gz"
+sha256 = "86bf982dbef69439c8ffcb69c84b6d49742310b013d29e0538d9e9c2cf588f23"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_09.smi.json.gz"
+sha256 = "ae2c97a94ad9016afc8078d9ec15677f3a37f5759250ddfcda2756c55f29c12c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.perception/data_packs_pack_10.smi.json.gz"
+sha256 = "7510163cd23b757baf30ecdb159c5378b1fb982605d532e22a4b017b1f130737"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/sources.lock.json"
+sha256 = "f07c0d95693d619f9a662b893bc1ff45d487bf31514ab0e3d487daeee7f7f139"
+
+[features."stereo.representation"]
+passed = true
+fixture_count = 10
+compared_count = 10
+reference_tool = "pubchem-manual-semantic"
+reference_version = "PubChem PUG REST 2026-07-05"
+manifest_hash = "f3f3ac094615bc9a9bf70b77f3d3486af37093e41f072f16233cfed16a06989f"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "a44a3d3d48bac34fa9a6b599ac3e2ad752ff553ed00ed654dd856d972e1e823b"
+validated_at_unix = 1783536689
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "8099cb5be5e7321512d4cfcaf91160ca6eab6f8a4eb802a7b39665a130c38334"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "e78833ed1622285564e1838b9fc97ab6539e20f5ea16425c0db39153ae9fff8f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "61cedd064682b73b435b8d9333cdadd7e9398146b85b134a7c8fedcbbc9b6837"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.md"
+sha256 = "41e92f08d51060cfdd78c5308fe34a67cde79ddd5833ee779118d4ee16eb616b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.toml"
+sha256 = "1614bc31db148b8e049a9efc5d7774c8a0864be990b2ac0f2865399d2dff7efb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/corpus.toml"
+sha256 = "ea2915c3f5cde40233cde77105f8a89d6f45b9b96855acb363f07247da89ffae"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_01.smi"
+sha256 = "0f4e5fab4bc387dc4670474a78429026df3d8b8d7fa2ca8d55995addf4a1f68e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_02.smi"
+sha256 = "891eef99d7f139f6bb1ed12cc90e18ebf99fb1697fa962432166d4ae3cb7a862"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_03.smi"
+sha256 = "47935b57e770fef91999295bcc2cd4ff06a7f3e5e33993eb01f6131343862ec7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_04.smi"
+sha256 = "751b94566cd7d233f7ac996076f755c49a36258f938b288c5d55209b7c6e041d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_05.smi"
+sha256 = "a62ac895f819e4c8f8e4136ec74a76184c43825781413f9750b58d14b75fa8dc"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_06.smi"
+sha256 = "b1e0140e4df1edac8c2cc561158ac57d63a84a357eea6957fb67e13f439dd388"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_07.smi"
+sha256 = "320a9a9eb3f8cf446108ad7aa24a63aac0b78219488b8bd7883916b3de4ca90c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_08.smi"
+sha256 = "e4c52a91c8c33653adb8a209542774d30a05f855f6a7f804e16775a0c64b758c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_09.smi"
+sha256 = "045ba0c0526fa20d1eaf5a727e6a384429f6cccc441ac48c67cbff045cfdbace"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/data/packs/pack_10.smi"
+sha256 = "9cac28d9b113285b59fabc95dcc0c17ec9e560a6c7842a0dccb0ce96b8ffcb44"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/features/stereo.representation.toml"
+sha256 = "f3f3ac094615bc9a9bf70b77f3d3486af37093e41f072f16233cfed16a06989f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_01.smi.json.gz"
+sha256 = "adb57bc54b77aca890db9366868f4ea0d04d56808af30cf3347d08e9fb09ac0e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_02.smi.json.gz"
+sha256 = "28ff50f857367db96d10ee01787c86e5d073602fab92755173945ce5982560da"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_03.smi.json.gz"
+sha256 = "6567479fb56b60587f598b3c4d9adecef10df764816ee5379b421de49e67b7a0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_04.smi.json.gz"
+sha256 = "9fa6681db83752f54a8571484a2401a934fe2aea284c470736c3b8ae1e7ed63e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_05.smi.json.gz"
+sha256 = "46f8a5a9c2de4a11649eb0c07b284842c943bfc4f8181696e30cf102fb44ea25"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_06.smi.json.gz"
+sha256 = "213a21bc6411659719a6f3137e6fe9cec2cdb28926a152474fcb80e171285000"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_07.smi.json.gz"
+sha256 = "bb14ae5cbcdff86f1e02929951273b6cb766d7c9ed52bc34f1b3da30ed1188f0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_08.smi.json.gz"
+sha256 = "0c3fea1a52495f80c51fdf3c07cb0916f68bf2fe036b2d5647440ba05ea99752"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_09.smi.json.gz"
+sha256 = "ed9d97c632e4865d4431fa2bf809b420b1bf61c9b271ef17dcc6ab53348267a8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/golden/stereo.representation/data_packs_pack_10.smi.json.gz"
+sha256 = "50df49102e5c0608dbfffc09eac16192f94115f0ae5d45e560dc5a2f54c0d58d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-1k/sources.lock.json"
+sha256 = "f07c0d95693d619f9a662b893bc1ff45d487bf31514ab0e3d487daeee7f7f139"
