@@ -4810,8 +4810,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "7fc9221fafcd7180c140466bd63533f8368442e0452ce0e293b9de9409d1e9b0"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "47d613936cf0ebc9e6454d06451323c1f35f2d76f80678a0a8c16aace5ae2a8e"
-validated_at_unix = 1783510823
+evidence_hash = "d34030b2c56e1ad078f0fd8a11fbbd7ada6922c1330e543cd7f6746f12b03b25"
+validated_at_unix = 1783512257
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -4835,7 +4835,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "776de6a9e4cf39350efe2b0bc164af0f5f830bb106f9338b4f4f9b210c257380"
+sha256 = "d044fa839e8b2986641b37f5289c989ce06441f5431e942bc47d9c11252bf83b"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -4943,7 +4943,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "a2d8f883689b82fd80de2f895b68ad3e1d2b283bdd426a040f598cb578794678"
+sha256 = "f2e25662032fcd3cd54395b648adbfd4da14fde60d3957ff32f7c56be57e07a2"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5047,11 +5047,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "3102ad2551d42fd2d1acf01885d6c453361ac7335650adc1fef8b31d800bf5b5"
+sha256 = "8397904702bd674d0257e3201baffd62444ccc4292d31efbadca09201d035d43"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "e375f24062c53eedebd35dfc765b564bd35521ebf5a5bb50dcd22acd8a41c8b6"
+sha256 = "3d93432189e5963624d19b58617f927ebb67970664d4d694ac08e9c4693363da"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
