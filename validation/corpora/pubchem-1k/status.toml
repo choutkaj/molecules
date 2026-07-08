@@ -5040,3 +5040,15 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 [[features."io.smiles.write".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
 sha256 = "6b3e539ed3f6dd64fafdbf683edf4e94b4128840760b42c76f949863e0f270cc"
+
+[features."stereo.cip"]
+passed = false
+fixture_count = 10
+compared_count = 2
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
+failed_count = 8
+first_failure = 'validation\corpora\pubchem-1k\golden\stereo.cip\data_packs_pack_02.smi.json.gz differs from implementation output for fixture `data/packs/pack_02.smi`: $.records[57].atom_descriptors[2].descriptor differs: expected "S", actual "R"'
+evidence_inputs = []
+validated_at_unix = 1783502475
