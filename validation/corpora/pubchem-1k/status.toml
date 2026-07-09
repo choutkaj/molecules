@@ -5418,8 +5418,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "9c6d057f69dba381ee52214ad6484c0b231997ea66647e2b3fb266af117066e4"
-validated_at_unix = 1783630269
+evidence_hash = "89ceed4f6b35def7207eacc7f444100debd240171c26c85cfae27593880ee1df"
+validated_at_unix = 1783631613
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -5443,7 +5443,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "4f2123178465cb1752b35d9db08b801d4e982b05f6094e360542c5fdbede4881"
+sha256 = "50d9e7e1dee9f682fa35cd0f0067a08b556db24e71ab2ad0d9827214dfb48522"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5655,11 +5655,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "afa84253d7fcb4e0374e2eaea198b25445d1e0f2eb35c4f96aec1aec9c8f58f6"
+sha256 = "545d4870ac6ad5fc77fc2f100c8da0fde5390980defaa367921dda0213d19b22"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "10c557fca64fe0ce0f0ba2702babfde5493cdc6ec27adbcf411c73fe605de6c6"
+sha256 = "440b7b3b5643d42ce8bb0873586a199ca6f9d03e10f67d215bbffb7524013bb5"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
