@@ -4266,8 +4266,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "32c5e32c244909650b4b4c47f1027a17fecd8c899b5392889da723c4aeada75d"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "1e40f8dbe7f7dac671acb80cf30592e3d3a8a659c3abfc5085053c8ebddfdcba"
-validated_at_unix = 1783631608
+evidence_hash = "5045ed995294daaa6d899f195b0acc62125c8303c67c5663457f9aba76e01748"
+validated_at_unix = 1783635374
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -4291,7 +4291,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "50d9e7e1dee9f682fa35cd0f0067a08b556db24e71ab2ad0d9827214dfb48522"
+sha256 = "84d12e7d158b89da37caa4aa4af4fee662cb4a60d521c171df4b45921b6491ea"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -4399,7 +4399,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "d8c3aafd00e0f673566edc1d2073a10a56422dfceaa3f47caf661a92b64e8854"
+sha256 = "5160d82140704456a6e24f1602ba3c10dda4a0ed3d701a18f47e847962a719d7"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4503,11 +4503,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "545d4870ac6ad5fc77fc2f100c8da0fde5390980defaa367921dda0213d19b22"
+sha256 = "1fd7ec40719eda16ad66485ff61efd238d7d75b4aab8b099007bb59746c30fc9"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "440b7b3b5643d42ce8bb0873586a199ca6f9d03e10f67d215bbffb7524013bb5"
+sha256 = "adfaf40aa744f029e4e81542750df33bc472088f38b9af859893d1ae6c2b8837"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-100/corpus.toml"
