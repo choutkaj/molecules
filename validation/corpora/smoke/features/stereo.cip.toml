@@ -9,10 +9,11 @@ fixtures = [
   "data/pubchem_smiles/cid_5950.txt",
   "data/pubchem_smiles/cid_5462921.txt",
   "data/rdkit_atropisomers/RP-6306_atrop1.mol",
+  "data/rdkit_atropisomers/RP-6306_atrop3.mol",
 ]
 
 notes = [
   "Externally supplied PubChem SMILES fixtures cover absent stereo, stored tetrahedral stereo, and paired directional double-bond stereo source marks.",
-  "The RDKit RP-6306 atropisomer fixture covers Molfile wedge-derived axis stereo and bond-centered M/P CIP assignment.",
+  "The RDKit RP-6306 atropisomer fixtures cover Molfile wedge-derived axis stereo, alternate wedged substituent placement, and bond-centered M/P CIP assignment.",
   "Goldens compare RDKit-backed CIP atom and bond descriptor maps, not bytewise SMILES spelling or internal stereo element IDs.",
 ]
