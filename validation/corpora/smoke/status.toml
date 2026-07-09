@@ -4402,8 +4402,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "97df758997b2e466361235d62ca82e647168b816b4f303621e1ded3964bbec80"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "9ee536360a6be0efd4d676e52aa2f378eb90fb62df203e263911cf6c5e4ea332"
-validated_at_unix = 1783624159
+evidence_hash = "6b1370df59925b06eb7db01e1a84fbf0490cd0498275e7f443019ce2ada9d91d"
+validated_at_unix = 1783624517
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "Cargo.lock"
@@ -4503,7 +4503,7 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "f69e61beb081c435d49623a82773d6d56504ef6b18a7f1c19a3a5ad6307b226a"
+sha256 = "8d0ff3f1f9436a93c3903c121f4f6bdb58bfc015aa0571f41084828303fe2fa7"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
@@ -4563,7 +4563,7 @@ sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "46416c1be8b9228090c3a78d36b91dab17897b4b355ebcc58c06863ac65feac0"
+sha256 = "501e02285d89acfc40d63c2b35a6fa0ff5c2de53c7c139def945647dc9718c8f"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
@@ -4639,11 +4639,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "features/io.smiles.isomeric/feature.md"
-sha256 = "2efcb719154ee6d4b400ee3b914473e110a16125f19ec626b93ca1a6d754d0a4"
+sha256 = "953443e913ecddbc50a6fa006f0ea9d6e8152c703489e7bdb80f779cf4fa5f8d"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "features/io.smiles.isomeric/feature.toml"
-sha256 = "393fcfe4c59f9dfe538010e6f4c4bcb71efc49b5635d239958081242d3e1e3b0"
+sha256 = "e3a396ba6204df869aea58ae4962ed1714d1758f090ab9c10844c32a71628771"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
