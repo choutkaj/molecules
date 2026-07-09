@@ -806,8 +806,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "9cbf69eeef1a74520ba09eaf6b4200c1c783746ff2ae281e5935507f057bbe8d"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "bf78c8e9b0c9d0cb6192a7eccf7dc792fbf448c570e11e4dbf52854c7ecb2462"
-validated_at_unix = 1783587657
+evidence_hash = "913212f44053634ff8db6628c92a629bf980affe7ae734090f107175db42f6f0"
+validated_at_unix = 1783589644
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -831,7 +831,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
+sha256 = "b182adaac8661fc217b0bb085441f47c3f51d616da31cbe63766f6d171c85223"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -843,11 +843,11 @@ sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
-sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+sha256 = "aed1c0dac769e22ff9e30310c2bc199f096ccc1c39e8c41f7259c73baf7677e0"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
@@ -939,7 +939,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
+sha256 = "b3ef37df010576943647eebcb6ff3435d61123f98f0fa3cb5b62511406460b6e"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -955,7 +955,7 @@ sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+sha256 = "028ae1841a9f7220a263f8bfad1f5cb6df38ccb0a9ab22da28b1393effc62bff"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1043,11 +1043,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "47887101a5896379156153afb784f4d7e5068edc8d6c36db0ecd76cd95eaf24e"
+sha256 = "a903ed15568f23b9fb70c11d7ac19543c349ce484b753e422b5eb212565cb393"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "8f9e222dc6c14914d67d2ab767111021f363921b490667ba5c29ba37a5605926"
+sha256 = "fcaa734e0c1c5be3aea8d57456514f823b088de8af7ecfec1cbdcc7eeba0f1e3"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/corpus.toml"
@@ -1486,8 +1486,8 @@ reference_version = "Enamine Discovery Diversity Set 2026-07-05"
 manifest_hash = "80ce87182916365af12b31784e56b49955800155a1e0c25327d22e754946200a"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "b37d15e39bbf75fb752711ebb8ef979c0922a4b79575a18487eeeecd4d3c6260"
-validated_at_unix = 1783587555
+evidence_hash = "9aa36c4360f142a7dbde42edcf178e9defede7443021050e7f0c7b1b9a7a14e1"
+validated_at_unix = 1783589554
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -1511,7 +1511,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
+sha256 = "b182adaac8661fc217b0bb085441f47c3f51d616da31cbe63766f6d171c85223"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -1523,11 +1523,11 @@ sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
-sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+sha256 = "aed1c0dac769e22ff9e30310c2bc199f096ccc1c39e8c41f7259c73baf7677e0"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
@@ -1619,7 +1619,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
+sha256 = "b3ef37df010576943647eebcb6ff3435d61123f98f0fa3cb5b62511406460b6e"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1635,7 +1635,7 @@ sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+sha256 = "028ae1841a9f7220a263f8bfad1f5cb6df38ccb0a9ab22da28b1393effc62bff"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1723,11 +1723,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.md"
-sha256 = "7008a05a895a17d88357607bdb0d9748eb89be005c1d15acf090c1e121a427f5"
+sha256 = "ce67844c1aecdedb20edeab6d2cec9991de34610a703a307585356a951ab96b7"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.toml"
-sha256 = "b7f5878e6ebd9483ed3fe29d7666dfc710d26576699616037a8cf3189a1d707a"
+sha256 = "4f09f13c7eeb2167a71e1e168bd8cfd4739715a32585cc5bf681fe769c5337ae"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/corpus.toml"
@@ -1943,207 +1943,207 @@ sha256 = "80ce87182916365af12b31784e56b49955800155a1e0c25327d22e754946200a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_001.smi.json.gz"
-sha256 = "a9bf1762a7e578b5922166fc7ae613390f02360d64df7e8d912e1f3230903229"
+sha256 = "42abc9b403460d115783534b5196147d4b014a920e78cb82c3d1b47c6900bfe5"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_002.smi.json.gz"
-sha256 = "699c212e9cb4583682c5af0c029f507e70ce5a7a4622681b8fc0269a04c817d3"
+sha256 = "ee89ffedafbe9942be40b0e393030a623d1d5c78767176a2d54b74865fe5c126"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_003.smi.json.gz"
-sha256 = "1c491675e92c36624ae24db3f703797b540bcf832116761b57ca62428ae885a5"
+sha256 = "f692c63cd97ba5d5a8a1d89589bcbf40bc519013c4695a82aba7e04200800b52"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_004.smi.json.gz"
-sha256 = "b6ad76ec6c2d34fc505b73b45d444f1ab0d4a8cbd14c6443fabcd8c090989b57"
+sha256 = "9391b0d88d7e1117c318b4da4eb2b8349fc88687ff5b90c4f0b97b04548b0b98"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_005.smi.json.gz"
-sha256 = "0fd9bd7210c976f82b0c3472014e4067150b361d4869f630165289c50f245f23"
+sha256 = "6187f98afd2558d2928cecfb387a19ff04608aa62e1ff4cd7fd71c86c4ed1e16"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_006.smi.json.gz"
-sha256 = "21858f4c762afe4fff27307036017c9758b11e0853986a4f2dca1944c974c49d"
+sha256 = "0baa4a29603cd0d307aff61772414ea082477267595b0665deb59c6418de8170"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_007.smi.json.gz"
-sha256 = "1790be7384f38070b614dfc113d8cb50c8b6f1ef2f8cce2c5909f28f8ade83e8"
+sha256 = "96ddc51119b3d433197f4c6932d9023afef75dd42d6ea3492414eb943bcc8a3f"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_008.smi.json.gz"
-sha256 = "cc1de626d36a3ea79103d0ab328f283a36b2a82c3fd78f736bf5b2aaacd1909e"
+sha256 = "4bacc057ab59a4c48ac17568037dac1a91d10df15ab15d5a3f6dc10f0549a7fc"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_009.smi.json.gz"
-sha256 = "4d848e58df838f102745b64cda6df5edc08f82b7f145866c570df845935f72d7"
+sha256 = "6f1f6fb74345633a94e691c345ea6812551945462b16f1a9f7597f5a017a14b1"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_010.smi.json.gz"
-sha256 = "c4809d2bf1e96656fd2103b04c2f6cd9a035f5b5b3f6462ed882fa5eb4553871"
+sha256 = "44db8805e1baf8c62383c564912ed65d745a26ec2da3cf2202afa17a49681cdb"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_011.smi.json.gz"
-sha256 = "38757aa3b8575b480bf5215b9d7cf407480823785725f74bc03df7ac715599dd"
+sha256 = "bdc84cca9c65a754a208d10f11d9cac834995a6d58b072d7d47a1baa5c364d30"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_012.smi.json.gz"
-sha256 = "a894404732d610ef7844ad4c1b6bd2323964ce7cfed47ac8eedc28c03029fcc5"
+sha256 = "991ed3b181ff8f7852b23767d21a59518f0320c9345a6294669a7adc58990b1b"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_013.smi.json.gz"
-sha256 = "273cdb4e37c3789d2377bf42760f589a6790811e7de559371506506c34ffe4bd"
+sha256 = "1cb978923c9c257d8fdad4f8b9e983e74090edc8538605b15e21e69213db0536"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_014.smi.json.gz"
-sha256 = "580387018a8860fac972ba1e50b1bff3c3655dae0b54f5987082653168d755ca"
+sha256 = "6c978a46a87b21fc4a2a137af40d3fcb672c4fc50f830f54f184e846d9029aed"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_015.smi.json.gz"
-sha256 = "2a275c65d0337a8a4a3e86a57eea04300522a6ec24ea4a562f8fcf6adae3a694"
+sha256 = "9a41d48f9905d849b2cebf6f16aab3de5434c7c1bb61958e6ee15967434c4e15"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_016.smi.json.gz"
-sha256 = "a2c83f4a5498072d338240ad1924497761491722a23f1022ceeef904728d78f2"
+sha256 = "20e61dafefe31f54656800b4804a90251107eff1ede48adc95c8cb1e26423c5a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_017.smi.json.gz"
-sha256 = "ab2b9a1dd0713e3db2e1ff175a6483f564626b5419feaaf4364183fe17392497"
+sha256 = "baab3bafb81bc3f096b25431ba5d24ffa499220936249996612ee681827095e5"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_018.smi.json.gz"
-sha256 = "de2ec36132820456af9afb8a2d9a8912d577fc19efb0a339220b637a859fa65d"
+sha256 = "edfae14c342052253d805127fc1793dc2e2bf106036a51230f6bcd275e1239ce"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_019.smi.json.gz"
-sha256 = "d4cf0410a88a58be097ccec209fdbef4ac8bca925063bd69285a39fc333e9ed7"
+sha256 = "1d5c4afe9595eb488ac5894c07700db36ecee25e69ae1b26c0f3f228dca5a479"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_020.smi.json.gz"
-sha256 = "d7a4a3107657465a4842ab8a5cd9148d1d15fff18f9a97b4641674ded0d7ec2d"
+sha256 = "8754bc1a929197a694a217dcf11ae7af754bd9a07824c31db63b514f786d7b83"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_021.smi.json.gz"
-sha256 = "c3cb6dfe8cc1372f4eaf1cdfcad087b8badcf83d344757c10149847a2046f7e0"
+sha256 = "81827e5779233aeace3af29eb1bd0d6e58ca55f4c0b125e3a5aa89f41f1118f5"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_022.smi.json.gz"
-sha256 = "2b37851815e85a622212927fd65c9dc4aa01f575ae83038531fb62dd38ce26fd"
+sha256 = "75f426fdcf2c761cc758943be9875cd74aad9205601261fb2db95083ca548c7f"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_023.smi.json.gz"
-sha256 = "12abb36f2393e0cd8313bd6976216c7dca84d7299dc501450788fcb0287c4c34"
+sha256 = "47d8c6950934033bff7a4cde3b7163d5a517a324f52761ff2199bd078cb295f1"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_024.smi.json.gz"
-sha256 = "d43b0aded890e032e6e944abf5cc9fd7562e1418522d7ce9ea6293cace4a729c"
+sha256 = "a179fbf5626c3edd8f6a333dec2b33253039f0020daa9eb90fae18d4c73b51c7"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_025.smi.json.gz"
-sha256 = "c2a1c1a9afe40a7c922e0ec9e6ed80887d13329f522cebb22a92ead31c5d732a"
+sha256 = "88fe63f26393fa0ab47ba35b47f222825dc8b1f6c5d522aa9f47f248d2fd388a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_026.smi.json.gz"
-sha256 = "e1a54afe21d1bb5cd997b4ada53d7f1cf40fab7bb95a9625f369c72fb05e7409"
+sha256 = "5106ef799fe7dab3540bd32ba98cd98bd9e8ef6a734630dba3aab3b1eea15972"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_027.smi.json.gz"
-sha256 = "0ad63bca3bb378cb9b4bbdea09b4cdf5aa8279aeeb483631084042ecb9d23f45"
+sha256 = "750ed82017ae301e5d0e0574e26c9760a49b00c193fba9367e3d3fb40685e11d"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_028.smi.json.gz"
-sha256 = "720a1fd883d7afb18096207d73f747aa355bb65c973af031aae708b052223d9d"
+sha256 = "86a6d7c1e410d0a9835a6f7fc9028e5d1088da7175cd574961333b49bfb96100"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_029.smi.json.gz"
-sha256 = "1fcc409ac5720f74338a6cd0802aaf6f176a21d4115abc50750cfd0029675edb"
+sha256 = "9add018334e01c8a99eb6790663f4cd8979c8afb6e467d484722bc4340dc946a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_030.smi.json.gz"
-sha256 = "764d4e464d00a821def71304afd1adf6877bb5a1fbac0cdd675483b58844821d"
+sha256 = "84670b5eae8dc0c1fe6713920641ee0c8fae11a59ae95ccf8d19d0db08b3b0ed"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_031.smi.json.gz"
-sha256 = "38c665a2e74cf5174ac8234e45de6b54db0dcb233248b13cdf37d1b7fb443ca7"
+sha256 = "408f55caea2467919a7f9f371c00281a547d2f30df36c0b84834c6a02f973a1a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_032.smi.json.gz"
-sha256 = "c66e26f108c9dc86c45374fd06d07ee29baa4315e4f39079f5ca0b8df3e77900"
+sha256 = "898aab6314de65df1e5fdb87871b8243bb1ae6457674b5bc342c6261950bc055"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_033.smi.json.gz"
-sha256 = "c09eb1b30ab78eb18f46a6c09b6ee01807348f4b6d0cbbc7b1b52cfe8b0e032c"
+sha256 = "a63265e4208412a3e77f8d4583265723e0fb14c150a4a60656145cdc3ecca77d"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_034.smi.json.gz"
-sha256 = "ffb41463f8fd1acfd722b08aa9eb82190963805798481b010e21ae15dd86e13f"
+sha256 = "a2b5840c68f6ecfb81d63100d9e97e5da5d4b25920d11581b3be69b5914dcf5c"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_035.smi.json.gz"
-sha256 = "56de2c47c761ef7d8b90f08ccef00c2953bcdd6062cc13f07a5430fabd3497dc"
+sha256 = "d12717b89e1e954f36a0cc1bb0ff9c83198c4d4ff30b79d6c6474489a48e84cf"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_036.smi.json.gz"
-sha256 = "3f49899aa9dc9dfd71a04160065462ce70455047e91dc6bb42fa49fc4aa8855c"
+sha256 = "3b418be07775edf376a53e2c3c0210d8762e768a5bcb750919f88b3152016a2b"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_037.smi.json.gz"
-sha256 = "4348d72d9e5a4afe689ffe9609e73d9b0853cfa0e0c68502c18ef62d6009b1ac"
+sha256 = "f40d434f324d4e12d8dcbacd1d753d2b3c1b08a7c1861fcfa4700eb6c5e75d1f"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_038.smi.json.gz"
-sha256 = "5dfb75d4c224dd1fb75034d1a90c8208abb0634d9b18b1eb70922dbb024f61ef"
+sha256 = "2abee2de34ae3b3acdccf8358fe194a980d2c78af42c9f16b275f28886472d32"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_039.smi.json.gz"
-sha256 = "aae875d4b65b3da370fc4d52b354ff0f18dd99db716682b9189b5f2a655c4a95"
+sha256 = "52f6395b6597d254a8137e63b2d76119f7e9469996ce7eefedb0fd4b1f2876b4"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_040.smi.json.gz"
-sha256 = "7959bc9915510361bb146898aa10ec2a5fcbf6aa330f8e5037284d046699c9e3"
+sha256 = "292a8204d2a2d36051d82abfcd3a7d7ae0f5b4b2985496114bac8bb68af0d1a0"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_041.smi.json.gz"
-sha256 = "dbda445f44180d450e9180d6b4d1cdf0c696f708dd561e43a647468a6db98f36"
+sha256 = "71f7dedc5ef7dab404005f9b2fc4dee660a08713ece72522d75127a78ae8beb0"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_042.smi.json.gz"
-sha256 = "dd88ff12363d87151b2bc9155d130e04d5f8e1f48c631467e1696f2bc153860c"
+sha256 = "0223db8de6313a05a5cffa9f592238a4675d3a8ba39c8c65e81c0153f30d1ad1"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_043.smi.json.gz"
-sha256 = "9830fe56811e5f63d55a1f5526a96364d7413e5748c1a035e8d543206ef616bb"
+sha256 = "a65bfd19032e68b4b7e32854b29703f48a7afed41558bb195009f3125a407cec"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_044.smi.json.gz"
-sha256 = "09397089c51c224931da5870902e3a66db6cbe5f81352d4f511cc07c0048ffa6"
+sha256 = "95cbc5ea91b7111c7b937ac8fc8cf14482d474070a1834d3900d14024b2c4727"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_045.smi.json.gz"
-sha256 = "fb2494e10e78c7bc7aa39ec1ab7844fec2ac8f71ac82e74fdd8969a47e1d3e5f"
+sha256 = "d28e3d9787831d3700e8b72e9e2a4187aba0829c163b80b922753b175c5ac258"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_046.smi.json.gz"
-sha256 = "d1e09524b0a2a9b0ed7589033fb97f49db2f8d1f91d731071b6a5a5b94baff41"
+sha256 = "a53974cdfe2da18be0743e094e97ccbe0f26889d693dc6f2f8144439c7e455a8"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_047.smi.json.gz"
-sha256 = "fb920c636fa9b8638a808775efa8613ca0260d9a571a5391167bd54f0cfce819"
+sha256 = "5b6f1e67735f45da6ef0f7fb52cdf03dd92a162f1762ba717a7752cdcb01b370"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_048.smi.json.gz"
-sha256 = "907ad998922eadf34d4111fcebdc755b3a1a2122c7642ef40e0e3213dd3d6b57"
+sha256 = "ad591f8e8aeae98c99753f8fc2dc25d58f47488f2e8816f85f71a8ee6df161ad"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_049.smi.json.gz"
-sha256 = "33fd7a2f710e4c9676f1e12c250e590ed30531ab56726cf66b55e6c9184a2cf8"
+sha256 = "0e4db744f6731d80ecf8cbc58c09dfda2cd68247e146911b94338599d328bbf3"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_050.smi.json.gz"
-sha256 = "db52c7a83900908e28f4e81627f584075e1a5c6d61dfa0bb26452daede67d757"
+sha256 = "d873d2c7b92a19cfd4c4f2fcfa6217608b4e9634cb7f757f6483d6773d0585c1"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_051.smi.json.gz"
-sha256 = "2a8ee258dea3ca73a0fd7494a8dd57fcc54de9f097b512f28a3df2a38ca1154a"
+sha256 = "43e45c5e4e66557338cf903d7abe3b84025be7b799b0ce4be031e6f1f47a6a51"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/sources.lock.json"
