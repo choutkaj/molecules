@@ -5418,8 +5418,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "5820cbef749f35f9aa7f128d73bf264828ecd1d12b7285f34f3488c1c75a0bdf"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "bf127d07b7b1e7cca7d792f028f5415e52b524e628ef911830c2e96745f8583e"
-validated_at_unix = 1783619840
+evidence_hash = "16d572c6f5c7c2f83a9dcb219f111651fb82ebe83ebb6a12ea720290bca9013d"
+validated_at_unix = 1783621057
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -5655,11 +5655,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.md"
-sha256 = "5d91c3192e3efe6f8ece8f2fc6c9b0442478f48139cca1880acea71600755d5f"
+sha256 = "b65a05437d4c4b50b3b7062fb2e09e78a9b0d525f2b614e4812047d727635e1a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.toml"
-sha256 = "34410e05d383759c3676f4033a0ae45f01b9572060853a89d7940b6be3cb2c62"
+sha256 = "6f5fd46a8db0e8defde51ebe51b2233e70dc1f4a3dc056c8b3b10bd1343c4f14"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
@@ -5762,8 +5762,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "f3f3ac094615bc9a9bf70b77f3d3486af37093e41f072f16233cfed16a06989f"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "e8e4fdc71452321ce60188509928bc043ee5bc234d131e761e94388b57252992"
-validated_at_unix = 1783619797
+evidence_hash = "00bdaa022b67cdf1a7c0c89173d48c8b0e3095934b8de67c4a1f97b0f904483f"
+validated_at_unix = 1783620725
 
 [[features."stereo.representation".evidence_inputs]]
 path = "Cargo.lock"
@@ -5999,11 +5999,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.md"
-sha256 = "869e818e751f73afd0bb8145280675578582ff5c0fe99c1cdb34141269957716"
+sha256 = "c7a074e0e5738584d43c897d624171bb666c839acc418c44adbc46d8cd426f46"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.toml"
-sha256 = "ded42071f569de7d4540fbfb6c459e45128d60c9b4b55b51e0084000fe3d04f7"
+sha256 = "a75e6c7c250eb63876c31620ac9e6d6fb91d1e48b8a263d21fe7eaeffc072e77"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"

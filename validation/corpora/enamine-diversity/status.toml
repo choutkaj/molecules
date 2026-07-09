@@ -1502,8 +1502,8 @@ reference_version = "Enamine Discovery Diversity Set 2026-07-05"
 manifest_hash = "80ce87182916365af12b31784e56b49955800155a1e0c25327d22e754946200a"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "1893d81a767caca9537fc5ea5a9d8d026081d0061241fdb30f190ced801ed8e0"
-validated_at_unix = 1783619879
+evidence_hash = "cc46046bffcfab5694091c0ce19a259b99e1b18ec0f93bc25d694b02ff7c9701"
+validated_at_unix = 1783621099
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -1739,11 +1739,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.md"
-sha256 = "5d91c3192e3efe6f8ece8f2fc6c9b0442478f48139cca1880acea71600755d5f"
+sha256 = "b65a05437d4c4b50b3b7062fb2e09e78a9b0d525f2b614e4812047d727635e1a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.toml"
-sha256 = "34410e05d383759c3676f4033a0ae45f01b9572060853a89d7940b6be3cb2c62"
+sha256 = "6f5fd46a8db0e8defde51ebe51b2233e70dc1f4a3dc056c8b3b10bd1343c4f14"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/corpus.toml"
@@ -2174,8 +2174,8 @@ reference_version = "Enamine Discovery Diversity Set 2026-07-05"
 manifest_hash = "93b14ac9da05804f57431e6d4ab15f81b37661d68004df5c3932943065673321"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "98856745d9b1d8bedd9e4a686d2a768a4d9d1c1f096d73d67809078a27420086"
-validated_at_unix = 1783619803
+evidence_hash = "5fcb6aab3bc97aff35a0edc5beb7cc38478c4f6f61a439442c8ab3df6de1a170"
+validated_at_unix = 1783620731
 
 [[features."stereo.representation".evidence_inputs]]
 path = "Cargo.lock"
@@ -2411,11 +2411,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.md"
-sha256 = "869e818e751f73afd0bb8145280675578582ff5c0fe99c1cdb34141269957716"
+sha256 = "c7a074e0e5738584d43c897d624171bb666c839acc418c44adbc46d8cd426f46"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.toml"
-sha256 = "ded42071f569de7d4540fbfb6c459e45128d60c9b4b55b51e0084000fe3d04f7"
+sha256 = "a75e6c7c250eb63876c31620ac9e6d6fb91d1e48b8a263d21fe7eaeffc072e77"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "validation/corpora/enamine-diversity/corpus.toml"
