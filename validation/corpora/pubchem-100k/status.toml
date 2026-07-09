@@ -8558,8 +8558,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "4843530cc3f87576d6342e2e3fac9d8f6dff8587ddcffe08cd99d104e705fc65"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "f0094cb9d4fb15eb338c1b4bbfb63db1fe3b6bfc41aeee354a72a8e79ecc21ca"
-validated_at_unix = 1783629843
+evidence_hash = "debf411276c74a2c35917c47d225c95a9bbe6ce0efdeb0e8273e4a15259b0289"
+validated_at_unix = 1783630319
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -8583,7 +8583,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "984cd626e627ef1b568a5a58aa003180af4eb7b9b5dd9b7134cc3957eee7f025"
+sha256 = "4f2123178465cb1752b35d9db08b801d4e982b05f6094e360542c5fdbede4881"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -8691,7 +8691,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "a564a62be1958db4664dc9afe278c73d2fdea692509e2f171efda941612e269e"
+sha256 = "d8c3aafd00e0f673566edc1d2073a10a56422dfceaa3f47caf661a92b64e8854"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -8795,11 +8795,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "896211ccb6f4df9c2eefbf97b111eaea66ac8d2599be6ee152f3e9b364241a18"
+sha256 = "afa84253d7fcb4e0374e2eaea198b25445d1e0f2eb35c4f96aec1aec9c8f58f6"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "187cff34c6070a2364ca44aeb9d1caff37b85945ed3a37d18b97b03ea6fba32b"
+sha256 = "10c557fca64fe0ce0f0ba2702babfde5493cdc6ec27adbcf411c73fe605de6c6"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-100k/corpus.toml"
