@@ -314,8 +314,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "acf2991cb9d4046f491dc0a67d2d012e5c2dd4b6c41e89c360e4a2a71f1794e3"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "4e0d8e88371ab7dd8d4d496af680b315c698cbf61459dd59b4e54c842c41cf26"
-validated_at_unix = 1783618242
+evidence_hash = "307264da2abc11afb324c647e169c7c2b2df951a86a1d01e320a62b80d6346e9"
+validated_at_unix = 1783619580
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "Cargo.lock"
@@ -339,7 +339,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -447,7 +447,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -1210,8 +1210,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "d4a2d8baec824b0e2ad11239c7f144486424b05e509aa18da25b196798720bc2"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "21b92ce5ac66ade86b29f0f6e62eee775d90be65535b091dd444c2025394dc9c"
-validated_at_unix = 1783618547
+evidence_hash = "243343ead7ddd8f476a272e5b8d709cdc991fa2204d26d859078bbc4376fcd18"
+validated_at_unix = 1783619649
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
@@ -1235,7 +1235,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -1343,7 +1343,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -2082,8 +2082,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "20c019b3459f23984e5eaba4c419d64f14ac8423248b6235c0b69055cc38bdce"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "fbd9ad991d862782de07614de202a599b86ba29b63725fb3fa3bf134cd1f7cf0"
-validated_at_unix = 1783618099
+evidence_hash = "437d70d9363b9bb1b658ed8ac4d48006fe62d03c37916b277ada1287b123aa45"
+validated_at_unix = 1783619720
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -2107,7 +2107,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -2215,7 +2215,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5026,8 +5026,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "b96be09208e0af7aa6a313584437b24a9aeb13999c8c5c19b47112752a60a60a"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "abae4a5f83e77da92ccf441b12588d76babc0f9daef5d1e10fbc647660aca64e"
-validated_at_unix = 1783618116
+evidence_hash = "040cade4604a8cb5a67fe60e7cc1bc3517d65f9c48bc4a8bec6b372628acf403"
+validated_at_unix = 1783619480
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -5051,7 +5051,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5159,7 +5159,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5263,11 +5263,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "afff247664df214e2ad6a197f298294dd58798ac36c5b05f8e0c5f83ac4722ca"
+sha256 = "e16d7368f8d36a927c6167cc1a3138398eaec12c3ecbe373b99cb1848aad2a60"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "7cf574e0881d6bf3811705f7dcfbd43154f9227cfd96b18ba577bfd046daa7ba"
+sha256 = "dca14cc17be127ea5b627d276ff0a629181371e84f5c13fb03aefdba262f49bb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
@@ -5466,8 +5466,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "ed5887adc4c65198541672a3db5dfbda7a27d7d762a80189a5dfe7ddb00fb624"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "a435b3776fb1d91b843052d51df5902ba981f3ab14bd539e30eedb77dc8abd8c"
-validated_at_unix = 1783618449
+evidence_hash = "f536360e9a11602f51b9fd89791b56f8c245068c8d5204b70048a89565fbe123"
+validated_at_unix = 1783619839
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -5491,7 +5491,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5599,7 +5599,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5754,8 +5754,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "7378be625c92eb2b602d06135b60d0cf2d232ff159c02afe980492841b334578"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "f151aea5691174989b7103d0a0b55fc6857adfe10a3326ec90561a766fc3765c"
-validated_at_unix = 1783618640
+evidence_hash = "1b6ceae0ac050715c1e752193a39517d1374a518e5d36d43b0954b2090601175"
+validated_at_unix = 1783619797
 
 [[features."stereo.representation".evidence_inputs]]
 path = "Cargo.lock"
@@ -5779,7 +5779,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "b1d9c49ecebf81e760e0e1e5c23b4990006f6bb1bb81ae4d7bde77ef36bec01f"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5887,7 +5887,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "84e2a4087af8d748a017a32be9fb7791301f1f5a032fb96024b9957a833151c8"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
