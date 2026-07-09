@@ -123,6 +123,17 @@
       "category": "rdkit",
       "files": [
         {
+          "path": "data/rdkit_atropisomers/BMS-986142_atrop1.mol",
+          "sha256": "6d76020b153bb56daf41f6a7c39f4b73c79b765ce323c5950c3b5cc8b7bc3aa8",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/BMS-986142_atrop1.sdf"
+        }
+      ],
+      "id": "RDKit:BMS-986142_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
           "path": "data/rdkit_atropisomers/BMS-986142_atrop2.mol",
           "sha256": "bc7bbe0cb4efe0857b35505551aa8d98583478d83031f4c302945570045ef322",
           "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/BMS-986142_atrop2.sdf"
@@ -145,6 +156,17 @@
       "category": "rdkit",
       "files": [
         {
+          "path": "data/rdkit_atropisomers/BMS-986142_atrop5.mol",
+          "sha256": "d7fe9d3863aafbdd6476181edf6004fc1a8e95fd908f4a610b2ff8d0f96aeb0f",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/BMS-986142_atrop5.sdf"
+        }
+      ],
+      "id": "RDKit:BMS-986142_atrop5"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
           "path": "data/rdkit_atropisomers/JDQ443_atrop1.mol",
           "sha256": "9986c9264bc1bc3dd0fffb7f042ca7176eee68c3616a1938ac98653b8bc497be",
           "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/JDQ443_atrop1.sdf"
@@ -156,12 +178,56 @@
       "category": "rdkit",
       "files": [
         {
+          "path": "data/rdkit_atropisomers/JDQ443_atrop2.mol",
+          "sha256": "06b48b4165348f32015f5050c00b41010a12021c778d62f08a0663b16216097c",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/JDQ443_atrop2.sdf"
+        }
+      ],
+      "id": "RDKit:JDQ443_atrop2"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/Mrtx1719_atrop1.mol",
+          "sha256": "30aee6a8cc5672428a882d3f0a23bff4f7b9d9a6f0422f681fba2a6e4ebca4f3",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/Mrtx1719_atrop1.sdf"
+        }
+      ],
+      "id": "RDKit:Mrtx1719_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/Mrtx1719_atrop2.mol",
+          "sha256": "44d41d4cac9917fc55f48cfc839f0a46b48ef128b7bd7159fd91ab8d5ce20d86",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/Mrtx1719_atrop2.sdf"
+        }
+      ],
+      "id": "RDKit:Mrtx1719_atrop2"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
           "path": "data/rdkit_atropisomers/RP-6306_atrop1.mol",
           "sha256": "0664008d44240e5ee59928927b152d6c57879ba94ab164f3553f34ec503fa821",
           "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/RP-6306_atrop1.sdf"
         }
       ],
       "id": "RDKit:RP-6306_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/RP-6306_atrop2.mol",
+          "sha256": "a321284f0b7f1e34f9d4713c7abb4c498d9b7181baf00c4579ae9a89b1b74f27",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/RP-6306_atrop2.sdf"
+        }
+      ],
+      "id": "RDKit:RP-6306_atrop2"
     },
     {
       "category": "rdkit",
@@ -189,12 +255,45 @@
       "category": "rdkit",
       "files": [
         {
+          "path": "data/rdkit_atropisomers/Sotorasib_atrop1.mol",
+          "sha256": "a4df981a521eda629dd80663314f869acc9e89527cc49456b5e838899ead0c9b",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/Sotorasib_atrop1.sdf"
+        }
+      ],
+      "id": "RDKit:Sotorasib_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
           "path": "data/rdkit_atropisomers/Sotorasib_atrop2.mol",
           "sha256": "92bf6f8dcf415e2638b9dddd2fe3dd68e511b4f198db46ec13641a5d7cfa3780",
           "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/Sotorasib_atrop2.sdf"
         }
       ],
       "id": "RDKit:Sotorasib_atrop2"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/ZM374979_atrop1.mol",
+          "sha256": "d8cb81776a3519065fa0a9a27cc3259c052f9f0996cb7aeecb32e39de52b6ca0",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/ZM374979_atrop1.sdf"
+        }
+      ],
+      "id": "RDKit:ZM374979_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/ZM374979_atrop2.mol",
+          "sha256": "e0a01cc0a577524222be2cabf7e62efed5a14a0e9c91d787c536d1c0318cae1c",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/ZM374979_atrop2.sdf"
+        }
+      ],
+      "id": "RDKit:ZM374979_atrop2"
     },
     {
       "category": "pdb",
