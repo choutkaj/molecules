@@ -4835,15 +4835,15 @@ sha256 = "6b3e539ed3f6dd64fafdbf683edf4e94b4128840760b42c76f949863e0f270cc"
 
 [features."stereo.cip"]
 passed = true
-fixture_count = 7
-compared_count = 7
+fixture_count = 10
+compared_count = 10
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
-manifest_hash = "73f5e6431b140aab08617829c2a34a6b1f0b3f9b4beee6cd5b567bce34acc418"
+manifest_hash = "0bba04b0eaf89fbe66caf8bb5b288c1e2410bdf6a15d28d3e597d7b35372e091"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "3ab087006067573d8751e5ea744356db6bbfa1630e28f26270b2cc0040b25e5f"
-validated_at_unix = 1783612316
+evidence_hash = "a699d89adf3225433e708f00f145f04166d5d3f7590508d29ed34234475dd673"
+validated_at_unix = 1783615372
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -4867,7 +4867,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "5931dc8871f4ee5ec8566adec2f63f023229dd0ab090322e335a96cd5a85cf6c"
+sha256 = "9af528b969b03b3273fd0980bdb09244acdb2da1ca12ea1917f7b649e1f0e5be"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -4883,7 +4883,7 @@ sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
-sha256 = "9d0cb732f6615475af4dfde451f49ad0754dbf9a64bb871977934df02092e98a"
+sha256 = "8ae79fb5f4d623a73fcd8cf5dd223032f7827f292ccf4974a623382456070e42"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
@@ -4975,7 +4975,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "edb2abe5ef963d266fa262fe3ea2e4f8f0414abfef248a6c935e343a1aeb8be1"
+sha256 = "cd0763a080c33a2b4dd62a8eb95d42ec41ac861d9c0fc2500e062fd48a0ec2fa"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -4987,7 +4987,7 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "cd7ebe63e2408ad93800425ca23a3541283d3caef33d26f6c17890971e764ebc"
+sha256 = "4fb775eaa54206ed15bd169c4d222c10b702551d522ecc46bb04d19d7459b090"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
@@ -5079,15 +5079,15 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "029ece460e98ed9269c3c147b146c07f3258aebe134b15e020cfbbfba7adc215"
+sha256 = "afabaec2f58035f03b9e3fcb225e841c1646e4e2650933416dfde02522b1a93d"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "32d75802883d861b85fe228c0fa1ba0099b96734f2c453d5027eb34638299551"
+sha256 = "35762a650312e95ec9cea8a985489f6c843bf3ce8c6ff5f64778548d07075ede"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
-sha256 = "a4844a3a7743a803c269c8503bcfaaafb23f44c6ea9734f314e86b34e4315a55"
+sha256 = "9a0d915391c49c759e8d3987647d96e729bef82923f17ee1c514acb84eb87026"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/data/pubchem_smiles/cid_5462921.txt"
@@ -5106,6 +5106,14 @@ path = "validation/corpora/smoke/data/rdkit_atropisomers/BMS-986142_atrop2.mol"
 sha256 = "bc7bbe0cb4efe0857b35505551aa8d98583478d83031f4c302945570045ef322"
 
 [[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/data/rdkit_atropisomers/BMS-986142_atrop4.mol"
+sha256 = "a8551a93d1c9dfa3778dbb7729053fcde6b4ab50173e84fc8566960f3003264f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/data/rdkit_atropisomers/JDQ443_atrop1.mol"
+sha256 = "9986c9264bc1bc3dd0fffb7f042ca7176eee68c3616a1938ac98653b8bc497be"
+
+[[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/data/rdkit_atropisomers/RP-6306_atrop1.mol"
 sha256 = "0664008d44240e5ee59928927b152d6c57879ba94ab164f3553f34ec503fa821"
 
@@ -5114,12 +5122,16 @@ path = "validation/corpora/smoke/data/rdkit_atropisomers/RP-6306_atrop3.mol"
 sha256 = "37d306d36ac065452bca57317c115d54ab097c5ad4b62b0c564e33e2866add53"
 
 [[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/data/rdkit_atropisomers/RP-6306_atrop4.mol"
+sha256 = "9d937ed904ff950d43e77aa78f788f9c1754d321a928684dc5ceefb373a3bac9"
+
+[[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/data/rdkit_atropisomers/Sotorasib_atrop2.mol"
 sha256 = "92bf6f8dcf415e2638b9dddd2fe3dd68e511b4f198db46ec13641a5d7cfa3780"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/features/stereo.cip.toml"
-sha256 = "73f5e6431b140aab08617829c2a34a6b1f0b3f9b4beee6cd5b567bce34acc418"
+sha256 = "0bba04b0eaf89fbe66caf8bb5b288c1e2410bdf6a15d28d3e597d7b35372e091"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/golden/stereo.cip/data_pubchem_smiles_cid_5462921.txt.json.gz"
@@ -5138,6 +5150,14 @@ path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_BMS-9
 sha256 = "244fd40c0bc8c8f403206382c8e06c2be844012782fc27fc6ccc96eba0ec31ea"
 
 [[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_BMS-986142_atrop4.mol.json.gz"
+sha256 = "4acc42c38b34877888aa957682fe4750414b666f3de4460eb5cd119d19abb2a7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_JDQ443_atrop1.mol.json.gz"
+sha256 = "32b21ca3ae0c2abce58ba86a78a08cadc7926ddd8fad46643415f68809e69078"
+
+[[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_RP-6306_atrop1.mol.json.gz"
 sha256 = "dce8ba9f0cfaf5c277175abc7a2ad25241e6c15d8295aabf06034024d660a1b2"
 
@@ -5146,12 +5166,16 @@ path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_RP-63
 sha256 = "e3d7b4cde843a2121184300d49450d3ba2316c4c73ba6e209a281c7bc053bf4b"
 
 [[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_RP-6306_atrop4.mol.json.gz"
+sha256 = "a2d07ea7edfb9834e7c79be4ce2c10afc799d8835b5cd042da9975c04ea9dcac"
+
+[[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/golden/stereo.cip/data_rdkit_atropisomers_Sotorasib_atrop2.mol.json.gz"
 sha256 = "66b513c7aa7c08feeb2e2f6fcd949a4a9ce1e3fb25f7806f1b73e4e7623b3bd6"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/smoke/sources.lock.json"
-sha256 = "ea3d46059b12ef1268be7d00dae2d05449a90053cc0c5f304ced472cb114baed"
+sha256 = "6391f03664affef5f83feb230cc33f423d04825a939a44863449648934f47c0a"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/reference/rdkit/environment.yml"

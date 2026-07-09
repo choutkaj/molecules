@@ -134,6 +134,28 @@
       "category": "rdkit",
       "files": [
         {
+          "path": "data/rdkit_atropisomers/BMS-986142_atrop4.mol",
+          "sha256": "a8551a93d1c9dfa3778dbb7729053fcde6b4ab50173e84fc8566960f3003264f",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/BMS-986142_atrop4.sdf"
+        }
+      ],
+      "id": "RDKit:BMS-986142_atrop4"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/JDQ443_atrop1.mol",
+          "sha256": "9986c9264bc1bc3dd0fffb7f042ca7176eee68c3616a1938ac98653b8bc497be",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/JDQ443_atrop1.sdf"
+        }
+      ],
+      "id": "RDKit:JDQ443_atrop1"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
           "path": "data/rdkit_atropisomers/RP-6306_atrop1.mol",
           "sha256": "0664008d44240e5ee59928927b152d6c57879ba94ab164f3553f34ec503fa821",
           "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/RP-6306_atrop1.sdf"
@@ -151,6 +173,17 @@
         }
       ],
       "id": "RDKit:RP-6306_atrop3"
+    },
+    {
+      "category": "rdkit",
+      "files": [
+        {
+          "path": "data/rdkit_atropisomers/RP-6306_atrop4.mol",
+          "sha256": "9d937ed904ff950d43e77aa78f788f9c1754d321a928684dc5ceefb373a3bac9",
+          "url": "https://raw.githubusercontent.com/rdkit/rdkit/master/Code/GraphMol/FileParsers/test_data/atropisomers/RP-6306_atrop4.sdf"
+        }
+      ],
+      "id": "RDKit:RP-6306_atrop4"
     },
     {
       "category": "rdkit",

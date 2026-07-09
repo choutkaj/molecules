@@ -2,12 +2,12 @@ id = "smoke"
 title = "Checked-in external smoke corpus"
 kind = "mixed"
 ready = true
-expected_count = 13
+expected_count = 16
 seed = "existing-external-fixtures-v1"
 formats = ["sdf-v2000", "mol-v2000", "smiles", "mmcif"]
 build_command = "cargo xtask corpus check --corpus smoke --require-data"
 
 [categories]
 pubchem = 8
-rdkit = 4
+rdkit = 7
 pdb = 1
