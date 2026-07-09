@@ -5050,8 +5050,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "688764983b64a4c64ed70a7b0ce2500587efa5b2ee6e295aa8e2d49c3a25abf5"
-validated_at_unix = 1783542182
+evidence_hash = "1d6a9e4dadcea6efc7c1db48bfb3247c8503d40b724918494fb778c61f9feda0"
+validated_at_unix = 1783586029
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -5075,7 +5075,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "235e45679086348dad6aaded5fd20c257607c60413794dc116695ed3b68a6af6"
+sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5183,7 +5183,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "3074f6463f037f3cfffc7976aef0bdf5c5e4b71e92cba756f7ea8b774441d6c7"
+sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5287,11 +5287,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.md"
-sha256 = "26b6675147b375bb3cb4709ffd021681e68807b5a2bb42f2ce6b34267384cb0f"
+sha256 = "47887101a5896379156153afb784f4d7e5068edc8d6c36db0ecd76cd95eaf24e"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "features/stereo.cip/feature.toml"
-sha256 = "ba47ee88a3811809e7aa8f93217bb006e0c4e2a018cc4561d0cca37fb2dc23f1"
+sha256 = "8f9e222dc6c14914d67d2ab767111021f363921b490667ba5c29ba37a5605926"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
