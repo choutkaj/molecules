@@ -8542,8 +8542,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "4843530cc3f87576d6342e2e3fac9d8f6dff8587ddcffe08cd99d104e705fc65"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "9309b1f1990b5bc20041fbc4e92a1c0efaa8f6a42baf4a19d211350b1d4ff8c7"
-validated_at_unix = 1783586084
+evidence_hash = "b8536909ae2b7c302ee858c0a59467e12568f023cc52b33aebcb90165d4e80d9"
+validated_at_unix = 1783587623
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -8747,7 +8747,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -8755,11 +8755,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -9604,3 +9604,2131 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 [[features."stereo.cip".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
 sha256 = "c5f9816754753c830a451e70d347f701a0b4fbaf6fc280b4bc9e953c2f8c3fc6"
+
+[features."stereo.perception"]
+passed = true
+fixture_count = 100
+compared_count = 100
+reference_tool = "pubchem-manual-semantic"
+reference_version = "PubChem PUG REST 2026-07-05"
+manifest_hash = "68ec9b64e879571d92a24ac7f201c0e9269bee464fd1c5ce5d8024cc9e941f2b"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "d621b97c8cbe42c931131ccf9ac8e8fbb40bac68b778e80867bb10cf68f479b5"
+validated_at_unix = 1783587533
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "e78833ed1622285564e1838b9fc97ab6539e20f5ea16425c0db39153ae9fff8f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.md"
+sha256 = "7008a05a895a17d88357607bdb0d9748eb89be005c1d15acf090c1e121a427f5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.toml"
+sha256 = "b7f5878e6ebd9483ed3fe29d7666dfc710d26576699616037a8cf3189a1d707a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/corpus.toml"
+sha256 = "3ffd4c6e6853e461882ac56e1210be5774e3d8c79942f3a545b574514521c7f3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_001.smi"
+sha256 = "5400956e0050e8ddfe809b36cbe29b6caa3ce0b9de80003942a65cd9a5a35c0b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_002.smi"
+sha256 = "72f28510fee1e7cce39b97003ab34fe46e25b71ed2b1a299e0ee274719f82cdb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_003.smi"
+sha256 = "6e8185403e605a34cc63d2716c9c77e2b97b182cbbf2acc6553aed0f0f7f0da6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_004.smi"
+sha256 = "795ea5e70d567bc7194b5cc438ddda43daa75091a27cf79975c0dcfa80888788"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_005.smi"
+sha256 = "33993813d44cf84b9c4ac090d9a770ea23fce5c38ee30b92d6cb810a0c95f994"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_006.smi"
+sha256 = "7701532f7d09237d4133edde633131de44b3f3fa385a6ef26f057925455071f1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_007.smi"
+sha256 = "367ea89d82f129bbd8c6e5c53a09170f210ef900cebd3eaafc32c1fde1690db6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_008.smi"
+sha256 = "84bf8fca95704e8f61844936dd61b375b4873afb810e510c5d0f13767d04fae3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_009.smi"
+sha256 = "9c0af771c9d685e747767070efd05d02c3ff98ffb80901d337ffe1d465b73f35"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_010.smi"
+sha256 = "a19ae304d990de3d7189a1c296e2a2d68c99bbf881d1ded06414dd7a0ffde124"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_011.smi"
+sha256 = "7e302dce5a8827306189e4412c0d84adab09c885b50686805ca101b5cfbdec56"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_012.smi"
+sha256 = "f52e3534ff1d3ac8d853ad2d279f695db742209d749a6d28c8546fce555353ea"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_013.smi"
+sha256 = "0af0e93945a24272f2693025464cff20a51e0e3f0050549ec3ca282a18157f05"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_014.smi"
+sha256 = "89c96a2c1695adaa4fb74817fbb05e15c442b334f84167e2e8fd3d54056465de"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_015.smi"
+sha256 = "4db8b87749addc14a693d4c6f5c30b15d0d7a1bcc1b1a5b752e064cbf5cd0915"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_016.smi"
+sha256 = "0500fa9ddbca9ff98c6506ec4e55d6731879da51a3abfbe10f0e49374273321d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_017.smi"
+sha256 = "86cc11bfc50b4cbf16380fe0435c5634004b57eab8a01fe1ece074e834a25a34"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_018.smi"
+sha256 = "397c9b2136281dc3eb289f49cb3ed24ab8f5943b8ca81c1c79be7265e8b7cca5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_019.smi"
+sha256 = "7dd481e64aaeb9fa708897276ed45a588b5b25841074e94c9d94b4fae2caa42b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_020.smi"
+sha256 = "191f0e436cecd9a43a16582ca82a00877dfabd742fdc95a7adeb80fd4c491f0e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_021.smi"
+sha256 = "38285d3c5562468d4963c90e3a4191640747eef11f06f379a64df95278d9a84f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_022.smi"
+sha256 = "4146bee5a464fc7c8928d4c702c04e2348f1d80dd16dbcc4672707577d38066b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_023.smi"
+sha256 = "4c727e0106509623231cb38b039c1249731c79e0dffb0a8d16c0af0fffa3b642"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_024.smi"
+sha256 = "0a4e1fbd3d3e9b3b8cd1f6258cf0edba187a7b8aa76c7c5d1512604d0ae35704"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_025.smi"
+sha256 = "4c392d120c73e76c7c5abca9b0e634002fae5efcc8fecfc470d8ccbc832df8d5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_026.smi"
+sha256 = "f7c88388f2f866eb714dac652f6b36b21762329ebf53a41b8953ce8370f8493f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_027.smi"
+sha256 = "22610d5fed21b14196c44f4aff2c050a07b87cad66aa82c65463f04123ac12bd"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_028.smi"
+sha256 = "b1d6b2f5e2c51db0d5ac23410fc53c134ceaf851c826179ae3a4c1db20eeb084"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_029.smi"
+sha256 = "9e96111957337ddeb642b2a1ef8639b1580cb12961c306c1bf4deac9b327025b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_030.smi"
+sha256 = "a8e7c2e60211312817faef0393b1c84931afd7ce8ec8d0a7b6c7c721d2efec51"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_031.smi"
+sha256 = "309943ebe24aa2687bb21e741ed372eab17360b7327a7e9b0f8d02d6617af866"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_032.smi"
+sha256 = "edf408df1103c54c9ef7ef6205891170a02b5ec15726b41e8ff26acd6981b74e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_033.smi"
+sha256 = "45a1a31476d6db1a00c25d5a4427b106b00f685bcf8aec1c378fa83928476110"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_034.smi"
+sha256 = "2c479e9fb31c6ab64e96d9275db72e0d369f5c651b1cc6e277fdfcfa8dc75c90"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_035.smi"
+sha256 = "e107d26bb5cb4b588ebf623c9b980f2be3debe1052e58583e6ecfd8482da4cbc"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_036.smi"
+sha256 = "f2469f0c34cd4f3601ca18d8533f2ea5a95a018b4f18dacdafb324e9684d95cb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_037.smi"
+sha256 = "d681a600185298139e2df6578561773785100913fc5d3d70e56ecc113a331262"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_038.smi"
+sha256 = "bec2503c7f712f1aebefc17fcdeb5b87792913d75758aaaacb8861eaf940fec2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_039.smi"
+sha256 = "f365dba6eaa01e35201345aee7098ecd2b237b36e88b7f3f39e56689b23e7c2b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_040.smi"
+sha256 = "c1c7c826c7d00358a9c990d5271cee87319d91845008c0d80b4a288f35e57e4c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_041.smi"
+sha256 = "f2f5871bfad312cd69316965fd1c463fecdf62e300f7559505f3e3bb4970263b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_042.smi"
+sha256 = "1dfcc71db55ef388e171bf63d78aa283f82742b0cb2255c90769ac9ef34b5d26"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_043.smi"
+sha256 = "de82e6ac8d3ca2e62837982754bb35faf7d2d435912888a53d8e9b07d1102a52"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_044.smi"
+sha256 = "52ef59f0c612e159d20231032abda351b1a53283f485ee3826c0c7d31d3d35aa"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_045.smi"
+sha256 = "d878b7a5ae5a85ae53ed170cd123aea39d0e209d7499f7f8d8d8232ddd7492c4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_046.smi"
+sha256 = "21f2dcec91d62b7c52bb23b3c0fd2eae2aefab2e0df9dd7687f9ef0349f9797d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_047.smi"
+sha256 = "1a077a2618e458f9a753cb018714b33cd7a2db43ebf01d2cdc247b16bce6a6a3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_048.smi"
+sha256 = "7c66528739d18fc04ed9029a373ad74abc4330af684d32635c381fc4ebf5167b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_049.smi"
+sha256 = "514a159fd5131658cb51f0bb57fd460bd0127b5a12c2a06c0edbb907fe2c38c0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_050.smi"
+sha256 = "524a64d0b46cca2a4ce450949d03cf096925eb220ffbf004cd021a5e1f63c941"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_051.smi"
+sha256 = "01ba0d97fa60a87ca56bec08c1f912d79ca4085201bcd2042b2124c372ec5bf6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_052.smi"
+sha256 = "d3465c6e92c0b0aeea8fc07a5c8f8b585b136403e91cf910c7b39fd951ca63ef"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_053.smi"
+sha256 = "1aaadbc92d94ee5dfdea3d21d6cfffda688b35a7e7bca0b8d6e1023e423c5774"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_054.smi"
+sha256 = "7c6b0491e79f9c1d3b1c727c4160fe7f9f932820d9eb85aa86542645edab8aeb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_055.smi"
+sha256 = "2bade9f6a39aebeb4ef8ae43aab283858a2a0ebc33631711af8f5848d980478e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_056.smi"
+sha256 = "5953e145a50bf605aa03cad11ac14b5a10835aa3e743b8922053629beb0ac7c7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_057.smi"
+sha256 = "f4211362d9869aaa59a3ec0e7e4d270a479fd61a56a31376197495f77fde95ba"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_058.smi"
+sha256 = "a212fc391934bbdac66556c56a7d77cb8c7e20c142d3fbef50dd91911bda12f8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_059.smi"
+sha256 = "6997a7e7a15cb3b1e49b16537c793ab8d12082e002ef5fb8f2464597764ba45a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_060.smi"
+sha256 = "31f1705b3353cc478d014548263e7b86ff5ea6a04a33b44cb956bc3e3a3ad41f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_061.smi"
+sha256 = "6014b0c02852fb92da2b5ab375f7fcb3257a9a429bb7be4ce1bb3f6b6eb84b14"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_062.smi"
+sha256 = "09374d2df2d34220605bfa91533dc63d319297b6bed20a292f697127c80c25a9"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_063.smi"
+sha256 = "3e5fb5b018354905f89eeb452726056f323ecca95ad6a746e55e2fd999c2c8e9"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_064.smi"
+sha256 = "fdfca2264b18e8b35061c6c7a16d206ee5091efbfa9c52e779757b8e37077b76"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_065.smi"
+sha256 = "9d5ce1c21a029bf3f541a053ed59b8ea00cd76ce1500137af091f8d658dc195b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_066.smi"
+sha256 = "a6b85142bc59630176f88073baf3c057b3b73bf1f19c74714c6ad91bb79de4e7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_067.smi"
+sha256 = "1d6f7695cf64de7034d8a67699295f93dffbfc4b8ede819afd309604c68e901f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_068.smi"
+sha256 = "e857c49d1b67bc42b31fc3af5cded32d389d827df6463b9ade4053829f1e92d8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_069.smi"
+sha256 = "b08b10675adc23aa8901b5ccb0a301dcf8556d0bfba8182680d5730a761d9c23"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_070.smi"
+sha256 = "ea3e1f6ddb7331d7b58becfedad76c6834dee8933042578aa1e96eaa491507f5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_071.smi"
+sha256 = "74b20a4869c9f267550e7afc8030108c6dbb99530eb3a98a8d4886e5dc86a535"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_072.smi"
+sha256 = "e99e79d4b8628ca3c83bf80e8df2ea42caacccaabb63bf82f832916129c9dae6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_073.smi"
+sha256 = "4bb11a170d74b6ee7f6e2a95cbea5f567a11c3ea871084dc73483a07128526f5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_074.smi"
+sha256 = "d9e8539b7ca6f231b1acf390d43a9cfd80acc000fd02ba4bc0af4b08d3fe3a3a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_075.smi"
+sha256 = "9907302a205161036180b0a40c800e4117c43237b5bff68f154d6352441bf691"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_076.smi"
+sha256 = "ac950712099a09a3d9cefb805ad4668c50b7caa001e87327694cb43a76800669"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_077.smi"
+sha256 = "38789cf33b0735824804d0c05cd8cc2ed2b04ca3d7f302376f633744130c0383"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_078.smi"
+sha256 = "a6b2df9a88ef9717f8265ad0c8c4c9e07f90b00a3684998f07d3de013dcb50e3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_079.smi"
+sha256 = "d72e50fd7ba4b5666832d50d962d5376e41539f3a0692fa6723d1f35cde12dab"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_080.smi"
+sha256 = "ab42ca506062d2e94879676c51ac8b9a91d7fba84742430acf46b576f5827a1c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_081.smi"
+sha256 = "a56eaaa72b12286ae37d9fa1ad35ebfa87135560172fac469d65e7836a2d9b07"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_082.smi"
+sha256 = "0fc7e4a7e1f94814474d9b6785a6e17d7f7e7146f6e4b26dcee923b51bdc73a6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_083.smi"
+sha256 = "06dbd4ec6db438611dfec14cbef8d73a4f875edea1353b140cedd34296c03388"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_084.smi"
+sha256 = "1aebba05bfa21c0eb65423ea5ab09454aa8958c8aaf7a46966914a2080734f0f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_085.smi"
+sha256 = "f0e3eece06494ebc69d2507f3128bb43c0fe66620e7dd35c4cc706e18502183b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_086.smi"
+sha256 = "fc88018e70c88fe1a2eb413c02b6f1ed8d4c13cd80eabacdc4a5ed4a189cc04d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_087.smi"
+sha256 = "d5ee7cf12f5e84fdc5ed2a464829cae3c0a822865ca71f95a19706404b4ac2bd"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_088.smi"
+sha256 = "0cfa620745299fd97c7da2fdc75da39e08a854dc95964e5f9c8b07957ddc559f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_089.smi"
+sha256 = "2e2dd8c0981dc845bfd1276e237e2bec056bde269a76409d06750cda1e4c451a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_090.smi"
+sha256 = "5d459efe27ad2c30a31510fed7830cba39e2fb80e18b064778bcaee26cb5413a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_091.smi"
+sha256 = "d7a10a043dcbbee59e81dd045e7c0f0bfa0f61ac63944c37f5e7e3ef68b6e55c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_092.smi"
+sha256 = "e566a68a938b73266eab62dc6894a8a4b70acee210fa4efcdb76342cb61dbf93"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_093.smi"
+sha256 = "189ff18bf4f6349ee9f66f3aa1492eb2f56eba6d8e5ca8333b5c00276c1922e7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_094.smi"
+sha256 = "90c95fa62dd6af41f4e4936ebf33e1c4e5e936722a986ee65cf88594d88e00bc"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_095.smi"
+sha256 = "cfa227a124360b4b776e4a0b2948d4c4676af3dc8814c1b41bc4478bb20acd7b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_096.smi"
+sha256 = "99940631a2cd6595923a22eba1f0bac307af0335e1cb6bed5e60a6b14211afd2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_097.smi"
+sha256 = "5a6e1f49e0a5a1a5fd89747c12a9565dcc2766dd24c7fc5674ee49570381eb85"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_098.smi"
+sha256 = "22043e627d0b2046bec7870e20872c30e95653badcfa3ab06c71b58ef5e1b811"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_099.smi"
+sha256 = "35eb88dcbb873dea8583fe4de1217159117406e37a3364ad7f888901a4ebf975"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_100.smi"
+sha256 = "a2fdb0083eeb35889407873e9dc0c629747596f200091ce779c21434955ee801"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/features/stereo.perception.toml"
+sha256 = "68ec9b64e879571d92a24ac7f201c0e9269bee464fd1c5ce5d8024cc9e941f2b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_001.smi.json.gz"
+sha256 = "f78d412d70ca07712638516ee9aa1fb027418e34239dc856a2e8c1b755327539"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_002.smi.json.gz"
+sha256 = "b4d341067d98132e28f244ce1da4b6a59581c05e2a2ce977da02ad9fc0fb00f8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_003.smi.json.gz"
+sha256 = "df203d9fded64ef0bbe53ae07f26d0bc2db97063ab31ca0a6b3ad296bd9db516"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_004.smi.json.gz"
+sha256 = "06a8c43b9a920c052a4256d1c67ab516116cad2360b4230be7f6bf5b06368bf3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_005.smi.json.gz"
+sha256 = "9de82c28409ebf23aa40568ad137386f392600187ab9c234f280a51bf719bdf3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_006.smi.json.gz"
+sha256 = "23f1c80b36a0f74d18cc022df3c67fc7049113ad6d0106fcf24c55236be90ab0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_007.smi.json.gz"
+sha256 = "5301460fa054301b12046064335122d92f58386af855d931d6e20854c6b8b640"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_008.smi.json.gz"
+sha256 = "6f902ec8af9d801557bb20c545bc2ef189a518f29fe0ec9bf3e5b75fd92a79b0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_009.smi.json.gz"
+sha256 = "498b57f080fcf06d1cbc706289a7b8a49665ddec5a77e347e6d0cf5fa941174a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_010.smi.json.gz"
+sha256 = "c6bb678660c6ea12df9323ee2532e510b22a7ecd62c98831381f4b804baee5ee"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_011.smi.json.gz"
+sha256 = "993d49ab54d3bdf6ca774cbb6d630280e6cb80f08d4b1a87a8a21de48cb23ab8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_012.smi.json.gz"
+sha256 = "985a8ef95213ea59ea8f0609cab32366e0e124e40e1bed0ff8efa0d80a9d1a49"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_013.smi.json.gz"
+sha256 = "f828dca85ff46211a9dec8fdecd7f4377e88f26aee6ef3d7710368e2f27589d7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_014.smi.json.gz"
+sha256 = "779190ac3efa97377ccd8906506a8adaa54cbd9eb4a3a28a84c688f9cc3c43cd"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_015.smi.json.gz"
+sha256 = "7242d722b44dc3e5b41327728705ece6876431dd092edc70c5adaee67a9dcfea"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_016.smi.json.gz"
+sha256 = "72114908cbf9394a3dc7c8d56028c7a5a5631da7675f38f6cf66b13513f2891b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_017.smi.json.gz"
+sha256 = "047aa7a5e7d674da3700f389661657b290121a266483fe180682a7cf27250218"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_018.smi.json.gz"
+sha256 = "9d46301df2cb91d670fe6b9aa5439757409bc216a4669c4d51c299eec3766e5c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_019.smi.json.gz"
+sha256 = "00f5785ac76c7f860993282a2525742778ed2f866bf16dfb0e9ce8c7f30375ec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_020.smi.json.gz"
+sha256 = "14a7e996755a4e0132e674016a3b6c3f9d738f4615a923fd1a9d0da123a901c9"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_021.smi.json.gz"
+sha256 = "1a56b0679d3e3cade20733b6a65b01b0165766b809057c3df680905dfb5bb9e2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_022.smi.json.gz"
+sha256 = "442c82bf95850c0fd4e3fe32c83f87e3b664669d268a7383ca406414a0247fb3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_023.smi.json.gz"
+sha256 = "663b94c50283a78c51ea5784051bfe3517537628c8ce927322ba4024736de0eb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_024.smi.json.gz"
+sha256 = "f1c9fa19b04c4e275f0c40e6d236b3525cb2bb3d1122b317687ff721547a315b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_025.smi.json.gz"
+sha256 = "75a5f47126a6f06900e068f79e7ab6fce4f5e06e20c26dd4f0652e25a2424ea1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_026.smi.json.gz"
+sha256 = "b0c33b05b6511cdd0b5d49144fd32f1d77fc6fe914a185bc666c438958cbbe73"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_027.smi.json.gz"
+sha256 = "3fcb43d0347b8605bd7ce69fe0f6b26d6659077a3c8790057c32ce1206c024f4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_028.smi.json.gz"
+sha256 = "b53d03cf5d641c8ce1f9da24a748864c82dea3bf247124f8cee91c048a70abf8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_029.smi.json.gz"
+sha256 = "a4308b21fdacfb2aa63244fadc59a58907b737da9a9941fe9fdf28b6aa644c54"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_030.smi.json.gz"
+sha256 = "853811b8d5d1515a9f18c0f3cb40b0b55186b722b949c642734f0961f1e52d9e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_031.smi.json.gz"
+sha256 = "57b313604505a11670ba329b0a2bffea60445e6ef06cf58b6d95897956155c0a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_032.smi.json.gz"
+sha256 = "a3bd141f7455eaf94ed407cf09a3749810e5a79b64aab9e3071e9a4f7a0d892c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_033.smi.json.gz"
+sha256 = "de8c35077153a4d3799a159fd4cf8be1b982b5d18ebc20e0790cc0ab075dbfba"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_034.smi.json.gz"
+sha256 = "7147cffcf9ccce048a1d425b362e4adacbc33d923b26e3e97518b67be97da9ea"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_035.smi.json.gz"
+sha256 = "88d83804af0477942ca345efa23a0b565f7fd6a9cac1b69bd84c66be426b1e7a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_036.smi.json.gz"
+sha256 = "40ea264881f1e84e9c30ffd67d1611ca9edb2b615eeb8575639047bd75ef505b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_037.smi.json.gz"
+sha256 = "9c8cf3eff94217ba05ffaf3ec6896eb7e77bab716c6819bb00fea593aeaaa809"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_038.smi.json.gz"
+sha256 = "53ed3a7c26ca7bd6dcd5ba6270e997a6b150679ce0d56f72fcc5d642558112c2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_039.smi.json.gz"
+sha256 = "f456371bd6f249f52e23a01f5b1f86aa68b3e0d0584fb50fa74c4f218599c792"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_040.smi.json.gz"
+sha256 = "631265a77cba43f00746075e485451c3e19041665b67f6cc8133aa96765aa2db"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_041.smi.json.gz"
+sha256 = "924a933f7dbe1dc64fa6a2822a6c5add61b484cd889e33d8a22e776f3eba3334"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_042.smi.json.gz"
+sha256 = "5850d0d5fc46f839dd48a7cbd55af153845884c422a89201232f6dd125eb822d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_043.smi.json.gz"
+sha256 = "4e24eb722b8cd7185183227c32990129a52fc59c86918a8bcfe6caea48b10fbb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_044.smi.json.gz"
+sha256 = "d7f788cdb1f46184d9e18561d72ab31cdf1dda24f64a618219956983ba803876"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_045.smi.json.gz"
+sha256 = "21a4cec63432a97f3f0c7ecf09fb3448a44ea087dcb97187d64699c72b4f90f0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_046.smi.json.gz"
+sha256 = "8a0632a38f70d6060e33f3b75368809b99b194210c80b6952733555cee0c23d6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_047.smi.json.gz"
+sha256 = "af416a09ad73fdcc7e60afb2894c4cc5b7a4234bf7814f80edf77899df900af4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_048.smi.json.gz"
+sha256 = "b1d9b0bedf9018f463bf096eccb10fdb14005ec01f4ed981b264d167fd966430"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_049.smi.json.gz"
+sha256 = "0828f09beba9ec600330f0ad6abf7b97bbfe452905f0fb1b4d4e17aa4b4bf789"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_050.smi.json.gz"
+sha256 = "bdc99a8779f416209f39e49c4a378c0896f33dc6de45f325b4e9eb7a9a1b8327"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_051.smi.json.gz"
+sha256 = "c445798bc21ee44aeb40cb4cc6b2da6a996b72ea2b225d7f0ebb9477dd978d85"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_052.smi.json.gz"
+sha256 = "e31f605cb37d55800f40502a072792e3be017ef5e8c21baa94410c77bd3c8f40"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_053.smi.json.gz"
+sha256 = "060ff6077ab0ad789891d8026a0c4f5f53b39746334ec5b433afb2d4b5bc697f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_054.smi.json.gz"
+sha256 = "8138cb6faed76125621071526e5cf4b9d9ab8d6e4649b71ebae8475a1bc814ab"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_055.smi.json.gz"
+sha256 = "da8ccda57babfc938f7a5130a33e83fdf5be587ae0c4d61a87a4cbc15159548b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_056.smi.json.gz"
+sha256 = "6d9175ae4da1d519d2e906b97f8a78099a5805fbfe9482159ac5e10c7cf16400"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_057.smi.json.gz"
+sha256 = "4c56a2a0889d5393f42221f5c32fb675e00ec43e59d4fcc997e20c59dc6f23e3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_058.smi.json.gz"
+sha256 = "bad2e7d7921cf239e89271d698a577006078604bf7896325eb77b23070e3d5f7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_059.smi.json.gz"
+sha256 = "cc5a77edd00e261d1c83cb07ee605d63f8d6f1a9822cee40d5bd647e43a0d3c1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_060.smi.json.gz"
+sha256 = "ef4df557c0e2125c4291b6e0a8e104c1b4a5b970ef754f80b7f7a50207119cfa"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_061.smi.json.gz"
+sha256 = "87752914a92249d35200e534abd7bbc7b34e470e698796a5ff7315ecef6bb912"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_062.smi.json.gz"
+sha256 = "bbd1f2db098483fa32bb130183fe29c20f12f799915e1ef9bb76bb9192e8b038"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_063.smi.json.gz"
+sha256 = "06760a973c8e813f2111ce14202d7404732cdd9034f8108042269718088df1af"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_064.smi.json.gz"
+sha256 = "e516a7dc9892b29af573e7a035d8e8de5ee1b7ca65c6da537d24e5743225f7e2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_065.smi.json.gz"
+sha256 = "8509473d58f70cb5ebaefde949000d5e6f2ddfea4ec96849d29629c29020fc7c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_066.smi.json.gz"
+sha256 = "95e01a812f243c4d54ed0d2e5176cc2b9f29c9c5dbfdd71c70118a6f40142447"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_067.smi.json.gz"
+sha256 = "ad4132903f296cdd25200a02e6fc9720ef7992bb66b979a17c1587778794406e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_068.smi.json.gz"
+sha256 = "9c17f4e16b22ea3322d42a3aac069ed9017bf40c446697267e6bc3d6939598e5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_069.smi.json.gz"
+sha256 = "c36090dcf6ce363693ea93ccd19cb712ef2d2b8ce95111283d0ee024af1fa12d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_070.smi.json.gz"
+sha256 = "c9a3f285e06ef792b6adf15d28c6e68666717537ea83e0c0e44eefd10d2c1efe"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_071.smi.json.gz"
+sha256 = "cf8ca8bad09e66dd93853b148b5c0260213a7c3c2fd8521db2f6d58fe6e86910"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_072.smi.json.gz"
+sha256 = "52b4c1cc31d88da8302dc1970ba8d7d696673e413a2a01ed4e4125fdbdae888c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_073.smi.json.gz"
+sha256 = "479690454910c38d3d5f8fe2dce5683bdf78fbb8c893df036df3cf48b6631162"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_074.smi.json.gz"
+sha256 = "3b16ea794cc31384d19f69e31fa76ef5254cf9374dba4230dd0b9e1324a6b351"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_075.smi.json.gz"
+sha256 = "deb92ba237342f7e122e2163b96a499b3cb49ab128141847aeed3bba1cd72003"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_076.smi.json.gz"
+sha256 = "a038cd4d99665d25353c03e5210c548f6bc013264dd611db94a3ced9f432c3c5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_077.smi.json.gz"
+sha256 = "3e9eec21fc1b0daeac2ceaa235d7acb07f472b27a6c8652d9b9e66d1aeb76319"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_078.smi.json.gz"
+sha256 = "f12120b5dbf69c0db84dc76378da23ff88b217570e22b13fd236a211b3165917"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_079.smi.json.gz"
+sha256 = "e429e8abc6220a2aaffae8070251dbe11a1c241262235a1626535bdb92089c64"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_080.smi.json.gz"
+sha256 = "cb6c48de3162d96b6989b00833cd189f3945ca8baf9402e3acbf00029175fc0d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_081.smi.json.gz"
+sha256 = "b3eaf1057401f0e3f09060255f4b8f5c99849c4d36c5190527b783e87ee8e885"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_082.smi.json.gz"
+sha256 = "2e2192661a52656177b4f47ef24a00552f5b3f973fa921fab7af59d6ddfd18ab"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_083.smi.json.gz"
+sha256 = "b238e6ffee4dc091a04bf89bbf4b905867d026fb3de88ad593a69a374f873791"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_084.smi.json.gz"
+sha256 = "1388535f8b85c91e74db7f97a82f12ca1f0426ebdb06ede6d7d05f29df5c4283"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_085.smi.json.gz"
+sha256 = "813df75bb34b86b0ffd17a4e6a81a96922dfff89a2caaad002a1bca52d50f3e5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_086.smi.json.gz"
+sha256 = "931f26a4ab10c563cb2d7b6f63e2eeac1f590fdb1e773842179d071bedc53503"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_087.smi.json.gz"
+sha256 = "898df46fff272266a6a7e9e1804031bc06b0530772b0af0e7df5e363ad737bb9"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_088.smi.json.gz"
+sha256 = "de06f136271b1f819a3511f24bb4f40afa60ffec34554f6c68a7be7f43613cc6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_089.smi.json.gz"
+sha256 = "d152de5d3c7a9a4bbc72b78a06cb86d652ba921e7be3912816003f880c62cf7c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_090.smi.json.gz"
+sha256 = "6ff927c5fcf284349ae0dea1869776aa960648325b4c8798a2eef52eb5490e57"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_091.smi.json.gz"
+sha256 = "1cd4c923073ddc4df06160981785e278472db06c3b37f31b19de72a6072d3297"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_092.smi.json.gz"
+sha256 = "46889562834a5bf53a27541108a7f07114062ec480ad5278f16f20ea83f670a0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_093.smi.json.gz"
+sha256 = "625c9b0b7364186777103ccb115435726f1dc06aae5aa2107590e50de6fa3fe2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_094.smi.json.gz"
+sha256 = "fe3586994515864e7392af7d7c27406b42cd43f8fa5f135d3aca3022c9525799"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_095.smi.json.gz"
+sha256 = "56d0bca67b8fd1758dc6023242831ec8e774398782e09a740284569bce1c5247"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_096.smi.json.gz"
+sha256 = "d21ca00e5237b178ef0e618aab77acdb04c22eb0094661a4c524b74c3976a3ce"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_097.smi.json.gz"
+sha256 = "3916e31ee770b39eb84cca95c924d19869ad234421ea507bc1d963a338472997"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_098.smi.json.gz"
+sha256 = "f99423fdad63ad05fb929844df4f76c985ea3746dfac96141ac6ba09ab3487ca"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_099.smi.json.gz"
+sha256 = "89ba10400ffadfeb1f6df66922959121293c61f45664bc0745c1afd8f9861c19"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.perception/data_packs_pack_100.smi.json.gz"
+sha256 = "c96240d48f45fddc273d5f06597945f96b768690bbc8535a1bfe32530973b081"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/sources.lock.json"
+sha256 = "5d97f670a99e8cf00fee4a8e66cb2ecfcd6dabf48e2e9f43153ae85590cef0a9"
+
+[features."stereo.representation"]
+passed = true
+fixture_count = 100
+compared_count = 100
+reference_tool = "pubchem-manual-semantic"
+reference_version = "PubChem PUG REST 2026-07-05"
+manifest_hash = "cdb304befed988814963cc8e3f37548c81f8414e1279229e9a84bc1f17990bc1"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "f5c5da4f39f8a3fa8e595f56cf6640696eab2139f3cf6ed37a40054d965ad0bb"
+validated_at_unix = 1783587482
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "09d7c863570f2f5d6e00697943697a1b54887dfeb660469c39a5b11d311d9139"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "e78833ed1622285564e1838b9fc97ab6539e20f5ea16425c0db39153ae9fff8f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "8adef33795576a1e61337758e6e5061e5bec64eab27e67ae68e8138790ba5fe0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "c69cce68f28be94b6a8975c27c67956564a41ec684e25ee97ee0f573fd671108"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.md"
+sha256 = "869e818e751f73afd0bb8145280675578582ff5c0fe99c1cdb34141269957716"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.toml"
+sha256 = "ded42071f569de7d4540fbfb6c459e45128d60c9b4b55b51e0084000fe3d04f7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/corpus.toml"
+sha256 = "3ffd4c6e6853e461882ac56e1210be5774e3d8c79942f3a545b574514521c7f3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_001.smi"
+sha256 = "5400956e0050e8ddfe809b36cbe29b6caa3ce0b9de80003942a65cd9a5a35c0b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_002.smi"
+sha256 = "72f28510fee1e7cce39b97003ab34fe46e25b71ed2b1a299e0ee274719f82cdb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_003.smi"
+sha256 = "6e8185403e605a34cc63d2716c9c77e2b97b182cbbf2acc6553aed0f0f7f0da6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_004.smi"
+sha256 = "795ea5e70d567bc7194b5cc438ddda43daa75091a27cf79975c0dcfa80888788"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_005.smi"
+sha256 = "33993813d44cf84b9c4ac090d9a770ea23fce5c38ee30b92d6cb810a0c95f994"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_006.smi"
+sha256 = "7701532f7d09237d4133edde633131de44b3f3fa385a6ef26f057925455071f1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_007.smi"
+sha256 = "367ea89d82f129bbd8c6e5c53a09170f210ef900cebd3eaafc32c1fde1690db6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_008.smi"
+sha256 = "84bf8fca95704e8f61844936dd61b375b4873afb810e510c5d0f13767d04fae3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_009.smi"
+sha256 = "9c0af771c9d685e747767070efd05d02c3ff98ffb80901d337ffe1d465b73f35"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_010.smi"
+sha256 = "a19ae304d990de3d7189a1c296e2a2d68c99bbf881d1ded06414dd7a0ffde124"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_011.smi"
+sha256 = "7e302dce5a8827306189e4412c0d84adab09c885b50686805ca101b5cfbdec56"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_012.smi"
+sha256 = "f52e3534ff1d3ac8d853ad2d279f695db742209d749a6d28c8546fce555353ea"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_013.smi"
+sha256 = "0af0e93945a24272f2693025464cff20a51e0e3f0050549ec3ca282a18157f05"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_014.smi"
+sha256 = "89c96a2c1695adaa4fb74817fbb05e15c442b334f84167e2e8fd3d54056465de"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_015.smi"
+sha256 = "4db8b87749addc14a693d4c6f5c30b15d0d7a1bcc1b1a5b752e064cbf5cd0915"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_016.smi"
+sha256 = "0500fa9ddbca9ff98c6506ec4e55d6731879da51a3abfbe10f0e49374273321d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_017.smi"
+sha256 = "86cc11bfc50b4cbf16380fe0435c5634004b57eab8a01fe1ece074e834a25a34"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_018.smi"
+sha256 = "397c9b2136281dc3eb289f49cb3ed24ab8f5943b8ca81c1c79be7265e8b7cca5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_019.smi"
+sha256 = "7dd481e64aaeb9fa708897276ed45a588b5b25841074e94c9d94b4fae2caa42b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_020.smi"
+sha256 = "191f0e436cecd9a43a16582ca82a00877dfabd742fdc95a7adeb80fd4c491f0e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_021.smi"
+sha256 = "38285d3c5562468d4963c90e3a4191640747eef11f06f379a64df95278d9a84f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_022.smi"
+sha256 = "4146bee5a464fc7c8928d4c702c04e2348f1d80dd16dbcc4672707577d38066b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_023.smi"
+sha256 = "4c727e0106509623231cb38b039c1249731c79e0dffb0a8d16c0af0fffa3b642"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_024.smi"
+sha256 = "0a4e1fbd3d3e9b3b8cd1f6258cf0edba187a7b8aa76c7c5d1512604d0ae35704"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_025.smi"
+sha256 = "4c392d120c73e76c7c5abca9b0e634002fae5efcc8fecfc470d8ccbc832df8d5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_026.smi"
+sha256 = "f7c88388f2f866eb714dac652f6b36b21762329ebf53a41b8953ce8370f8493f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_027.smi"
+sha256 = "22610d5fed21b14196c44f4aff2c050a07b87cad66aa82c65463f04123ac12bd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_028.smi"
+sha256 = "b1d6b2f5e2c51db0d5ac23410fc53c134ceaf851c826179ae3a4c1db20eeb084"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_029.smi"
+sha256 = "9e96111957337ddeb642b2a1ef8639b1580cb12961c306c1bf4deac9b327025b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_030.smi"
+sha256 = "a8e7c2e60211312817faef0393b1c84931afd7ce8ec8d0a7b6c7c721d2efec51"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_031.smi"
+sha256 = "309943ebe24aa2687bb21e741ed372eab17360b7327a7e9b0f8d02d6617af866"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_032.smi"
+sha256 = "edf408df1103c54c9ef7ef6205891170a02b5ec15726b41e8ff26acd6981b74e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_033.smi"
+sha256 = "45a1a31476d6db1a00c25d5a4427b106b00f685bcf8aec1c378fa83928476110"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_034.smi"
+sha256 = "2c479e9fb31c6ab64e96d9275db72e0d369f5c651b1cc6e277fdfcfa8dc75c90"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_035.smi"
+sha256 = "e107d26bb5cb4b588ebf623c9b980f2be3debe1052e58583e6ecfd8482da4cbc"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_036.smi"
+sha256 = "f2469f0c34cd4f3601ca18d8533f2ea5a95a018b4f18dacdafb324e9684d95cb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_037.smi"
+sha256 = "d681a600185298139e2df6578561773785100913fc5d3d70e56ecc113a331262"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_038.smi"
+sha256 = "bec2503c7f712f1aebefc17fcdeb5b87792913d75758aaaacb8861eaf940fec2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_039.smi"
+sha256 = "f365dba6eaa01e35201345aee7098ecd2b237b36e88b7f3f39e56689b23e7c2b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_040.smi"
+sha256 = "c1c7c826c7d00358a9c990d5271cee87319d91845008c0d80b4a288f35e57e4c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_041.smi"
+sha256 = "f2f5871bfad312cd69316965fd1c463fecdf62e300f7559505f3e3bb4970263b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_042.smi"
+sha256 = "1dfcc71db55ef388e171bf63d78aa283f82742b0cb2255c90769ac9ef34b5d26"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_043.smi"
+sha256 = "de82e6ac8d3ca2e62837982754bb35faf7d2d435912888a53d8e9b07d1102a52"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_044.smi"
+sha256 = "52ef59f0c612e159d20231032abda351b1a53283f485ee3826c0c7d31d3d35aa"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_045.smi"
+sha256 = "d878b7a5ae5a85ae53ed170cd123aea39d0e209d7499f7f8d8d8232ddd7492c4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_046.smi"
+sha256 = "21f2dcec91d62b7c52bb23b3c0fd2eae2aefab2e0df9dd7687f9ef0349f9797d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_047.smi"
+sha256 = "1a077a2618e458f9a753cb018714b33cd7a2db43ebf01d2cdc247b16bce6a6a3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_048.smi"
+sha256 = "7c66528739d18fc04ed9029a373ad74abc4330af684d32635c381fc4ebf5167b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_049.smi"
+sha256 = "514a159fd5131658cb51f0bb57fd460bd0127b5a12c2a06c0edbb907fe2c38c0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_050.smi"
+sha256 = "524a64d0b46cca2a4ce450949d03cf096925eb220ffbf004cd021a5e1f63c941"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_051.smi"
+sha256 = "01ba0d97fa60a87ca56bec08c1f912d79ca4085201bcd2042b2124c372ec5bf6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_052.smi"
+sha256 = "d3465c6e92c0b0aeea8fc07a5c8f8b585b136403e91cf910c7b39fd951ca63ef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_053.smi"
+sha256 = "1aaadbc92d94ee5dfdea3d21d6cfffda688b35a7e7bca0b8d6e1023e423c5774"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_054.smi"
+sha256 = "7c6b0491e79f9c1d3b1c727c4160fe7f9f932820d9eb85aa86542645edab8aeb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_055.smi"
+sha256 = "2bade9f6a39aebeb4ef8ae43aab283858a2a0ebc33631711af8f5848d980478e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_056.smi"
+sha256 = "5953e145a50bf605aa03cad11ac14b5a10835aa3e743b8922053629beb0ac7c7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_057.smi"
+sha256 = "f4211362d9869aaa59a3ec0e7e4d270a479fd61a56a31376197495f77fde95ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_058.smi"
+sha256 = "a212fc391934bbdac66556c56a7d77cb8c7e20c142d3fbef50dd91911bda12f8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_059.smi"
+sha256 = "6997a7e7a15cb3b1e49b16537c793ab8d12082e002ef5fb8f2464597764ba45a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_060.smi"
+sha256 = "31f1705b3353cc478d014548263e7b86ff5ea6a04a33b44cb956bc3e3a3ad41f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_061.smi"
+sha256 = "6014b0c02852fb92da2b5ab375f7fcb3257a9a429bb7be4ce1bb3f6b6eb84b14"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_062.smi"
+sha256 = "09374d2df2d34220605bfa91533dc63d319297b6bed20a292f697127c80c25a9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_063.smi"
+sha256 = "3e5fb5b018354905f89eeb452726056f323ecca95ad6a746e55e2fd999c2c8e9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_064.smi"
+sha256 = "fdfca2264b18e8b35061c6c7a16d206ee5091efbfa9c52e779757b8e37077b76"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_065.smi"
+sha256 = "9d5ce1c21a029bf3f541a053ed59b8ea00cd76ce1500137af091f8d658dc195b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_066.smi"
+sha256 = "a6b85142bc59630176f88073baf3c057b3b73bf1f19c74714c6ad91bb79de4e7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_067.smi"
+sha256 = "1d6f7695cf64de7034d8a67699295f93dffbfc4b8ede819afd309604c68e901f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_068.smi"
+sha256 = "e857c49d1b67bc42b31fc3af5cded32d389d827df6463b9ade4053829f1e92d8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_069.smi"
+sha256 = "b08b10675adc23aa8901b5ccb0a301dcf8556d0bfba8182680d5730a761d9c23"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_070.smi"
+sha256 = "ea3e1f6ddb7331d7b58becfedad76c6834dee8933042578aa1e96eaa491507f5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_071.smi"
+sha256 = "74b20a4869c9f267550e7afc8030108c6dbb99530eb3a98a8d4886e5dc86a535"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_072.smi"
+sha256 = "e99e79d4b8628ca3c83bf80e8df2ea42caacccaabb63bf82f832916129c9dae6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_073.smi"
+sha256 = "4bb11a170d74b6ee7f6e2a95cbea5f567a11c3ea871084dc73483a07128526f5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_074.smi"
+sha256 = "d9e8539b7ca6f231b1acf390d43a9cfd80acc000fd02ba4bc0af4b08d3fe3a3a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_075.smi"
+sha256 = "9907302a205161036180b0a40c800e4117c43237b5bff68f154d6352441bf691"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_076.smi"
+sha256 = "ac950712099a09a3d9cefb805ad4668c50b7caa001e87327694cb43a76800669"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_077.smi"
+sha256 = "38789cf33b0735824804d0c05cd8cc2ed2b04ca3d7f302376f633744130c0383"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_078.smi"
+sha256 = "a6b2df9a88ef9717f8265ad0c8c4c9e07f90b00a3684998f07d3de013dcb50e3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_079.smi"
+sha256 = "d72e50fd7ba4b5666832d50d962d5376e41539f3a0692fa6723d1f35cde12dab"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_080.smi"
+sha256 = "ab42ca506062d2e94879676c51ac8b9a91d7fba84742430acf46b576f5827a1c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_081.smi"
+sha256 = "a56eaaa72b12286ae37d9fa1ad35ebfa87135560172fac469d65e7836a2d9b07"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_082.smi"
+sha256 = "0fc7e4a7e1f94814474d9b6785a6e17d7f7e7146f6e4b26dcee923b51bdc73a6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_083.smi"
+sha256 = "06dbd4ec6db438611dfec14cbef8d73a4f875edea1353b140cedd34296c03388"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_084.smi"
+sha256 = "1aebba05bfa21c0eb65423ea5ab09454aa8958c8aaf7a46966914a2080734f0f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_085.smi"
+sha256 = "f0e3eece06494ebc69d2507f3128bb43c0fe66620e7dd35c4cc706e18502183b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_086.smi"
+sha256 = "fc88018e70c88fe1a2eb413c02b6f1ed8d4c13cd80eabacdc4a5ed4a189cc04d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_087.smi"
+sha256 = "d5ee7cf12f5e84fdc5ed2a464829cae3c0a822865ca71f95a19706404b4ac2bd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_088.smi"
+sha256 = "0cfa620745299fd97c7da2fdc75da39e08a854dc95964e5f9c8b07957ddc559f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_089.smi"
+sha256 = "2e2dd8c0981dc845bfd1276e237e2bec056bde269a76409d06750cda1e4c451a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_090.smi"
+sha256 = "5d459efe27ad2c30a31510fed7830cba39e2fb80e18b064778bcaee26cb5413a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_091.smi"
+sha256 = "d7a10a043dcbbee59e81dd045e7c0f0bfa0f61ac63944c37f5e7e3ef68b6e55c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_092.smi"
+sha256 = "e566a68a938b73266eab62dc6894a8a4b70acee210fa4efcdb76342cb61dbf93"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_093.smi"
+sha256 = "189ff18bf4f6349ee9f66f3aa1492eb2f56eba6d8e5ca8333b5c00276c1922e7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_094.smi"
+sha256 = "90c95fa62dd6af41f4e4936ebf33e1c4e5e936722a986ee65cf88594d88e00bc"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_095.smi"
+sha256 = "cfa227a124360b4b776e4a0b2948d4c4676af3dc8814c1b41bc4478bb20acd7b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_096.smi"
+sha256 = "99940631a2cd6595923a22eba1f0bac307af0335e1cb6bed5e60a6b14211afd2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_097.smi"
+sha256 = "5a6e1f49e0a5a1a5fd89747c12a9565dcc2766dd24c7fc5674ee49570381eb85"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_098.smi"
+sha256 = "22043e627d0b2046bec7870e20872c30e95653badcfa3ab06c71b58ef5e1b811"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_099.smi"
+sha256 = "35eb88dcbb873dea8583fe4de1217159117406e37a3364ad7f888901a4ebf975"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/data/packs/pack_100.smi"
+sha256 = "a2fdb0083eeb35889407873e9dc0c629747596f200091ce779c21434955ee801"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/features/stereo.representation.toml"
+sha256 = "cdb304befed988814963cc8e3f37548c81f8414e1279229e9a84bc1f17990bc1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_001.smi.json.gz"
+sha256 = "0fa208334cb995c83e373dd74b12308f2ba8be916589a876ec77384e361fd66d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_002.smi.json.gz"
+sha256 = "1c598021f40d134f791a12ff77b871aff4694d91a54f2ee7edde0d96040c3ab2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_003.smi.json.gz"
+sha256 = "130f64734b3c8477a23e0cdb722ee5768ff36a5758258738a4630efc5c72fd63"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_004.smi.json.gz"
+sha256 = "4a89eb15f77df78b08791502d0596014e8459bec2f0eaa61d2dcfa399f472c50"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_005.smi.json.gz"
+sha256 = "705d4b6f19c31f232e28cc6b2fd3a7079f488edcf1098a7fd909dc455bab6f52"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_006.smi.json.gz"
+sha256 = "ee0a4018bc61cd89eb643ac39df8f320e693f8edc94031795e4fceb3f85d667a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_007.smi.json.gz"
+sha256 = "f849f083540e4df0d79f2902fd0811291adb82fd0050c2ce7522305731497edf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_008.smi.json.gz"
+sha256 = "f3f7855c18839106c70d616d95f286b240c602e2325a9621bbc50af4f29459c5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_009.smi.json.gz"
+sha256 = "d62994d01c70aba7a56058535b1f946cbe0ce279a8ad0a01094e1689dfe8c121"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_010.smi.json.gz"
+sha256 = "d010af7893ebde9abc01de25a84aa7dd8051938eeb5477b8c9c73180cb45761e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_011.smi.json.gz"
+sha256 = "d5e7b503c827606d26bb2e6e2dcde4c15ae4d53a85a507229766bee4ecb61f67"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_012.smi.json.gz"
+sha256 = "5ba6e6cde36d539df12f63651993b83d6a584a9041005799278ef7af4fdd719a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_013.smi.json.gz"
+sha256 = "c30b2f0b613aec6407c227ca0edaaca1efd0b32a1d2c281997a4d6973941b38d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_014.smi.json.gz"
+sha256 = "dacf2012740de81adb968aa744f75a5c1c3dff322bac88d275a6d64eaf2fec0c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_015.smi.json.gz"
+sha256 = "f0c41e13ddb5543d0902aa4fc8f2a4336b8b302dba49ed6d127ae840f51300ca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_016.smi.json.gz"
+sha256 = "070516f16f7a0ea182984e0c10132a5a8faca0246978fd0e7ead41bc54b5fa4e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_017.smi.json.gz"
+sha256 = "8a1e5a79485a108cd113b2851600b320818d81422f3087065fdc968578d206d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_018.smi.json.gz"
+sha256 = "608c9352b873051d427db6cd224c78fb6cfb74555255b3d03cdcee62623b6c1d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_019.smi.json.gz"
+sha256 = "9c0079faf0adaa8ac89edfba440a4099de1b335fce6a630e1cc60a5514b6f972"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_020.smi.json.gz"
+sha256 = "67d041835f2e86eb38bfa9f2109341091b4ce783e1339cc6336d55befd60f1ab"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_021.smi.json.gz"
+sha256 = "63515226e0452b779714fa73e19dcc2dca9e2c68ce70c61441726c0a4daca12c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_022.smi.json.gz"
+sha256 = "217a26f9e248d5ec3cbabfe8828241c0c21a933158eda882e75e81387ff792fe"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_023.smi.json.gz"
+sha256 = "56f65e8a207e7013295f6dda013f86f117cf51821ae56af4373aa64c7fbe5a60"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_024.smi.json.gz"
+sha256 = "255a7db5e6b5cbc593cb045fe0857cdb90c1cff59d3489c9ae644953eaaaf6fd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_025.smi.json.gz"
+sha256 = "b9d91bced00fabf8be0d3dd52ea934f67e92f2fe25b43e8c7957a3063b7c40be"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_026.smi.json.gz"
+sha256 = "1ee74ad46d316907ec8c2d615dc1c1968930e84e1ba3408915a32a05a16bf9ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_027.smi.json.gz"
+sha256 = "34720be0cf5b2278a1c22617ce91a2b8960147be1f99318c620ceec950fbc3a7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_028.smi.json.gz"
+sha256 = "fdbf587d5ae28b26b347a06b9dcb84265735c14b7cf5907461e2e4ecd81ca529"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_029.smi.json.gz"
+sha256 = "cbac8745dbf0d2ac17beb2b6a270e9dcecdcc8192cba0b92f3943a240ccf84e0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_030.smi.json.gz"
+sha256 = "1796bc31caeeb4c1430eefe6b0296551ea326c865e98c0615cc998e254e8d917"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_031.smi.json.gz"
+sha256 = "408b1ee2b5c5e8b00f3e69835ee4a55c03d4b51c123bbb68428229423390f53e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_032.smi.json.gz"
+sha256 = "f3704a669583fc8b4661217d925462489f0525982209fa0ca177b821e43a6e4a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_033.smi.json.gz"
+sha256 = "04dbaf96552f99e93d5ef11ff05e4a177adafb7c2f3c164fb3b61fb1bd45a808"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_034.smi.json.gz"
+sha256 = "42ace5fd315bc66126626cba9045c263306d124e9f24d20f3d50adaf0a05b7b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_035.smi.json.gz"
+sha256 = "0abe7a974c7a12ba1ce6a5e36e107dcadb98f59d96eb68f2987b929d0ad42000"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_036.smi.json.gz"
+sha256 = "d2530332c410910bfadab5c9777b4e075556295e7f6c6598258ba1858b802911"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_037.smi.json.gz"
+sha256 = "e3fd5760879ae45d31810b13cd7ea4e55b6025d44e2fc6c4a483af4374bbf0ce"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_038.smi.json.gz"
+sha256 = "fe9d82af92cb96e3e5f0ceeaadc4d9975df64ec34ba58b0e1f87f0bfd4b495ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_039.smi.json.gz"
+sha256 = "a85fbd6b7862d83c559a2e7e72b16952358ab7815c59ac3485024a741f2fac00"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_040.smi.json.gz"
+sha256 = "45487ded21b3118ca889ee4c8eb5d696ccf8da2ef35803650f856eec3f6eff29"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_041.smi.json.gz"
+sha256 = "2cb0cf99a0a31a8f6ca1f5f3a2a2f82657d8740f302a6e9214a01507dfac6670"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_042.smi.json.gz"
+sha256 = "c6c03ce7a69b4d61c4d86efc30ea6b13b42df6494d2a57649dff0f5c110aba53"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_043.smi.json.gz"
+sha256 = "1240cf41042216fc074174f3586c8edcf6f22bb4a8da6f917f865f1dd026c544"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_044.smi.json.gz"
+sha256 = "89f258c8f6c9cf80644f69212c41f231f61db02aa6664f849a64a46ddae29a02"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_045.smi.json.gz"
+sha256 = "f41910776d3743bbec1630ba4b5878e26bd94e21df0eed4173ca72a89931f899"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_046.smi.json.gz"
+sha256 = "92d7bb1ceae4ab1e095b233d9563ea18e0edffaa6fbec362d3767ff55d901408"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_047.smi.json.gz"
+sha256 = "1e602326aeb0c1b04eae4047e235a459a4f56d7e4e0e6167629d31c6612badcd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_048.smi.json.gz"
+sha256 = "228db9e45bd5df6a381c4ea127292fa2ddcdfcb68ffcd5c6cf9c8d96c71bdb3d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_049.smi.json.gz"
+sha256 = "ce68df19efd2cfec0790d8dbbe8b8b03153af0e27e1aa30d66d7289b5289c5e1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_050.smi.json.gz"
+sha256 = "38fcd557023d766e968d644c3ec16a206ce1a01b5bb58cf68fa670e42f82273c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_051.smi.json.gz"
+sha256 = "b762f687b58239ac57ccdc8c28cc2ca4f86db2a3ca10aed65f944fa26e4c36e5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_052.smi.json.gz"
+sha256 = "b4bab0d1f8e9cf6b3f907b617db7643aa0204b2a37d0787ed4a8f23e119288ce"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_053.smi.json.gz"
+sha256 = "58f332c70a6f3b8f19f60f70dbd6b59323eec5602e8f62ffbcd7d24660b5f59c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_054.smi.json.gz"
+sha256 = "942c09769d5801dfd49b105d70dd7287c228a71bc0b056f8bbb3a43856063af1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_055.smi.json.gz"
+sha256 = "ddebc2f00541bb6618fd90bc5804e2cff0ea03acecbaa6344fbb2d6e437160da"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_056.smi.json.gz"
+sha256 = "ad9fc5086de8563af82b6c150192c584e5b1ce45e7ccbe69addbfda0314b6090"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_057.smi.json.gz"
+sha256 = "26ca56317bc9064f5276cac9936b5b49fa8345abebbbff24002d00560d53cc57"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_058.smi.json.gz"
+sha256 = "1386a569bd30f155b139026d2af6ad6daa8713c8133baf77ec71a5b6ecd51209"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_059.smi.json.gz"
+sha256 = "417766ea782228da20e3073c043fefa714351be8ff0498da2ceda03d5e0597a8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_060.smi.json.gz"
+sha256 = "cae09a88402863cee752afada9c9219b9d7394f88596c453f4922c1224ce9486"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_061.smi.json.gz"
+sha256 = "350e986463c13f26b57956983ec8535a4118f75b256b33ac534c73ebb79b1705"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_062.smi.json.gz"
+sha256 = "cc95f1488501f23365a60c2048e229c5f7d49b6d7630d85085c24f9dd6eb96cb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_063.smi.json.gz"
+sha256 = "563ad8f1cf812187c6f170c6ff54913fb70a60458d126d5e769f704ebfbc00dd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_064.smi.json.gz"
+sha256 = "462517416a0150c5d669aac4b2c31c7b6dbe6b3d7e03d411ae5f2bdf46e59c0b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_065.smi.json.gz"
+sha256 = "2314ac998d1902784f10b7502366799b6a3e3cf2e662a6f986dc7ac90eec84e9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_066.smi.json.gz"
+sha256 = "3a4e4a5f0d0d4104394807456a1c1160dd43da40c0ccdc882166e45f154eca69"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_067.smi.json.gz"
+sha256 = "8037196c8847f4e6eacf774d78c6cbf474e15f0e66650cfa55ed14dee6870cda"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_068.smi.json.gz"
+sha256 = "a30a1e4453a7cd58d28bfcdfe26e7fab925040e3b7fdd03fe93153f687f7c521"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_069.smi.json.gz"
+sha256 = "1900a511f97a1546c7a7f1faae5d755b3d27e25582727ab157030a6c2bda5c26"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_070.smi.json.gz"
+sha256 = "388312af028a34df4df4a6624c4eb4b1a14b027e64e3475a88327c3f3d5882c4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_071.smi.json.gz"
+sha256 = "d0375af8f9af0c94b3de8886cec6cc067ac275105c6630cf38f7fac5c6cc3210"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_072.smi.json.gz"
+sha256 = "8b2aca6cf74eee39b551a3298ed866d20ee1bfcb889251bc8f6e044d9c990308"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_073.smi.json.gz"
+sha256 = "7a005bb873c241757b3e82fe861cf5176ebd5090df19843f63e33051a61b1409"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_074.smi.json.gz"
+sha256 = "80c329c05d99fed6f71b3568638d7d8a35eff3f669ad3b06291e00acd543c10a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_075.smi.json.gz"
+sha256 = "1c73c3ed5308245c286d9c9cf15bda3f451c9499ab5ec2df326a5306eea558a9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_076.smi.json.gz"
+sha256 = "792ece70faee055960dd71833c7dd8ebaef4fe533d112c41ec8fe2033100cf8c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_077.smi.json.gz"
+sha256 = "91c4311dad4ebd30383267dcf904eadcef68a825a1ef17f7bef6da2704907619"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_078.smi.json.gz"
+sha256 = "ba7f86c6170a1d64b8d427887caa5aa83ae9a3a11bb879e749145ca8025e9c50"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_079.smi.json.gz"
+sha256 = "e88334228a0127fe60b80299ced2a86b25c1c5380be2c0ea8abde45ca0dfcd0b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_080.smi.json.gz"
+sha256 = "211cb82f4bcd37104a1e0b247986723d6291753614a90469ae3af85de002605c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_081.smi.json.gz"
+sha256 = "b1b2c1a43f91edb72a8879f0f678ebd8b21b765e7c265a5dc8d211f0125709d0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_082.smi.json.gz"
+sha256 = "d3ad5c7158581b18dd04319ebab26c4ba15c5bdb957d81f75d92b339f0648bd4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_083.smi.json.gz"
+sha256 = "2d894ba531b43c7e5726386dc0efaab8f8f006cc8ac86a8ee3b1e94f5779a393"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_084.smi.json.gz"
+sha256 = "39ce54edd83afb559f12a3abcb60ea98591e4c7c085d112c8cac018b7153316b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_085.smi.json.gz"
+sha256 = "040c8ed509b570c2d1b18f0634009c6b9e268defb7ba77f0daa19990445f9298"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_086.smi.json.gz"
+sha256 = "51353895159494b056614035db38b6aa8a56d5cc150c37d6f290f2f6e31b54d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_087.smi.json.gz"
+sha256 = "24e40586e282d4b0215f00508866986471a7fe6e288189133b0e6c249860010a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_088.smi.json.gz"
+sha256 = "72c3942d18f1c1cdbb4be513adc017f8fb858e6992d982a8dcb596c90631cd2e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_089.smi.json.gz"
+sha256 = "be572225dec72cce11ffd5e84718190c2d4e1402947077ccca688d7775685edc"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_090.smi.json.gz"
+sha256 = "2eeaa625ae49bd0f543728046bca4c1e1abe081b91df71a469b4409125578311"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_091.smi.json.gz"
+sha256 = "1b1b04a33c98e4415c780489dc3ced6e84772c31c80d95c4a361076e6e52daca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_092.smi.json.gz"
+sha256 = "d2ca99671fb7e15d55ab4a7dae29b3f556e6a04f94e73591c447cf7d025e8a0a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_093.smi.json.gz"
+sha256 = "ea78be4b6ce48ed8af03a22bfda743e1ed87a58eacc57eca4f3030235c33346a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_094.smi.json.gz"
+sha256 = "9112bdd183a4ec50b55e9fe6e3ed66960862ebf63771102534c22f2f268c5482"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_095.smi.json.gz"
+sha256 = "c9800720f83d55a70bf5b864ce20683e2ac253898d7d745dae027372465741af"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_096.smi.json.gz"
+sha256 = "103c8143dc00948cfcf2a7236c213c378e2b194c781b1dc439a7dab4754707e7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_097.smi.json.gz"
+sha256 = "b7a9a675041d4e6e03f0bff7ff8450a10e1f602e4a5986a913eafa2c17b4f1c6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_098.smi.json.gz"
+sha256 = "91726a5f392216abc2e01a9b38558d18c231005e0bfbc284ee7fc5b6142ed49d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_099.smi.json.gz"
+sha256 = "c3483d0259b0249279c66ac565c914c20e08c36113b93d1f5b23dffa8df8fdef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/golden/stereo.representation/data_packs_pack_100.smi.json.gz"
+sha256 = "65738cc338c4f02a793bc556e0cf5aa393e5a636bd2594b33a49a8cef6b46c85"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/pubchem-100k/sources.lock.json"
+sha256 = "5d97f670a99e8cf00fee4a8e66cb2ecfcd6dabf48e2e9f43153ae85590cef0a9"

@@ -5050,8 +5050,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "b1f87864e0b5206eb6d0872329da5490a3c38139fea56b584686b972e2aa4c43"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "1d6a9e4dadcea6efc7c1db48bfb3247c8503d40b724918494fb778c61f9feda0"
-validated_at_unix = 1783586029
+evidence_hash = "949c8ed4fc51cffd6b31a9f6eab763a9197fa293410dc841de2abd619933a0aa"
+validated_at_unix = 1783587569
 
 [[features."stereo.cip".evidence_inputs]]
 path = "Cargo.lock"
@@ -5255,7 +5255,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -5263,11 +5263,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
 
 [[features."stereo.cip".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -5402,8 +5402,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "5820cbef749f35f9aa7f128d73bf264828ecd1d12b7285f34f3488c1c75a0bdf"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "8a734a8e1b5608234d1ddbeff4e5d1ec9f9ecc63253985fdfa3521e5b751848a"
-validated_at_unix = 1783536698
+evidence_hash = "fe03fef482b0de4e2438ad5c0a30cca7f4eb2411bc4e8c14e17368dfdbb1a640"
+validated_at_unix = 1783587499
 
 [[features."stereo.perception".evidence_inputs]]
 path = "Cargo.lock"
@@ -5427,7 +5427,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "8099cb5be5e7321512d4cfcaf91160ca6eab6f8a4eb802a7b39665a130c38334"
+sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5535,7 +5535,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "61cedd064682b73b435b8d9333cdadd7e9398146b85b134a7c8fedcbbc9b6837"
+sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5607,7 +5607,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -5615,11 +5615,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -5639,11 +5639,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.md"
-sha256 = "0a3a3ebbd777f3520123cf5867f49c693190fa5d25e4abb04dd3b7a4e1359a15"
+sha256 = "7008a05a895a17d88357607bdb0d9748eb89be005c1d15acf090c1e121a427f5"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "features/stereo.perception/feature.toml"
-sha256 = "663467f9ea15d083230c578e0a7d14e45a39da55b90d488b523626bddb2696be"
+sha256 = "b7f5878e6ebd9483ed3fe29d7666dfc710d26576699616037a8cf3189a1d707a"
 
 [[features."stereo.perception".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
@@ -5746,8 +5746,8 @@ reference_version = "PubChem PUG REST 2026-07-05"
 manifest_hash = "f3f3ac094615bc9a9bf70b77f3d3486af37093e41f072f16233cfed16a06989f"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "a44a3d3d48bac34fa9a6b599ac3e2ad752ff553ed00ed654dd856d972e1e823b"
-validated_at_unix = 1783536689
+evidence_hash = "505ec40660536b9bc032e05573382ca1df718ca321d2bc7c84a96c139732fdca"
+validated_at_unix = 1783587475
 
 [[features."stereo.representation".evidence_inputs]]
 path = "Cargo.lock"
@@ -5771,7 +5771,7 @@ sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/algorithms/cip.rs"
-sha256 = "8099cb5be5e7321512d4cfcaf91160ca6eab6f8a4eb802a7b39665a130c38334"
+sha256 = "7ef4fc4ee6e9d41a7ca21a569705c02df58a63fc4fd5bb1e29992cb9044fc34d"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -5879,7 +5879,7 @@ sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
-sha256 = "61cedd064682b73b435b8d9333cdadd7e9398146b85b134a7c8fedcbbc9b6837"
+sha256 = "852a197b063d71e56f024f0722b63c7943ca19c5312ad77a0dc4543aefa934b9"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
@@ -5951,7 +5951,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "61dda7723daa4fa1e019a8a796dfc86ae4b527c61da3d9be041ca4fd94459589"
+sha256 = "edb98c157d1aabbdec86a174b4f51a5262c62534c8e8c191594788a725671b40"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -5959,11 +5959,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "873f35714d63336192950d012ca3984a04349f80633585d33f5b4df607d127f8"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "609196dac297f965bb393b18bdb759242cd70486fffea45c1a9afff044621b93"
+sha256 = "d39345d0b748850c34c9d186c8aef14f502b37879d03afb41364e7cbab6b1372"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -5983,11 +5983,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.md"
-sha256 = "41e92f08d51060cfdd78c5308fe34a67cde79ddd5833ee779118d4ee16eb616b"
+sha256 = "869e818e751f73afd0bb8145280675578582ff5c0fe99c1cdb34141269957716"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "features/stereo.representation/feature.toml"
-sha256 = "1614bc31db148b8e049a9efc5d7774c8a0864be990b2ac0f2865399d2dff7efb"
+sha256 = "ded42071f569de7d4540fbfb6c459e45128d60c9b4b55b51e0084000fe3d04f7"
 
 [[features."stereo.representation".evidence_inputs]]
 path = "validation/corpora/pubchem-1k/corpus.toml"
