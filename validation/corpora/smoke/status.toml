@@ -4402,8 +4402,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "97df758997b2e466361235d62ca82e647168b816b4f303621e1ded3964bbec80"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "6b1370df59925b06eb7db01e1a84fbf0490cd0498275e7f443019ce2ada9d91d"
-validated_at_unix = 1783624517
+evidence_hash = "83394141b128790c55c95acd601eb4796a5cca9d17cc7f1c9105eb57cb6a536e"
+validated_at_unix = 1783625246
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "Cargo.lock"
@@ -4619,7 +4619,7 @@ sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "9f00a79ae39b4a17de5224359ba93b131454a72a514f2a37e6abe6dcbc5dc302"
+sha256 = "8bea6d11865386e6d12495e634952a7203ccc02798f840bee95ec2820c18046e"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -4639,11 +4639,11 @@ sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "features/io.smiles.isomeric/feature.md"
-sha256 = "953443e913ecddbc50a6fa006f0ea9d6e8152c703489e7bdb80f779cf4fa5f8d"
+sha256 = "372b7d6365b64fe77f380a8648a6a46edae576ccc6556f20529722483bbd143f"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "features/io.smiles.isomeric/feature.toml"
-sha256 = "e3a396ba6204df869aea58ae4962ed1714d1758f090ab9c10844c32a71628771"
+sha256 = "f354bebe2419a324c855cd682732a0c602d0a603957e529f4fe769220a7641c0"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "validation/corpora/smoke/corpus.toml"
@@ -4687,7 +4687,7 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 
 [[features."io.smiles.isomeric".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
-sha256 = "ac09a64e1edda485327262ab3223e26460714ee47291500859e103cb90129a1e"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.smiles.parse"]
 passed = true
