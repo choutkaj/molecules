@@ -22,8 +22,8 @@ reference_version = "RDKit 2026.03.3"
 manifest_hash = "7263dba98eadbf2dcfd8527413647dd324bdce269a5f4517b2f289979b2ab715"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "d804c7d769256ab10b1415adf6c7fb7bfc685042bfbd03ec49502f8d735ce6a3"
-validated_at_unix = 1783280471
+evidence_hash = "93115c88daa428dad5b1225ee13015541a9c8d05129fe2000f08f499b0391e42"
+validated_at_unix = 1783619620
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "Cargo.lock"
@@ -39,11 +39,15 @@ sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "09aabb148c7f47714c80d56c7539aa64d300d308e43233467985183525cafbc7"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
 sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."algo.rings.fast".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
@@ -51,15 +55,19 @@ sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/mod.rs"
-sha256 = "7bfc7dde0335a5bcae1e8966125082fd20741ba116604a5ef3ee93ed7f2ebb8e"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "60e61b3acf4a3fa5e261a5e044b445c1f7762c8d5f2d4fad8c308a0311ccd3b4"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
+
+[[features."algo.rings.fast".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "b1f4cff5beaaffbe1c9395cf35061d7ca55ccbcc67e636fb164701b65923e361"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "1759e2211bbc5de5b5725aa8215be42c19863b7736fdf23abdda7398c673f57e"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
@@ -75,11 +83,11 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "971d7203e8b1fc8ca3cf0d3a46bda6a0190f7ce91d79ce055272ee455182b3b9"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
-sha256 = "c01677c97ea130cf6e1ce763bc976f161a15e4e4153c3777a782def062e5a2af"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/conformer.rs"
@@ -91,15 +99,19 @@ sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/ids.rs"
-sha256 = "aeede33954f673a26f05a1fa78e5df3cffcab0624070f28fdf8a806b60cdf7ef"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/mod.rs"
-sha256 = "f58d405afc94bf0a22e9525bbdff5745300e44747ee3535cbee5996a191c9222"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/core/molecule.rs"
-sha256 = "c5d18c30eb5e5d21f7dbac763e7f05104f350af29e25735d33d0497d51ed3877"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."algo.rings.fast".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "a0828a1d8c1a43127ec21dda257f96c1e9587022269e4734a5a78d15c8c877b7"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/mmcif.rs"
@@ -111,19 +123,19 @@ sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "56324c7c8c5123143d8291f7608dbeed793ede9ee4b62c5236cf81649f4e4403"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
-sha256 = "2ce7023d4c0610dd51ad3b32d32fd45fc10b11842780b05e4d14537c802d87c4"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/io/v3000.rs"
-sha256 = "27b5fc37d2be7214e5d57e8e26428c4a533df7fbb00a27bd0d58da2187f5a632"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "6ed17336233cdfc0ff40cdefcce6ab1f2a4ffb6a3fc2d5e60704068205779c01"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/small.rs"
@@ -139,11 +151,15 @@ sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "aa2341d2206670d4ba73a84769b58439f00d674cc8ed2f60fec8195aa41e2bb3"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."algo.rings.fast".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/core_payload.rs"
-sha256 = "ec12e5bf76ae79b62c39f32e183121b95b943e0890d4010d7563bdf99d45cade"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/graph.rs"
@@ -151,11 +167,11 @@ sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "c737fb5a7df7e1475f165d7c00aab1e6ed5f2c635db0119a203fb849ebc21c04"
+sha256 = "3f545587dbc8a975c6c65e4a1b9085ee31c61d8fdea8fde7ee5c978ddb65afd8"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "4d63a81b85ec19056db3cd31ebb9048892565ce4fd349820e2ae333b7d6aa0f6"
+sha256 = "fdb4d0a1aa1918a082433e09b4d5244549cd1d5e7dc0d886cb1941cea5ae6190"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -163,19 +179,19 @@ sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/ring_limits.rs"
-sha256 = "c8148ede68a8d58633617f21ea67214cfdee6b6cf2ab29b01b605ec5b6cf403c"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "4eb12ce395af61aa73ecf85df97c3484700ce220b8338fdd7a871ec85ce157b8"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
-sha256 = "b41f6f54bf2af3c0a44f93e858ee38b33a663b997ed4df0dc020f6c72908c4a6"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/molecules/src/tests/v3000.rs"
-sha256 = "8446f1cbf33c3371ba3d7120966a8c25d0767163f613ae94befb75852fb03e1b"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
@@ -199,7 +215,7 @@ sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
-sha256 = "e1d4af724e89184bec732df864397a89c396a1f5fba452efb407d54de61e6196"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/skills.rs"
@@ -211,7 +227,7 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "98bca341d1de73b1da45401c56a363c769315c4e7e4e06077501a521d38b4e7b"
+sha256 = "e9ecc645098f557b9a7de11b86f9fb521c7c05ec2663941d809c1a59e8da9059"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
@@ -219,11 +235,11 @@ sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "e92893ec072a6e09cd3c83f662a642b4f8f86980c951b4eaae7811cc5122845b"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "7a1cfd4081c35d08e41a759b3b5306e8900ae00025badd9feeeb171a65208fec"
+sha256 = "d580b70a78f690c47a67fc247dec9da135f6b3d25c7c76fd5a801c73caee4f7e"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
@@ -235,7 +251,7 @@ sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/progress.rs"
-sha256 = "f6ad1f3759a8a16d02e71035501160ad32e91127e9d76cf803bc651bb384d6c3"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "crates/xtask/src/validation/status.rs"
@@ -651,7 +667,7 @@ sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
 
 [[features."algo.rings.fast".evidence_inputs]]
 path = "validation/reference/rdkit/run_feature.py"
-sha256 = "6b3e539ed3f6dd64fafdbf683edf4e94b4128840760b42c76f949863e0f270cc"
+sha256 = "6be0d388bba7945c9e6bbdc5cf02f75a2eb14c4c15397c97c2cf4cb30ffc8c06"
 
 [features."algo.rings.sssr"]
 passed = false
@@ -796,3 +812,2027 @@ failed_count = 27
 first_failure = 'validation\corpora\enamine-diversity\golden\io.smiles.write\data_packs_pack_001.smi.json.gz differs from implementation output for fixture `data/packs/pack_001.smi`: $.records[697].sanitized.atoms[0].aromatic differs: expected false, actual true'
 evidence_inputs = []
 validated_at_unix = 1783283657
+
+[features."stereo.cip"]
+passed = true
+fixture_count = 51
+compared_count = 51
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "9cbf69eeef1a74520ba09eaf6b4200c1c783746ff2ae281e5935507f057bbe8d"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "114eb34b5aec5f8108bb6b20097ca8aa53914bf8b1406c0bfc599a18e7319c51"
+validated_at_unix = 1783635474
+
+[[features."stereo.cip".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "84d12e7d158b89da37caa4aa4af4fee662cb4a60d521c171df4b45921b6491ea"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "97460b37c677eb01a7dc647c9a370b808d1431f177927e1e5b70673b0d9d3b48"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "a0828a1d8c1a43127ec21dda257f96c1e9587022269e4734a5a78d15c8c877b7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "92ca1e0188d0eae0560f237fe988cb9bb355e984b1acce9b6643fb6af4fefa07"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "73cb4e34451e3a4c14b8ead2c75a792d1bfd0d390d13797068e2534e6b96ee7c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "300437db90dfff39e65b44ca67ce1bb8a309fac2ed5a692ed3bf7b9a8b957139"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "5160d82140704456a6e24f1602ba3c10dda4a0ed3d701a18f47e847962a719d7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "42ab84592321a3fd6560dffda060e7926cfd79e79147539cabbf1ae96177577c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "0a7e65cc28ae0048c522a438b11ac2be78a095142cf378fff91e243d43d98fb6"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "944753d8e8cb7d2dfe1681bdccc97011dadd2c0653a08d44a6310f94c806096d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "e6ac5ae502757caf4c8987f57a5d2ec6cc97a62cd8897b43e15b57f15cb151cb"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "25ccb34b43ac07038960f40b1ef51a57cb312a1025258a55b43a693a57e0c1ae"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "8bea6d11865386e6d12495e634952a7203ccc02798f840bee95ec2820c18046e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "features/stereo.cip/feature.md"
+sha256 = "1fd7ec40719eda16ad66485ff61efd238d7d75b4aab8b099007bb59746c30fc9"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "features/stereo.cip/feature.toml"
+sha256 = "adfaf40aa744f029e4e81542750df33bc472088f38b9af859893d1ae6c2b8837"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/corpus.toml"
+sha256 = "b1e86f4bd513fe6c142e710b51a417436118da28bf050d8f3ec28545e99f7c15"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_001.smi"
+sha256 = "eb1f8182fa2998bce87b5f7da71632d02c55871f735f3cfbb6e53b4112402868"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_002.smi"
+sha256 = "624588b69bbde051c9ebc9532823d22bcec660b226cf9f0204d9632e2fa10b03"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_003.smi"
+sha256 = "5e7fb42f43b5805529e7c40dff1b25ad9a0c9be00b322f3e3b6f710f22ed351f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_004.smi"
+sha256 = "a44dff4304f78c100464a7897d09a06b07f4b59750b114c875a5bf893e1d2df8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_005.smi"
+sha256 = "fde8c680eff4fe5cede4f81c99f9f9fde6790de2be875d2ceba2fda8a0751980"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_006.smi"
+sha256 = "f8854321d47a0d77a68cde07e8307be558e9405b4adfbb4954715a937198f922"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_007.smi"
+sha256 = "21161b69498a20fae46b22991afd1c5610892d46fc8ea67cb2a97fbdd5f40d11"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_008.smi"
+sha256 = "f9778650582904d674da21a548472a49417790514c3e85b0b7d3386d1dc5598c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_009.smi"
+sha256 = "1a8bdc12f7ecbb00982de1fa3959b6d2c2dd85527c9f215383d393d9855e0db1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_010.smi"
+sha256 = "021ea33c91d73eadb9b648b0903e3cf6e1cf2f23a187e05205154aeb51650468"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_011.smi"
+sha256 = "d5865d6eefac289d515e775836e82ad783ab9cb90eeaf175f09ad39ffc6626e1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_012.smi"
+sha256 = "26da7224a750fa2068087bb01497341d490904e65a8eae124729eb878e7c85d5"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_013.smi"
+sha256 = "f46871502167563ff9047a05c0be54e3a5fa2623187bdefbbfcbde0905153318"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_014.smi"
+sha256 = "5ecedd86bf23b40bf43ee71a82fe0e2b51c45fa35a555a3356205e079d2e7ee0"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_015.smi"
+sha256 = "ababcd397bb535ec3121b7b80d17b3c0f3b665da6b740c6a9606c61eb96ebd5f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_016.smi"
+sha256 = "261eaedfc7b0888d675c6bc3b5964adf0b573431b44a4a484b1cfc14141b788e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_017.smi"
+sha256 = "d47ec8855f326053fc4a397a3b72f400a415b2fe82fcb27ea4b6f5f5dd81fd32"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_018.smi"
+sha256 = "6bdc234a8a31e7459e844f3e790d12b060a5f1b93242b02150af3ea76d2dd3fa"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_019.smi"
+sha256 = "a0c88efdee16aee72a97cc85d5602f7b7e30c955532a9af3d2ff35231b2b13d7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_020.smi"
+sha256 = "2929e2f1f0c9da89b58efad63bd250c59d21d59ec103485679acbee554238a94"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_021.smi"
+sha256 = "c332d8bc59269dd5af1524139a0860e1fac3bd4d30d50e9cb41a7b79549b08c4"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_022.smi"
+sha256 = "056255d49e31c3b3369c6e59c5ced9f469e8d8219354fd3eff0bdd25ff9aa1ad"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_023.smi"
+sha256 = "155f235bfb33bad3e454c04f3c9c2c78e54e01a8d8313e20265a563e1dabd6ec"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_024.smi"
+sha256 = "83720d4f046a59c45390e6b91cd0c12d7ebb8e9d4062dd7e3aa2e5a4df50fb50"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_025.smi"
+sha256 = "a7c745041ddedd31b826760e38b4b07e2ac96097b560cf1d153e5b729bae9c3e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_026.smi"
+sha256 = "e3f543c49e76812d0626f425dc9194e26d95703a3ea4dd963496cf63735f0aa1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_027.smi"
+sha256 = "b7e1b9fdeddc070a538f2f69f33fb474fc363703fa28b9529dc3fde5a33b52c8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_028.smi"
+sha256 = "4034770587fb800689f61ad0be15da170687a5f2d8afc8e8cc47763a520a0b5e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_029.smi"
+sha256 = "75cf5c6b43c6984f5aa8a5860953375425a078cacf857f8e732109943eff1ceb"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_030.smi"
+sha256 = "1baa52551aadce3685a08f5cf7f03665f426de25602219b7f98706e4c26dfa46"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_031.smi"
+sha256 = "3acf137608d747669575c97c3d95ec42087b38f51a1dd67187fb792935834a58"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_032.smi"
+sha256 = "b9ef1690fbd6ffd25e5268b05dae524b65ee935f24b4c357787a7a682637362c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_033.smi"
+sha256 = "976e2eea61885c6047a68a3d16af1c5fc4efe864b7345ac76adfb8d977d4201d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_034.smi"
+sha256 = "19833e7ac47832e0e0e7cff6672d1142dbb7df61faf08b374580f0523497fcef"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_035.smi"
+sha256 = "73e8699dea55ce68532b6d6ae307abbe0499e39b132eacd30ff7e39229dd4743"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_036.smi"
+sha256 = "729f3004e7521c8cc74bbb88f965fe31d1c72430408e0ced0359b2cb16faa85f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_037.smi"
+sha256 = "63b8de780f9d89c97c1d9cd3434fb24648e5d689e9f3413a3e648ff7e40fed41"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_038.smi"
+sha256 = "6ae4f3c3a8ad784badb9f364259463b0d698e7c06188653ed2cd21445097275b"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_039.smi"
+sha256 = "b6567fe29f8a39eb32a9e2f4372ef7f8702f54d0caa53bdb29e50cb434724c89"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_040.smi"
+sha256 = "fc81e9fe6f8e8ca065a907e0ab3b3ab8ba4bb9a5ea518a8f740169e8c8e54244"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_041.smi"
+sha256 = "3f8f9d6ab2595c849dbb81d2d86b1d88f72863ef52a471e4f00302bf872f08b6"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_042.smi"
+sha256 = "43003541efb2683e4dd56c2c0fbd4799f1e1caf4e749eb1c7639b189781bcb04"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_043.smi"
+sha256 = "0cce088ec75196699f18f6431f7479abf3e3f6dfbaa801602282b9086fde1f94"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_044.smi"
+sha256 = "bb794e10816cbc7abd554785c48f5afa1371a776929abddbcb0c208cb46ef275"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_045.smi"
+sha256 = "4e2d7a93dbd46f4c5b061a80b7a904768fc6ee06ac521ba541668c5577188063"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_046.smi"
+sha256 = "5b7420ff88e5e21f5250dc85e0147b38af2da2229e9a4cb58fcf2fbdc2dcbb51"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_047.smi"
+sha256 = "d3d5d4de076730043d482c4e33e8beedb792603bff5644c73cb7a03ede59eb2b"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_048.smi"
+sha256 = "cc640b5d4668b0e5fc1795b08f4742cb7e6bd0da84ef41bbc241e190053746b6"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_049.smi"
+sha256 = "e1a7052c0ce58e6cec60c9a47952b22b4561039af99e0cc2d46f69f5977a12ae"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_050.smi"
+sha256 = "8ae8c6e5e0ca645697d0c166663e6976d4192ca622386a4e809d6fb6b439bace"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_051.smi"
+sha256 = "82ec47fe547ac0e4a06a44a8af6493373050252495d85902f02c773437dff0a4"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/features/stereo.cip.toml"
+sha256 = "9cbf69eeef1a74520ba09eaf6b4200c1c783746ff2ae281e5935507f057bbe8d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_001.smi.json.gz"
+sha256 = "1a96792ab9ff828f3476a1b209a1aea50f968be4c6ee034eb1a8db29e239188a"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_002.smi.json.gz"
+sha256 = "d024139500f58196ebc9ef6d592c82a3e30af46753e58d209a5642489da1f9c8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_003.smi.json.gz"
+sha256 = "52d2f6ae92fa9b5ef55d2b10aea0379b43692f592b14b600bfc9b2466a5b930f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_004.smi.json.gz"
+sha256 = "86f00661d4582eb9e0cfd206cedf72a83f23d20ab9100cbb49b5ac376ee4315c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_005.smi.json.gz"
+sha256 = "3c49fbed977e6f074488b54bb25bcd514ea7a602d78c094fe07f6a26ad27f159"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_006.smi.json.gz"
+sha256 = "04d58d86438b80a51213ae9abf99da56169a2c0dfa9b08aee54546dade4f477d"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_007.smi.json.gz"
+sha256 = "8001bfaa582ba1bdc827298dea1efa4109573b101d65ab5334bc94a135fb1b33"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_008.smi.json.gz"
+sha256 = "5ce4f7c83f28e4ed3426a8858d49292e040b8f12a093595a404f8750bd7c5d34"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_009.smi.json.gz"
+sha256 = "a2e695daef4f57a26c1d9c6033331ae2cf0cf12e3f02d9ce22a33a663e4983e7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_010.smi.json.gz"
+sha256 = "662f08cd22eb156ecaaea99e192d20fa16ab4332312202c29c99ae5f1b32fecc"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_011.smi.json.gz"
+sha256 = "5b527e733448fcf43083e52916bd19c56d556f0ec5fc179c082042151089c5b8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_012.smi.json.gz"
+sha256 = "2abc0caf5ca4291596cd169981dc08b284b914f5cc94c97f2ad946957f73150a"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_013.smi.json.gz"
+sha256 = "35459737fc4d8a61aa63a19baf1ac40e08d53e8f1f74885071f5ba9e22931f91"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_014.smi.json.gz"
+sha256 = "de00af74a686b00fa928fc8bfd189dc19571dc5568a439bf94961f192235c9c3"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_015.smi.json.gz"
+sha256 = "46112b124e0bf72bda3cf0683a3622c7d5e6ef93312631a832b8cddbb0b06d04"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_016.smi.json.gz"
+sha256 = "edd588c5502f815ac95151c7d42e4f359956d9c66807947f30df5892f9eceec4"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_017.smi.json.gz"
+sha256 = "74a80cde9fdb5d34ca0d119c4c2cf10f41c14b1ea9ea8788a7b456ac8e4f0efb"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_018.smi.json.gz"
+sha256 = "d2abfea3455942d6af537efe85c28224fdaf1ca86766bb6c520dc9a17b06c690"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_019.smi.json.gz"
+sha256 = "e5b4de98875a5a0fdc3fd62f307ccb1abb4ce243e57a4e2535e4b6bff1c7bce7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_020.smi.json.gz"
+sha256 = "03da0e5ce70f7fc00ab9f7a77f04d30834caf05b7b1f9c30f0e8072a66e8adb3"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_021.smi.json.gz"
+sha256 = "0507415b23b117af11dd3279b7adb2564904414f603aa3b9d2091864fcf8ba78"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_022.smi.json.gz"
+sha256 = "bd451f5e3f41291fa2b1225246248bb79ec257fc1260c979e8834096dc91aa90"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_023.smi.json.gz"
+sha256 = "d65e9ba89a9b77a440080f376c6fcd5368a4b761126ab4d574475b8b00f2c8a0"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_024.smi.json.gz"
+sha256 = "ab67de34cdfb749db2750c0c7b4cfd0f64d0f334aa71439cef230801d2cffa71"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_025.smi.json.gz"
+sha256 = "ebc8528ff37278ddd29a45e3fc59c683ee9c29b9c21cccfce6cc9c4ab6b3f543"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_026.smi.json.gz"
+sha256 = "0c017b6d7c48fc8bbba8b40f0e67457f5af0487b35e6334d86662c416d8ce6fd"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_027.smi.json.gz"
+sha256 = "d26a15bc1e823f7f48c17d859c0005c329a0ea576d16e25a6b60c00a38ba4983"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_028.smi.json.gz"
+sha256 = "800ac42b2fdfc08f56954afa370c33851005bd1087a3cecf52842b6c083bcda2"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_029.smi.json.gz"
+sha256 = "97d8a821f3ce1795e962f8399994913996fe083d9cb93fbab5805a7431937aac"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_030.smi.json.gz"
+sha256 = "c34c80cb3441516875700b0243e9447a727b0590121d0f2a2d33d4c2fe87e48f"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_031.smi.json.gz"
+sha256 = "ef50ee3ae44a4d715ed2623cd4166bf675a66742ca7e653aec650634dd8186d9"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_032.smi.json.gz"
+sha256 = "a92bcae464560fcef856d7d8d1ab0dd9f3f01156007af227660a70fe0927f6cd"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_033.smi.json.gz"
+sha256 = "d1b2dbdde9eb12bad64f4fdaa013e3d8f834f2feb617ddbf6912f5dee1f33360"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_034.smi.json.gz"
+sha256 = "383973d5881c8eb88e5d879890e39b158fa46ce7d32b23ddc37030ba9c2daf4c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_035.smi.json.gz"
+sha256 = "3b195e97df560df018039586707a09ce474f2914ec54606fd001cf08853439a7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_036.smi.json.gz"
+sha256 = "06215612f0b8b0dfac4433cd68e67b758beb98a4880154ba0ee7eb147609101c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_037.smi.json.gz"
+sha256 = "023807b67d79290f2cf22bede672de233e2cd4b0ea2e6af7173275c4985f1c6e"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_038.smi.json.gz"
+sha256 = "9962cff4b565dc609db7e78eb0bfc8d7338ddb566d618e71b912d6128c97e449"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_039.smi.json.gz"
+sha256 = "d5f1e28b4b66a3544f1d8bf4dd941687b6cc47d940c7777a818615623e190ca1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_040.smi.json.gz"
+sha256 = "692f4ad752c6b97a54d0ce0cf56d2c2c1a453002fbfa130735d978d88b12494c"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_041.smi.json.gz"
+sha256 = "4f58fd174342a11ac11cc88b42f02b2c47f160b5d7a35e27108b0bf64d4bbf77"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_042.smi.json.gz"
+sha256 = "f5efdee5c3fe53820abbaea48437f91c0895897dbf4e9d550cbbad0b210990fd"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_043.smi.json.gz"
+sha256 = "a17c0bbccc399a7aad0910b4b4019cd8996dfa09a374297c8a37e6decbded643"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_044.smi.json.gz"
+sha256 = "f7c9fa1629c89085c586ecf301f85cebdc0c0070b5fc050d536c465c074c16f8"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_045.smi.json.gz"
+sha256 = "7ad92543d35ca022f1ca8cee04553b0064d31357e0d02c3f10e0421fa45337c1"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_046.smi.json.gz"
+sha256 = "bb10cf3d2161bc180b867cf0ffcd74177a12fabf8c8c9a63854f475625d723db"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_047.smi.json.gz"
+sha256 = "5d8da842487aae73df26ed5b6834eca2a7f4111eddbe105b7c485424aa331be7"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_048.smi.json.gz"
+sha256 = "2ff1d81b4196ab32a293580eac80c17e2477790ddf3fc1ba69c089bdf65f7540"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_049.smi.json.gz"
+sha256 = "089857dad4e155e9e25180bcafa7a3d28930ea7052ec14ef5b0138c861be9b65"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_050.smi.json.gz"
+sha256 = "c47d6efda59126e15173573a304bc4d7921e8bf601a849764ece63879650e062"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.cip/data_packs_pack_051.smi.json.gz"
+sha256 = "5cd1e3b7bca58744ef1d12b32ed15182a895e9ef92808a146b83d3ebb8e45090"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/sources.lock.json"
+sha256 = "8546d4a529f92387f56eff1a2c4d566ea68f571361cc19802ab838970b82b23a"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."stereo.cip".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
+
+[features."stereo.perception"]
+passed = true
+fixture_count = 51
+compared_count = 51
+reference_tool = "enamine-manual-semantic"
+reference_version = "Enamine Discovery Diversity Set 2026-07-05"
+manifest_hash = "80ce87182916365af12b31784e56b49955800155a1e0c25327d22e754946200a"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "cc46046bffcfab5694091c0ce19a259b99e1b18ec0f93bc25d694b02ff7c9701"
+validated_at_unix = 1783621099
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "b1f4cff5beaaffbe1c9395cf35061d7ca55ccbcc67e636fb164701b65923e361"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "a0828a1d8c1a43127ec21dda257f96c1e9587022269e4734a5a78d15c8c877b7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "3f545587dbc8a975c6c65e4a1b9085ee31c61d8fdea8fde7ee5c978ddb65afd8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "fdb4d0a1aa1918a082433e09b4d5244549cd1d5e7dc0d886cb1941cea5ae6190"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "e9ecc645098f557b9a7de11b86f9fb521c7c05ec2663941d809c1a59e8da9059"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "d580b70a78f690c47a67fc247dec9da135f6b3d25c7c76fd5a801c73caee4f7e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.md"
+sha256 = "b65a05437d4c4b50b3b7062fb2e09e78a9b0d525f2b614e4812047d727635e1a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "features/stereo.perception/feature.toml"
+sha256 = "6f5fd46a8db0e8defde51ebe51b2233e70dc1f4a3dc056c8b3b10bd1343c4f14"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/corpus.toml"
+sha256 = "b1e86f4bd513fe6c142e710b51a417436118da28bf050d8f3ec28545e99f7c15"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_001.smi"
+sha256 = "eb1f8182fa2998bce87b5f7da71632d02c55871f735f3cfbb6e53b4112402868"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_002.smi"
+sha256 = "624588b69bbde051c9ebc9532823d22bcec660b226cf9f0204d9632e2fa10b03"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_003.smi"
+sha256 = "5e7fb42f43b5805529e7c40dff1b25ad9a0c9be00b322f3e3b6f710f22ed351f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_004.smi"
+sha256 = "a44dff4304f78c100464a7897d09a06b07f4b59750b114c875a5bf893e1d2df8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_005.smi"
+sha256 = "fde8c680eff4fe5cede4f81c99f9f9fde6790de2be875d2ceba2fda8a0751980"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_006.smi"
+sha256 = "f8854321d47a0d77a68cde07e8307be558e9405b4adfbb4954715a937198f922"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_007.smi"
+sha256 = "21161b69498a20fae46b22991afd1c5610892d46fc8ea67cb2a97fbdd5f40d11"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_008.smi"
+sha256 = "f9778650582904d674da21a548472a49417790514c3e85b0b7d3386d1dc5598c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_009.smi"
+sha256 = "1a8bdc12f7ecbb00982de1fa3959b6d2c2dd85527c9f215383d393d9855e0db1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_010.smi"
+sha256 = "021ea33c91d73eadb9b648b0903e3cf6e1cf2f23a187e05205154aeb51650468"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_011.smi"
+sha256 = "d5865d6eefac289d515e775836e82ad783ab9cb90eeaf175f09ad39ffc6626e1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_012.smi"
+sha256 = "26da7224a750fa2068087bb01497341d490904e65a8eae124729eb878e7c85d5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_013.smi"
+sha256 = "f46871502167563ff9047a05c0be54e3a5fa2623187bdefbbfcbde0905153318"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_014.smi"
+sha256 = "5ecedd86bf23b40bf43ee71a82fe0e2b51c45fa35a555a3356205e079d2e7ee0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_015.smi"
+sha256 = "ababcd397bb535ec3121b7b80d17b3c0f3b665da6b740c6a9606c61eb96ebd5f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_016.smi"
+sha256 = "261eaedfc7b0888d675c6bc3b5964adf0b573431b44a4a484b1cfc14141b788e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_017.smi"
+sha256 = "d47ec8855f326053fc4a397a3b72f400a415b2fe82fcb27ea4b6f5f5dd81fd32"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_018.smi"
+sha256 = "6bdc234a8a31e7459e844f3e790d12b060a5f1b93242b02150af3ea76d2dd3fa"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_019.smi"
+sha256 = "a0c88efdee16aee72a97cc85d5602f7b7e30c955532a9af3d2ff35231b2b13d7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_020.smi"
+sha256 = "2929e2f1f0c9da89b58efad63bd250c59d21d59ec103485679acbee554238a94"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_021.smi"
+sha256 = "c332d8bc59269dd5af1524139a0860e1fac3bd4d30d50e9cb41a7b79549b08c4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_022.smi"
+sha256 = "056255d49e31c3b3369c6e59c5ced9f469e8d8219354fd3eff0bdd25ff9aa1ad"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_023.smi"
+sha256 = "155f235bfb33bad3e454c04f3c9c2c78e54e01a8d8313e20265a563e1dabd6ec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_024.smi"
+sha256 = "83720d4f046a59c45390e6b91cd0c12d7ebb8e9d4062dd7e3aa2e5a4df50fb50"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_025.smi"
+sha256 = "a7c745041ddedd31b826760e38b4b07e2ac96097b560cf1d153e5b729bae9c3e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_026.smi"
+sha256 = "e3f543c49e76812d0626f425dc9194e26d95703a3ea4dd963496cf63735f0aa1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_027.smi"
+sha256 = "b7e1b9fdeddc070a538f2f69f33fb474fc363703fa28b9529dc3fde5a33b52c8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_028.smi"
+sha256 = "4034770587fb800689f61ad0be15da170687a5f2d8afc8e8cc47763a520a0b5e"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_029.smi"
+sha256 = "75cf5c6b43c6984f5aa8a5860953375425a078cacf857f8e732109943eff1ceb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_030.smi"
+sha256 = "1baa52551aadce3685a08f5cf7f03665f426de25602219b7f98706e4c26dfa46"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_031.smi"
+sha256 = "3acf137608d747669575c97c3d95ec42087b38f51a1dd67187fb792935834a58"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_032.smi"
+sha256 = "b9ef1690fbd6ffd25e5268b05dae524b65ee935f24b4c357787a7a682637362c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_033.smi"
+sha256 = "976e2eea61885c6047a68a3d16af1c5fc4efe864b7345ac76adfb8d977d4201d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_034.smi"
+sha256 = "19833e7ac47832e0e0e7cff6672d1142dbb7df61faf08b374580f0523497fcef"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_035.smi"
+sha256 = "73e8699dea55ce68532b6d6ae307abbe0499e39b132eacd30ff7e39229dd4743"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_036.smi"
+sha256 = "729f3004e7521c8cc74bbb88f965fe31d1c72430408e0ced0359b2cb16faa85f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_037.smi"
+sha256 = "63b8de780f9d89c97c1d9cd3434fb24648e5d689e9f3413a3e648ff7e40fed41"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_038.smi"
+sha256 = "6ae4f3c3a8ad784badb9f364259463b0d698e7c06188653ed2cd21445097275b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_039.smi"
+sha256 = "b6567fe29f8a39eb32a9e2f4372ef7f8702f54d0caa53bdb29e50cb434724c89"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_040.smi"
+sha256 = "fc81e9fe6f8e8ca065a907e0ab3b3ab8ba4bb9a5ea518a8f740169e8c8e54244"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_041.smi"
+sha256 = "3f8f9d6ab2595c849dbb81d2d86b1d88f72863ef52a471e4f00302bf872f08b6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_042.smi"
+sha256 = "43003541efb2683e4dd56c2c0fbd4799f1e1caf4e749eb1c7639b189781bcb04"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_043.smi"
+sha256 = "0cce088ec75196699f18f6431f7479abf3e3f6dfbaa801602282b9086fde1f94"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_044.smi"
+sha256 = "bb794e10816cbc7abd554785c48f5afa1371a776929abddbcb0c208cb46ef275"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_045.smi"
+sha256 = "4e2d7a93dbd46f4c5b061a80b7a904768fc6ee06ac521ba541668c5577188063"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_046.smi"
+sha256 = "5b7420ff88e5e21f5250dc85e0147b38af2da2229e9a4cb58fcf2fbdc2dcbb51"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_047.smi"
+sha256 = "d3d5d4de076730043d482c4e33e8beedb792603bff5644c73cb7a03ede59eb2b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_048.smi"
+sha256 = "cc640b5d4668b0e5fc1795b08f4742cb7e6bd0da84ef41bbc241e190053746b6"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_049.smi"
+sha256 = "e1a7052c0ce58e6cec60c9a47952b22b4561039af99e0cc2d46f69f5977a12ae"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_050.smi"
+sha256 = "8ae8c6e5e0ca645697d0c166663e6976d4192ca622386a4e809d6fb6b439bace"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_051.smi"
+sha256 = "82ec47fe547ac0e4a06a44a8af6493373050252495d85902f02c773437dff0a4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/features/stereo.perception.toml"
+sha256 = "80ce87182916365af12b31784e56b49955800155a1e0c25327d22e754946200a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_001.smi.json.gz"
+sha256 = "42abc9b403460d115783534b5196147d4b014a920e78cb82c3d1b47c6900bfe5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_002.smi.json.gz"
+sha256 = "ee89ffedafbe9942be40b0e393030a623d1d5c78767176a2d54b74865fe5c126"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_003.smi.json.gz"
+sha256 = "f692c63cd97ba5d5a8a1d89589bcbf40bc519013c4695a82aba7e04200800b52"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_004.smi.json.gz"
+sha256 = "9391b0d88d7e1117c318b4da4eb2b8349fc88687ff5b90c4f0b97b04548b0b98"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_005.smi.json.gz"
+sha256 = "6187f98afd2558d2928cecfb387a19ff04608aa62e1ff4cd7fd71c86c4ed1e16"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_006.smi.json.gz"
+sha256 = "0baa4a29603cd0d307aff61772414ea082477267595b0665deb59c6418de8170"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_007.smi.json.gz"
+sha256 = "96ddc51119b3d433197f4c6932d9023afef75dd42d6ea3492414eb943bcc8a3f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_008.smi.json.gz"
+sha256 = "4bacc057ab59a4c48ac17568037dac1a91d10df15ab15d5a3f6dc10f0549a7fc"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_009.smi.json.gz"
+sha256 = "6f1f6fb74345633a94e691c345ea6812551945462b16f1a9f7597f5a017a14b1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_010.smi.json.gz"
+sha256 = "44db8805e1baf8c62383c564912ed65d745a26ec2da3cf2202afa17a49681cdb"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_011.smi.json.gz"
+sha256 = "bdc84cca9c65a754a208d10f11d9cac834995a6d58b072d7d47a1baa5c364d30"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_012.smi.json.gz"
+sha256 = "991ed3b181ff8f7852b23767d21a59518f0320c9345a6294669a7adc58990b1b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_013.smi.json.gz"
+sha256 = "1cb978923c9c257d8fdad4f8b9e983e74090edc8538605b15e21e69213db0536"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_014.smi.json.gz"
+sha256 = "6c978a46a87b21fc4a2a137af40d3fcb672c4fc50f830f54f184e846d9029aed"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_015.smi.json.gz"
+sha256 = "9a41d48f9905d849b2cebf6f16aab3de5434c7c1bb61958e6ee15967434c4e15"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_016.smi.json.gz"
+sha256 = "20e61dafefe31f54656800b4804a90251107eff1ede48adc95c8cb1e26423c5a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_017.smi.json.gz"
+sha256 = "baab3bafb81bc3f096b25431ba5d24ffa499220936249996612ee681827095e5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_018.smi.json.gz"
+sha256 = "edfae14c342052253d805127fc1793dc2e2bf106036a51230f6bcd275e1239ce"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_019.smi.json.gz"
+sha256 = "1d5c4afe9595eb488ac5894c07700db36ecee25e69ae1b26c0f3f228dca5a479"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_020.smi.json.gz"
+sha256 = "8754bc1a929197a694a217dcf11ae7af754bd9a07824c31db63b514f786d7b83"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_021.smi.json.gz"
+sha256 = "81827e5779233aeace3af29eb1bd0d6e58ca55f4c0b125e3a5aa89f41f1118f5"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_022.smi.json.gz"
+sha256 = "75f426fdcf2c761cc758943be9875cd74aad9205601261fb2db95083ca548c7f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_023.smi.json.gz"
+sha256 = "47d8c6950934033bff7a4cde3b7163d5a517a324f52761ff2199bd078cb295f1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_024.smi.json.gz"
+sha256 = "a179fbf5626c3edd8f6a333dec2b33253039f0020daa9eb90fae18d4c73b51c7"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_025.smi.json.gz"
+sha256 = "88fe63f26393fa0ab47ba35b47f222825dc8b1f6c5d522aa9f47f248d2fd388a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_026.smi.json.gz"
+sha256 = "5106ef799fe7dab3540bd32ba98cd98bd9e8ef6a734630dba3aab3b1eea15972"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_027.smi.json.gz"
+sha256 = "750ed82017ae301e5d0e0574e26c9760a49b00c193fba9367e3d3fb40685e11d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_028.smi.json.gz"
+sha256 = "86a6d7c1e410d0a9835a6f7fc9028e5d1088da7175cd574961333b49bfb96100"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_029.smi.json.gz"
+sha256 = "9add018334e01c8a99eb6790663f4cd8979c8afb6e467d484722bc4340dc946a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_030.smi.json.gz"
+sha256 = "84670b5eae8dc0c1fe6713920641ee0c8fae11a59ae95ccf8d19d0db08b3b0ed"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_031.smi.json.gz"
+sha256 = "408f55caea2467919a7f9f371c00281a547d2f30df36c0b84834c6a02f973a1a"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_032.smi.json.gz"
+sha256 = "898aab6314de65df1e5fdb87871b8243bb1ae6457674b5bc342c6261950bc055"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_033.smi.json.gz"
+sha256 = "a63265e4208412a3e77f8d4583265723e0fb14c150a4a60656145cdc3ecca77d"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_034.smi.json.gz"
+sha256 = "a2b5840c68f6ecfb81d63100d9e97e5da5d4b25920d11581b3be69b5914dcf5c"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_035.smi.json.gz"
+sha256 = "d12717b89e1e954f36a0cc1bb0ff9c83198c4d4ff30b79d6c6474489a48e84cf"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_036.smi.json.gz"
+sha256 = "3b418be07775edf376a53e2c3c0210d8762e768a5bcb750919f88b3152016a2b"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_037.smi.json.gz"
+sha256 = "f40d434f324d4e12d8dcbacd1d753d2b3c1b08a7c1861fcfa4700eb6c5e75d1f"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_038.smi.json.gz"
+sha256 = "2abee2de34ae3b3acdccf8358fe194a980d2c78af42c9f16b275f28886472d32"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_039.smi.json.gz"
+sha256 = "52f6395b6597d254a8137e63b2d76119f7e9469996ce7eefedb0fd4b1f2876b4"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_040.smi.json.gz"
+sha256 = "292a8204d2a2d36051d82abfcd3a7d7ae0f5b4b2985496114bac8bb68af0d1a0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_041.smi.json.gz"
+sha256 = "71f7dedc5ef7dab404005f9b2fc4dee660a08713ece72522d75127a78ae8beb0"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_042.smi.json.gz"
+sha256 = "0223db8de6313a05a5cffa9f592238a4675d3a8ba39c8c65e81c0153f30d1ad1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_043.smi.json.gz"
+sha256 = "a65bfd19032e68b4b7e32854b29703f48a7afed41558bb195009f3125a407cec"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_044.smi.json.gz"
+sha256 = "95cbc5ea91b7111c7b937ac8fc8cf14482d474070a1834d3900d14024b2c4727"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_045.smi.json.gz"
+sha256 = "d28e3d9787831d3700e8b72e9e2a4187aba0829c163b80b922753b175c5ac258"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_046.smi.json.gz"
+sha256 = "a53974cdfe2da18be0743e094e97ccbe0f26889d693dc6f2f8144439c7e455a8"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_047.smi.json.gz"
+sha256 = "5b6f1e67735f45da6ef0f7fb52cdf03dd92a162f1762ba717a7752cdcb01b370"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_048.smi.json.gz"
+sha256 = "ad591f8e8aeae98c99753f8fc2dc25d58f47488f2e8816f85f71a8ee6df161ad"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_049.smi.json.gz"
+sha256 = "0e4db744f6731d80ecf8cbc58c09dfda2cd68247e146911b94338599d328bbf3"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_050.smi.json.gz"
+sha256 = "d873d2c7b92a19cfd4c4f2fcfa6217608b4e9634cb7f757f6483d6773d0585c1"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.perception/data_packs_pack_051.smi.json.gz"
+sha256 = "43e45c5e4e66557338cf903d7abe3b84025be7b799b0ce4be031e6f1f47a6a51"
+
+[[features."stereo.perception".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/sources.lock.json"
+sha256 = "8546d4a529f92387f56eff1a2c4d566ea68f571361cc19802ab838970b82b23a"
+
+[features."stereo.representation"]
+passed = true
+fixture_count = 51
+compared_count = 51
+reference_tool = "enamine-manual-semantic"
+reference_version = "Enamine Discovery Diversity Set 2026-07-05"
+manifest_hash = "93b14ac9da05804f57431e6d4ab15f81b37661d68004df5c3932943065673321"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "5fcb6aab3bc97aff35a0edc5beb7cc38478c4f6f61a439442c8ab3df6de1a170"
+validated_at_unix = 1783620731
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "caa449a55751b6e05b756f6b6a111175a6615c8516bdf5751828f161985540c7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "e09f291ba471d25b013cfcfb9d00fc0aff5a194c6c844c688ce81dc396419799"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "4d63aad955f4e63ec6b2796ca25e495dbdcfd5406977511903d2bf5985d2f8b1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "2846df6530d2268bf5ac64206569540ac4cb50ee1cd90f549e88b55bccd8b1b4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "206c270a426bd6bc32386d66fcef9252ea095e4e680efed3794b9ec35cb389c5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "b89a768894d44dd56ecbb9032b171339f27a39b0336d0ae0b19bdbbc155fe410"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e67fd16d77b74bd7c7bb508469ac2c3cbdb0be9c759dfc102e6658046c1601eb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "b1f4cff5beaaffbe1c9395cf35061d7ca55ccbcc67e636fb164701b65923e361"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "c0480424739dc31450a96864bb1b4a14146307a52f5febdf9c952589355e9a8f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "d757775306c71452a8624b15fcc5ba66d1e3293e735ac09e3059bbed7f8ec2b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "0b8ae83dbb5e9b10f635591f242bd5524ae86896613111f082ea0d8198f53a78"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "d1bf484cd7bffbd00a031c1d84d42f524677cd1f2b2cbc84190cff985bf0493e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "c1f8ae3c5adb9b500f3f51a3114e9ce619538a7009cec4741d603eaa94e808ae"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "716c510c8f68042996152f400f84a1099bb31c092eaf10520adfb4d1ff7a1051"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9e0afbc8d6970323b7f587a25acda0b55f0a75e0bcc009034f843486ca31ce68"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "a0828a1d8c1a43127ec21dda257f96c1e9587022269e4734a5a78d15c8c877b7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif.rs"
+sha256 = "c0cc1a58d88afbe6f7e6329eb30e9ba553033a8823b27fa9a6506034966ab45f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "6606577850d5c7a57a8237241671e5d8488086f1b47cf9367ada9a2dc5643402"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "9860e3a7fc05a61cd8e70ba2ca61caae2cf486fa613eddcb3986a42b296a8049"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "1fcb921482eaa4fdcde09e0e97c87427593ad3bf876e85ac2b562d967c658dca"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "1b10669d84afad80b169ced7012e2707d9a98b9ce4d5bb5f309675b92e3c04ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "5bc8cb45c50dea89c3f13f522366868f3fc49e7b68d8c4edbc86a4ed2f89d5f0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0b899742712422ad6da3e129cc5d1486df291bf00b9f2e884367900c109a29ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "5bacbf0297e3a1523487d15b4727618f3d11eb6c337bc275c35607e253bd73ba"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "01c5ba28f9198ddc477f9bad92770ca103cab8c9e5c80aaffcc912150f320552"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "dfd1bff2a0f65ab3b9204cc9b1047c21005b2743580e108ab8daa662cfd5d0ef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "482751a9a3a55d52e3ad438091f8a9357f5ac9769759dcc3eb32682825a27a12"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "c1a14631be5602247e802bee35bf607d11b6b56e022760d86e8762333f9cd950"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "1c0cf0cb344e7d52f9a98430238ee1f1272f3c0e5430ff4e1cf700663eb52144"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "3f545587dbc8a975c6c65e4a1b9085ee31c61d8fdea8fde7ee5c978ddb65afd8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "fdb4d0a1aa1918a082433e09b4d5244549cd1d5e7dc0d886cb1941cea5ae6190"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "24d27ad4d6f07beab83a0fd214b0c5cbb937a4d129ffb8aebfe00a4748d318d4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "b63cc6b2897031fa642762ebf65c8348c3d330abd55d9a4dea56c6b0f8b1262d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "ddfcf945df1d62e4fe1a7bbfc0ca5b7d3562c9f7f68b8278c17fb4034236cf13"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "7381c0dc6e49e7e3e345162bdc349a5c213744d3a541c870418327b876f97f37"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "30d922671483957155fc1a90d9418e95c242194e4cb774ff173002ad52679f0a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "cab7f549de5f1a6da617a3a384a8ea45aa19b227221ef22c4e055243eeed69d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "e1faf41cae1468eb48ec49ebd5555ca89d81b8d2f841c32159bab3c93e443791"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "a635f8be51e7840de8c6b9af1de3a1571bf693ec7be6a532e43e97cd616f2e9b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "78222523aa8eb1ab2a5e4d22b0ef25338b2aa2117e5fef21aab6cd0676974fa2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "e9ecc645098f557b9a7de11b86f9fb521c7c05ec2663941d809c1a59e8da9059"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "9de4a3cd8c78dd54a6e3c5fd96cb7f26acb091d64dbd9f810a49c2d7b0694db2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "d580b70a78f690c47a67fc247dec9da135f6b3d25c7c76fd5a801c73caee4f7e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "82aea017d8884ccc261b0910f523275588af030505614e79b45d23dea86ce75d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "0bbb21e2077b42bb7bd1691df4035ccab603cdce5931718094dc4dfb2db6d392"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.md"
+sha256 = "c7a074e0e5738584d43c897d624171bb666c839acc418c44adbc46d8cd426f46"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "features/stereo.representation/feature.toml"
+sha256 = "a75e6c7c250eb63876c31620ac9e6d6fb91d1e48b8a263d21fe7eaeffc072e77"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/corpus.toml"
+sha256 = "b1e86f4bd513fe6c142e710b51a417436118da28bf050d8f3ec28545e99f7c15"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_001.smi"
+sha256 = "eb1f8182fa2998bce87b5f7da71632d02c55871f735f3cfbb6e53b4112402868"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_002.smi"
+sha256 = "624588b69bbde051c9ebc9532823d22bcec660b226cf9f0204d9632e2fa10b03"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_003.smi"
+sha256 = "5e7fb42f43b5805529e7c40dff1b25ad9a0c9be00b322f3e3b6f710f22ed351f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_004.smi"
+sha256 = "a44dff4304f78c100464a7897d09a06b07f4b59750b114c875a5bf893e1d2df8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_005.smi"
+sha256 = "fde8c680eff4fe5cede4f81c99f9f9fde6790de2be875d2ceba2fda8a0751980"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_006.smi"
+sha256 = "f8854321d47a0d77a68cde07e8307be558e9405b4adfbb4954715a937198f922"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_007.smi"
+sha256 = "21161b69498a20fae46b22991afd1c5610892d46fc8ea67cb2a97fbdd5f40d11"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_008.smi"
+sha256 = "f9778650582904d674da21a548472a49417790514c3e85b0b7d3386d1dc5598c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_009.smi"
+sha256 = "1a8bdc12f7ecbb00982de1fa3959b6d2c2dd85527c9f215383d393d9855e0db1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_010.smi"
+sha256 = "021ea33c91d73eadb9b648b0903e3cf6e1cf2f23a187e05205154aeb51650468"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_011.smi"
+sha256 = "d5865d6eefac289d515e775836e82ad783ab9cb90eeaf175f09ad39ffc6626e1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_012.smi"
+sha256 = "26da7224a750fa2068087bb01497341d490904e65a8eae124729eb878e7c85d5"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_013.smi"
+sha256 = "f46871502167563ff9047a05c0be54e3a5fa2623187bdefbbfcbde0905153318"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_014.smi"
+sha256 = "5ecedd86bf23b40bf43ee71a82fe0e2b51c45fa35a555a3356205e079d2e7ee0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_015.smi"
+sha256 = "ababcd397bb535ec3121b7b80d17b3c0f3b665da6b740c6a9606c61eb96ebd5f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_016.smi"
+sha256 = "261eaedfc7b0888d675c6bc3b5964adf0b573431b44a4a484b1cfc14141b788e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_017.smi"
+sha256 = "d47ec8855f326053fc4a397a3b72f400a415b2fe82fcb27ea4b6f5f5dd81fd32"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_018.smi"
+sha256 = "6bdc234a8a31e7459e844f3e790d12b060a5f1b93242b02150af3ea76d2dd3fa"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_019.smi"
+sha256 = "a0c88efdee16aee72a97cc85d5602f7b7e30c955532a9af3d2ff35231b2b13d7"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_020.smi"
+sha256 = "2929e2f1f0c9da89b58efad63bd250c59d21d59ec103485679acbee554238a94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_021.smi"
+sha256 = "c332d8bc59269dd5af1524139a0860e1fac3bd4d30d50e9cb41a7b79549b08c4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_022.smi"
+sha256 = "056255d49e31c3b3369c6e59c5ced9f469e8d8219354fd3eff0bdd25ff9aa1ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_023.smi"
+sha256 = "155f235bfb33bad3e454c04f3c9c2c78e54e01a8d8313e20265a563e1dabd6ec"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_024.smi"
+sha256 = "83720d4f046a59c45390e6b91cd0c12d7ebb8e9d4062dd7e3aa2e5a4df50fb50"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_025.smi"
+sha256 = "a7c745041ddedd31b826760e38b4b07e2ac96097b560cf1d153e5b729bae9c3e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_026.smi"
+sha256 = "e3f543c49e76812d0626f425dc9194e26d95703a3ea4dd963496cf63735f0aa1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_027.smi"
+sha256 = "b7e1b9fdeddc070a538f2f69f33fb474fc363703fa28b9529dc3fde5a33b52c8"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_028.smi"
+sha256 = "4034770587fb800689f61ad0be15da170687a5f2d8afc8e8cc47763a520a0b5e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_029.smi"
+sha256 = "75cf5c6b43c6984f5aa8a5860953375425a078cacf857f8e732109943eff1ceb"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_030.smi"
+sha256 = "1baa52551aadce3685a08f5cf7f03665f426de25602219b7f98706e4c26dfa46"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_031.smi"
+sha256 = "3acf137608d747669575c97c3d95ec42087b38f51a1dd67187fb792935834a58"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_032.smi"
+sha256 = "b9ef1690fbd6ffd25e5268b05dae524b65ee935f24b4c357787a7a682637362c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_033.smi"
+sha256 = "976e2eea61885c6047a68a3d16af1c5fc4efe864b7345ac76adfb8d977d4201d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_034.smi"
+sha256 = "19833e7ac47832e0e0e7cff6672d1142dbb7df61faf08b374580f0523497fcef"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_035.smi"
+sha256 = "73e8699dea55ce68532b6d6ae307abbe0499e39b132eacd30ff7e39229dd4743"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_036.smi"
+sha256 = "729f3004e7521c8cc74bbb88f965fe31d1c72430408e0ced0359b2cb16faa85f"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_037.smi"
+sha256 = "63b8de780f9d89c97c1d9cd3434fb24648e5d689e9f3413a3e648ff7e40fed41"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_038.smi"
+sha256 = "6ae4f3c3a8ad784badb9f364259463b0d698e7c06188653ed2cd21445097275b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_039.smi"
+sha256 = "b6567fe29f8a39eb32a9e2f4372ef7f8702f54d0caa53bdb29e50cb434724c89"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_040.smi"
+sha256 = "fc81e9fe6f8e8ca065a907e0ab3b3ab8ba4bb9a5ea518a8f740169e8c8e54244"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_041.smi"
+sha256 = "3f8f9d6ab2595c849dbb81d2d86b1d88f72863ef52a471e4f00302bf872f08b6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_042.smi"
+sha256 = "43003541efb2683e4dd56c2c0fbd4799f1e1caf4e749eb1c7639b189781bcb04"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_043.smi"
+sha256 = "0cce088ec75196699f18f6431f7479abf3e3f6dfbaa801602282b9086fde1f94"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_044.smi"
+sha256 = "bb794e10816cbc7abd554785c48f5afa1371a776929abddbcb0c208cb46ef275"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_045.smi"
+sha256 = "4e2d7a93dbd46f4c5b061a80b7a904768fc6ee06ac521ba541668c5577188063"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_046.smi"
+sha256 = "5b7420ff88e5e21f5250dc85e0147b38af2da2229e9a4cb58fcf2fbdc2dcbb51"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_047.smi"
+sha256 = "d3d5d4de076730043d482c4e33e8beedb792603bff5644c73cb7a03ede59eb2b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_048.smi"
+sha256 = "cc640b5d4668b0e5fc1795b08f4742cb7e6bd0da84ef41bbc241e190053746b6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_049.smi"
+sha256 = "e1a7052c0ce58e6cec60c9a47952b22b4561039af99e0cc2d46f69f5977a12ae"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_050.smi"
+sha256 = "8ae8c6e5e0ca645697d0c166663e6976d4192ca622386a4e809d6fb6b439bace"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/data/packs/pack_051.smi"
+sha256 = "82ec47fe547ac0e4a06a44a8af6493373050252495d85902f02c773437dff0a4"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/features/stereo.representation.toml"
+sha256 = "93b14ac9da05804f57431e6d4ab15f81b37661d68004df5c3932943065673321"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_001.smi.json.gz"
+sha256 = "5e2c9b7e53fd3b371bf9ed418b501622669f11e03b525d13c9c4ba0df2beaf35"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_002.smi.json.gz"
+sha256 = "1b58f45f7f7255cbefc06aa96e1f83fafb0659d26a8d17ddbc317e020f79b9c6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_003.smi.json.gz"
+sha256 = "01f7cecf2573bce93dbae9cb5530bee2e1379ab43b2f6f8d728f61887a8522ad"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_004.smi.json.gz"
+sha256 = "eac2f4db3537b02f5d0044087217850779419e2d7100a1ba5b6498dd2cfe8438"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_005.smi.json.gz"
+sha256 = "98853163ea21dd39cf2a1024370cf4c691785c333463f8f2372910b3e341d842"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_006.smi.json.gz"
+sha256 = "ec94f5c4bb85f0456a246eec229f467b1e02d6a73e6e9c09602f7fe99ab667bd"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_007.smi.json.gz"
+sha256 = "396eccb31326a3c18c53a76eb57db2fafa81bf19f7551b0e12289471832caae0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_008.smi.json.gz"
+sha256 = "650c1ee0654142227f3866006627417be467c31d7f5d44b2a758cd273a7272f0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_009.smi.json.gz"
+sha256 = "77b64c8029691732d4c0369e05e7e66730efcabc8103a266a8d04ffac2b2c5fa"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_010.smi.json.gz"
+sha256 = "03f2fa31454b1ce4705f086429d3bba6890a70bd6913c416e9a0fdf79e0ebf42"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_011.smi.json.gz"
+sha256 = "ee220c25fa57092db8c5e00586b25b0865076c903da32ab9c99b53f5cc4a8d5b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_012.smi.json.gz"
+sha256 = "8ed441e991be8454244161406e9fddac7cd79007fadb17a1e403ca77662f8506"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_013.smi.json.gz"
+sha256 = "e07099699f06e727f3ef07f4bfc7dbee80b759a9baf41e0248094ad7b067d145"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_014.smi.json.gz"
+sha256 = "4c285cc08566f148886ebc539ba463dbb17b0adb62f41d1f24e8abccd8f4b96a"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_015.smi.json.gz"
+sha256 = "59b901281155e5dd409ca465f3026ca5e6c15e8e36723965417fb4a8a3153caa"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_016.smi.json.gz"
+sha256 = "8abd6a218599300ab94ea94fd6499fae2abd09ac09b495cc3f38be508f5f214d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_017.smi.json.gz"
+sha256 = "463ec2fed1273d6e9160a2ead7cfc6cc4728b255c77fbe2647d0471f34a9e431"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_018.smi.json.gz"
+sha256 = "7d9a3146bcdf9bfd8a75ee3742f3b6ab85e5028453c415745ccd5d5e412163cf"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_019.smi.json.gz"
+sha256 = "29e704ea39d849e4ba388656b4a86112165268d293680f380739c81cd3e12335"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_020.smi.json.gz"
+sha256 = "4f1b06d4c2fdc7ae62b0514702b8ebf506766661d757f97d8bebb5e7b553cfe0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_021.smi.json.gz"
+sha256 = "83c719e7e845172a558360b1bfe763fd2bf4ea742e4d818142c2edbf785753b9"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_022.smi.json.gz"
+sha256 = "3b5ca8fb48491b8650ffaf87986249bb51f6b138eb6fdf5068da9c71de091681"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_023.smi.json.gz"
+sha256 = "a22ad4124cb5c0000bec1e1988026904bd0ecb5356e04c360cbc4361a60c8d2d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_024.smi.json.gz"
+sha256 = "335d0b76025fa0deb811878d407b3f48339eca20c779984bc9bf16903670273e"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_025.smi.json.gz"
+sha256 = "9283ff32ee95e357ea0b2bb8eb04aae79cf1def782ef4e217d027f7646e36584"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_026.smi.json.gz"
+sha256 = "c3659853a460c6ca40f23b1e51844c4c9a383123269cd59422ef8a2859494441"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_027.smi.json.gz"
+sha256 = "5e081e207d8c07f4078cb0ba91a048975bf38e7a75a27802a49084a199a5c90b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_028.smi.json.gz"
+sha256 = "9132c5f43936c0dda91cd49185f76e40c28d0ff39f9638a0e826c2157dc41735"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_029.smi.json.gz"
+sha256 = "69bb789b831a4ee557dd53eb3850b196bb40881f157d43d18a4c5f1a56ae62a1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_030.smi.json.gz"
+sha256 = "0b7fe69504a2eb871434ebf3977e9f5449307d7e97bd6abef9fa6bb6e38b3b90"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_031.smi.json.gz"
+sha256 = "3d22d6c26dc5b62099e6b84828792c945fd3d838af7029fe3ca4a961287c1ca0"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_032.smi.json.gz"
+sha256 = "70f5e42430964f51ca5ce22a7d454d39048cc904fe80df26adf0c4462086dece"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_033.smi.json.gz"
+sha256 = "535613195171fe31d37977a1775eb1ba9a2124ad89b30794d2bac508eb01a09c"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_034.smi.json.gz"
+sha256 = "f5d6940183e44f7016f86be91b874b6da95aeb4f1cf3bc631b08e382456ca376"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_035.smi.json.gz"
+sha256 = "2a6937fd8f404d3b370537fd7dfe4e4aa17285bf840f23ea36428ae86077a181"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_036.smi.json.gz"
+sha256 = "628ef3889e586a8a16d88fd11b7ffbec54a8f5cb8c77023073772f620312b3c1"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_037.smi.json.gz"
+sha256 = "7f37e010d0181e574d7e6f9821ff68a236e215b017faa6d73eeabc0a66fa0e9d"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_038.smi.json.gz"
+sha256 = "a55275297fdfa4e542b3bbf8a208e1313823bb017b3f9e400538d50f9c1cda78"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_039.smi.json.gz"
+sha256 = "42c2f1956096e4fca320a305af7b20e9673d2e8d9bb5c48557f3d614fb143cc3"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_040.smi.json.gz"
+sha256 = "7d0edf174a7cebd715a489d8825629b8d121e27cec49db2c35422d397177ad7b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_041.smi.json.gz"
+sha256 = "af5a4874c40c7b5e1a7ce9a43f8223bfd1043d02f7fd113b17fe0408e90f9d0b"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_042.smi.json.gz"
+sha256 = "3ee1eae632dafa25491c87247794160af01b94f1352773bb2fa431b69b68c5f2"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_043.smi.json.gz"
+sha256 = "9197fbc271338864fe36dd90b09c39341240f588cf950bcbf270e4293ae31840"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_044.smi.json.gz"
+sha256 = "5444616ac3e840c52d63360f14196c7a185f69b77c0c3ee0faa7f7db34ed5d27"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_045.smi.json.gz"
+sha256 = "6cce89d3a76e6434f80d42e3996cd979dc5ba634f1a349e84d4b9fdcbe613500"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_046.smi.json.gz"
+sha256 = "a07d083c5f5ed9970a86110d72dbf6ff7d5362a34b1126258d9a355dfb140d72"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_047.smi.json.gz"
+sha256 = "ef4fc6ceba6dec853913f73976c513a58f8995e334831497ff8aa0d6a49f2b57"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_048.smi.json.gz"
+sha256 = "26a590a6abb68f573914e554a90904dc5ffea8d3815b7b731d99194348aa2fd6"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_049.smi.json.gz"
+sha256 = "07b5154b8faa74fea5ce958e84a77285ac5b21f9fb5b81930f3a3281ef166b37"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_050.smi.json.gz"
+sha256 = "32833cfe41597451880ba89e0d6bd4ee20b75866430bfe6db8fbe5affe384a22"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/golden/stereo.representation/data_packs_pack_051.smi.json.gz"
+sha256 = "5cfbd4c6b63c13f7988589617c9d082eaa9fbe937f294c0807261dfe1f0aee01"
+
+[[features."stereo.representation".evidence_inputs]]
+path = "validation/corpora/enamine-diversity/sources.lock.json"
+sha256 = "8546d4a529f92387f56eff1a2c4d566ea68f571361cc19802ab838970b82b23a"
