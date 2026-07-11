@@ -10,8 +10,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "ff06f35d3e71e499a505874d81769c2b515943996de06795ab04f0d67d0016d5"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "96ec415673b04ce1072516560721745240258dc57f73e00fb56af2813878f99e"
-validated_at_unix = 1783761988
+evidence_hash = "42786aad1398fba3c5c8a8e3ff815b0e70df678e52f4d4ef8e2c1520571a7889"
+validated_at_unix = 1783767537
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "Cargo.lock"
@@ -47,7 +47,7 @@ sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "4cb3d5cf742ad3d60465a828e983eab77d2934458683551be34e75e9e75aed7a"
+sha256 = "b63983d0b10a08bdff86e2fc57c380d9eeef2f70553b2d0ede2676251c5fc1ba"
 
 [[features."bio.hierarchy.smcra".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
@@ -362,8 +362,8 @@ reference_version = "Biopython 1.87"
 manifest_hash = "f56e4b3e5da6d8c729c77392bb4894d4f7e80ed6bb59519cfb9acf5aa1ce3dbb"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "3ced310da49bda7b6716dba957900d66d96b98d36fa9f81ebb4e49ff5d982734"
-validated_at_unix = 1783761994
+evidence_hash = "79633526758f4fe37c5cac4a2ac9f6e00ef1b0e864457fa6e0499ae18a4d53c3"
+validated_at_unix = 1783767543
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "Cargo.lock"
@@ -399,7 +399,7 @@ sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "4cb3d5cf742ad3d60465a828e983eab77d2934458683551be34e75e9e75aed7a"
+sha256 = "b63983d0b10a08bdff86e2fc57c380d9eeef2f70553b2d0ede2676251c5fc1ba"
 
 [[features."io.mmcif.parse".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
