@@ -12,7 +12,8 @@ Each directory is self-contained:
   status.toml
 ```
 
-`data/` is ignored except for `smoke`. Source locks and deterministic gzip goldens are committed.
+`data/` is ignored except for the fixed 20-case `smoke` suite. Smoke source fixtures, source locks,
+and deterministic gzip goldens are committed.
 
 Routine validation during coding should use the fast and medium corpora: `smoke`, `pubchem-100`, `pubchem-1k`, `pdb-10`, `pdb-100`, and `pl-rex`. The large corpora, `pubchem-100k` and `enamine-diversity`, are intended for occasional broad validation runs by a human or by an agent only when the larger run is explicitly needed.
 
