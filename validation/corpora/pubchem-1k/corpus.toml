@@ -3,12 +3,14 @@ title = "PubChem deterministic 1000-compound corpus"
 kind = "small-molecule"
 ready = true
 expected_count = 1000
+local_only = true
 seed = "molecules-pubchem-v1"
 formats = ["sdf-v2000", "smiles"]
 build_command = "micromamba run -n molecules-rdkit-reference python validation/reference/rdkit/build_corpus.py"
 notes = [
   "Selected from the first five million seeded hash candidates that occur in the official CID 1-500000 CURRENT-Full shard.",
   "Structures are official PubChem 2D V2000 records because PUG REST 3D retrieval was unavailable during corpus construction.",
+  "This ignored corpus is local-only and intended for explicit validation runs, not repository-wide validation state.",
 ]
 
 [categories]

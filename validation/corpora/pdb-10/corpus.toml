@@ -3,6 +3,7 @@ title = "PDB deterministic 10-entry corpus"
 kind = "macromolecule"
 ready = true
 expected_count = 10
+local_only = true
 parent = "pdb-100"
 seed = "molecules-pdb-v1"
 formats = ["mmcif"]
