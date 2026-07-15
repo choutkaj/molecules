@@ -1073,6 +1073,1158 @@ sha256 = "e59a4fda9af9ec8d3c2a893e90f4f396da07345b8307f95134b10784fb19acdf"
 path = "validation/reference/biopython/run_feature.py"
 sha256 = "fc6e799fd97e046d9db59b9d25240af3d22655912f3e7e4e73e42a4e537a764f"
 
+[features."bio.secondary-structure.dssp"]
+passed = true
+fixture_count = 100
+compared_count = 100
+reference_tool = "biopython"
+reference_version = "Biopython 1.87 / mkdssp version 4.6.1"
+manifest_hash = "3f2a2bfa141b1196a4d1a4bc7147b9815d061a5339145df275e3cf1eb446b698"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "871f9008cbb18bedc7ad64b531014101ac79bf890f09e2395c25d46b36e5cb1e"
+validated_at_unix = 1784140430
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "f3b291df0f0c53ffabf0757f1115ee4609d8d998e88b9af80f68861f71376833"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "7addc3bcfe202df00f4b0968b0ff6cf576c75b44a992106acf007427f30d7c62"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/hydrogens.rs"
+sha256 = "515ff7c1a3817a23298921d292f871dd7132043ed63b1d2e66415239f3a015af"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "ec77f767766f525254651474fd5e359c9cfa39f26a15e798c3ba0f8323c2c78c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "631c3db27459948f5ab03c7bf8349ed3f44fa9f22aded2b403b1a13c69cf9b90"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/substructure.rs"
+sha256 = "1fede5596bd6b16db254fd0e430f9d2af3a661775fca90d00a9223e815994bcd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "3b59490d1c7cec5706bc221300abe63ffc63e6923b897de1f0344232af2b97f1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "ce8ceafb7139af6ef9d7cfd5c9444cc5afb3b6e7df13f3574c66859fe1489274"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "b7e2ef7102b8bc30bbb7b49fef091fd5ce80fc380d8f8a0e71cfa0360980b956"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/dssp/kernel.rs"
+sha256 = "6db63494d5b308aff0f9bca1b717f523fbd9c9d6ae6bd04dac7e07ce65f0c2dd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/dssp/mod.rs"
+sha256 = "552878286e2832e31513ab722652a45a98386a4bc84be7e85d32ace47f0d9069"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "c19eb96acb18068c29fc6dad2f10a34e5295a4dae762a77ab2b7affd63513bea"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_write.rs"
+sha256 = "8b8b46964661c60ac8ae5722b06b1e5336b4ed2db26d12ae0cac5c82140b25cb"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "0a0b6b9aac6fbb372f4f8fc61bf828f93e857b7af4e06a7fe742c8d8fcffb7fb"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "02ec31c55e7cae2f81951f8951dce1e99917ef9a5fd4778aeffbc8a340c89d7b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "c0dc44f432b42d9e95938106fc40ee338ba27b2715176e6b161c11f20f2834fd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "b9007ff03be5b1ecba3ef23213509196b30db8d18ab873a03bfecd049018b19f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "f4f1dc558cab95859e38dec91fc8de7a82a16689c864fa9453e45070051fa8e3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "192015eb3244316789be8796dae15d26dee84991ab200d80969327a29b5c2c30"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "c2f8df572992989d49f81accba7286eeaa6fd68dbde2cc693aa8b6b9cebb8d0a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "115702f39e7eff3aeb32e619d3ffe2ab3536dbc15ff2ef04c8842d200a69578d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "3af6accc270aca1621c545a699fa6fda928532fc806e1042d6b2c8fc376c738e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/query/expression.rs"
+sha256 = "aeeeb196d3b9998c0e07ae6b66a36468e5f741e7a201572eb2f64eb38370b756"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/query/graph.rs"
+sha256 = "dba856e5dfdefb389f6f311c63fe1f8e139397e16499043731dc0b14e80ae8e5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/query/mod.rs"
+sha256 = "18f5bb96a31263911bb7d837d6311abd0ab2f2d635c055a662886b4b1357b627"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/query/smarts.rs"
+sha256 = "8416b65753800271d829e6818e413b52a11d508a472033a961acd54910f145cc"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "cdb85f65504d23e3f34293050c1ce8e41512b03e183bbcf2f42ee2652917d855"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "882b40582c200b40df14c497e03370a90b90f2ac423cc0030486969c93f8c0c8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "7892822c866202353aaf3a69d9b500deffc3b14bd6df3d009636234bded97aee"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "34e48fed838249d06769a3ce2923297410aaf7dd8c8448bbdc2060387a59b2a4"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "235d8c2c8c650c11bd6e92b20a6e593966880e01e8a5b79c6e68a40f23cd7422"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "658e1c72b81473567752253fbadabe40260e98c0a2b1d757818df9d66279af75"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/hydrogens.rs"
+sha256 = "784c7035f800b97cad39cb6da421f030e7fc2ae68910cc795f85592625ccf62d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "aace76f5cd45a833cded5c83b926e0aa714789213096e6cd0fb8d42cfa4bd9d2"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "ef854cceea85a5ede3f8265fb95e15ec6d50ce4346ae4dd61c4485d8b7c1f421"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "4253b694f1fa3581ceaeefcb86e2a4b66b41b9d36b7d53014f85427ef0c146f2"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/query.rs"
+sha256 = "e2b9da7478ad666494111dad376c0ca4221552b5d00e5b80aa2421e8ee62f57d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "586d819867c44bbfa69c00d957cc755ff00a6ffb524bce875ef7d6f97ffcdba6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "0e0cb2241c929627bc6fab848a64a5cf954b3099b0a8bf03c73e0e29eb433701"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "b44ba04455124cbb6b0cc2b5d84d5b51f099e2ce12a4e59195c3cba1b3a0ef97"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "8c6230024b404b221e6e4b8f34904131544b4c2dfcde5242e53c1a3570476dd8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "8fd86a5013cf0ec0431c8a81ef2c946bed8803cb32cba27b5912accd8c2da626"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "4b06824a2abe149ea17abc32f6deda0e845c71c972f3c4ebc8936ecbcbd76d7f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "74b2552e7bc0b556de00967ffbbb8f37b2ac2b519845c3ffc9f421e5ca310586"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "7bbceb00244f0f8112ce3561d214f5c1fc642af7266f08b7827cb98157cc3006"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "9015b5bd4d0fedfb5b394b49dc2b248d3056f1b16af0384e220c4eda742d335f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "71ad274a8df1eaa7669bbb9a481fa2a4523b8e2dc7fc54d8e3a2bad180c68c6d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "cbdc10a7a1dec1cb4882f99637f15c32b32ae02a4675af27d48ca65cd6b18c17"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "26ba7e2f5a3e113c884887117b0a9f85c511135657ec2da1756d1ba3547fe3a4"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "1b82811a72aeb1fb73364e9fd44f503b88e5bc5e7260fd99a50ae0092b45cf09"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "110f4e79d4764755369f03d4c62c066344ce962bb01ae1db6296d68fa275eac3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "e63c753c5c40d4841bf924a030d1eeca88f4641f498a4c4c9a9ad9d2d04aff2f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "features/bio.secondary-structure.dssp/feature.md"
+sha256 = "22f1dc15cce4381db60e3f606dcb977e86db70fb9a60152861078bf892fd2338"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "features/bio.secondary-structure.dssp/feature.toml"
+sha256 = "c501ead117053d3525447e304a64ff38fbce609b02ce80f505237079893212f3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/corpus.toml"
+sha256 = "f1ab302ffaec05c1cc67bf6b93e5803f47d725c33fe47b205696e41b4fc6008d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/100D.cif"
+sha256 = "b6bf72651e73f0c3ead04d088ee4efba8de3ad9ae9dd114ab25cbc8bb5e0ecf3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/151D.cif"
+sha256 = "1af2dfc402ac4bcfe7c95438e128d2f345b95e879ccaeb82bd8024bd31fc17e3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1ACD.cif"
+sha256 = "2d9b97111eadc0c416695b0ae70c8003b0d2ac4c481602193ae49b0918fe5e03"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1AGG.cif"
+sha256 = "f3943302a60b802879172a95fce0ada0d9fd7e20dac6c7f6896f991212d420f4"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1D7N.cif"
+sha256 = "6b4f5c9ba767c45f5d0fcac8fdef6e4a5fcb4a80b5750f6210e9bb70d17fbe8c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1D93.cif"
+sha256 = "de74ed1d47c776fd1d5bed76d99d81b8b4bd353e4180e4948e4da559a869cae1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1DUD.cif"
+sha256 = "e247ef3791ff06ff7a5ce1da4804d4137d49b8adaf536c5560fc6716804cc86b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1DY5.cif"
+sha256 = "cd356539ac8512220e570e5fa3ae88bcfc6244256b408edd29ccb3763b8f3b95"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1HPJ.cif"
+sha256 = "c08030fb78d1c39e46f1784771162700c8b00ef8ce3263a68504edfa2e825ec8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1JTW.cif"
+sha256 = "43963eabf5fe730e939aa05441dc02c8f202e9b0e69b5e705cd54780276de6ab"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1K8K.cif"
+sha256 = "940e73439216f7886a0548b90dc7fe42bae274798bdc331e2a896e674bf074ab"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1KF1.cif"
+sha256 = "8f25b1fe6658173f323a7628620514d2adbbed690683cad0c314ea0ddd505d99"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1KSB.cif"
+sha256 = "d4eaa47432089e65ce1dcdc271974d0d041e913abb183037b6586beb5830ff12"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1L4A.cif"
+sha256 = "ef53386eadbbf097979aefae7b03f7c1dbd4e0cd14fde1ad15580352dccc940b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1MV2.cif"
+sha256 = "ae6e37a2f4562ca98b4bd4093f88f1ca54687a772a60be8dc7806e36ce8bceb9"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1MV6.cif"
+sha256 = "9f233800330a82a6924455484703dbd433bf7a24cd29a7f28bf7b7d8a862d25a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1N6Z.cif"
+sha256 = "9a1d96d0a22105a9d2646ecec7cedbd9bc85d418c90233d6993c2cc491340db9"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1N9V.cif"
+sha256 = "8bff6c3ecf1cfcabdba7601fcb58c21a366af8ab64fd7a59f9652e96eb287da9"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1SEF.cif"
+sha256 = "fb487699d02bb5f59bf1b24a13aac938965dd89eb30ff8a6218d4978fa9afd37"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1SPF.cif"
+sha256 = "bea13f8312f0f49480615c8d925ffc564b1724574350ce475b4246ecfd1b454d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1WOS.cif"
+sha256 = "2f218a3513a064689575b3b5f1feb0cf0a76f27e94a8a93c4785a765875f92da"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1X9V.cif"
+sha256 = "5b91856a6f799ba69709d16d6fb20a28cbc5a5e4b05e85f88a88c8a9ee36e814"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1Z7D.cif"
+sha256 = "57122a0fa17689c349ac496712bfad2aac6792196d79eafa9507f89a399cca0c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/1ZWV.cif"
+sha256 = "29840d2275d4e71e55e7600fd5ec5eb9bb724a98d736c0b23fb69f2157df63b6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2BXG.cif"
+sha256 = "57289c4e72194928083033cbb27aa65972a378d9d11ef81b1e313f4e41d2beab"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2JEJ.cif"
+sha256 = "3d65704574e17e5867aba725829fab8169ef8b8b05b7e063d8b1862af63a950a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2JTB.cif"
+sha256 = "aedbe242cbae36800c8b1076571dcce9213b2c8029d2a36cb343bd61e84eb5af"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2M75.cif"
+sha256 = "75e6d83ffb4b98384ecec5433a8a0504939a3c3e0bb8274be8877d453530ec82"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2M7M.cif"
+sha256 = "5d77388911fff5fa5432a9578fbe5658570e3c6821db047b600b7eebb3503c87"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2N1C.cif"
+sha256 = "438945d41b0179430d8ef9052455e83076aa23ee8006cddec8b89ee9db711a49"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2N21.cif"
+sha256 = "46ef2c5a90c8ec86d62fdf29c4ad44a447a2d88cff6c7c883f3b600327c286ff"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2N57.cif"
+sha256 = "f46e4528e69f0da39251c6f42494d86160c7a64c528a41950721e693a39e9b71"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2ODI.cif"
+sha256 = "b70207ba2e84d3400feb0f6ae3664494e6f1c6057cc75233177c61b972c83536"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2WWY.cif"
+sha256 = "dbe4f4c605c4b10d02fd4277cf90d82850c399a0fc35ab2302260289e591c9b9"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2XK0.cif"
+sha256 = "f41658840a1b3785ca973b9ca41abfdaced3f9a77d4186bf00ad64a6ff12b6ba"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2XUR.cif"
+sha256 = "d190dc43f90c5c6550d529216d07556321226822cb3749cb71a5ffacfbfa5384"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/2YIE.cif"
+sha256 = "3ed7783f5201c306763b9de4594b9093ed148cb13b51b0a979122640a46e3723"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/3AZN.cif"
+sha256 = "f26889a3447582ebb79a9c6f156a22ffceb5d9ff0e40d6145244d2fe20645679"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/3RM6.cif"
+sha256 = "547f41a6774566ddd29532bc5637a51c6c832a9fe82aac6c9d39690bd8bc45f2"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4F3T.cif"
+sha256 = "741c39d4185231fc5c7464fcf74e6718e841d8f505f10a11413ff4f31310f710"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4G4Y.cif"
+sha256 = "62447d563206c607f0e16f8f2f9ab6d1bf620c5d53d01a28a024e8e53ef3eddc"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4JAH.cif"
+sha256 = "f395620673c4551cb77cf2c4c748bd821f86f54026d90409f15be19ab6ba0533"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4JRD.cif"
+sha256 = "32192a3cb8e7f46d3de2f69f5d9ea7c5e90ce9012477ea068ef2c4a8b3b19aa1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4KNQ.cif"
+sha256 = "20898defefc30d2ad91ed0673315b3194f29386c7a806fa0b37fe313397190b0"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4LLA.cif"
+sha256 = "5bae958ef61cb0d6fa541b99f1beb276e174f838b99b16a7e4a02430fe254078"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4LUP.cif"
+sha256 = "9aa22670e526c456d89a4a8a0b22334258cac149d26360b0b77268f9972195d1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4M77.cif"
+sha256 = "6d2e731da671bccd8aafbb03b7f46be14e6413dfc1b52d070bdf2a83fa0ee175"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4M94.cif"
+sha256 = "39e42592ae7cb1033bd3f71246d6004b4ba1cd66b3ec94ee7d023a048d8e3e1a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4NOJ.cif"
+sha256 = "b6e35bf454b6334de7c7e842cce6aa08ee0eb286aadad97f0e86a6a78fe491ea"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4QJX.cif"
+sha256 = "bf5c1eb6946fcb226f537f7a65d32c09184604e8106c80c1a9284ef408f212e5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4U8G.cif"
+sha256 = "69855d671e83ad52b2822cfc0c194b8368b23e4b54427b01da29ce6bb5b9382e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4XXC.cif"
+sha256 = "e4aa218d0d2780a8bf100d7ece6cc1c0f7944095a175875066ff3a78a5fc05c1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/4ZYM.cif"
+sha256 = "f9061e566241122cdc74c2e045d2a522dc3fe0441af0a99a1e49a84187185ce1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5BWY.cif"
+sha256 = "52f92610aa54eac0399d9b42fc8b8842d3ea9b361e1ae76775f53ed08f95f74e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5D2S.cif"
+sha256 = "666a7322fdf27c25411547fd18b8221532ed407985579af69cc21c5f538e3539"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5FWB.cif"
+sha256 = "48e34361e778c62d0973cb0091d91cc647d399fb214fb5ddbe4184e2f1941d2b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5MWQ.cif"
+sha256 = "843776130f943ca3defa59617df2740f2bb4848ebf5db93a425f2f7b47f2008a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5P51.cif"
+sha256 = "c33f422f92ab2fcf56b3dbab4ad026d74982d7981e27891e87ddb7c38822ae8c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5U8I.cif"
+sha256 = "a0c4ad02d5aa1d647b67a2a9da206eaa599c4b62e66d8d0f93d84cf3492c2c1a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5V06.cif"
+sha256 = "a5dca75625c136ff7c47d9875f0a31e3d33d7f600798e15b57446a1fb2a0bdc1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/5W0O.cif"
+sha256 = "86a364e79c8907e04cd9d2705c6301912a7fdadb90be829fa586b5dec1859487"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6AOI.cif"
+sha256 = "a43905612ff2526f2f539b9409c82cbc3e860d9d0e209a18c7da096c34a64457"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6DLS.cif"
+sha256 = "c6242781dca5e7e0f46626aedcd324d7bfa2831b9c8840530462ccce51ad08b1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6DQ8.cif"
+sha256 = "4d74e74b62cdd0fb923f096e75bbeca09981e718a52fa561f5f4870e4cd1a44d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6DXJ.cif"
+sha256 = "974c6873fdde4d8150eca248e343fc3cd9b123396642d4e382b395bb5193a6b2"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6E1S.cif"
+sha256 = "a3c061c45b62dc94ceca53fbaae4174223ba31976cfd10f32bd208139f3ef303"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6FBG.cif"
+sha256 = "e40d7352550755b37ad8b0a632b71e45c9eec76c5293c925b76df210fb64a682"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6MNN.cif"
+sha256 = "c98ce7aeb7f984a59f9895e1d00054934868525829620a0eacdb63cfd8b121de"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6PE2.cif"
+sha256 = "e412e769d07df7ba3498676ba1061dd65c240dac6dcbb69fa095506c369e62e0"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6PND.cif"
+sha256 = "98ea4bb87ed1a654a8d88413429f4da704f155dd14a8d94c6ab1b75ff3d9c58b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6Q20.cif"
+sha256 = "7e118b66f2e4c11b41f3beec89e701c6f834d560da579d34d6b4d8ea819ec3aa"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6SZ6.cif"
+sha256 = "3cb89b78b3d02809f0a923146512da3884b10dbdad079c5aafd6844ad9adfd97"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6TUP.cif"
+sha256 = "d79d9b7066b827070232b7b57b0e62af06c4cc04ea3ea0b3f9f902abd1239150"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6XJZ.cif"
+sha256 = "34eed50d5a512a15888852647d8dee7f86dd5e33925cb4dc9b2729a82189c93f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6XRQ.cif"
+sha256 = "5445b7bdec3908753b76d4419e25db5c004131a41af4c966965dd0f1d9dccfff"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/6YS4.cif"
+sha256 = "948a86e4b512bf8136c2d65f8ace14a3de0c4a235a86329641cadbd49b5f4775"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7E4E.cif"
+sha256 = "655bedbac4308fa2b12c1603613e5dc1bd89ed3f5d5ccc402f0a676f6cc179e6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7FN1.cif"
+sha256 = "cb06e4b263bc746c882cbc009b17103365a854da0a46bdbb4b941f98c45364f1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7OJL.cif"
+sha256 = "35d271043aa5f5fa5cb851a1984ebc15f97b6f822ab3aedafddafe375559c10f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7QD8.cif"
+sha256 = "09b3cd373db1fefd50418fab365432906fbf887bfe227d15bf6b676de8b42480"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7U44.cif"
+sha256 = "f64cc2f9871e71fe95590ae6b66f542b84e17824d2db03788424db3e1a3ad707"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7VKD.cif"
+sha256 = "c88fc487e0a506a7788cb75fa9a68de3d6cf0ba879057628bea37176e832c86b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/7WAZ.cif"
+sha256 = "ad43f325d48723404e488d39415b86cf3f80a5c6277f959ed30f1e2976a4b62a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8A41.cif"
+sha256 = "3051816641a1f704ddc1041cc5310077ff4e6cb56a474288a6fb20481788460c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8B1F.cif"
+sha256 = "cdfd192263cc6b8f5481312d4496ba7c025e44df48924c5f20eb03861d07443e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8B1L.cif"
+sha256 = "c2a10113bab982ee149338ac920391896909eabc057abc420ce30eef703d52db"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8EP8.cif"
+sha256 = "983fd6d6471badf10cbbfd452e832606205aae914f9c479af2e79acb967bf6ff"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8F3A.cif"
+sha256 = "ca3597e71067dc94c79c2455b5d15f6bb17f9e6d0947ed3cc9516c20f97d46bd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8JFJ.cif"
+sha256 = "d32fc34b52e37a4c61f7a4dbbebe45f1d3758300b99816e946c2f63612688b4d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8OMA.cif"
+sha256 = "e6cfa407763c6f1cee6ab5d5e458eeafa0741055c0f5b7d95b3a385fa0b07c31"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8X9E.cif"
+sha256 = "e335fa4c38526b5fa36187908e7a099ff68d25d1ccd8f0497b595868f0c0fb6d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/8ZA4.cif"
+sha256 = "29c239e2b4d52f0546c2dc71494318c7f604d8a719b27bd526dde92f92443b90"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9BDV.cif"
+sha256 = "3ebed51b3abe895acf4fbe6d2dbcf72c6fe7b7561f852e3e73d3c5b7c58fa235"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9EBP.cif"
+sha256 = "702dcc109b832eb5749e07f98672b355756d7094cec66b237d1a40116d079204"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9EC4.cif"
+sha256 = "deaebc75d6f87e9bdb1a6bf81ebb917aaec7e8e62abb6043979aca5ef2e52692"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9J4O.cif"
+sha256 = "08eb8336b3d340afcd8e2e252c64d45c35ae8e6b5e2c77500babd47fbcd60ac8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9JCG.cif"
+sha256 = "bd077406b36ded77016569347ce4e68b184a075f4727db4416a6b53551048e4a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9RHB.cif"
+sha256 = "43df97f2f4522d5ff208b9d86a01b550d6fad4a95f8936b10abd78a3f786f2a6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9VC8.cif"
+sha256 = "e785395a3b14facccf937b98f810e99f6372341be63727364ef910367e1adebb"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/data/9VUM.cif"
+sha256 = "f3c05c36aff82a20c591f9dd95df89f450a665bcaafeabc8229173d7336282d1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/features/bio.secondary-structure.dssp.toml"
+sha256 = "3f2a2bfa141b1196a4d1a4bc7147b9815d061a5339145df275e3cf1eb446b698"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_100D.cif.json.gz"
+sha256 = "2adf1e1e0e65e6aa65e9abefa4c51d27264a3ac433e61acaa0eaa8726b421d16"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_151D.cif.json.gz"
+sha256 = "b6cd59c8c22ca7bac86351d00a5edfa3fcadffb5840e78f698fadc288929f8f8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1ACD.cif.json.gz"
+sha256 = "1ad5fe1cf2a02874c9ba5c5223ff23b7869c96ed05019eafe576a9318b224389"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1AGG.cif.json.gz"
+sha256 = "57fb25c24ea0c79288b55e5d6ab56e3969848e23b1ba0fab71b3ee41366b4a6b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1D7N.cif.json.gz"
+sha256 = "0d358fc0da5412c435ab6501d4831a921f1d72e379df03e557e6052c1fdbb5f1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1D93.cif.json.gz"
+sha256 = "b07d9c327ccb8f7079925bdd1c40e652f9e5607487dc9ef588da10673303af48"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1DUD.cif.json.gz"
+sha256 = "1165ce145a570e53ea6dde0e91b7c382f1cb6f8bc2c53cb180215e93c2994200"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1DY5.cif.json.gz"
+sha256 = "16af5f233c5e93e09b5b08408e19040ccbe54fa501d76b28be4ff5d65e02071d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1HPJ.cif.json.gz"
+sha256 = "035d04f1c301f4a605ade0d254c0194e29ee362ec0073aabe110fcedb04f6a8f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1JTW.cif.json.gz"
+sha256 = "8ff76b2e94b4e6a8c7ef90fe7468ea5799d1f96a0e03c56d50a06062926ac75e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1K8K.cif.json.gz"
+sha256 = "cc4dbe92bac736227bdd297d6dc4129bfa45b8749a07b4ac42fd0e37f339c8e6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1KF1.cif.json.gz"
+sha256 = "a51b3215fb91f513e11c7e3cd93a8b4f5841b60c608a4d8c7719b42a26db3af3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1KSB.cif.json.gz"
+sha256 = "931c7bd1f7b426cc5da2678d2c8581bad5bf72c5fb0b7a2ca35da3b6a7bde34f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1L4A.cif.json.gz"
+sha256 = "f9af497d69eed5eec94afa2f5a9e6c134eb7dd0903c48cc28e98c7585ef5580a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1MV2.cif.json.gz"
+sha256 = "06d990158b7aa236b092022063730b826bb2a6c3f8644ff2c148f8186661418c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1MV6.cif.json.gz"
+sha256 = "0f87a5a57641b4e3a271f2dc55f01b079a7b57056a76b7cd4e58c953496f4177"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1N6Z.cif.json.gz"
+sha256 = "ab661ff1dc4bb5f3ffc1cf227c73ffb756df7e945a38bb9b15fef6d70cf31cd7"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1N9V.cif.json.gz"
+sha256 = "8186982f1d3fd67496ae0351c2671dd6458f31c63913de065ab3047fdee05953"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1SEF.cif.json.gz"
+sha256 = "b59b31191827793369d842db5ccecbcddecb062d735979394278d59b491621d1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1SPF.cif.json.gz"
+sha256 = "3e5c76b88bb9f76e16a2ce352d87e5909350498df3575e4fe04ec36b9f516a93"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1WOS.cif.json.gz"
+sha256 = "02bb06f479d501eea2b068bf578cfaeb5b48bf5a405607517271453bf769402f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1X9V.cif.json.gz"
+sha256 = "be90c55554ee087040925469bf97e8e853bff577425f3b99db88b29de245478d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1Z7D.cif.json.gz"
+sha256 = "f984c34cda82390b8f82165e573543d6ae832e4cfb5b50112b5199e5099819de"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_1ZWV.cif.json.gz"
+sha256 = "eaea137277d745b7740d50eb97de2e8f10ed6dcc1aebb4908b21e5ae07d15d2c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2BXG.cif.json.gz"
+sha256 = "f63fbcf413f4f4a5587822554da1a3e0cba7f6e93a92c84a937e53ab45493a59"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2JEJ.cif.json.gz"
+sha256 = "f0b89486de5925346818d3009aa5434caf9359a1b9e53f869d3f0d70fc2d415e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2JTB.cif.json.gz"
+sha256 = "3542669fbab3cfc31b5e718df3e682fe61c0929052115a0d3d3b63ce763deb50"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2M75.cif.json.gz"
+sha256 = "da5c695def4187335fdd12efbd3c084f9e3333e453501bc47293c1ba91fb5003"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2M7M.cif.json.gz"
+sha256 = "ffe504b2591950a410ff241cd95c909cafb21dc6fbe19849ac4014f58a0a45c1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2N1C.cif.json.gz"
+sha256 = "d34969d9acdcbd67a55e91c765d55fa9a83761d1b8c3656effa977f2a9e688f3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2N21.cif.json.gz"
+sha256 = "e364ed30166b30e6986527da574eea310201bd2539a36366ce7ab47d59834ded"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2N57.cif.json.gz"
+sha256 = "3121bbd87f9cbc53dffd8acdc2bfc56efeb77bc1cd54f9732dc24c0da56d5f91"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2ODI.cif.json.gz"
+sha256 = "4726968aadc52d1ffd6787d0d287315b78087f06ec3ae6ef7595664f24fc42f5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2WWY.cif.json.gz"
+sha256 = "23931c92fb7b18a92dc82bf6c2d6fb3292a2887b95e9d464855bbef26b1c9e8d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2XK0.cif.json.gz"
+sha256 = "4bd8067ff07d0307a4cdc5dd25209bda84dce6dffcfd25cfe579c3d1ad1d0d93"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2XUR.cif.json.gz"
+sha256 = "1ccf0ce36d1ef34c9ddc026bc7b2750459ed908bc46eaaf0b2e1943804a6fdea"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_2YIE.cif.json.gz"
+sha256 = "441bb38460013aae9599d6c7c53fdbc06efafe29eb895021101aebf69cd28172"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_3AZN.cif.json.gz"
+sha256 = "ab9789d57c9c5dcab82421ae38faba7d96b9db20f04993892d9edf21e9b98fc2"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_3RM6.cif.json.gz"
+sha256 = "7b70a9c0479e43925afe799bd9ca2590d19a93d754eed877332ad1d1824c59b9"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4F3T.cif.json.gz"
+sha256 = "d90d0faa668d04bb9bb6079b1bb05d298d6993ee97fa0507fa8fbda6a3d897e8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4G4Y.cif.json.gz"
+sha256 = "415f53121286aaf1d29381d033ca53f471488f17630b4f05e1df46cc708234f3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4JAH.cif.json.gz"
+sha256 = "63d368c1b51101323ffeda6a0f1808f13109b6bc112611d4fa5aa0993e282a75"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4JRD.cif.json.gz"
+sha256 = "72bd89078445c2e403969e087e9a0f9e9240bac1b440f77e78785086869458b3"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4KNQ.cif.json.gz"
+sha256 = "adfc0e87efc533602de67fafac16e4c4f3d7bd434a14ad6e5489e164883fe7da"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4LLA.cif.json.gz"
+sha256 = "c29e15133605bc0ecbb8b0e666755c7201348456297ca8571c89d707fc3c7aab"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4LUP.cif.json.gz"
+sha256 = "7fb985b239254f3749ad9bb8363ba99c3c0f469302090454fe657527788c0695"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4M77.cif.json.gz"
+sha256 = "d410e944a2dfaf62f30db432434847d789220cf0cc0e8016e1636d4d71567c41"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4M94.cif.json.gz"
+sha256 = "d0190055ac3aecef16ac1052143809e85f525e329516431edd101b7478e70d05"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4NOJ.cif.json.gz"
+sha256 = "a4f01abcc4145eed2cc7e9eba7c556a858f3b106e37801416a887a55a6284738"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4QJX.cif.json.gz"
+sha256 = "2908060b87f6f94a16be0d2242af292e922c1b45e70639f2b488eb366659635a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4U8G.cif.json.gz"
+sha256 = "1381311d32e0408c2720a430bb6a25ae5111bdf36da414c63c6eef6d205a0c8c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4XXC.cif.json.gz"
+sha256 = "dc23b250f6a07b9d837f85cfb76a05bf52b356a2868c382e8fe368a922d247a8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_4ZYM.cif.json.gz"
+sha256 = "f23acfa1d9efe0a90b0b62b379533bf3bfc9fcae23596516c8d0fdfbfee58c1e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5BWY.cif.json.gz"
+sha256 = "1a98ec74c7f62849e1edd7c0193a68ce82fc3510ca8eb8e8c2b80aa191a7b1bc"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5D2S.cif.json.gz"
+sha256 = "f4d85cf70b95085e2961b71c6bdb53f8f75fa566a30a389d549b9ed7d274294c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5FWB.cif.json.gz"
+sha256 = "5075d42de291d4631f36831a1697b5c8f776cfca51fc3c768781df34f3fb64a0"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5MWQ.cif.json.gz"
+sha256 = "4fa52678ae8abe6c90ce6e85d17c68b82b50a84167cc344271cbe5260dd6a7b6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5P51.cif.json.gz"
+sha256 = "23f4739c69c28d60821ce55864c1c87f6e58bf9e844a30ae149933ae9c17dfb5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5U8I.cif.json.gz"
+sha256 = "5825ae58151c1c1bd94acc924e5e20b817688870c93e715cddb5f071fe6ac4b8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5V06.cif.json.gz"
+sha256 = "13b8092ab0eb4d97200f29c30b27cf0aabe9144f356c73085f48112ae922d179"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_5W0O.cif.json.gz"
+sha256 = "8ffc7748dc367659ee50afc55f0fcc1989b269eac1aa666ff717048ff803f245"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6AOI.cif.json.gz"
+sha256 = "8643bbaef51e3e8a7d61b9043c3fba84a3823d654ede51078de781eae0cd6d4d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6DLS.cif.json.gz"
+sha256 = "8e7d63d2533a47118adf9fccf3bc0697558d80baec80a211631edb9cb806a8a6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6DQ8.cif.json.gz"
+sha256 = "372971af20e7b16f0b28212f86d3bdf35cf69d2fda4c60b1f2bc668af724977e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6DXJ.cif.json.gz"
+sha256 = "7d82327c2e924ddc2fcb5476335f24f18a115f2b0e8d46e6ea3c328e968cc91b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6E1S.cif.json.gz"
+sha256 = "c8fa4e0da28aa9dfb2477a8a7d9ae7e61684fedae4d263d2d10f2fda25bf653c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6FBG.cif.json.gz"
+sha256 = "b8abaf2c7c3bfa4ef58a1477d138b7820ff155ddc757c198f5b8828b96f13a82"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6MNN.cif.json.gz"
+sha256 = "6ea90bb0c48dd114ec62130800931f5dc398d10fd91729d00ea505c3bc4e60a4"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6PE2.cif.json.gz"
+sha256 = "89473f1a15ceea5eb5a711bec6b4028a65e42beef6eca4ee08d4c7e808375505"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6PND.cif.json.gz"
+sha256 = "18ca81165ff853c65fda03fb987e4d36c48ac068b4a79154b73ff034660c36d1"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6Q20.cif.json.gz"
+sha256 = "502aa17a91d9c0d6d0f503c10ae680662f88bcfe1c835d855144ef7aff775b68"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6SZ6.cif.json.gz"
+sha256 = "ce17ba058f1281de47048a9d32210eec52e1c0588c9b8ed2ee805c54bbe02fe4"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6TUP.cif.json.gz"
+sha256 = "d4e78f803cd31a0a0b3ad8a1f63f0a777df30bbc97c18287b067a636263cc23a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6XJZ.cif.json.gz"
+sha256 = "a72da3c871f756a733a9420ba0b8b3eac4d46197a7c0f26bb8ebc125936588ec"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6XRQ.cif.json.gz"
+sha256 = "b28ea780392e4086a93e566b86b8a5021163f8124714aa811a6e577772a6a648"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_6YS4.cif.json.gz"
+sha256 = "d4344331f4be04024e6d14f176cd8fb0237e701af7ed411f802c8d5229427c65"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7E4E.cif.json.gz"
+sha256 = "4e3902dd29f21e23573df47ced61cee8211844beaddaca09c0d79c0543d25ef5"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7FN1.cif.json.gz"
+sha256 = "674a0d084177086af043298b64a49739523f7b026df23b876a05dcdc53468402"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7OJL.cif.json.gz"
+sha256 = "9643be1061c0f964d0fcd74a019ceba21b59f46710e4302321658efbdae7341b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7QD8.cif.json.gz"
+sha256 = "cf8fefbc5a9074b608c17b65efdb0ceff4a7881fb3f961357eb03380fe0bafcd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7U44.cif.json.gz"
+sha256 = "ed882aa27795818c7eac78b30887ff13531e35f98e0bfe3ea435c01274732173"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7VKD.cif.json.gz"
+sha256 = "405cf4f75871e7823636f76ebe3f66bc15632e923bcceed8ec075441c9e23b23"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_7WAZ.cif.json.gz"
+sha256 = "fddf0b4675f170015473bc462b9daf04acd2f03d6299c48ecbe37d93e1e7f964"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8A41.cif.json.gz"
+sha256 = "2693bbcaa314b25f82162b1a3917efe7e42dd9d2a5ec12e3598e890a0badb061"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8B1F.cif.json.gz"
+sha256 = "f406d7854ba55ac2b672d1814f9483ea6cfaf8e41fd7bb4bf0612248ca4cbec6"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8B1L.cif.json.gz"
+sha256 = "9597438479b06a83fd34c15ee2f56d941d05f785b1c0475811c2fdbec3e0e7be"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8EP8.cif.json.gz"
+sha256 = "4a79eb4a47f46e17c66cb8b989de5e8fd18b0b827609e61482e22c957b011b3a"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8F3A.cif.json.gz"
+sha256 = "0b716ffa0673953850de6c2498f24c7fb2bcd663de0621317e4050b62d7a384e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8JFJ.cif.json.gz"
+sha256 = "097d54d6a5c319a03775edf54f58c28b218f459a4e58d1cdfa7e34f6cd05c06c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8OMA.cif.json.gz"
+sha256 = "9182b5cc92115a4305dbe9bd951f068f9c314e33c71f528d9bbf82c759ae771b"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8X9E.cif.json.gz"
+sha256 = "e41c839be0de4bd56844b2b0cd2d9b72fe8b8d62fcf9e2fd5d70f473e567cf0e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_8ZA4.cif.json.gz"
+sha256 = "d13020319079f9f082387087b9b47a371f05df46d18b4bc6d918fa09c7e2214f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9BDV.cif.json.gz"
+sha256 = "3d6eb724dc9c9a347db3e7c132e11bbf859016a9d5549e3e47293698184d0eb0"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9EBP.cif.json.gz"
+sha256 = "bc0a1f0b392a61eddf9c449a8566c9ae4023de068c0b925949d99867bf4c0169"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9EC4.cif.json.gz"
+sha256 = "8224c45c5b4e8af1600f970e16f4dfa2dd28ccda36dbe3a86905f0a07ce7482d"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9J4O.cif.json.gz"
+sha256 = "93fbea9570890796cef320efe008773defa079f2fe78e16020ec6b0743bc171e"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9JCG.cif.json.gz"
+sha256 = "084b501f569ea77a26ee8751f62533564ea7821d7a652bed2eab669cbdee343f"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9RHB.cif.json.gz"
+sha256 = "c6ef7fe1ab34f6a4e973f56b99d653e2b50015c2f5949d77a4693a9f7c1563f8"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9VC8.cif.json.gz"
+sha256 = "3999aa44ba97dc5085f74c9b10deb4f824692b0fb271e5b0425bf040266b5370"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/golden/bio.secondary-structure.dssp/data_9VUM.cif.json.gz"
+sha256 = "aeeab37a88110facbe6d2e8ae79ac814ca414a64d63e6f6367c74bd6a349e817"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/corpora/pdb-100/sources.lock.json"
+sha256 = "5613c3707dfa3f6f2e991eb967304dcba9fe4b3e1319685ca75204d0ef65b042"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/reference/biopython/environment.yml"
+sha256 = "cc61da14aed5e08f548b6d1e0a1a59f61087f59ae7c653a1ad79e4257f9cd878"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "validation/reference/biopython/run_feature.py"
+sha256 = "2545f5b6fc0541e8f5b5239781128de94ea789299263801835aa40b6c9846778"
+
 [features."io.mmcif.parse"]
 passed = true
 fixture_count = 100
