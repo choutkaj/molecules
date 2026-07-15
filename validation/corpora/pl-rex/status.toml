@@ -74,76 +74,1948 @@ evidence_inputs = []
 validated_at_unix = 1783923779
 
 [features."io.mol.v2000.parse"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "c5f84fc7430849e9b121602f71a54c0de392e27bda26c7644163082229a1f7ff"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783923829
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "d0b2f7812108973f282378452bce7c376a1cb38e1f5d5f2a12dec48393a6b5a1"
+validated_at_unix = 1784094806
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "features/io.mol.v2000.parse/feature.md"
+sha256 = "ace146b6ae5b5a1ccb2ce0847ea3b437f9f6fe5a8064fdc4c233992c747d46d7"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "features/io.mol.v2000.parse/feature.toml"
+sha256 = "50c62ee3380eecb22a41332cb236bd450b74bf1a683cf9cc3c5916e1f1d109e8"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.mol.v2000.parse.toml"
+sha256 = "29884a2c30587859cb1aa711b5a5c6e596ea7fd9f3c94a955c1aeb187260dd8e"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v2000.parse/data_packs_pack_01.sdf.json.gz"
+sha256 = "3a42e56be4fa3bbb200b48a533a0bae41f7e5f8049d0dbd79a41e7d1649e8e8b"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v2000.parse/data_packs_pack_02.sdf.json.gz"
+sha256 = "c4935e1e63d88548ce40b2fbcf240a0b97f4c0725c11c86bd784f73d8bdb5c80"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.mol.v2000.write"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "5003d95baad9f1ecfdcaecd86909e8226e9412e0b5b854dd96ccf973433c6d8e"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783923886
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "ff8869c9ab65ff772bc362edc202f7f2d01031026149c354008022d02d330183"
+validated_at_unix = 1784094812
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "features/io.mol.v2000.write/feature.md"
+sha256 = "56c233a001558a8cc5d3a5ae80a49eba8d75d68034ed74ec7cf0d38e79e77e1b"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "features/io.mol.v2000.write/feature.toml"
+sha256 = "f1efabb80056c870e8c010f584aac6b673d8182d40288186d636cc1ede77ceee"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.mol.v2000.write.toml"
+sha256 = "2b73eb4abae6355d277259454cac38ab8acab604e959bd21287f1685a512da99"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v2000.write/data_packs_pack_01.sdf.json.gz"
+sha256 = "439f6013ff4338d9b9a02078448c0d97d085f3a139ecbf2cfa8fa6fb36c7e0ba"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v2000.write/data_packs_pack_02.sdf.json.gz"
+sha256 = "221d06dd8852a71d6d199896f24303962debd96b08782cad33fc04343e891981"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.mol.v3000.parse"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "97493cd18536311859fb62786cc8ac3b4f4678e2fbd3638b1a06eefd57507fba"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783923950
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "e3a1d98d411ce3d12b7b3e767ab12f9cd6803ec87db11c5226011defa20817c1"
+validated_at_unix = 1784094819
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "features/io.mol.v3000.parse/feature.md"
+sha256 = "a19570b19bd67a1ad4b1922cfaffa5d87abf68cd9aca9f340057137835d71fad"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "features/io.mol.v3000.parse/feature.toml"
+sha256 = "f57edc2cc9a144f7b4621d56a24b6d1730b1d138a28075fa0b11386c74415354"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.mol.v3000.parse.toml"
+sha256 = "ebcae7486d3855d95b97557f25781eeed8b32944794df9d2622b4e2fa1ce01b5"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v3000.parse/data_packs_pack_01.sdf.json.gz"
+sha256 = "765c0b7a80d54916ff60c8c574e5ad5702ee04cdbc078132cda420069887498f"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v3000.parse/data_packs_pack_02.sdf.json.gz"
+sha256 = "05d0197a11b2270b6280200d210c43e16f6d4c00db38753d9b396202305903cd"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v3000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.mol.v3000.write"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "e7bd90e4627ed85c63d09e6228ff4853d444ce74199cc4b6755f430ac0d5c2a3"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783924011
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "72f9667b8372799e5f42d54153fad04612aaeeaf3da41934bacae435f254dd5f"
+validated_at_unix = 1784094826
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "features/io.mol.v3000.write/feature.md"
+sha256 = "42a37bfd01d9cad04d1fe3b1f3afe8a56802c273a418905a809802d335036f3e"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "features/io.mol.v3000.write/feature.toml"
+sha256 = "8ed4338a6ce717565a442eed58450b759689eb634c23f210cc27df721a209a4d"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.mol.v3000.write.toml"
+sha256 = "1eb1a101a7728f5fd9b3bfd4d25e85f4115bca890b1b2a09417827814ed1b70a"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v3000.write/data_packs_pack_01.sdf.json.gz"
+sha256 = "66b465a3158de2c832d2a396ebdd35e2868c629dd0cb05dde7dc1894cfc0595d"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.mol.v3000.write/data_packs_pack_02.sdf.json.gz"
+sha256 = "6a279bf9ad09c32ca24a2a6f13c9d9770d24e7ddb8ae9122ce0a15af9a01e694"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.mol.v3000.write".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.sdf.v2000.parse"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "6473357ecda847b3d0a90f11c1d66d840a17b7b6d3eb7d57cf5f65d49688c1d6"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783924082
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "e302bed238edd3eb3f70a807d09ccac3dd0783f4bf5c78207973263417d5ebb1"
+validated_at_unix = 1784094832
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "features/io.sdf.v2000.parse/feature.md"
+sha256 = "b903baf224608f9b1315108a21d89408839ac7ef61d96cc1550eae03359272eb"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "features/io.sdf.v2000.parse/feature.toml"
+sha256 = "1ef5e854f3b712d8f7b7359ffb48e5e4efebca68fcd80905ddd39526949cb21c"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.sdf.v2000.parse.toml"
+sha256 = "e75fb9448d510f6df17f27313dec32284701f45cb198915e7cc019cc740e1dba"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.sdf.v2000.parse/data_packs_pack_01.sdf.json.gz"
+sha256 = "13871698589f71e31b20fc70195c43260c480a21759e5b9c308467cd7378c30d"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.sdf.v2000.parse/data_packs_pack_02.sdf.json.gz"
+sha256 = "92c7b0119401508a7ddb7a5de223f31ae5e77ee30ff680c75ba5f8e37cb9251e"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.sdf.v2000.parse".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."io.sdf.v2000.write"]
-passed = false
+passed = true
 fixture_count = 2
-compared_count = 1
+compared_count = 2
 reference_tool = "rdkit"
 reference_version = "RDKit 2026.03.3"
 manifest_hash = "df3782aceb13e262dcca0072a9f8e5f59ae62731e79aaa0a99f38906b9962cd5"
-failed_count = 1
-first_failure = "fixture `data/packs/pack_01.sdf` implementation output failed: SDF parse error in record 12 at line 1117: counts exceed records before M  END"
-evidence_inputs = []
-validated_at_unix = 1783924158
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "d4c1b2da136d25191d528a934cbf64d79404f9a51fc79f8f8e11ebb16f27eb1c"
+validated_at_unix = 1784094839
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "Cargo.lock"
+sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "Cargo.toml"
+sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/Cargo.toml"
+sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/aromaticity.rs"
+sha256 = "e37520357b3950c7ca2c8ce587d3be66a742c375cc1ef842859a824e3115f8b0"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/canonical.rs"
+sha256 = "62143b4b5c0bb154b82872bacae486304042f9c2fd09936c0f84ff2f179332ca"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/cip.rs"
+sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/membership.rs"
+sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/mod.rs"
+sha256 = "18981168c8562e11cfeb82f274dc7502f794b3e8bbf709c8405c2c72edd54f48"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/rings.rs"
+sha256 = "e94b662e1cee946c3d51807c0d2462d94b170ade83c4d4506548c9688932f5db"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/stereo.rs"
+sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/algorithms/valence.rs"
+sha256 = "1245715945e1fa47af057be839c571ca582ef4819ee6b22bbb59c91811f1219f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/hierarchy.rs"
+sha256 = "40a3e5a348d3c989221fd5a2a0594094115d76c8f2f1f04af3351ac58a7650da"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/bio/mod.rs"
+sha256 = "40f3ca4e48872ab49b81682165b29134d2ac2872e78b18aeb0024a9f0321d01f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/mod.rs"
+sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/chemistry/sanitize.rs"
+sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/atom_bond.rs"
+sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/conformer.rs"
+sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/element.rs"
+sha256 = "3f0066c0fb7bc2c56f5bb05637f43e46fd8f5ecb5ad12a975da3e971e06fb3e8"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/ids.rs"
+sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/mod.rs"
+sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/molecule.rs"
+sha256 = "9df81a4396fd6cafcb392b7d8786a22eba056adb6dc33ebba568c61d79c6fe30"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/core/stereo.rs"
+sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_document.rs"
+sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mmcif_interpret.rs"
+sha256 = "b188e417b09d452ce89ff0712ff579daa2d217ff40b442cef88eecf5dbe7a07f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/mod.rs"
+sha256 = "109cd394a2045960aa9ebd1b46e52efcf28db73beaad373cd33fe52d21aed280"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/sdf_document.rs"
+sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/smiles.rs"
+sha256 = "6289a7391212e99eca2ec85fad087c20259a4713711281f23684c0cd07fa88f6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/structure_documents.rs"
+sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v2000.rs"
+sha256 = "458ca32550bf9b233fc5dc6273ff7b9b6335b6ee664eae3562a025a49166cccf"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/io/v3000.rs"
+sha256 = "82d4fcc431c7a5bab2b07316d0aa662cfb33944df63afd1fd727e53ad8169dff"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/lib.rs"
+sha256 = "2808ec6c28aec2cc7372a486db9c7594a5e875a5da15c6f2a2eeca8642a1daf8"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/minimize.rs"
+sha256 = "3b5601046128cacf0bd3f54ae38aa774da638b6101aaec8626f396cd14242196"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/mod.rs"
+sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/model.rs"
+sha256 = "02e46e18551c6eec606389e4452d423d5c892618de9fe24f1d8c7d288140beb0"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/potential.rs"
+sha256 = "adb4b8e75411dd63a889f978a38e71b093be6b77a9fcde08af77f01c4a1bdd27"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/modeling/tests.rs"
+sha256 = "c3971c5c8c7aa1cfff60486b5bdbeddc77712ae767f8088ccb3823c4a21be24b"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/small.rs"
+sha256 = "0bce6894887ae2051ba57c8180aef1f1973bb755ec277095f9b618bdb339fa04"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/bio.rs"
+sha256 = "b5a8022b9fa42e25b39e24ec7ec1f822f1e38b34c1f44200d9ab43e441c51bcf"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/canonical.rs"
+sha256 = "652fcf33832900d23f9463cbbebf38cf61284d1bc213c485198749100fe4dbbb"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/chemistry.rs"
+sha256 = "3e4a791f69e0b9e78f6236d3648deaef828bd1db8963ff51145027b804821def"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/cip.rs"
+sha256 = "ff3e526a202460ade1d09a51f344e6fbfa6d9663ad9816dcf177956d884f136f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/core_payload.rs"
+sha256 = "0d1e122abfb5ef45e0d31709b5701ce1ffc05c8407bd2607d886cd0658f5895f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/graph.rs"
+sha256 = "d5f47cc44a7a07436ad40b760db628718f8b1d4bc5afb93dde45e6b50a1c3ee7"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mmcif_contents.rs"
+sha256 = "38b2ec3741ec02ec7ab6fe8ba87233537f5ad4c0d3587f7ae4f300d02cc75265"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/mod.rs"
+sha256 = "bd7a4a20b9c15326a9558373bddbd87a05585056d3a9f605fd0f4e2ab68056cc"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/perception.rs"
+sha256 = "6ed429419d7c47ec1d05e291dc77850bfedb16ecbd671425977c4de6c0b54960"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/public_api.rs"
+sha256 = "c4d466b1a75c4bd4f43fadbb49c41707f1017c62332881efea1bb5eb9b323ebd"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/ring_limits.rs"
+sha256 = "ad45f63c20ee5b82bc4e15ce2297fb9b5dc9b82e70a823f7f242b47a671c6b36"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/smiles.rs"
+sha256 = "f464139bd3c8821329071d5c996e54867e9c7d1f98a39b4e42b9b7a34f8939ae"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v2000.rs"
+sha256 = "8646977ee11ef268cc18091f8899966f2913aac9d0e5f5caae2681e05b0a8a33"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/molecules/src/tests/v3000.rs"
+sha256 = "a85ca3d8cd8fef1a03dce81f7263582aed49cf711712ca0cb5c5096b4c88a616"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/Cargo.toml"
+sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/cli.rs"
+sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/corpus.rs"
+sha256 = "60e703cd8c6c46f2c5603d3db09782a7101ea55c007804bf8d2b5ce0d852728c"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/dashboard.rs"
+sha256 = "f7a5fa447164ae74639ab51b41007b174f0aee8e5d16aff31c0419e566d3b8df"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/features.rs"
+sha256 = "e536ef0ef19b5cf9785f6fa3e67abc281466bcea2acb2ff2eb6f6946975aef94"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/main.rs"
+sha256 = "b8b4b7653c165b6ed0f96a49949688c8a3a110e0fe13ba2e0c13c0173859d7d2"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/skills.rs"
+sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/support.rs"
+sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/tests.rs"
+sha256 = "79c52add71c8c3461baf69b9c2fd12c8cfbe1480460b8850c07ba6d5145e6ca9"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/compare.rs"
+sha256 = "132a85a84be3ef05dcfd18c127ea05842c47a160c4b46902e786d5010d8f009c"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/evidence.rs"
+sha256 = "af14146593f21dced37b70ae6f972ba41515d3e64aa8169a2d4bcdfafd194cd8"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/implementation.rs"
+sha256 = "b90e31e383bd4b27973fe4114115f8268b9031827c5671cda31e96bb876f5c5d"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/manifest.rs"
+sha256 = "c09dd941b18e8b2d6976a5a0361edad9cd5b2f1230cf77d7d51348d1b804cbdf"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/mod.rs"
+sha256 = "415d21bd60378ae9401e91690d00fd6ec30448b927a75a553ee6c77e87e13b88"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/progress.rs"
+sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "crates/xtask/src/validation/status.rs"
+sha256 = "57391bbdf5b71d9efe26c6e6b4eadab656c8b5f7c841d1931c6917fc2ce30aeb"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "features/io.sdf.v2000.write/feature.md"
+sha256 = "5e2659d83744626b9fa998cfd07ce5fccb73fee15a1a0ca60fb3fa2048b77023"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "features/io.sdf.v2000.write/feature.toml"
+sha256 = "2e0ee3efeece6a815f2ec2c815461bc909dcfc144a06cd6ccd0c200bacf8a311"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/corpus.toml"
+sha256 = "059588d1d0d63e4f94f71b2805e7ae9856f0a0fc56fd4c23edf23db5e549b409"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_01.sdf"
+sha256 = "b390268d78c72c76c4e00fd53bddeffd5c8e02c18fe5f5e0c5a661c2a4d6893f"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/data/packs/pack_02.sdf"
+sha256 = "1e49bdaa6718aaf168e47cf23bdfa9c4c542a937352f2db48a14f66e4c7fc680"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/features/io.sdf.v2000.write.toml"
+sha256 = "a22ed85d2b4673ac7ce652407c565fbcd973b97f62fb7e37e617b2f208dbc7df"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.sdf.v2000.write/data_packs_pack_01.sdf.json.gz"
+sha256 = "ff71af4322ce9e9cb5eff82b88c1b3b9fe43d4fabcf39c2b27544bea8f27c20b"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/golden/io.sdf.v2000.write/data_packs_pack_02.sdf.json.gz"
+sha256 = "31c22a86e601264b70f88e1d3e3c3f5c13d670434ea0b8eb83c7933bdc143787"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/corpora/pl-rex/sources.lock.json"
+sha256 = "7a86fab3c062c56b484b476a4af9c559ffe68a26459c1c7f304d6345a8d92060"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/environment.yml"
+sha256 = "5ade2e1edaa19c88111ec3e96376ecd1d52c5dde5db091315b7fc7ff4392f460"
+
+[[features."io.sdf.v2000.write".evidence_inputs]]
+path = "validation/reference/rdkit/run_feature.py"
+sha256 = "0b53dde308f595b34aa9e6602d77be7e7e7f009848d8b460b080d85f7fa4ebf4"
 
 [features."stereo.cip"]
 passed = false
