@@ -1,11 +1,16 @@
 corpus_id = "smoke"
 feature_id = "algo.canonical-ranking"
-reference_tool = "planned-rdkit"
-reference_version = "2026-06-19-no-fixtures-yet"
-comparison_mode = "planned"
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+comparison_mode = "implementation-golden"
 
-fixtures = []
+fixtures = [
+  "data/pubchem/cid_241.sdf",
+  "data/pubchem/cid_8029.sdf",
+  "data/pubchem/cid_931.sdf",
+  "data/pubchem/cid_2519.sdf",
+]
 
 notes = [
-  "First implementation is covered by focused unit regressions; external RDKit ranking fixtures will be added once the supported non-stereo comparison contract is declared.",
+  "Reference RDKit goldens compare non-stereo atom symmetry partitions, not implementation-specific numeric rank labels.",
 ]
