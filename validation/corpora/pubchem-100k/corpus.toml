@@ -3,6 +3,7 @@ title = "PubChem deterministic 100000-compound corpus"
 kind = "small-molecule"
 ready = true
 expected_count = 100000
+local_only = true
 seed = "molecules-pubchem-100k-v1"
 formats = ["sdf-v2000", "smiles"]
 build_command = "micromamba run -n molecules-rdkit-reference python validation/reference/rdkit/build_large_corpora.py --corpus pubchem-100k"

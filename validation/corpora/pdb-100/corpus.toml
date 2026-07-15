@@ -3,6 +3,7 @@ title = "PDB deterministic 100-entry corpus"
 kind = "macromolecule"
 ready = true
 expected_count = 100
+local_only = true
 seed = "molecules-pdb-v1"
 formats = ["mmcif"]
 build_command = "micromamba run -n molecules-biopython-reference python validation/reference/biopython/build_corpus.py"
