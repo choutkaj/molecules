@@ -1082,24 +1082,24 @@ reference_version = "Biopython 1.87 / mkdssp version 4.6.1"
 manifest_hash = "3f2a2bfa141b1196a4d1a4bc7147b9815d061a5339145df275e3cf1eb446b698"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "871f9008cbb18bedc7ad64b531014101ac79bf890f09e2395c25d46b36e5cb1e"
-validated_at_unix = 1784140430
+evidence_hash = "2c8701ea8b87b59f081870a2fae88c619394b8422a76df44fc5532fa39f5b24a"
+validated_at_unix = 1784219350
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "Cargo.lock"
-sha256 = "c06b103cd5200197cd43fe2357b58fffa7fabf3a3105f2dace968396533c042d"
+sha256 = "5e4b23481c94b65a841164cb94928d474b3cb2cc3026de2a5411a8b8dae98786"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "Cargo.toml"
-sha256 = "5b670ff17ab60d0eca6d9dba4e2de89fbec56f2a99414bf718abc67a0ce86fa1"
+sha256 = "f7803993ddb286c9254969a0e346eb77e4b36c392fb36e7c05e8342e97b63590"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/Cargo.toml"
-sha256 = "a1d51342375b70f0e6fe9cdc089b20c250a06e6f8ec078e34c7df05429270890"
+sha256 = "a82494c2dcb6a7c3e74283a0e1933373d6528ff382cea640d3ce65fb78745fcb"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/aromaticity.rs"
-sha256 = "f3b291df0f0c53ffabf0757f1115ee4609d8d998e88b9af80f68861f71376833"
+sha256 = "e8c8fbc5d8b8028c09b2d74c1cf6e9105e03902cc3b1e0a763dfabb67031668b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/canonical.rs"
@@ -1111,35 +1111,35 @@ sha256 = "d7d97d2dde9c8d2f3b55d1c26550b67112cc33e290ef235bfdd05428d32232ec"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/hydrogens.rs"
-sha256 = "515ff7c1a3817a23298921d292f871dd7132043ed63b1d2e66415239f3a015af"
+sha256 = "54ac4c5ecab79c661ecad2e9c9f2d7aaac7079399d81c0428897ce8ebeb60232"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/membership.rs"
-sha256 = "d68487a73eeb34d232d0a0f8e821fb2a2b993332d10c0ef20e65b31036eb19d8"
+sha256 = "62a2e1980f2e8c8904d00f7c0cc02190789a2bafa0507c3e95dd2335bbedd395"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/mod.rs"
-sha256 = "ec77f767766f525254651474fd5e359c9cfa39f26a15e798c3ba0f8323c2c78c"
+sha256 = "44b7d660dce4b28dd6dbe4334e9b2f7d0072cc667d6831ea58b0b31c8436deb3"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/rings.rs"
-sha256 = "631c3db27459948f5ab03c7bf8349ed3f44fa9f22aded2b403b1a13c69cf9b90"
+sha256 = "147f0ab9375b6195d3b8db9445292197798e8aab65344f85fe336220e4b0df73"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/stereo.rs"
-sha256 = "15e02ec388d178060185f71f4cf605e0add67b2746de907844af732d6ae5202e"
+sha256 = "aba28133f5ef504ce53294d5cce5c49fa232d742d82dd7c4730fe0416dbed055"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/substructure.rs"
-sha256 = "1fede5596bd6b16db254fd0e430f9d2af3a661775fca90d00a9223e815994bcd"
+sha256 = "33866c170e31d9b54b9e9251170a750a5399dfcf3f3bfdbf8130910b4846901b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/algorithms/valence.rs"
-sha256 = "3b59490d1c7cec5706bc221300abe63ffc63e6923b897de1f0344232af2b97f1"
+sha256 = "d2c574703079915d8b34a01e62f2ae3d37e2ef2de2f8b9c3e531d76b685a4a5f"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/bio/hierarchy.rs"
-sha256 = "ce8ceafb7139af6ef9d7cfd5c9444cc5afb3b6e7df13f3574c66859fe1489274"
+sha256 = "36e9587fcfbe6c57ed2d81228779f05b0531e523ac8b6f1701450a7967932843"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/bio/mod.rs"
@@ -1151,7 +1151,7 @@ sha256 = "3ffb7fd5bbc398b391a0373651031cb35faf4d008ce8d5b143d7d6a5a03890b7"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/chemistry/sanitize.rs"
-sha256 = "964f47e628649a2f79806912b686015317232a8f45bde7eec7191f32be34b997"
+sha256 = "b6a777637d7c4b6e3c684fc297a2e1befc02ec85a6d2477afce6a644c7b0ff8b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/atom_bond.rs"
@@ -1159,7 +1159,7 @@ sha256 = "2f86f111b5ef23c2badfe3c3174b6ff6bc6d604d64a69ec89ec2ba6064c58723"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/conformer.rs"
-sha256 = "8ef53435d0a11dac21688fb46ad4a34afa339817417e53caee892285d36d2e00"
+sha256 = "b5cd3519c4c93a3a55b52e080cc99be983e039e487e12bd0fea9d8407e6e8c9b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/element.rs"
@@ -1171,11 +1171,15 @@ sha256 = "f888c461319f04a0c16406feeccff593c48d18144f6e5ce8a0ace124192240a6"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/mod.rs"
-sha256 = "889c24aebe6dec38638140db991840f71c293a6680420444f4e2bbd5b1823572"
+sha256 = "326c9f006781d32c82800866ab6341b1a16183919c160d0f25562c27d7f13386"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/molecule.rs"
-sha256 = "b7e2ef7102b8bc30bbb7b49fef091fd5ce80fc380d8f8a0e71cfa0360980b956"
+sha256 = "440747809939ea8646323f27cc27d8b561cfd32edf805060ac28942d473fd5dd"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/core/perception.rs"
+sha256 = "8450dd8a73e5f12666a3efb2eeab1b2d6895fa605ec938ddd933b4a06943157b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/core/stereo.rs"
@@ -1183,7 +1187,7 @@ sha256 = "48f60d5fb3b40cb8200d2e6c48a87a5f3d84fda40124ce9f1fc68a93ef1cdaf5"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/dssp/kernel.rs"
-sha256 = "6db63494d5b308aff0f9bca1b717f523fbd9c9d6ae6bd04dac7e07ce65f0c2dd"
+sha256 = "3cbc3cb7edd5a5c77aafc6db8ca26275b9956cd144c9aa63e0d640aba72cd780"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/dssp/mod.rs"
@@ -1191,15 +1195,15 @@ sha256 = "552878286e2832e31513ab722652a45a98386a4bc84be7e85d32ace47f0d9069"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/mmcif_document.rs"
-sha256 = "0aad816d0477a1d7be1694b3f225dff1000b941a064a847bd798e1280afac00d"
+sha256 = "928364942cecfae1a74b24b593d4297d26ed35299b60a794a1e0dc07f715e8c4"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/mmcif_interpret.rs"
-sha256 = "c19eb96acb18068c29fc6dad2f10a34e5295a4dae762a77ab2b7affd63513bea"
+sha256 = "8c89147af5a71f78ea1c3cf6245d7b3acd747d05da59fcd9ec4b6a23574320e6"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/mmcif_write.rs"
-sha256 = "8b8b46964661c60ac8ae5722b06b1e5336b4ed2db26d12ae0cac5c82140b25cb"
+sha256 = "a705d1246afdb6e7187c52bfbe22ee2d1e8a5f347f19008509f128d9c7212fb4"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/mod.rs"
@@ -1207,31 +1211,31 @@ sha256 = "0a0b6b9aac6fbb372f4f8fc61bf828f93e857b7af4e06a7fe742c8d8fcffb7fb"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/sdf_document.rs"
-sha256 = "7a024ddab84a87859028c651273bcde6be86662827232bcc8aafd4b6f2025cd6"
+sha256 = "062920c76b3cbd94e2d37d128630d60d4ec9a2ec4f99081b73220539f537593f"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/smiles.rs"
-sha256 = "02ec31c55e7cae2f81951f8951dce1e99917ef9a5fd4778aeffbc8a340c89d7b"
+sha256 = "18e6049e90e3cbddd382d4b1cb9b28f72411133946f6d9f6fd768ef7a58ce752"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/structure_documents.rs"
-sha256 = "6b8c7d9931f7a43401d71ce525e012f728d99806a33893ba2c68e43be136f9a6"
+sha256 = "853ce4a25d9cf1e31bc563490e6bc0f92047314df596266d4737af59114e80f0"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/v2000.rs"
-sha256 = "c0dc44f432b42d9e95938106fc40ee338ba27b2715176e6b161c11f20f2834fd"
+sha256 = "aca383a77c57418cc2c98dff24ebbbbf49ab33eb371b48bcd1be710ff1fa94e6"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/io/v3000.rs"
-sha256 = "b9007ff03be5b1ecba3ef23213509196b30db8d18ab873a03bfecd049018b19f"
+sha256 = "d1250ff09ef5bd5f144bc36a1f13fdba6b8894e1bed534512afe1ea656492cea"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/lib.rs"
-sha256 = "f4f1dc558cab95859e38dec91fc8de7a82a16689c864fa9453e45070051fa8e3"
+sha256 = "079835a75f10d6876a13c5c60404ed23aec9dcf2534a3f90698ec6f0fdbc3856"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/modeling/minimize.rs"
-sha256 = "192015eb3244316789be8796dae15d26dee84991ab200d80969327a29b5c2c30"
+sha256 = "cdf92838922d800231544ca3873dfbb6d33b8d919554e6102c99f2ddf40c496d"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/modeling/mod.rs"
@@ -1239,23 +1243,23 @@ sha256 = "eca48c1a5f4e1538b0a794784564b5d1cefa15bc32bee58c491abf7e030bd9d6"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/modeling/model.rs"
-sha256 = "c2f8df572992989d49f81accba7286eeaa6fd68dbde2cc693aa8b6b9cebb8d0a"
+sha256 = "fe4d4cd8702ac3086d896d492947c6ce8a7afd95b0f4787ec3be5e4dc4067744"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/modeling/potential.rs"
-sha256 = "115702f39e7eff3aeb32e619d3ffe2ab3536dbc15ff2ef04c8842d200a69578d"
+sha256 = "6b77ec74c3bf5b9ea94de29ae43693ea231af24b263cad97d5088fcad5f281c3"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/modeling/tests.rs"
-sha256 = "3af6accc270aca1621c545a699fa6fda928532fc806e1042d6b2c8fc376c738e"
+sha256 = "0d5c01f4a8dd51a88806010e884e5c7c8670d0eae7e4822ce23d0df9d9c31557"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/query/expression.rs"
-sha256 = "aeeeb196d3b9998c0e07ae6b66a36468e5f741e7a201572eb2f64eb38370b756"
+sha256 = "9df8aace50f750fe04b4cd6f1d898d55d057deb0d2fefaafbf237a6cc64b1f60"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/query/graph.rs"
-sha256 = "dba856e5dfdefb389f6f311c63fe1f8e139397e16499043731dc0b14e80ae8e5"
+sha256 = "3bc879d8f23a762170a07f6e91e17694a1948ffb456e4ab9b7dd9184b6bc2df2"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/query/mod.rs"
@@ -1263,15 +1267,23 @@ sha256 = "18f5bb96a31263911bb7d837d6311abd0ab2f2d635c055a662886b4b1357b627"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/query/smarts.rs"
-sha256 = "8416b65753800271d829e6818e413b52a11d508a472033a961acd54910f145cc"
+sha256 = "860c5171ddbfd6bafe6a322b2042e9dee298b0a3b71c0dbeb61fd397e36fb871"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/small.rs"
-sha256 = "cdb85f65504d23e3f34293050c1ce8e41512b03e183bbcf2f42ee2652917d855"
+sha256 = "3a40551a79e5265bbe8bfc012a5567f1855f323d48fae51dfa84922024fe04aa"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/small/model.rs"
+sha256 = "f5563bc6e70eadc2648ff877938ea4c44aa64b9a31c6c5db015d5ca1ba172a2c"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/small/workflows.rs"
+sha256 = "fa757aadac7097fa888caebcfa1cb952996ae4237de7d81bbd1908a218719c60"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/bio.rs"
-sha256 = "882b40582c200b40df14c497e03370a90b90f2ac423cc0030486969c93f8c0c8"
+sha256 = "2277c8b2277870e561773ed8f44c8197bbd57365e652940f363fac156bb4eae0"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/canonical.rs"
@@ -1279,7 +1291,7 @@ sha256 = "7892822c866202353aaf3a69d9b500deffc3b14bd6df3d009636234bded97aee"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/chemistry.rs"
-sha256 = "34e48fed838249d06769a3ce2923297410aaf7dd8c8448bbdc2060387a59b2a4"
+sha256 = "c57a7ff64b22615f9ccda6e16d24b0c115463cc1da27c6a53153b91cd4a80105"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/cip.rs"
@@ -1291,23 +1303,23 @@ sha256 = "235d8c2c8c650c11bd6e92b20a6e593966880e01e8a5b79c6e68a40f23cd7422"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/graph.rs"
-sha256 = "658e1c72b81473567752253fbadabe40260e98c0a2b1d757818df9d66279af75"
+sha256 = "247a8985f114475d75be940cf0b9a9efe3d779c6d533aac85793d965e9ee3d0a"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/hydrogens.rs"
-sha256 = "784c7035f800b97cad39cb6da421f030e7fc2ae68910cc795f85592625ccf62d"
+sha256 = "a254e6fa8ae00f5a22f9b45f3b26551da56757f28c2fa977c864b6d7173cb3a5"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/mmcif_contents.rs"
-sha256 = "aace76f5cd45a833cded5c83b926e0aa714789213096e6cd0fb8d42cfa4bd9d2"
+sha256 = "973ea0576a040850a1f450cb9baf20f0ec11f47c874f476094a3d671675d7b23"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/mod.rs"
-sha256 = "ef854cceea85a5ede3f8265fb95e15ec6d50ce4346ae4dd61c4485d8b7c1f421"
+sha256 = "32c850b8d38b5bbdd505e29387af8c4cb599589a47340f416d2f8a0f810cea1d"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/perception.rs"
-sha256 = "4253b694f1fa3581ceaeefcb86e2a4b66b41b9d36b7d53014f85427ef0c146f2"
+sha256 = "a064b4bfeb45f1aa7698be0285466895d839e44035bfbd0280dc0043267e492a"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/public_api.rs"
@@ -1323,35 +1335,39 @@ sha256 = "586d819867c44bbfa69c00d957cc755ff00a6ffb524bce875ef7d6f97ffcdba6"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/smiles.rs"
-sha256 = "0e0cb2241c929627bc6fab848a64a5cf954b3099b0a8bf03c73e0e29eb433701"
+sha256 = "9c979ed5d4b87f6741c1be1544f5ccb689f08dbbec0057d38529f76d477d1ddd"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/v2000.rs"
-sha256 = "b44ba04455124cbb6b0cc2b5d84d5b51f099e2ce12a4e59195c3cba1b3a0ef97"
+sha256 = "a122bbd2a4f2f2db686c505c1eff2e651c1f4f211aefd1ef43e0b7f28734bd3d"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/molecules/src/tests/v3000.rs"
-sha256 = "8c6230024b404b221e6e4b8f34904131544b4c2dfcde5242e53c1a3570476dd8"
+sha256 = "671209c4b9602fab36a21d344257bb376cf6c574997e901cd86c37a734898802"
+
+[[features."bio.secondary-structure.dssp".evidence_inputs]]
+path = "crates/molecules/src/units.rs"
+sha256 = "37ccd874cb39fdd331d207963210a0fa751b26a1cc0c68ce5bc3b9b16bd06684"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/Cargo.toml"
-sha256 = "6c103c37fc12b2e294166a25335558517a6a17119c98adb1e0313ac51ec77064"
+sha256 = "b2abd05af31da61859581a35d5e36951a55398304776115658e6b41c7d477f96"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/cli.rs"
-sha256 = "50ba4bd0a6b1d61d08acf75d8bc096383dc7b13f74a6fec36319c302fafed494"
+sha256 = "8d1d510ba506e7f8051baf959be6973ca87ed71cb553786c2ece35d99efc954c"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/corpus.rs"
-sha256 = "8fd86a5013cf0ec0431c8a81ef2c946bed8803cb32cba27b5912accd8c2da626"
+sha256 = "15b3c174ca66b01ad3898bb7ba95c133279b9db6efe90da2625abe97b2057c4d"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/dashboard.rs"
-sha256 = "4b06824a2abe149ea17abc32f6deda0e845c71c972f3c4ebc8936ecbcbd76d7f"
+sha256 = "2ed1800448be03b6b00816af276ee0aa2f7830aa396d7db2b36ba4b59f7f7a27"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/features.rs"
-sha256 = "74b2552e7bc0b556de00967ffbbb8f37b2ac2b519845c3ffc9f421e5ca310586"
+sha256 = "d657496ac98bc43a01fa3753265ca7daa14b8cecbd2bccdb4de0a217c2c127f4"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/main.rs"
@@ -1359,7 +1375,7 @@ sha256 = "7bbceb00244f0f8112ce3561d214f5c1fc642af7266f08b7827cb98157cc3006"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/skills.rs"
-sha256 = "dda77b03d22c2c004d306584f44d9b9b1ed9551d2c342295b6d803ebe1d6c989"
+sha256 = "ad493bc205ae51caad329fb9502e675dd7d201f2bca20aa5de55d402a1a5d145"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/support.rs"
@@ -1367,27 +1383,27 @@ sha256 = "3b3a65315a4dc24120152ad5c8e88d9362a452e685abb57a35dd5a23431a6cdb"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/tests.rs"
-sha256 = "9015b5bd4d0fedfb5b394b49dc2b248d3056f1b16af0384e220c4eda742d335f"
+sha256 = "e0da28c82e36a6c84c8d14fcc0b39a843ec0a251ac19d50da092e8ffde0b66e1"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/compare.rs"
-sha256 = "71ad274a8df1eaa7669bbb9a481fa2a4523b8e2dc7fc54d8e3a2bad180c68c6d"
+sha256 = "53dbaddb4d77ee9fd63640f3e28a1b6249f171800f1dc2d1408e78a58fe88d1d"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/evidence.rs"
-sha256 = "cbdc10a7a1dec1cb4882f99637f15c32b32ae02a4675af27d48ca65cd6b18c17"
+sha256 = "0e883bb315c9f17dbb1b94de4d194e59005b8a2f6daf9e96b488280b6e78039f"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/implementation.rs"
-sha256 = "26ba7e2f5a3e113c884887117b0a9f85c511135657ec2da1756d1ba3547fe3a4"
+sha256 = "716506655dcf996bbf0e3883010e484948e8a9b926c834a9a68b00df0675a894"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/manifest.rs"
-sha256 = "1b82811a72aeb1fb73364e9fd44f503b88e5bc5e7260fd99a50ae0092b45cf09"
+sha256 = "c94fbb0aa95fc630310cdaa214801e76f46ab6aef7f3882fb7385a247f5cb42b"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/mod.rs"
-sha256 = "110f4e79d4764755369f03d4c62c066344ce962bb01ae1db6296d68fa275eac3"
+sha256 = "fc9dbc26e19186abb667a6e17545a826aa41e7877192cc4402db230dc9f47d7e"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/progress.rs"
@@ -1395,7 +1411,7 @@ sha256 = "e526759606122ea071acbeb2849eff825351b4cca9dbb9249ae63dd33643dd63"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "crates/xtask/src/validation/status.rs"
-sha256 = "e63c753c5c40d4841bf924a030d1eeca88f4641f498a4c4c9a9ad9d2d04aff2f"
+sha256 = "2264233e9e393d0defea68118da8eb25fde318f585bcfe6ba4e16d0a7c210686"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "features/bio.secondary-structure.dssp/feature.md"
@@ -1403,7 +1419,7 @@ sha256 = "22f1dc15cce4381db60e3f606dcb977e86db70fb9a60152861078bf892fd2338"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "features/bio.secondary-structure.dssp/feature.toml"
-sha256 = "c501ead117053d3525447e304a64ff38fbce609b02ce80f505237079893212f3"
+sha256 = "e4cddf722665f87c72e15190daf2d69712fa4d8af499c604b7ba028e403b730e"
 
 [[features."bio.secondary-structure.dssp".evidence_inputs]]
 path = "validation/corpora/pdb-100/corpus.toml"
