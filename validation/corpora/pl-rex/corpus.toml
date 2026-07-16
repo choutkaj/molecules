@@ -10,7 +10,7 @@ build_command = "micromamba run -n molecules-rdkit-reference python validation/r
 notes = [
   "Uses the 164 primary refined ligand SDF files under each PL-REX target's structures directory.",
   "AMBER and structures_small_model alternate geometries are intentionally excluded from this corpus.",
-  "This ignored corpus is local-only and intended for explicit validation runs, not repository-wide validation state.",
+  "This ignored corpus is local-only and intended for explicit parity runs, not the required routine selector.",
 ]
 
 [categories]
