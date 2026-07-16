@@ -21,5 +21,5 @@ notes = [
   "Reference RDKit goldens compare sanitized reparse semantics for canonical output across all declared records.",
   "Implementation validation sanitizes parsed fixtures before canonical writing to match RDKit's canonicalization input model.",
   "Canonical validation applies no feature-specific unsupported-chemistry filter; parser or writer gaps surface as validation failures.",
-  "Exact canonical SMILES string parity remains validated only for the smoke non-fused-ring subset.",
+  "Public corpus parity compares sanitized canonical reparse semantics rather than exact canonical string identity.",
 ]
