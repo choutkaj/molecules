@@ -105,6 +105,19 @@ evidence_hash = "7bfccfb76217743bc29bced3c1838174b870f031f212fbf25400b67c93aae63
 evidence_input_count = 109
 validated_at_unix = 1784358513
 
+[features."descriptor.molecular"]
+passed = true
+fixture_count = 10
+compared_count = 10
+reference_tool = "rdkit"
+reference_version = "RDKit 2026.03.3"
+manifest_hash = "7b1a6e26c3f094413a867af4221b14376eff8e8e52a241ba9bdead688a1595e7"
+failed_count = 0
+evidence_schema_version = 2
+evidence_hash = "e0d2d4bf6af503a57ea6b946904b42e4f692ecc5617ae04bac4ce67dc307259f"
+evidence_input_count = 111
+validated_at_unix = 1784407501
+
 [features."io.mol.v2000.parse"]
 passed = true
 fixture_count = 10
