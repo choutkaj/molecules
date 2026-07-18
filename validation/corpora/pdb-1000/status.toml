@@ -10,9 +10,9 @@ reference_version = "Biopython 1.87 / mkdssp version 4.6.1"
 manifest_hash = "d4adae41408ff922fc351a1312444758e025caba9531d34d66cd468adeb67343"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "c6c1b022054f926266d985d64655c086510b832808772b0c52a102caa2c27044"
+evidence_hash = "7d188c02a00351811e5a036ab70bf5af9704c12dd6409d921d50595aaa55b47a"
 evidence_input_count = 2071
-validated_at_unix = 1784316731
+validated_at_unix = 1784358404
 
 [features."io.mmcif.parse"]
 passed = true
@@ -23,6 +23,6 @@ reference_version = "Biopython 1.87"
 manifest_hash = "213774fb5fe2b583bd1dee5601990dee91d085a51eaa9c1c8e41f5d393930e4c"
 failed_count = 0
 evidence_schema_version = 2
-evidence_hash = "5e87fedc61831d675406ee187f1a4955bde1d7e6b165be707c84eee5f045e11b"
+evidence_hash = "c80828472bf4857b76e54617341a2f51ec7783657d0a19d69bb7b7811b23ac5b"
 evidence_input_count = 2089
-validated_at_unix = 1784316893
+validated_at_unix = 1784358831
