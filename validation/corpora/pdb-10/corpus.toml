@@ -5,9 +5,9 @@ ready = true
 expected_count = 10
 local_only = true
 parent = "pdb-100"
-seed = "molecules-pdb-v1"
+seed = "molecular-pdb-v1"
 formats = ["mmcif"]
-build_command = "micromamba run -n molecules-biopython-reference python validation/reference/biopython/build_corpus.py"
+build_command = "micromamba run -n molecular-biopython-reference python validation/reference/biopython/build_corpus.py"
 
 [categories]
 multi-model = 2

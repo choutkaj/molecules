@@ -6,7 +6,7 @@ expected_count = 50240
 local_only = true
 seed = "enamine-diversity-20260524"
 formats = ["sdf-v2000", "smiles", "csv"]
-build_command = "micromamba run -n molecules-rdkit-reference python validation/reference/rdkit/build_large_corpora.py --corpus enamine-diversity"
+build_command = "micromamba run -n molecular-rdkit-reference python validation/reference/rdkit/build_large_corpora.py --corpus enamine-diversity"
 notes = [
   "Pins all 50240 plated compounds from the 20260524 SDF, SMILES, and CSV files.",
   "SMILES validation packs cover all 50240 records; SDF V2000 validation packs cover the 47359 source records that are V2000.",
