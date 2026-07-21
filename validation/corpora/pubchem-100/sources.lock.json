@@ -5,1801 +5,1801 @@
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_54405.sdf",
+          "path": "data/raw/cid_177896.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "91e3bba59514ddcf38f75c6681337648f8cfd2cd096f68f1c0ee9906259f146a",
+          "sha256": "abc0199c093b1ec55a6cf36f1530487f13d00a16698e82b70265aced2cded68f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_54405.smi",
+          "path": "data/raw/cid_177896.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "5d7b59b4eb6ab04461c31150e4f2062b5e057a8c5b2ffdf6d2ab28cc53506e65",
+          "sha256": "36fc90b61cb12ca418c09db98305818146838f7df09ee397d63d5c21e52fecae",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "54405"
+      "id": "177896"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_353183.sdf",
+          "path": "data/raw/cid_308470.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "b86551e6012269938ae4ce227a442361d0933a1035c8d7dcfbd4803755911b9b",
+          "sha256": "1c93188286be78534e7378839436ab8f7bc97818608ad0215acfd53489c996c1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_353183.smi",
+          "path": "data/raw/cid_308470.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "ada806000385257639f186b4874deeb4d9c47ddc97bf4ca81dda83b36c703ec4",
+          "sha256": "6af28a2a5a9c1bde37890753bd7945a87d86091215a0a2c210885a8c89fe9b1b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "353183"
+      "id": "308470"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_236302.sdf",
+          "path": "data/raw/cid_220776.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d9e0be32b9ae813c1be4ae38c9068bbed8874a9d7d47b35c0776fa162a07d2f6",
+          "sha256": "37b0a4cc3427bc0629b24b532254b2cfc60c03b18dc3d26c86f8f55371435f87",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_236302.smi",
+          "path": "data/raw/cid_220776.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c6c059737383cd1a386d4deb32f68bd51eba509d0f3dc4765ff574494bf1e9fd",
+          "sha256": "4fe1d3faf03d8192ba13188de30a5ba7f1e49f0d8c59726c247b754cc5a912bf",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "236302"
+      "id": "220776"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_336027.sdf",
+          "path": "data/raw/cid_318868.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7a5e24b81b4c8d6f38e5695d4105e34ba047335099befa0e0a56e2dbf303a8f4",
+          "sha256": "5dde4d8e904203bd8dfcf0fcbf0c77e722c8f341a5a57f8575b74dee9afbcafd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_336027.smi",
+          "path": "data/raw/cid_318868.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "23eae56d9a22d511f7abfa2d4fac9dd8d30a371be340c57cc6f57d2cd21560dd",
+          "sha256": "118d0ed6fa45e37f1613fb1b17fc59ab2ac1e2e4c75a92f732c8179b67030c23",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "336027"
+      "id": "318868"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_409699.sdf",
+          "path": "data/raw/cid_242138.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "03989e0ed21b8308b1e653f3c75558507eabbf0f8162092d7d907a55a02766af",
+          "sha256": "f802cdf5fab6630489a0ddbb2cf0a4cb891999b253d637f7c0163af3843c204e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_409699.smi",
+          "path": "data/raw/cid_242138.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "14cd1cdb84a41b81b00c024d66cd2eb53c044ae2c67c167bee0b8265dbe96037",
+          "sha256": "093d98a66392e6888889527ebe766291b2df004ff94a271d852bffc887764d4b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "409699"
+      "id": "242138"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_38562.sdf",
+          "path": "data/raw/cid_458602.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7bceffc73e31412a35491f618b8771ceb541ae22b73d22206e6372f7fc5cdceb",
+          "sha256": "6f8f0163588b459df21012b37c03f9d1a7dfbb7c29e98b21674a8aae7830c415",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_38562.smi",
+          "path": "data/raw/cid_458602.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "7954a3c9830f1b889fdae90ceecb20e5f6d97cff338d20c15d292fa132cfa667",
+          "sha256": "8a11ddcce253f48a93ff152d147dcf34c55b6b9f88adf8f05f9729c8df5ee12f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "38562"
+      "id": "458602"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_205747.sdf",
+          "path": "data/raw/cid_328740.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7748330503b053b9919b367ee474232c16c3cc4d63049e84802e7350a12a28d5",
+          "sha256": "4daaea3f8ece10f1c231cf153201efa6f984abde9fa69a9d1738a82f7a8165b0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_205747.smi",
+          "path": "data/raw/cid_328740.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "b3f1bb2032a30e60488a71f5a1b4b1f3a43a753077334fb5e19962413d702773",
+          "sha256": "a7951958c2dd6c3614c188820c0cbd2b86be6fa22b67a97dead142f281359957",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "205747"
+      "id": "328740"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_134120.sdf",
+          "path": "data/raw/cid_263436.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "af3110221fe2c3e424620f7af2f664e21354101b16bd580024b10692619d9213",
+          "sha256": "51004870ca1215f1d5f282fbd1618a8219ac4b2c21069e83a1b64c9badb93e5d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_134120.smi",
+          "path": "data/raw/cid_263436.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "55812462a54f20cef5a2047489cac861c998085be245e09236a85382ad07a7f4",
+          "sha256": "dbca2dc4e33aa7e214a4e59ad87d5003535f1542982a148677f185e61cdf8ac1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "134120"
+      "id": "263436"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_66747.sdf",
+          "path": "data/raw/cid_16282.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c8dc54cd2c82d24a8f764591d2168e9726c941aa78381c75f667f03d39252dba",
+          "sha256": "9ccb42e848d6a87abd69e7e19b905c85d7b2a87eded8710de7eca0454967cdd6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_66747.smi",
+          "path": "data/raw/cid_16282.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "3d343f16c337fcd658d5ef76784e371c975f2cf46b1ca680a649c2526c11850b",
+          "sha256": "58eee5065bc8acdcce42c5807c466ee3adc3f10ab9fe5b8b7e1a573815791421",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "66747"
+      "id": "16282"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_101823.sdf",
+          "path": "data/raw/cid_304078.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "6873a89f77c4aa0274a1ad3207c7cf938c110276a4a138cae77bbb2454bcfbbb",
+          "sha256": "0d021e0e3f4fa9ebd7f965dea975c6338c93fb7958e74c09ce3608aeeef7fb32",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_101823.smi",
+          "path": "data/raw/cid_304078.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c6ff79d3334ef1d519ee162d3def8db9ec9204f92ba6131691fe87a9787eea2a",
+          "sha256": "ddd01b79875765da5e3319e5598763eb81718c3f1f437737c12bac810df8abb5",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "101823"
+      "id": "304078"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_234434.sdf",
+          "path": "data/raw/cid_68198.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "931213935db0641ec4f955f885a4eb601e4f73e28bb0e838dc45f535288c1a2b",
+          "sha256": "0ef324f138a130c95b4f39096a4cfaedbcbd61870652614797ecaa5374c529a3",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_234434.smi",
+          "path": "data/raw/cid_68198.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "d57c2ebefdc2489b84381e8b76cc6fa305230bd4c40fc9feed168c7d4c724b26",
+          "sha256": "37bf068c8de8ed42475e7af8216dd1de2bd43394da2344a3fbff0ed838341a57",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "234434"
+      "id": "68198"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_429165.sdf",
+          "path": "data/raw/cid_448515.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "a25ab8f25dd22f63296cfd6090582b72d2b62645044de4ff44aec4984541704b",
+          "sha256": "ea892a67ffac7d26ea72da5af17d20799cb96b7388eab566ab35e4223d370341",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_429165.smi",
+          "path": "data/raw/cid_448515.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "175ce7bde42bc4af6d6047b1776de1f54a9d2716fef66ee8014fc137a77544dc",
+          "sha256": "d286b0b6d217997bb7bee3597ef63ec18126239245a86808211a9255de1a19d2",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "429165"
+      "id": "448515"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_253170.sdf",
+          "path": "data/raw/cid_67247.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c3d2e92a2bdc3f556a2bdcd3cb36a408c8421feae4e39571e8063ad0949ee99c",
+          "sha256": "0da5581207f3b5be085158dfaa132b736b919f05691bb90e065f8609f704595c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_253170.smi",
+          "path": "data/raw/cid_67247.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "859abdf1b6feab1b973e406820ac9104bad04572c70e67f288d92598ebb6d42b",
+          "sha256": "ddf3c30b16077acc956e8831dc4709259ed7f22e307def04c067a6d749e70e2e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "253170"
+      "id": "67247"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_113933.sdf",
+          "path": "data/raw/cid_11729.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "e00997b7b02919938caf78380fc23c2bd0b92759b45f74f551da1d802d894c19",
+          "sha256": "559bfeb2b804879c53ac506e0b8c9a2ba7796c1409cff0619b5749f87c11fe40",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_113933.smi",
+          "path": "data/raw/cid_11729.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "cc96ff13d8677972b8e51149b9432856b5b5cb897a6a42277e67852fc700c1ed",
+          "sha256": "cad0c5a473dcfcbe733bac50af6817e40581ac7cadba72663947f9ede67b5dab",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "113933"
+      "id": "11729"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_122938.sdf",
+          "path": "data/raw/cid_137127.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "55b79abd56e24ac617bc8abbd0c7a368f6d41148335a7875c69196c0a78785e3",
+          "sha256": "92738ab476fec42d1eb4c5fa17c592a324a914e8755f007f81dc1bf58d9eea47",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_122938.smi",
+          "path": "data/raw/cid_137127.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "084f35f887b3c55f23704e1797523fc0b07e097a54f74ba119b32ed946460146",
+          "sha256": "cf9f46d4c3617d033bb462ba675b8e19847f14e1669aedd94fb5da2bc866e076",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "122938"
+      "id": "137127"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_34622.sdf",
+          "path": "data/raw/cid_448655.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c9df56fc707e6ba7e83785b48d335f71f7532d04402a5feaf6cdd3c9395fdd77",
+          "sha256": "e3dc673b35c666dd9954c21c6de7679f3389240826abbeb93689e8feb69ec749",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_34622.smi",
+          "path": "data/raw/cid_448655.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "5f56863f7e38786f8056eed5baccff42d8e93842a7e579ba97fdef28e02230c3",
+          "sha256": "2167fbbbdfa3d02eab47c1999785e23ca32229dfbe2e756b9e0fd87ec730195f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "34622"
+      "id": "448655"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_301288.sdf",
+          "path": "data/raw/cid_203832.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "00bd2c731c806c2c5cdfcb078e4ced360bc2dcd5a6d9e35b00246ed5c1f357bd",
+          "sha256": "1d5bc87417c1c7d9eb24223b3f567b6597c105538af88eeeeb90c8556365970b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_301288.smi",
+          "path": "data/raw/cid_203832.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "6329c20c44837973e13c78db55f20b70361285442829f3914b1ac4fc974e6c8f",
+          "sha256": "7316d987bed1564f5131ec8f4783dae237dbbd3e8e818b0f00296cf6867fa92b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "301288"
+      "id": "203832"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_450960.sdf",
+          "path": "data/raw/cid_432799.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "1a106ec7df72d012aeb6908e8e085ef5d3e6736c37c3d9cada2eb5d13026e35f",
+          "sha256": "dfebbc9793ab52af5f68ee9ebbfd7ef9abc180a856ebb8a24812d14556e5a2c6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_450960.smi",
+          "path": "data/raw/cid_432799.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "9ee54822e50b82dd5be2b4c3bd2061be92dd1a01387580245b5f596a96c54c06",
+          "sha256": "ca9864d2b52d54c4628d658455280d7941bc87f10ee650fc8b06f9b01aa2675c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "450960"
+      "id": "432799"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_84023.sdf",
+          "path": "data/raw/cid_250740.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "b4cd9f6dd22a0e7c56eb53e9d87e1e4938e4649aa0786bdd722291bb1e47d332",
+          "sha256": "c7b9533eadd6bf80004ae68054557da75c0f9e3c11f038c63e832981bec3200e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_84023.smi",
+          "path": "data/raw/cid_250740.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "33d04ef35ccc7fbe63e1c5707734b54dde91eec7d3d6114fe251c777c51c1ba2",
+          "sha256": "9bbb4cda9d4c1764628a4148a41ea7f57e12830541385edbf5a4c7e391601681",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "84023"
+      "id": "250740"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_147114.sdf",
+          "path": "data/raw/cid_216439.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "9057cc88758fc424a629b2d4e0cd214fb722c812abc8b2c6091184c39a733ea2",
+          "sha256": "4ee21be7477c3c5244ed9dc8ae91bee027370f58f52b82530274e4fc87ca11fa",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_147114.smi",
+          "path": "data/raw/cid_216439.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "fa613c0d26107f6e92ad9015693a312e398c37b18dc7fb8ce4e84849d2737c6b",
+          "sha256": "5e956e8846e46f87c0e66bde3422ba80b362b752e36c5238ed5459a96dea4a96",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "147114"
+      "id": "216439"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_53125.sdf",
+          "path": "data/raw/cid_194286.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "42120a1be943c9c8f068ee493b369f659d29afdef7af2a69dd79f1a10659378b",
+          "sha256": "d2c71014b7456e66c2eaf01b79429e919b90f94599ca5b65c9e78ee86dd4deea",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_53125.smi",
+          "path": "data/raw/cid_194286.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c73d8b143a32f17cfc7ca1b5ab4b9315cc1c24ea26317edd85a554f461300978",
+          "sha256": "e31698e6b440d0aa5703111b9b55e925a1d04e33ddc5b50bebd5a4e75c720c36",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "53125"
+      "id": "194286"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_52013.sdf",
+          "path": "data/raw/cid_58595.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "cea882cb1b067d62b5d1ed0fd63766ee3ae222188ddd7f4fb14b841da6a155f6",
+          "sha256": "3a97e6ebd645213b0eae42f18a5fa5e7dc4ad769938d9720b23b53ddf0a078cf",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_52013.smi",
+          "path": "data/raw/cid_58595.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "f029d1a0bd936e8b95785ea663f0deafb5c11079d914393263f3f090c1fcb325",
+          "sha256": "6acb5789fb813be7dd0722220ed56892e55e759e65fb6132bd747b9a242eb845",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "52013"
+      "id": "58595"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_486010.sdf",
+          "path": "data/raw/cid_412874.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "5bdd245852403d77c1d0db5a79da69e31dabef58f7f1d2f18db785bce1ae460b",
+          "sha256": "455ca8045578fce9138c1127194a512b7a0bfb3d1715c2eedab63dcdc71931d6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_486010.smi",
+          "path": "data/raw/cid_412874.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "290f5a2ff103d4549153739be632a92fd5564f9eb3a9bc0976b9f50d405adea7",
+          "sha256": "0b7e583e0ca0bf3950ed5292ba05ed804237fe19c62def4bead0d6d4654fba53",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "486010"
+      "id": "412874"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_93354.sdf",
+          "path": "data/raw/cid_184738.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "2d301d31028c26431fbf2aab78cf7de7504bbc059da71157655663fa8ff45f9a",
+          "sha256": "233b7fdcc6c409e4d84ca2ed71aa53eb5de67c20f58d8db8d50057f185fe3f58",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_93354.smi",
+          "path": "data/raw/cid_184738.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "8f945375056d1bb04994165f83641421e9d1de0a9e9261ddc8cfb49373ef57a9",
+          "sha256": "6bf5a6c8947bfea8ed4c34bdfcb73e7c610f1d7876dd26bda1da5a169f1c7fe2",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "93354"
+      "id": "184738"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_62010.sdf",
+          "path": "data/raw/cid_185794.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "aaa6d2ba1997d3805859c138b2a3b3e107fee7bcfadef400beb1525befe31908",
+          "sha256": "d00d5ff771f26ba0ce144670df5834976500302040caa05abe550f811493d675",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_62010.smi",
+          "path": "data/raw/cid_185794.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "35333785b5acc544aebfaf0c01a4d082b96855cfa943ae32a17abb2a9edfee5e",
+          "sha256": "f0a80d47bfc5e674126313f88555ebc5e62ffb50f2af07e6470adb842b36a552",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "62010"
+      "id": "185794"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_22255.sdf",
+          "path": "data/raw/cid_63537.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "766e7b06b5de1a98a09da3cc6ffab57db75d3e7fcc49771f5303cc5ceefb9b60",
+          "sha256": "04a3bcddb428adcb95648bee296ee63e58696573d1dddc7cb4440a579423eff0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_22255.smi",
+          "path": "data/raw/cid_63537.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "db1b583df72cd1ced7571505f89716db608d42a0b7af38f5e4e79786c944bd08",
+          "sha256": "9482707334af2d5fb18421b3250aebda4d6b3b684d997d5aa4ebd43e5e366809",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "22255"
+      "id": "63537"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_226041.sdf",
+          "path": "data/raw/cid_48294.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "28e565ff8a01a05885408217619747fc25adf0b7c97d064ac4a57b896b301538",
+          "sha256": "f3f0b49714df56c1c1e5abc115e8c8e6a1580fd548d36691f5dda8a0ac3dca66",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_226041.smi",
+          "path": "data/raw/cid_48294.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "18c15f17fc8aaec076a9542dc80bc209c204d313c0cdffc161bdc3e0cc45401b",
+          "sha256": "e1dc26b17fb32dc2a76ea303112fd67b001b396c1962873b87908cf06a8eff3f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "226041"
+      "id": "48294"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_114339.sdf",
+          "path": "data/raw/cid_205395.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "6324f198e9b3e4bcc1598d1e0f2603d24546897893e06c8f4c63b4479037f116",
+          "sha256": "5374c5ff6aead4cfe9d682a5c70da15fa1430fd4500c64633e6799b7f22aeaa0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_114339.smi",
+          "path": "data/raw/cid_205395.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "b764afd62faf976852b16de988f8980959fffc36460eefe394a42e1810851056",
+          "sha256": "42e2517cecc255881f0b4f6142c3589f79ae38b9edeefbdb9372eaf0a88f4f7d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "114339"
+      "id": "205395"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_98129.sdf",
+          "path": "data/raw/cid_33889.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "bcb7989611c309b5511068a69c52133d824f3de05ea295ff2e9b61742c04b2c8",
+          "sha256": "9c14b2302171b855438f0fc8c01ee22b8c894101c1a02e3e1f60a99617dc6dde",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_98129.smi",
+          "path": "data/raw/cid_33889.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "7f8814d92841d62e663b9c1a614701b1ce10edf544f8fc4d3e30e97b00c56a7a",
+          "sha256": "ca16c874d58faf94377bf73d7d6c5eb65dc0600ee05c334dac1d0e3ecff4c1c3",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "98129"
+      "id": "33889"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_87136.sdf",
+          "path": "data/raw/cid_101020.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "dc5c5395a1f83e4806d014e28e74c6ea9db3eb504c1e8d21de7a2fb9aabfe583",
+          "sha256": "8c02acb6fd5575eb2dd9535dd1bac94ead5d913bfba9294c9ad8d6e44dad790d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_87136.smi",
+          "path": "data/raw/cid_101020.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "cd2a98e835a97edd71424dd95af5f95db62a56d795c1781c4ad11d9c8b56774c",
+          "sha256": "70aabe9809fad627b912c6373eef39b36c7951ada8d8955707cd22f200aa6efd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "87136"
+      "id": "101020"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_53487.sdf",
+          "path": "data/raw/cid_202947.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "ee8197a179edb771b8a308d0d46fc8db5494c5faa63a6ff15d3b72d9512223aa",
+          "sha256": "b2316e8e29f2698e71abb196a510a6c5febb9ce840dedc623eabc22c1bb0dc23",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_53487.smi",
+          "path": "data/raw/cid_202947.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "2128eced9a93f8082ed55b74bf57e74df2e0024aded4bb2ce46861849fc03631",
+          "sha256": "367ef5de8ad884446349f73961338dfe3dd699f6815b4ca195e559a30e4eb1af",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "53487"
+      "id": "202947"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_394728.sdf",
+          "path": "data/raw/cid_212312.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "79d3b0a09c1292fb108385190841e82e99549a5733cd7fcaae23f7d6c99287ca",
+          "sha256": "adb3b45ef5ba2a0c4fc67b18ea9ea58e388ab25aac3cc4e9d132880bed58568a",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_394728.smi",
+          "path": "data/raw/cid_212312.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "99adff21a2bd1cc7fde4d9407da409f0adc829fcc8f52d19e708ea6d3bb58d98",
+          "sha256": "19f5fbcf2beed5a61d3c8da643a4d14f878d37800545608975c7c2cf816bd6aa",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "394728"
+      "id": "212312"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_240973.sdf",
+          "path": "data/raw/cid_195474.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "90aeca63576256c02b31bd48c0330aad3d55511f1f4231176ec583cd803f33d6",
+          "sha256": "f17ff7411e164d4a3f7aa11301cb12d23291640df7d5b7b2da407aff396de5dc",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_240973.smi",
+          "path": "data/raw/cid_195474.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "2a86795db719fcef6116458c04b0414e36e8f33bf51ad2c9859c238f5793885b",
+          "sha256": "06155351666747318130eb312343364337fbc459379d778d6d5e7e125aba6cbf",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "240973"
+      "id": "195474"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_291762.sdf",
+          "path": "data/raw/cid_220871.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7b8784b0f95f532e2283eb74b5be74891288e094d0f75b19074c8e17431d861c",
+          "sha256": "7ae03f65bbec7cbf37c670c313b36d843d095362ca4cb2e9f4ae3fc9ef1011b6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_291762.smi",
+          "path": "data/raw/cid_220871.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "78967f895b694b49822edfc16004097eff5877704a8eec849f0a1b5639d117e6",
+          "sha256": "3450da46de2ab1084e5771928d1c9320eb0a41ebb641c3cb9f3a1d746cfd9e8d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "291762"
+      "id": "220871"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_143725.sdf",
+          "path": "data/raw/cid_5399.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "1c1413100322317013bd27877dd2a01b383cb9d7e19f15c9a5ff13e44c9c89f0",
+          "sha256": "6c6d7339cbe75d76470f8fc7fc546e03d90abefa42d201cc35abbf32553236e4",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_143725.smi",
+          "path": "data/raw/cid_5399.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "a94aabbfad335351d5f6c963f05ef2db7d420574c88bfe4bbcfd0b28159e5f67",
+          "sha256": "678b93ad01e9c84823452549bb3f59da7eb5fc6ace9ca77acf00c3b1692c398b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "143725"
+      "id": "5399"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_63799.sdf",
+          "path": "data/raw/cid_238010.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "3459e06a318e9d9501d173fc7cbd2492d53aecc5f3475d08e628608c45d29673",
+          "sha256": "aa73d89d17c78d7601cf8e4ca861ffde936cd1c341925d18e7fec1da83497ba2",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_63799.smi",
+          "path": "data/raw/cid_238010.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "21a024e7f9c574dea0a4f557c5ffce541c251a965d87c021fc7fe2fce9cf17c4",
+          "sha256": "925ac723228420fa3933a02cf6fd5e30ada14a34dbac9d269f51715e05dae07a",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "63799"
+      "id": "238010"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_422702.sdf",
+          "path": "data/raw/cid_306246.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "491cbf96551fd39341ddc36ba763c40e60abd3fde85439dc45d844b5fd473d77",
+          "sha256": "c357905c864d5a0a131250e67304940bc0e2dd05813d65077b400666f3a13b19",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_422702.smi",
+          "path": "data/raw/cid_306246.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "d570a394639296966f1dd7ca31aa539fdff3f783b89fb387e4a5a944c7ede534",
+          "sha256": "15f479f2aed53c84b9e5d65c995b1f5c571b5beb78c62d6904d9a106ed3348e6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "422702"
+      "id": "306246"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_160767.sdf",
+          "path": "data/raw/cid_361823.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "37c15871a6bf5506f70fd2740231e466cf8d5a3b2bc2a623205ddd63f3fcaf39",
+          "sha256": "ff1249134af2d5914e407ba894b90adc4173c21c79fac8cd44cdd00cd336ae05",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_160767.smi",
+          "path": "data/raw/cid_361823.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "be60f7158cdbbc404b403882e012a09fda4b4e530f3791b29ae84e8faf916d19",
+          "sha256": "3fdd6402ecb4722eb41e7a2b3cc59198d77744907fdf107e892d85a97724d8f4",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "160767"
+      "id": "361823"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_124178.sdf",
+          "path": "data/raw/cid_240450.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d432fab0908b38dbaead6316dcc4d29b597e415a3ebb261134b411361b1c6906",
+          "sha256": "23c9b35c3616208d5f0f2431a6d9a1118928a52ebcca54f72dc5c354a05cddb7",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_124178.smi",
+          "path": "data/raw/cid_240450.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "95d21943f8d79af088d3c978be83cfb573c3bb2a88f134f3d2d7e8a4aab09d9c",
+          "sha256": "500181856a86450a4a8c784a13feb12f674363f3709d2456a9f7ffe7abd639d6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "124178"
+      "id": "240450"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_54761.sdf",
+          "path": "data/raw/cid_16316.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "857c2f80c0cbda80dcf02f7fcc828a92fb24e17b1149ce2dd2c02322e21ee7d2",
+          "sha256": "6b1b7dd90559620ab701f04cf93c1da8ec98b58d56b26fabd717b76385d05ea3",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_54761.smi",
+          "path": "data/raw/cid_16316.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "8db5f796e689eecafb97c2b6eb864dba28f261231268afbe09b3622bc7cae8d2",
+          "sha256": "c6ae53ef1c036dce7b8fd65eeaf522cf2ddf68f76ea026754ae44f96a02611bd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "54761"
+      "id": "16316"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_15487.sdf",
+          "path": "data/raw/cid_62972.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "af8644e15745e37a6398eb8216337a2975e5324e6f28bfb76efe89f0213b77a9",
+          "sha256": "064a5e7f323d6197e75b17f6e87d8076a1a58d6116e7058688e34972b3d3fd83",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_15487.smi",
+          "path": "data/raw/cid_62972.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "0aa46bcb746c40710839d090950d429f9237e07da8e2fb614159e231ef158d5e",
+          "sha256": "9cdaa87e1486bb2c7344a9f0dd86032b056d3610cac4b3633261fad47bd31a46",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "15487"
+      "id": "62972"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_80701.sdf",
+          "path": "data/raw/cid_44044.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "e9f0f65fd8d1c5ddb4773a17e47f48ea48e8b0f995d5a2658594d586d4a58c4a",
+          "sha256": "7377f4852e7f6a74d41248e8fbfedecc8eecb5ef58843a9803eefd2862e83792",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_80701.smi",
+          "path": "data/raw/cid_44044.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "e0d70baa5e781d655a8885461899cbd30e1483424e17a0ff391e2995d477eb3a",
+          "sha256": "58434e8140cec2089997202fe4689d267ea0e6c1c94c192cd6a9d4223c171c9a",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "80701"
+      "id": "44044"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_370003.sdf",
+          "path": "data/raw/cid_442240.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "8d02f43052596d14b0f5ff768916b4f55f3e60c1f6402a61909c6cd7d412e808",
+          "sha256": "cd3f4cc73b6258feec3c1b8a60ce5dd439098dec27f429df412525fa8374fcf8",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_370003.smi",
+          "path": "data/raw/cid_442240.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "0b1e01fb82155e2915ee67645856eaac14079f4a31d0d3c915a1f1a5cd51af14",
+          "sha256": "dc93d05889a8821ddb7ba4815dacae466364dff82de2ba392c165179158f5599",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "370003"
+      "id": "442240"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_52729.sdf",
+          "path": "data/raw/cid_5665.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "1a66de9f471b8149262d18f11777476805a371ef2f3678d3a320c39ec823d7ca",
+          "sha256": "3f56ef6d5321d6cfd1110de6bd5be02327853d3e99cd28f25b2d1e2c02e7af4f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_52729.smi",
+          "path": "data/raw/cid_5665.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "a0e2718150a68b5e6a2d112d73bd885eb12c634e8e30e80b6ac1631c27107d04",
+          "sha256": "953e95c8fab6520e8f386913d8da8285af11fb9a1c162bf0924cf35187218840",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "52729"
+      "id": "5665"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_21507.sdf",
+          "path": "data/raw/cid_138180.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c0d405b16063112076136e54bdeb63abdf174582432f04dc1b50c78dc7b2d5b8",
+          "sha256": "488998fa02b575bbb5adc61bf8833bef4c8b3070b820060b1eedc316e8184e4f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_21507.smi",
+          "path": "data/raw/cid_138180.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "25c10209e208ef98e8503c8bbde860453125dfa4f0b2164be8c2a8928fbafc27",
+          "sha256": "3d1740feb6c4692fab245daaa51625c05f73462b9c9120d6ee102820bea570a5",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "21507"
+      "id": "138180"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_230252.sdf",
+          "path": "data/raw/cid_217373.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "75e1a05b162fc32fd1f9e6dde66a23bc001d9c42cc347e0bfedb313caa0e9ef3",
+          "sha256": "bdf8e9e8949c1bc7ae9e96ef1334c028ae4d6549b9adc2b18f68b42048a95274",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_230252.smi",
+          "path": "data/raw/cid_217373.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "9e877531125c2e5c6556c0dc34904c8d8c37ea29c77bf8145fb19297ac4597bc",
+          "sha256": "edf6e1e505f3f5a1cf2fb24e3d5bddb8bcc8f40dbd83c757aa284d58e595af78",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "230252"
+      "id": "217373"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_286933.sdf",
+          "path": "data/raw/cid_242663.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "aeb32666d41a9451faf62a93a21668d225f2868c9319261e61059858020673fd",
+          "sha256": "e77319aefb0c1581f8af8bbfd2f21b8a6c3e1020091d9b580814690a413214b0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_286933.smi",
+          "path": "data/raw/cid_242663.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "3509a902071447b399526216b51316adf5142e23f754110e0ab68bc9a72790d2",
+          "sha256": "dacdcfebcf1f183a435bcb67678dd99fdb447145f8977fd36e03a8d7d8d5b77b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "286933"
+      "id": "242663"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_185894.sdf",
+          "path": "data/raw/cid_238136.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d2bcecd259ccd17c518e29bed8a923bf85404678688017104b979c94e05d9379",
+          "sha256": "e93c739807b6c332e5621e0004b0664cc9e3fac5933748048a998df7fb752435",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_185894.smi",
+          "path": "data/raw/cid_238136.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "d26ed21d69171d46380437299317647323a20f9cc204f4ca6e35911c56ad51e6",
+          "sha256": "d70027bc8ebe16dea2bf1dbd545c20f7657f368548798444e948b965fb8594f5",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "185894"
+      "id": "238136"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_315987.sdf",
+          "path": "data/raw/cid_74033.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "4de3a6f81d30c0c4bdb97c4c14eae8c901dea31413b791fb7d12b9c622a615bd",
+          "sha256": "537f0f7adac9cb72c50659d31b4e453a1ad41ef382bb37c1ba514bd32047167d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_315987.smi",
+          "path": "data/raw/cid_74033.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "12224d2aa05a71875a1071afc9490fa9aee82dcf7d1c2faac055513028ed8924",
+          "sha256": "819607b8dab56fbe84e39a35b6cdd58baed74ee985430363c9b4abd71a67e67f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "315987"
+      "id": "74033"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_346386.sdf",
+          "path": "data/raw/cid_152136.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "97ad4e8960a1d6f17e7ef6bdb5933daecfc5311c6e25335cd53d5fcdef807992",
+          "sha256": "2688dcf7b8241ed216b7085df561e3260af55b1e0cc46cc5f173c8f68a39f7a9",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_346386.smi",
+          "path": "data/raw/cid_152136.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "76ab9ff2f1de28ce5071e8a7f98922cfdb980711644f12227bba564d2c923260",
+          "sha256": "197f72a56104ae62789bcfd41717f58053ceca6e18ee6e04c6a82fba19fc04d0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "346386"
+      "id": "152136"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_105665.sdf",
+          "path": "data/raw/cid_57870.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "36366adafb9cb63671b237c41a30b813752b74cdcce2177df58bc215f40e8033",
+          "sha256": "f447650107e089282fbb309e04cf9e5916fbd74b86b7013b61913146191008eb",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_105665.smi",
+          "path": "data/raw/cid_57870.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c52df5eca846133ba778c478ca4de9b6b553e6e5ba9b834f2d91e636922c5925",
+          "sha256": "138c44ac39f867ffc74fac5b8d8428774ad67f16435c36b4c57767a536a8adcb",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "105665"
+      "id": "57870"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_289318.sdf",
+          "path": "data/raw/cid_490018.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "10f7f9c5780f8dc76929feb9ce66311f5f1799d542f5157d678138eead79ecea",
+          "sha256": "6f694d0258cc4b4a1cf2820e997fecf3778a36291747a01f9112f0ef20057577",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_289318.smi",
+          "path": "data/raw/cid_490018.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "d6eec44f59e0ed61363777bf31f5889dc6eb9f4e750cdbc8b9e4f5de93e4c4aa",
+          "sha256": "70117f33d76830e1eb871edd67adf1b10a8eeb357c8cfb70d181fd518ef563f7",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "289318"
+      "id": "490018"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_356487.sdf",
+          "path": "data/raw/cid_185338.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "10207bca745c0b5414b989aca78493c695f7aae1545099903dd4a09d70604a54",
+          "sha256": "d34ceb6612678acad31442160616513258be9921ae9deed48f9264481b3c5e24",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_356487.smi",
+          "path": "data/raw/cid_185338.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "8f7b22b58fb842b1620f0f7e7cb44387241871e1b998f992993ceb931b22907d",
+          "sha256": "1966a97321e634e9c3f1e966b6b02ce03cabafd4d8339ea8d12301a984abdf51",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "356487"
+      "id": "185338"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_159322.sdf",
+          "path": "data/raw/cid_327160.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "935ab40434c88d04c78ec17cdadcb7bb6c4e3370d428c41ac40521d251be58b2",
+          "sha256": "e63b62ed8ba64e1d6eed2708f941ce32e1706248f75d187b9d9eed7bde48e7d4",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_159322.smi",
+          "path": "data/raw/cid_327160.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "ccdc5a84e319c8773f489a4b05c5dcfa64f102fe858428b2b227bf7d4371b914",
+          "sha256": "7f9e305e5690949b0664926d1864ffc49d84827c94ecd3c7aff132141277be65",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "159322"
+      "id": "327160"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_12964.sdf",
+          "path": "data/raw/cid_373270.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "3181589948781086522fd2fdaa95877c5d3fba345a6a2ffd38b399cdb1baa707",
+          "sha256": "2a20389316bcd4e9e9372d27ab3fe98322f38457916184d0da1abc64e5e28629",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_12964.smi",
+          "path": "data/raw/cid_373270.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "83173451f16f874db47c92c2fdc467fa17d5667b8091398f0a27ee8d8d26d9c9",
+          "sha256": "b48e10fa6fe964d76a4f8a53de64d78f1c1a00ff804ce1a493432b475573adba",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "12964"
+      "id": "373270"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_418199.sdf",
+          "path": "data/raw/cid_159369.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "faf9afb64dcc779dc93541b4da6818ebfa5992a0bd464b68d2c99dfd5613671c",
+          "sha256": "00a30ec97561947295dac081b6ea72f6e7e9a264dfc06dc3b02dd8f5521219d0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_418199.smi",
+          "path": "data/raw/cid_159369.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "7a25d794bfde3dab908041eae9f2aa71a907d74b149d13b00e05aea1f0e3a878",
+          "sha256": "ca7fd5c6ec635f5065c28ff5a3df701f7c6d51d9c01bfcf27f994dd7b93e2a0c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "418199"
+      "id": "159369"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_364327.sdf",
+          "path": "data/raw/cid_80118.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "9630f6398a4dd837283be02a817f630799d4154c540eadb9f50b78019e89a95b",
+          "sha256": "3860c899b7ae68e45931c210ebc7205cb9288388e8fc00787bc5af9815e77a5f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_364327.smi",
+          "path": "data/raw/cid_80118.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "bb22acebefdd52693fa0f6e5ad048b71e4dc83b4f8c26372d4357cb4b431de1d",
+          "sha256": "182366ad81476e68e3383491c43f712cdbd455ca4ea75c79a604920722b65705",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "364327"
+      "id": "80118"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_403250.sdf",
+          "path": "data/raw/cid_256992.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "9c7aac629c05146677dfccb14663d8e7ba44878f4b703058defa942bce1f21f5",
+          "sha256": "3f410d5e25169d6466ad0f58ff3fa6ad8bdf610df9af0e86ab3837b8eefc11e3",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_403250.smi",
+          "path": "data/raw/cid_256992.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "bdf3acabddb7a42a91d570f17da335614f2af349d36f959dd7c4f77ae40b9cae",
+          "sha256": "255b8fbad9e3935d970861f805f5da9de4ebd49df4ff6c73d14863ee04a5b73d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "403250"
+      "id": "256992"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_94582.sdf",
+          "path": "data/raw/cid_84110.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "ca45da8a3d46a8c1331e1c1a0ed18848912789d369acb0b6db600b0e16702ec6",
+          "sha256": "721d9e6b02af0b7c589fbed81acc961592528874bc863d258da54efc45411210",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_94582.smi",
+          "path": "data/raw/cid_84110.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "0660dee94c2151e80b036e1d1de32389fa67055aca7e898b0698f6684389932e",
+          "sha256": "e59916395346cc79e3e91958dca802fce0fb7da2a700c2a957ebf115fa8aa0cc",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "94582"
+      "id": "84110"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_93092.sdf",
+          "path": "data/raw/cid_162505.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "f9e84a12c26395cbd65ac7098125f9c3793d668459d292f5b712562cfd12344a",
+          "sha256": "9c5867c743f6ce46354bf6b08f8e1008e5742399db61f6b86e59fcd76711e810",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_93092.smi",
+          "path": "data/raw/cid_162505.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "849793dd657b1def07e66230d1c3f18ac4c057dc0b66294a0d95ed5a2c50593f",
+          "sha256": "a44a1db671189aed4f57a30f21b60f772d09d5c3a1f2e1dc01837125f0d1e676",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "93092"
+      "id": "162505"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_435937.sdf",
+          "path": "data/raw/cid_115805.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "da881ca8c00eaf7ac5a6b45e1ada3caeb8ca13122be03881d9e06a5d6b38b44b",
+          "sha256": "c10b66200044bedce8a2eae1a23af68e29f943b594cc6308c1da82fbbbc8d628",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_435937.smi",
+          "path": "data/raw/cid_115805.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "5788f6fe862a9bc0c64dd97de3b514b76853337927d1f60bc9a23ff20ddd3981",
+          "sha256": "4a8b3e509a95701aee151160285e38de9695589d34ae9bac19785ef1555a98c8",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "435937"
+      "id": "115805"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_384703.sdf",
+          "path": "data/raw/cid_321941.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7f5090aaa546582bfc7f419fbeab35079655eae6d3ff339a763337002882b0ce",
+          "sha256": "d992132d9ee3c61cb6795fbf470703cb95ea08245e264d228cb0db3a8fe800c0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_384703.smi",
+          "path": "data/raw/cid_321941.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "08dccede7972f7d873bcb6f6637e3ae80b1f49ebdae735668629e6939c749fb3",
+          "sha256": "e3638874e2751313faa8fb45c04ccc8d3404777a7b004fdb80e98237ccdb8c7d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "384703"
+      "id": "321941"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_391221.sdf",
+          "path": "data/raw/cid_224754.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "fdcfb306b0fbc239eb6b98160b191a468c82775516eac2b4d886916dabfedb56",
+          "sha256": "1bff1c18347ad4ea04dea1e5d226ed05c48e657c73b1fac9f2b58d97a94410c6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_391221.smi",
+          "path": "data/raw/cid_224754.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "17f32a3e00d7301226faf171bb23aaebe717a577efd21ca6a2c7ff3e23361e4d",
+          "sha256": "507989f98ac134bf10a0d2afe98cb0cf2ba14f4314c26e1615ad66ed6b776de1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "391221"
+      "id": "224754"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_183005.sdf",
+          "path": "data/raw/cid_297915.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "4f7022dced78aac020f78b616bda27eda859727a22a2a0bec64f5d834cbce43c",
+          "sha256": "3ea10f12a02093e9041ca1c73723a3bbe45a1127e1c4f0d8fa52022a54259288",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_183005.smi",
+          "path": "data/raw/cid_297915.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "6bf90e0f07303536a38e5a7bcf8bd0cd56347348d857b9f2cccc44ceec3c7051",
+          "sha256": "dd0003beb898e55b5c6937c11ef4d5edb85a49db1eba1d4984142702b365df4d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "183005"
+      "id": "297915"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_95369.sdf",
+          "path": "data/raw/cid_238271.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "5942675d9e392edf2a465d6cdc6282f058e66fd03ac2fc7b5e930dba711a0155",
+          "sha256": "42e12339806464cfe9c87e1f703d89bb45844fa6854e1df67e06a30975618dbd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_95369.smi",
+          "path": "data/raw/cid_238271.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "954893f985d2b97bb624a5c1d109b9d19344d478fb84c692eee6c678dc062d83",
+          "sha256": "eeb03aa904bac4fd2c970efe0b3cfd78950681ca35aaaff729babb327ac82327",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "95369"
+      "id": "238271"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_185052.sdf",
+          "path": "data/raw/cid_102719.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "3f40f516ca4632a7ccd6642ae13ecf085707a64cf433e38f9e67db52880734aa",
+          "sha256": "e80d162adbbcfcd46f23736b96473763ba015dced9c0e2ebd4140c930d02690b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_185052.smi",
+          "path": "data/raw/cid_102719.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c1702431dfaf445740a32f49091e6384934befb5a125c276328a15e35763532b",
+          "sha256": "df565ee4ae852bc2a94b0e7e1766400ce700b529cbde185ac2263547df4ae352",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "185052"
+      "id": "102719"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_436667.sdf",
+          "path": "data/raw/cid_289327.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "7b8c3f17cca4ee465af735a4336a0a3163e4faab6ed56866340cca646989ea25",
+          "sha256": "31298849b709bebad576302f1e6019f30fa6c2954502b7d79cc50a0a1a330baf",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_436667.smi",
+          "path": "data/raw/cid_289327.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "4999a3e13dfc68d95c651dfda79882b215c43d4f5afaf6993f92a1db80e07ed5",
+          "sha256": "a50e6808a7c0d95b9d128be142c4bdb8d536d38677254cd3a0a140d2fab24af1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "436667"
+      "id": "289327"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_116935.sdf",
+          "path": "data/raw/cid_407987.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "e1f48ffc2c3f1f6d2cad593b4db1eb337ed082ab62f764f300b72d36efa6da59",
+          "sha256": "6b43708f26ebdf1116d70a66020db9a6537f8d58c1c3f86fb642780bb8e79b70",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_116935.smi",
+          "path": "data/raw/cid_407987.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "3ecf6313e0a53ce31e97b42c725c7cf254e814fcf9ffa13ae8e1459d99519cf7",
+          "sha256": "1262f349cbbba239e616459b0751771da16cb394dd56652a6dc730f691fb692e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "116935"
+      "id": "407987"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_323242.sdf",
+          "path": "data/raw/cid_393904.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "af6d377de95d4de3d73ef1b00058a05eeed10f2de019b7c82887830f0a873137",
+          "sha256": "4a5c9bd0fced1f5cacaec369aaa3a66562ad945658c83cda1b678d7e38e09e5f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_323242.smi",
+          "path": "data/raw/cid_393904.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "8a482ff0a58736849880f7348aa79d2e71b28706427825c03bb9b63a90ab584d",
+          "sha256": "363cd98c8e5a7ff407a26c152644415cb74ae7c0a6649629a29b4ce92e4d9718",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "323242"
+      "id": "393904"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_23290.sdf",
+          "path": "data/raw/cid_11950.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d1e38341437b56a46e2a3f3f32ff7255f34ae845cde8757c8073404afae08a4c",
+          "sha256": "3d1e6dadb56982c8f1a4247c3cb6e44b653291c9260966ad32a5652b70ecdea6",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_23290.smi",
+          "path": "data/raw/cid_11950.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "a7e86b569978cf3df8d6c2e0704b8f2942777d4482d08adeda47fb72c71c4a88",
+          "sha256": "598bca17de348731dc59212874b2a241bf64eeb9d46d1f0c64681c395214cfa0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "23290"
+      "id": "11950"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_38138.sdf",
+          "path": "data/raw/cid_422847.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "f92680e4cdbf57f526a7fd21e0c0e734eff3abe83e74b163f979f204677ea218",
+          "sha256": "62735f3ff4496522e8f40c61c8171c7a5ea11fb715b5147ea31d28c1fd007a7b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_38138.smi",
+          "path": "data/raw/cid_422847.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "7a4ab910a7202f375f82cc2a14bdc934f102504327f41861977a6ec87154ea15",
+          "sha256": "988e1e156eff3e6e5266d26fa2fbd650c64db7cc90bd96d3c46f420c087da372",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "38138"
+      "id": "422847"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_133488.sdf",
+          "path": "data/raw/cid_168013.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "eda0971af0ee3786fdb0151b7902f844a1cce0bd4a267027a0965ccda2f792fe",
+          "sha256": "2c98d6daa58a120f32b98811372fa3dcb2f5b332baeac2100dfc3aecde953a42",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_133488.smi",
+          "path": "data/raw/cid_168013.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "0c98a63cab59df842052927d57f1111a21daaf3ea2bc6b2bd41af997e1d5430d",
+          "sha256": "a6e2fbfc904a36ef5b3ce70618781e085a5bc25f3b4f5b1ed991f0d0f0e185a0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "133488"
+      "id": "168013"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_42122.sdf",
+          "path": "data/raw/cid_471697.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "238d625e35aaf8f7799706d1089e9cc75a8783652de92fedaf7310906e7690bc",
+          "sha256": "69b58d884f2c1dc91d16e32d5e750f9d7daaa70e928cae6efd6d2e17a6900347",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_42122.smi",
+          "path": "data/raw/cid_471697.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "9ae4ac0ed20566d6f5ceb8a0d88af0311b8f82f09f8109c35303e36323698199",
+          "sha256": "d9f2e09cd462e12ad7a7203ca9bd0ca754163449d7548aae5227e54f93bece82",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "42122"
+      "id": "471697"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_94752.sdf",
+          "path": "data/raw/cid_322028.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c61a68c4c05cde0b341ee597513a337ace8819ba73228d148363e23afc437a48",
+          "sha256": "42a9cb2b0a30f5a8a4c3d856cc1a6946bd4c1c33bda0ebf92b51db52aa3c26f3",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_94752.smi",
+          "path": "data/raw/cid_322028.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "21da77b24e59848d8918f1a27bb571c6315af478a74270cdb5ddb714d289f1df",
+          "sha256": "8327d146b626e6d3d4f427b5a4cfdfc2f5b672edd723f17e91c791011c46c992",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "94752"
+      "id": "322028"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_328288.sdf",
+          "path": "data/raw/cid_139677.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d4b279a4ddd34b1536a3dda56a0c7665b53c19cfd3f3350334890dda782ad704",
+          "sha256": "d1a16d3aeaf86c7f37606bfca5f6791521b9d0f7c0ec5f3ee384941d876e5054",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_328288.smi",
+          "path": "data/raw/cid_139677.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "4d1cc92cefab9b02f2b0c6321730e2f175c7a16989eb725e173c3e5677efa5a1",
+          "sha256": "838b3d716538e1b963b6b6092ff9d1feec14b15d9f6a0e62cb2f4dd8dcb1f1cd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "328288"
+      "id": "139677"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_84243.sdf",
+          "path": "data/raw/cid_14789.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "c475862e6540dc87a0688f2acc2f9438aa1599d5b0c119dd99b52a22b17763f5",
+          "sha256": "a97071534cb5a8da8b5ff03d22a3fc819826b06a1f4e4a0fa8bfaf74f640721e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_84243.smi",
+          "path": "data/raw/cid_14789.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "e517456d1752bf7db35761451af49a8b4cf0f5f3f0f529cf6a1254a441bc2ead",
+          "sha256": "2f4cd8e142f56831839d4fd47f155cb468a85af0e01daf4a3f91e049b99edc72",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "84243"
+      "id": "14789"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_470425.sdf",
+          "path": "data/raw/cid_249970.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "894644d840c8fc15a13afad96bacf6ffcbb74048d33b8569e7136f466bbd2960",
+          "sha256": "7f8db765e49ac482bb6aa39497e65f54343d43ee0720b007d1dd1182ad0dc9df",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_470425.smi",
+          "path": "data/raw/cid_249970.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "f22261bff71e12f3f238615b01b01a1081ca57d5a4cbc1d914c028d494fd9328",
+          "sha256": "38a1c00beec7fd4b31281b620b90ebe2186339c979ed06ef41d52a7cfd27d31b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "470425"
+      "id": "249970"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_375488.sdf",
+          "path": "data/raw/cid_483447.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "4ce005411793a3406c7ac4cb6fd05d264daa808f6714cee678c56bf92041adf1",
+          "sha256": "9c78f5adbc30f4fd24ce8ae19da66aae5cb1e1bfa6c335c58af3bffd31b18183",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_375488.smi",
+          "path": "data/raw/cid_483447.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "ea7711e3a458c7c43ef81909feb943be9d1c4a1d19456ecaec83db0416babf3a",
+          "sha256": "bf671dad97d01e8b3b10644daff3e370d0bc85fef3a62bb0bea5b1e0bb21cb9c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "375488"
+      "id": "483447"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_495.sdf",
+          "path": "data/raw/cid_32767.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "e480d196aba68d178224d64f4798e87c25cd2fcca21b69995d17b94a1745603d",
+          "sha256": "b34dc21f138eaac1384d0505dccc03085d15b0f2a51b759bfc9966fcf8120f54",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_495.smi",
+          "path": "data/raw/cid_32767.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "c0fe82092d655acda44e909abd1b58adf43a07779579728f5b650d28dab8d6e3",
+          "sha256": "26664394163b1311367bb3e89c3c94ffafa6c2fe6e584e60b524a8530db6398b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "495"
+      "id": "32767"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_7768.sdf",
+          "path": "data/raw/cid_138283.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "0263630932f78de34d09fd0875fe199b5bac23b29e6070c0112690f20c1f5b70",
+          "sha256": "adeb2e08173a02ee999cb83d7be08577842ce196e422b03ebcd56d0e3947976d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_7768.smi",
+          "path": "data/raw/cid_138283.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "b7ef28e5d9236bdfaae54c0f4fea27bf7f9505279a227c4f2d381f8d3c8e3452",
+          "sha256": "ad02e88c5b11f9529f903d8c6bd38ccf66a08a013bb7804943be4cd84e7e67f8",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "7768"
+      "id": "138283"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_465440.sdf",
+          "path": "data/raw/cid_53825.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "96bc76d03047055918c39a538bd5d23997576a8491964d2fab0db39222dbd361",
+          "sha256": "2818fbb22bae800fd22b268fa5926d9087e224820edac4e07c0aa56f35a9b206",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_465440.smi",
+          "path": "data/raw/cid_53825.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "0d6e94bc8aeace613e3ba931b9412939d8e7b3d4538424eccf10de33daeede27",
+          "sha256": "19925b77b636ed7d81f430a06ddbe77bf1526112b6e69a5c2a01c3a29210bbe0",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "465440"
+      "id": "53825"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_170166.sdf",
+          "path": "data/raw/cid_459578.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "d68fc396fcbb847803a030a895702b3f8ea312a22f407fbdb4f6cf32df8d8558",
+          "sha256": "23b3ccf54059ced9e29552589f25dfca76b5d8ac6da36c68a0263213a11cdc2b",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_170166.smi",
+          "path": "data/raw/cid_459578.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "14b7a42193310a57c12b0ff0e6c4ea8ed209bd96256f02da718e39f46527163f",
+          "sha256": "56bbb39fadc5591b53bc8f4797033e2386410904f5925e5e1fa0d89b0d93cb2c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "170166"
+      "id": "459578"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_378128.sdf",
+          "path": "data/raw/cid_432800.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "31f1970f91f4eaa87069644bd74a369b6064221ab7b19464cf6d73546d1351bb",
+          "sha256": "4a41eced96815b07aac3939718ed6b7b19413066b716ac2b139ce609d4f03bb5",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_378128.smi",
+          "path": "data/raw/cid_432800.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "b07fba4ea83a62c731562bc52e2be82f1b129637def8376d03d827e22df286a9",
+          "sha256": "f422a7ecd504e520d8066b64d797618d80a1678739ac03d82943faa49bf615ad",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "378128"
+      "id": "432800"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_203835.sdf",
+          "path": "data/raw/cid_307032.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "3c7b0163462e2a3a05c8567c9b0e4db96dc52037ea53ab1c555df012383dac0d",
+          "sha256": "2f006548a13815a9b7aa3ae6530789171ca0186c73459017656bc13b00f7d9b1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_203835.smi",
+          "path": "data/raw/cid_307032.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "386c5771280955002c858d849b97819d24362a6bc5dab722ae459de5b36ca99a",
+          "sha256": "e87d2aee8dce0a59849b9cfea99658ba6d37be000ba80a2b18eb86a64988e355",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "203835"
+      "id": "307032"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_265580.sdf",
+          "path": "data/raw/cid_24152.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "76bbe3e714b3e42df4b55314c0bc699be8727f0c4d474a5b9b926ff7cad66bcf",
+          "sha256": "45750eb61b41d4d797d06ac96f129aefc6347bccbd7b9c587f9860192287bdf4",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_265580.smi",
+          "path": "data/raw/cid_24152.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "96ae72fccb2e93e38cd120c8e49ce91286bbaf10136e224b50e1e0f0e391dbe0",
+          "sha256": "32f5e9eaf2dd7bf4b2855d7ec00a5f319b3bfdc57bd0be3362b79068c4bc5901",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "265580"
+      "id": "24152"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_281576.sdf",
+          "path": "data/raw/cid_38644.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "e37e73cdd3415f8e3341eaecf98d97fe8f6b4d145aa4e77ec70c64a3eb48033c",
+          "sha256": "ab9c2779161f044e9ce5bca4cc4d08cba2a714465de5e92552da38505a00b178",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_281576.smi",
+          "path": "data/raw/cid_38644.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "5c14b2cc44f7306a25b498da25e918618604541066d4ce801af2de4629c81dd3",
+          "sha256": "1e4b811c59946f3888340d06a49cb53389b0dbca9287beb77883b0ea5742a3d1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "281576"
+      "id": "38644"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_174105.sdf",
+          "path": "data/raw/cid_132609.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "eec52bed9d02cf8f79e8f0e64e5e8116ed9183af7d573d494de1d6d6f0273cb4",
+          "sha256": "1b2790ab94e24daace29255135433e6ce264e8b5005cb5b2d192b7d7a3a1e845",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_174105.smi",
+          "path": "data/raw/cid_132609.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "454434ad21219fb267d1a65f5e101b4962ca90108cec5a4ae00ae90a8f174680",
+          "sha256": "aef67be54ec2a867ee16401532487022bd36e00ad95a6d73b12386e44acd3e11",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "174105"
+      "id": "132609"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_278048.sdf",
+          "path": "data/raw/cid_289312.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "0f52d573a7af9cad249c829019767856a2cf12d78d74f6077dd5c0874e5a1d00",
+          "sha256": "ca869abfb629c20fb744e80984b6ddef6a4d2da7a8077a8679cec71027e26049",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_278048.smi",
+          "path": "data/raw/cid_289312.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "7f22dc89c7dc7f9c72b59403f55b75ef46af22732adae5f2ce54659dc4b007d6",
+          "sha256": "96e06487b5c401df20d45c7f5d61dccc35379bbe9ca6835106112478a859338d",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "278048"
+      "id": "289312"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_2084.sdf",
+          "path": "data/raw/cid_377931.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "569a05075bd20260dc36bbcb18cd1211a328b81ff5bb4f5e3d56591023008ef9",
+          "sha256": "de439312b87bf10f32e595532109fb733cadb5fb2d8a61b7acecedf022a5af69",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_2084.smi",
+          "path": "data/raw/cid_377931.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "83be1352fd96d168990ee615e1a14a864fc626d0d0afc3eb29409b7ce6f796e0",
+          "sha256": "02ad06fa453ec837915d24a433cf0d31e04f7da9ab581f5e38b2dd8440eee5ff",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "2084"
+      "id": "377931"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_79216.sdf",
+          "path": "data/raw/cid_20119.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "dc1fb02afab459da4befb6a278b8980d0132524eb75ebaaf6aaf8d85bb9cf99f",
+          "sha256": "4348cd4a64f5541dd116981112e1ba9ab7a9d1fc4646cb11594ad92239ec53cb",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_79216.smi",
+          "path": "data/raw/cid_20119.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "dbd5c6eae86204005d54764876e261b803babd1aa8d5c7ddc1214c4edbe18815",
+          "sha256": "02945c23040cc366ce572bbd70a1d453e8b402637f2de94ecf28c50e5bed404f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "79216"
+      "id": "20119"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_415918.sdf",
+          "path": "data/raw/cid_57730.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "85ea738638a3bb2705c5ea1b40a6b302fbc2c5bca20dadf2c88f1a30ea029aa9",
+          "sha256": "4ec1eeb630586718ead01b8f0b35d1165dfbd04bda531dc53b07c9b788753482",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_415918.smi",
+          "path": "data/raw/cid_57730.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "afa5c10fb4ce8ef9a0093fc9ea6a1e646c4ec0f47ae9475f95bb6ccea9989fbc",
+          "sha256": "7ed85293cf41c1c1ba2f4995317e4e60e60891352f695c1513469feadae9a320",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "415918"
+      "id": "57730"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_288790.sdf",
+          "path": "data/raw/cid_310329.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "ab0cb298b24ffb6e0f9dbc48f6e85626f65e767f76062fae5cf3b754e66e3e14",
+          "sha256": "fc6394b9d8848208ad68015893c087e3f825840b03e24524db5624de2e93c081",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_288790.smi",
+          "path": "data/raw/cid_310329.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "3ebfd5921e7b8c04501954954cade3490d40a1b8851d0c779f31dc4f075ceb56",
+          "sha256": "624c49f8db4b30eca9da89774c34d924c787863d0e1443414e2d4f923bb42f88",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "288790"
+      "id": "310329"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_307291.sdf",
+          "path": "data/raw/cid_290698.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "da84f54febcbd683e5202f4c431c4cc1ce6a47df1531bb5fd3acd54b98177f27",
+          "sha256": "110a852a53db9ac601aa33c4510da50e256fe1cbe6a5eacb2aa70b675aa816c4",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_307291.smi",
+          "path": "data/raw/cid_290698.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "fbe9d94b2a5901a1179502b3528323cc695ad4b92569cec7541b5563ebc76c23",
+          "sha256": "fee13aa3c838e7341ff6e8ffd1b16adef5af35d468b792a8adec06fbafca1ebd",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "307291"
+      "id": "290698"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_152301.sdf",
+          "path": "data/raw/cid_316906.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "619587ceb77dc651b1ef2f52c75cf783c8410598decaef6e65641e22fa19e332",
+          "sha256": "0328d01428cea61f6dfaf7ef419509858ddd85123f3e5cfb6e0c6eda5e532454",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_152301.smi",
+          "path": "data/raw/cid_316906.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "a47f245279c67ffcf0dbf9b64abd585669a7acaaceccb5a342237f59c5043806",
+          "sha256": "7b5d6fc4b544b04367da7db05fcf9659bcc01d573a8e15cd565bb46d142eeb5e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "152301"
+      "id": "316906"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_248434.sdf",
+          "path": "data/raw/cid_145497.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "0050a859605295cc89287ce1a266c613fb7e75d97f8e8d6cf866dba1c338fe96",
+          "sha256": "b0bced8650abbe8497825b20c8742b90b5c1263998341ad56fd217a7a4f2efca",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_248434.smi",
+          "path": "data/raw/cid_145497.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "47986ff08c152e4b176f8295428d6b02712a3f14bac818ad155fe2ff7544bcbd",
+          "sha256": "9b67e6a2d1f7c6236f941020618091d2e93c1cb0560fc91919de99d40e65c501",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "248434"
+      "id": "145497"
     },
     {
       "category": "disconnected",
       "files": [
         {
-          "path": "data/raw/cid_173473.sdf",
+          "path": "data/raw/cid_437983.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "adc805333201cd29c857eb709032471666ab85ca23f3849db81eb4b17360131f",
+          "sha256": "bbf49c070c7beb9821f6b2e333e53f63bb967f9d8f50503522057460db95bd5e",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_173473.smi",
+          "path": "data/raw/cid_437983.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "fe950bc059c1a4116d66b0650879c0d3b2c08999b47de7d9e5440baac8d45e12",
+          "sha256": "c5093ffe7ebcbad78bb7a16233763fd2c289243c96bd92c82df069241e133f95",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "173473"
+      "id": "437983"
     },
     {
       "category": "charged",
       "files": [
         {
-          "path": "data/raw/cid_259582.sdf",
+          "path": "data/raw/cid_160891.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "484d6319622ba17e044d27dc540bc3d36512d82516a05dcb424005df76e004f3",
+          "sha256": "43871b98d22c5ae236cbc6b13f92bfdb6223fe91035ef4b7a6cc08f33d69c075",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_259582.smi",
+          "path": "data/raw/cid_160891.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "4edb36fdc8a0f66ea7df9aa42221699e9d986e2e1a312bcf66c2838384a55f87",
+          "sha256": "0e21bfd22ea8efd41bfeaf3d92f479807533005783a1a84b53878b03ff4de90f",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "259582"
+      "id": "160891"
     },
     {
       "category": "multi-ring",
       "files": [
         {
-          "path": "data/raw/cid_318530.sdf",
+          "path": "data/raw/cid_292905.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "1ad9e76d9af364426505af02fb2b60bebfc01c820c4c4dd0fe5a5a69ce4f45e2",
+          "sha256": "e7c5b40c1654c02a9b770f66dce721381aa03f95566061d75159255ad57e56ab",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_318530.smi",
+          "path": "data/raw/cid_292905.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "905df7052bbdea9ed1c8f976b99752ef4d9af13a7a8ff93541d031b78ece6724",
+          "sha256": "c77d26ebee87f0d0dd49732a73cf362b5511e908479f734d749e601b9243cedf",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "318530"
+      "id": "292905"
     },
     {
       "category": "heteroatom-rich",
       "files": [
         {
-          "path": "data/raw/cid_348800.sdf",
+          "path": "data/raw/cid_321735.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "89f136a062626f2d9118e57d37179f457d883a7d67bf3a478d483713254bd93e",
+          "sha256": "62726f5785c3ed2e5fd3f858afa817dded078b9637364051aebe2b4682ebb7ed",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_348800.smi",
+          "path": "data/raw/cid_321735.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "6eb4c9d8171884ed3b8923c38e5d3429b9e3ca5415801fa9f7fc8f0a6ee2c458",
+          "sha256": "f1c2470229b4a969cfe7f507668551b96b42081b8d2fe808960c339d8d9ed93c",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "348800"
+      "id": "321735"
     },
     {
       "category": "remaining",
       "files": [
         {
-          "path": "data/raw/cid_6328.sdf",
+          "path": "data/raw/cid_118291.sdf",
           "record_type": "2d-current-full-shard",
-          "sha256": "b8215b3ad879fba7cbf35844436f86115c168828e7213b06c52ec57001260eeb",
+          "sha256": "918a5876909d874347b98e54b878e59eee9f60b33be7e33b43048fe20c0d4446",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/Compound_000000001_000500000.sdf.gz"
         },
         {
-          "path": "data/raw/cid_6328.smi",
+          "path": "data/raw/cid_118291.smi",
           "record_type": "isomeric-smiles-snapshot",
-          "sha256": "35f1e7d33f03042f0088f4c0c30f7ffec86cd02c8a7244dd24707d490a4a236f",
+          "sha256": "c207826302e0a0193eb09b5dd259f32e681922b7d0a39afe29327dc2b01ff3b1",
           "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz"
         }
       ],
-      "id": "6328"
+      "id": "118291"
     }
   ],
   "packs": [
@@ -1807,220 +1807,220 @@
       "count": 100,
       "format": "sdf-v2000",
       "members": [
-        "54405",
-        "353183",
-        "236302",
-        "336027",
-        "409699",
-        "38562",
-        "205747",
-        "134120",
-        "66747",
-        "101823",
-        "234434",
-        "429165",
-        "253170",
-        "113933",
-        "122938",
-        "34622",
-        "301288",
-        "450960",
-        "84023",
-        "147114",
-        "53125",
-        "52013",
-        "486010",
-        "93354",
-        "62010",
-        "22255",
-        "226041",
-        "114339",
-        "98129",
-        "87136",
-        "53487",
-        "394728",
-        "240973",
-        "291762",
-        "143725",
-        "63799",
-        "422702",
-        "160767",
-        "124178",
-        "54761",
-        "15487",
-        "80701",
-        "370003",
-        "52729",
-        "21507",
-        "230252",
-        "286933",
-        "185894",
-        "315987",
-        "346386",
-        "105665",
-        "289318",
-        "356487",
-        "159322",
-        "12964",
-        "418199",
-        "364327",
-        "403250",
-        "94582",
-        "93092",
-        "435937",
-        "384703",
-        "391221",
-        "183005",
-        "95369",
-        "185052",
-        "436667",
-        "116935",
-        "323242",
-        "23290",
-        "38138",
-        "133488",
-        "42122",
-        "94752",
-        "328288",
-        "84243",
-        "470425",
-        "375488",
-        "495",
-        "7768",
-        "465440",
-        "170166",
-        "378128",
-        "203835",
-        "265580",
-        "281576",
-        "174105",
-        "278048",
-        "2084",
-        "79216",
-        "415918",
-        "288790",
-        "307291",
-        "152301",
-        "248434",
-        "173473",
-        "259582",
-        "318530",
-        "348800",
-        "6328"
+        "177896",
+        "308470",
+        "220776",
+        "318868",
+        "242138",
+        "458602",
+        "328740",
+        "263436",
+        "16282",
+        "304078",
+        "68198",
+        "448515",
+        "67247",
+        "11729",
+        "137127",
+        "448655",
+        "203832",
+        "432799",
+        "250740",
+        "216439",
+        "194286",
+        "58595",
+        "412874",
+        "184738",
+        "185794",
+        "63537",
+        "48294",
+        "205395",
+        "33889",
+        "101020",
+        "202947",
+        "212312",
+        "195474",
+        "220871",
+        "5399",
+        "238010",
+        "306246",
+        "361823",
+        "240450",
+        "16316",
+        "62972",
+        "44044",
+        "442240",
+        "5665",
+        "138180",
+        "217373",
+        "242663",
+        "238136",
+        "74033",
+        "152136",
+        "57870",
+        "490018",
+        "185338",
+        "327160",
+        "373270",
+        "159369",
+        "80118",
+        "256992",
+        "84110",
+        "162505",
+        "115805",
+        "321941",
+        "224754",
+        "297915",
+        "238271",
+        "102719",
+        "289327",
+        "407987",
+        "393904",
+        "11950",
+        "422847",
+        "168013",
+        "471697",
+        "322028",
+        "139677",
+        "14789",
+        "249970",
+        "483447",
+        "32767",
+        "138283",
+        "53825",
+        "459578",
+        "432800",
+        "307032",
+        "24152",
+        "38644",
+        "132609",
+        "289312",
+        "377931",
+        "20119",
+        "57730",
+        "310329",
+        "290698",
+        "316906",
+        "145497",
+        "437983",
+        "160891",
+        "292905",
+        "321735",
+        "118291"
       ],
       "path": "data/packs/pack_01.sdf",
-      "sha256": "23a330eec85fbeb29e40c2d7e60119f2db36a03f8b30c696e5a7b62c8937e115"
+      "sha256": "c2efc4826076afe350a99c9ada1415dca01ae7c2002cca848018fee2414f7f37"
     },
     {
       "count": 100,
       "format": "smiles",
       "members": [
-        "54405",
-        "353183",
-        "236302",
-        "336027",
-        "409699",
-        "38562",
-        "205747",
-        "134120",
-        "66747",
-        "101823",
-        "234434",
-        "429165",
-        "253170",
-        "113933",
-        "122938",
-        "34622",
-        "301288",
-        "450960",
-        "84023",
-        "147114",
-        "53125",
-        "52013",
-        "486010",
-        "93354",
-        "62010",
-        "22255",
-        "226041",
-        "114339",
-        "98129",
-        "87136",
-        "53487",
-        "394728",
-        "240973",
-        "291762",
-        "143725",
-        "63799",
-        "422702",
-        "160767",
-        "124178",
-        "54761",
-        "15487",
-        "80701",
-        "370003",
-        "52729",
-        "21507",
-        "230252",
-        "286933",
-        "185894",
-        "315987",
-        "346386",
-        "105665",
-        "289318",
-        "356487",
-        "159322",
-        "12964",
-        "418199",
-        "364327",
-        "403250",
-        "94582",
-        "93092",
-        "435937",
-        "384703",
-        "391221",
-        "183005",
-        "95369",
-        "185052",
-        "436667",
-        "116935",
-        "323242",
-        "23290",
-        "38138",
-        "133488",
-        "42122",
-        "94752",
-        "328288",
-        "84243",
-        "470425",
-        "375488",
-        "495",
-        "7768",
-        "465440",
-        "170166",
-        "378128",
-        "203835",
-        "265580",
-        "281576",
-        "174105",
-        "278048",
-        "2084",
-        "79216",
-        "415918",
-        "288790",
-        "307291",
-        "152301",
-        "248434",
-        "173473",
-        "259582",
-        "318530",
-        "348800",
-        "6328"
+        "177896",
+        "308470",
+        "220776",
+        "318868",
+        "242138",
+        "458602",
+        "328740",
+        "263436",
+        "16282",
+        "304078",
+        "68198",
+        "448515",
+        "67247",
+        "11729",
+        "137127",
+        "448655",
+        "203832",
+        "432799",
+        "250740",
+        "216439",
+        "194286",
+        "58595",
+        "412874",
+        "184738",
+        "185794",
+        "63537",
+        "48294",
+        "205395",
+        "33889",
+        "101020",
+        "202947",
+        "212312",
+        "195474",
+        "220871",
+        "5399",
+        "238010",
+        "306246",
+        "361823",
+        "240450",
+        "16316",
+        "62972",
+        "44044",
+        "442240",
+        "5665",
+        "138180",
+        "217373",
+        "242663",
+        "238136",
+        "74033",
+        "152136",
+        "57870",
+        "490018",
+        "185338",
+        "327160",
+        "373270",
+        "159369",
+        "80118",
+        "256992",
+        "84110",
+        "162505",
+        "115805",
+        "321941",
+        "224754",
+        "297915",
+        "238271",
+        "102719",
+        "289327",
+        "407987",
+        "393904",
+        "11950",
+        "422847",
+        "168013",
+        "471697",
+        "322028",
+        "139677",
+        "14789",
+        "249970",
+        "483447",
+        "32767",
+        "138283",
+        "53825",
+        "459578",
+        "432800",
+        "307032",
+        "24152",
+        "38644",
+        "132609",
+        "289312",
+        "377931",
+        "20119",
+        "57730",
+        "310329",
+        "290698",
+        "316906",
+        "145497",
+        "437983",
+        "160891",
+        "292905",
+        "321735",
+        "118291"
       ],
       "path": "data/packs/pack_01.smi",
-      "sha256": "78c2c84c8e8f95bff3c27bbbfde586253e5b4bb5f0f479694671193b1f198e52"
+      "sha256": "8c3e62fddf7319c4b1897759118646829b0d9f7e5f47de461bad22abc16582be"
     }
   ],
   "schema_version": 1,
-  "selection_seed": "molecules-pubchem-v1",
+  "selection_seed": "molecular-pubchem-v1",
   "source": "PubChem CID-SMILES snapshot sha256:ced87362c75b5e94d4bcc99ab1307c0050c045d2002a5c21c0e9c051bb6f2f99 and CURRENT-Full SDF shard sha256:d5abcaa0b2971d744686ef1fb30bae1c056b1ebb16892496d398b0f77070964e"
 }

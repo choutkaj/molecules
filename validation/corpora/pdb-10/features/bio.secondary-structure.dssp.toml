@@ -10,14 +10,14 @@ notes = [
 ]
 
 fixtures = [
-  "data/1HPJ.cif",
-  "data/2WWY.cif",
-  "data/4JAH.cif",
-  "data/6DQ8.cif",
-  "data/9RHB.cif",
-  "data/5MWQ.cif",
-  "data/4F3T.cif",
-  "data/8ZA4.cif",
-  "data/1DY5.cif",
-  "data/4NOJ.cif",
+  "data/1XHJ.cif",
+  "data/3RR8.cif",
+  "data/6UFJ.cif",
+  "data/6EPU.cif",
+  "data/9N93.cif",
+  "data/5KJG.cif",
+  "data/4Q8F.cif",
+  "data/1TN2.cif",
+  "data/1XUA.cif",
+  "data/4KIV.cif",
 ]

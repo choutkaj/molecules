@@ -106,6 +106,7 @@ fixtures = [
   "data/packs/pack_099.sdf",
   "data/packs/pack_100.sdf",
 ]
+
 notes = [
   "Reference RDKit goldens compare non-stereo atom symmetry partitions, not numeric rank labels.",
 ]
